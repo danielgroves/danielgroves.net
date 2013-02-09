@@ -1,6 +1,8 @@
 ---
 layout: default
 title: About Me
+nav-weight: 2
+nav-name: About
 ---
 
 I am a Web Applications Development student who is currently studying at the University of Plymouth, where I am on the committee for the [University of Plymouth Cycling Club](http://uopcycling.co.uk/), and a member of [TermiSoc](http://termisoc.org/).
