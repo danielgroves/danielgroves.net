@@ -1,0 +1,326 @@
+// Pygments import on last line of file, it's low priority to load it so it's last. 
+
+@import 'elements';
+
+@dark-grey: #333333;
+@dark-blue: #416078;
+@light-grey: #efefef;
+@light-blue: #cad7db;
+@link: #1262a0;
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "proxima-nova", helvetica, arial, sans-serif;
+	font-size: 62.5%;
+	line-height: 230%;
+	color: @dark-grey;
+	background: #efefef;
+}
+
+.page {
+	max-width: 768px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid #ccc;
+	border-top: none;
+	background: #fff;
+}
+
+.selection( rgba(0,0,0,.8), #efefef );
+
+a {
+	color: @link;
+	text-decoration: none;
+	.transition(0.25s, ease-in-out);
+	
+	&:hover {
+		background: lighten(@light-blue, 10%);
+		border-bottom: 1px solid @light-blue;
+	}
+	
+	&:active {
+		border-bottom: 1px solid @dark-blue;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "proxima-nova-condensed";
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 2.7em;
+	padding-bottom: 5px;
+}
+
+p, ol, ul {
+	font-size: 1.5em;
+	padding: 7px 0;
+}
+
+ol, ul {
+	margin-left: 1.5em;
+}
+
+.ampersand {
+	font-family: "adobe-caslon-pro", "proxima-nova", helvetica, arial, sans-serif;
+	font-style: italic;
+}
+
+header {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 20px 2% 10px;
+	overflow: hidden;
+	
+	h1, p {
+		float: left;
+		width: 100%;
+	}
+	
+	p {
+		font-size: 1.2em;
+	}
+}
+
+nav {
+	text-align: left;
+	float: left;
+	clear: both;
+	padding: 10px 0;
+	width: 100%;
+	
+	ul {
+		font-size: 1em;
+		padding: 0;
+	}
+		
+	li {
+		width: 49%;
+		margin-left: 1%;
+		float: left;
+		list-style: none;
+	}
+		
+	a {
+		display: block;
+		padding: 5px 2%;
+			
+		&.current_page_item {
+			color: @dark-grey;
+			background: @light-blue;
+		}
+			
+		&:before {
+			content: '>';
+			padding-right: 3%;
+		}
+		
+		&:hover {
+			border: none;
+		}
+	}
+}
+
+.slider {
+	text-align: center;
+	font-size: 1.2em;
+	
+	h2 {
+		padding-bottom: 20px;
+		text-shadow: 1px 1px 1px @dark-grey;
+		color: white;
+		font-size: 3.5em;
+	}
+	
+	p {
+		color: @light-grey;
+		padding: 0;
+		line-height: 100%;
+	}
+	
+	.slide {
+		background: @dark-blue;
+		overflow: hidden;
+		padding: 100px 10%;
+		
+		background: rgb(103,154,188); /* Old browsers */
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%, rgba(65,96,120,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(103,154,188,1)), color-stop(100%,rgba(65,96,120,1))); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
+		background: -ms-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* IE10+ */
+		background: radial-gradient(ellipse at center,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#679abc', endColorstr='#416078',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+}
+
+.columns-2, .columns-3 {
+	overflow: hidden;
+}
+
+.col {
+	padding: 15px 5%;
+	border-bottom: 1px solid @light-blue;
+}
+
+.dark {
+	background: @dark-grey;
+	color: @light-grey;;
+	overflow: hidden;
+}
+
+footer {
+	text-align: center;
+	color: #777;
+	font-size: .9em;
+	padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 65%;
+	}
+	
+	.page {
+		max-width: 1024px;
+	}
+	
+	nav {
+		text-align: center; 
+		
+		ul {
+			border-bottom: 1px solid @dark-blue;
+			width: 75%;
+			margin: 0 auto;
+			overflow: hidden;
+			text-align: center;
+		}
+		
+		li {
+			width: auto;
+			display: inline;
+			margin: 0;
+		}
+		
+		a {
+			display: inline-block;
+			padding: 10px 20px 7px 20px;
+			border-bottom: 2px solid white;
+			
+			&.current_page_item {
+				border-bottom: 2px solid @dark-grey;
+			}
+				
+			&:before {
+				content: '';
+				padding: 0;
+			}
+			
+			&:hover {
+				padding-left: 20px;
+				border-bottom: 2px solid @dark-blue;
+			}
+		}
+	}
+	
+	.slider {
+		.slide {
+			padding: 10% 10%;
+		}
+	}
+	
+	.columns-3, .columns-2 {
+		.col .wrap {
+			.columns( 2, 35px );
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		font-size: 68%;
+	}
+	
+	.page {
+		max-width: 1300px;
+	}
+	
+	header {
+		text-align: left;
+		
+		h1, p {
+			float: left;
+			clear: left;
+			width: auto;
+		}
+		
+		p {
+			font-size: 1em;
+		}
+	}
+	
+	nav {
+		width: auto;
+		margin: 0;
+		
+		position: absolute;
+		top: 10px;
+		right: 2%;
+		
+		ul {
+			margin: 0;
+			float: right;
+			width: auto;
+			display: block;
+		}
+	}
+	
+	.columns-3 {
+		padding: 0 2%;
+		margin-top: 40px;
+		
+		.col {
+			background: url('../images/image.png') 50% top no-repeat;
+			background-size: contain;
+			margin-top: 50px;
+			width: 30.5%;
+			float: left;
+			padding: 170px 0 40px 0;
+			margin: 0 1.43%;
+			border: none;
+			
+			.wrap {
+				.columns( 0, 0 );
+			}
+		}
+	}
+	
+	.columns-2 {
+		padding: 0 2%;
+		
+		.col {
+			width: 47%;
+			padding: 40px 1.5%;
+			border: none;
+			float: left;
+			
+			.wrap {
+				.columns( 0, 0 );
+			}
+		}
+	}
+	
+	section {
+		clear: both;
+	}
+}
+
+@import 'pygments';
