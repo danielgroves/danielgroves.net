@@ -35,12 +35,6 @@ nav-name: Home
 	<div class="col">
 		<h2>Writing</h2>
 		<ol>
-			<!--<li><a href="#">A Notebook in the Cloud</a> 18/01/2013</li>
-			<li><a href="#">Behind the scenes: AppFlow 2.0</a> 15/12/2012</li>
-			<li><a href="#">RaspberryPi 'Server' Update: Rsync and SubSonic</a> 15/10/2012</li>
-			<li><a href="#">DigPen V: A Students Notes</a> 29/09/2012</li>
-			<li><a href="#">RaspberyPi as a Do Everything Home Server</a> 2/09/2012</li>-->
-			
 			{% for post in site.posts limit: 5 %}
 				{% if forloop.index > 0 %}
 					<li><a href="{{ site.base_url }}{{ post.url }}">{{post.title}}</a> <span>{{ post.date | date: "%d/%m/%Y" }}</span></li>

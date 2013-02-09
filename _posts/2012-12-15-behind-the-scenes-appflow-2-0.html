@@ -1,0 +1,90 @@
+---
+layout: blog
+published: true
+title: Behind the Scenes AppFlow 2.0
+date: 2012-12-15 08:00:41.000000000 +00:00
+---
+<p><a title="AppFlow - Working with your Mac, simplified" href="http://appflow.co.uk">AppFlow</a> is a project that I started back in 2010 with <a title="Luke Barnes on Twitter" href="http://twitter.com/lbarnes2">Luke Barnes</a>. AppFlow has always been about trying to improve your workflow with your Mac, taking advantage of both the system default applications and third party ones that help you work faster with your Mac.</p>
+
+<p>Those of you who <em>do</em> follow AppFlow will know that it has been dormant for some time, but this is about to change. A little while back I quietly rolled out an update for the site I've been working on for quite some time.</p>
+
+<h3>Why start over?</h3>
+
+<p>The previous site was somewhat broken. I have never been hugely keen on the design, but limited time and resources when I did it meant that it ended up getting rolled out.</p>
+
+<p>It should never have been rolled out. It was a sub-standard design which I wasn't happy with; if I wasn't happy with the design, who was ever going to be? The site ended up sticking around for a year and a half in the end while I was busy working on coursework. Over the time that the theme had been live various parts broke, but I never bothered to fix them. Why would I? I didn't like the design so, in turn, I didn't care about it.</p>
+
+<p>Content has also been neglected since I started University. I put this down to the lack of time, but then again we have time for anything if we want it enough.</p>
+
+<p>AppFlow was originally intended to be a high-traffic blog. Not in visitors, but in the amount of content coming out. The problem with this is it's simply isn't a sustainable model to go on when only two people primarily run the site, and of them zero can work on it full-time.</p>
+
+<p>With the new version of AppFlow I'm going to go about the content in a new way altogether. Instead of aiming to write, lets say, two posts every week I am now going to take out one evening a week to write for it. I will not publish anything until I am happy with it. It doesn't really matter how long something takes to write, as long as it is high-quality writing with a valid point to make. It's time to put aside the mass-produced quickly written, poorly edited writing.</p>
+
+<p>As a testament to the past I am leaving the current content on AppFlow, to show how it has changed over time, although I did debate with taking it down and just starting afresh.</p>
+
+<h3>Under the Hood</h3>
+
+<p>As before this site is run on WordPress, with a custom theme that I have personally developed from the ground up. It doesn't use any base-themes or boilerplates, from my experience these tend to get in the way more than they help.</p>
+
+<p>I did consider migrating to <a title="AnchorCMS Website" href="http://anchorcms.com ">AnchorCMS</a> for the new version of the site; unfortunately it lacks one important feature for AppFlow at the moment though, categories. I am, however, aware that there is a major update for it on the way which may introduce the missing features I require.</p>
+
+<p>Rather than writing straight CSS I decided with work with <a title="Less CSS Website" href="http://lesscss.org">Less</a>. This allows me to nest styles and use mixins and variables to make development easier, more consistent and faster. If you haven't looked at a CSS preprocessor yet you should check out <a title="Less CSS Website" href="http://lesscss.org">Less</a> or <a title="Sass Language Website" href="http://sass-lang.com/">Sass</a>.</p>
+
+<p>I used Less.app to compile the Less every-time I saved the file. This generates a compressed CSS files with minimal line breaks and white space to minimise the download size for the styles.</p>
+
+<p>In the near future I intend to add media queries to the theme, as a version 2.1, allowing me to provide mobile/touch friendly versions of the site as well. In its current state the site is useable on mobile devices, but not what I describe as ideal.</p>
+
+<h4>Version Control</h4>
+
+<p>My choice of version control is Git, with the <a title="GitFlow on GitHub" href="https://github.com/nvie/gitflow">Git Flow</a> extension. The GitFlow extension makes it easy to use git with the <a title="A successful Git branching model" href="http://nvie.com/posts/a-successful-git-branching-model/">GitFlow branching model</a> without having to worry about completing merges into the correct branches when required, such as when releasing a new feature or hot fix.</p>
+
+<p>Git Flow also fits in nicely with my new ideas for a git-centric deployment system. With the use of Git Flow and post receive hooks I can now devise my own way of deploying updates without having to faff-about with FTP.</p>
+
+<h5>Deployment with Git</h5>
+
+<p>My new workflow now involves multiple stages in order to work; development, staging and production. This clean setup makes it a breeze for me to develop offline, test in a safe environment on my server and then roll out to production feeling confident that nothing will go wrong. While all of this is happening it's also faster for me to roll out updates as Git compresses files, making it faster at transferring than FTP and far safer.</p>
+
+<p>The workflow works as follows:</p>
+
+<ol>
+
+	<li><strong>Development</strong> - The development stage is done on my local machine. I implement all new features in this development environment under feature branches. When I am happy with a new change or feature I merge it with the develop branch and push the branch. In the event that I change my mind about a feature at a later date it's easy to roll back.</li>
+
+	<li><strong>Staging</strong> - When changes are pushed on the development branch a post-receive hook pings a PHP script on the server. This automatically resets the current head of the staging environment and then pulls the latest from the development branch. This allows me to test everything works properly on the server and also makes for an easy place to show features to others for further feedback and tests before I roll them out formally.</li>
+
+	<li><strong>Production</strong> - Once I am happy the everything is working properly on the staging environment I can tell git flow to release the development branch. This merges it with master and, once pushed to GitLab, pulls the latest changes into the live site on the server.</li>
+
+</ol>
+
+<p>So far this system works well, each stage of the workflow runs on it's own database so I don't need to worry about something destroying the live one. In the future I may look into a way of synchronising a copy of the live database down into the development environments automatically to making testing with a copy of the live data easy.</p>
+
+<h5>Using WordPress with Multiple Deployment Stages</h5>
+
+<p>WordPress doesn't play nice with a multi-stage deployment system out of the box, but thats fine because it is easy enough to retrofit a system.</p>
+
+<p>Each stage of the deployment process has a environmental variable set in the Apache VirtualHost. This variable is easy to set (<code>SetEnv SERVER_ENVIRONMENT development</code>) and allows me to easily detect what environment WordPress is sat in. Once the environmental variable is set it's easy to grab the variable, see what is set to and load the correct configuration, as follows:</p>
+
+{% highlight php %}
+if (getenv('SERVER_ENVIRONMENT') == 'production') : 
+    // Database settings, Uniuqe Keys, Salts. 
+    // And, make sure debug-mode is off in this environment 
+    define('WP_DEBUG', false); 
+elseif (getenv('SERVER_ENVIRONMENT') == 'staging') : 
+    // Database settings, Uniuqe Keys, Salts. 
+    // Also, I have debug mode on in this environment 
+    define('WP_DEBUG', true); 
+elseif (getenv('SERVER_ENVIRONMENT') == 'development') : 
+    // Database settings, Uniuqe Keys, Salts. 
+    // Also, I have debug mode on in this environment 
+    define('WP_DEBUG', true); 
+endif;{% endhighlight %}
+
+<p>This system is simple and effective, automating all the setting changes that are needed as the install is committed and pushed, and pulled between environments.</p>
+
+<h2>Summary</h2>
+
+<p>This new version of AppFlow is bringing a lot of changes. It has a better content strategy, proper version control and a strong deployment system.</p>
+
+<p>If deployment system works well I intend to move other sites that I run over onto the same deployment system making it easy to develop and test with all sites without fear of anything breaking on the live sites. It also makes deployment fast and painless, which I like.</p>
+
+<p>If you have any ideas of how I could improve this and make the system more "bullet-proof" then please do leave a comment; I'm keen to hear what others think of the system.</p>
