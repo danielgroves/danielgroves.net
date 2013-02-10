@@ -27,27 +27,27 @@ When looking at my [project website](http://danielgroves.net) you can see that t
 Below is the HTML taken directly from my project site that creates this sidebar.  
 
 {% highlight html %}
-&lt;div id="sidebar"&gt;
+<div id="sidebar">
 
-    &lt;div id="header"&gt;
+    <div id="header">
     
-        &lt;h1&gt;Daniel Groves&lt;/h1&gt;
+        <h1>Daniel Groves</h1>
     
-    &lt;/div&gt;&lt;!-- #header --&gt;
+    </div><!-- #header -->
 
-    &lt;div id="navigation"&gt;
-        &lt;ul&gt;
-            &lt;li class="selected"&gt;&lt;a href="index.html" title="Home"&gt;Home&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="gallery.html" title="Photo Gallery"&gt;Gallery&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="contact.html" title="Contact Me"&gt;Contact&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;h2&gt;Other Sites&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;a href="http://daniel-groves.co.uk" title="Portfolio Website">Portfolio&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="http://appflow.co.uk" title="AppFlow"&gt;AppFlow&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;&lt;!-- #navigation --&gt;           
-&lt;/div&gt;&lt;!-- #sidebar --&gt;
+    <div id="navigation">
+        <ul>
+            <li class="selected"><a href="index.html" title="Home">Home</a></li>
+            <li><a href="gallery.html" title="Photo Gallery">Gallery</a></li>
+            <li><a href="contact.html" title="Contact Me">Contact</a></li>
+        </ul>
+        <h2>Other Sites</h2>
+        <ul>
+            <li><a href="http://daniel-groves.co.uk" title="Portfolio Website">Portfolio</a></li>
+            <li><a href="http://appflow.co.uk" title="AppFlow">AppFlow</a></li>
+        </ul>
+    </div><!-- #navigation -->           
+</div><!-- #sidebar -->
 {% endhighlight %}
 
 This on it's own obviously won't create a sidebar on it's own, we need a bit of CSS to go alongside it.  

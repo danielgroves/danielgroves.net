@@ -22,10 +22,10 @@ The first command that will be required is <tt>cd</tt>. <tt>cd</tt> stands for C
 
 ```cd /Users/danielsgroves/Documents```
 
-The second command that can used used is the <tt>ls</tt> command, list. You can use this in two ways, firstly you can type <tt>ls</tt> followed by the directory you would like to list, or you could just type <tt>ls</tt> to list to contents of the current directory. Ignore the <tt>1&gt;</tt> and <tt>2&gt;</tt> in the examples below.
+The second command that can used used is the <tt>ls</tt> command, list. You can use this in two ways, firstly you can type <tt>ls</tt> followed by the directory you would like to list, or you could just type <tt>ls</tt> to list to contents of the current directory. Ignore the <tt>1></tt> and <tt>2></tt> in the examples below.
 
-```1&gt; ls
-2&gt; ls Documents```
+```1> ls
+2> ls Documents```
 
 Presuming we are in the <tt>/Users/danielsgroves/</tt> directory the first command would simple have listed all of the folders in danielsgroves/, but the second would have listed the contents of the danielsgroves/Documents directory. These two commands should be enough to allow you to navigate to your Git repositories.
 
@@ -161,7 +161,7 @@ Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 291 bytes, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To git@github.com:danielgroves/Example-Repository.git
- * [new branch]      master -&gt; master
+ * [new branch]      master -> master
 {% endhighlight %}
 
 The screenshot below show the repository after the initial push, as you can see it shows who last edited each file and the last commit message the is associated with each file or directory.
@@ -187,7 +187,7 @@ remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 1), reused 0 (delta 0)
 Unpacking objects: 100% (3/3), done.
 From github.com:danielgroves/Example-Repository
- * branch            master     -&gt; FETCH_HEAD
+ * branch            master     -> FETCH_HEAD
 Updating d9dc5db..9abccfb
 Fast-forward
  main.css |    4 ++++

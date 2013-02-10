@@ -32,13 +32,13 @@ I then used the following PHP script in order to write scores to the database (d
 	  // Connects to the database server
 	  $dbcnx = @mysql_connect($host, $user, $pass);
 	  if (!$dbcnx) {
-	    echo( "&lt;p&gt;Unable to connect to the database server at this time.&lt;/p&gt;" );
+	    echo( "<p>Unable to connect to the database server at this time.</p>" );
 	    exit();
 	  }
  
 	  // Selects the database
 	  if (! @mysql_select_db($database) ) {
-	    echo( "&lt;p&gt;Unable to find database&lt;/p&gt;");
+	    echo( "<p>Unable to find database</p>");
 	    exit();
 	  }
  

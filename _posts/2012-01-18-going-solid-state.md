@@ -32,7 +32,7 @@ With the exception of the DVD drive everything has now arrived and been running 
 
 All of this was completed on version OS 10.7.2 "Lion" with no problems, although I would suggest taking the usual precautions before messing with any system settings.
 
-TRIM will most likely not be activated on any Mac that does not have an apple supplied SSD under the hood, but it is easy to enable. To check if it is enabled or not go to " -&gt; About This Mac -&gt; More Info...". From here press system report and then select "Serial-ATA" in the sidebar. If it is enabled it should look something like the image below.
+TRIM will most likely not be activated on any Mac that does not have an apple supplied SSD under the hood, but it is easy to enable. To check if it is enabled or not go to " -> About This Mac -> More Info...". From here press system report and then select "Serial-ATA" in the sidebar. If it is enabled it should look something like the image below.
 
 [<img class="size-medium wp-image-598" title="Checking if TRIM is activated on OS X Lion" src="http://danielgroves.net/wp-content/uploads/2012/01/trimOnOSX-550x425.png" alt="Checking if TRIM is activated on OS X Lion" width="550" height="425" />](http://danielgroves.net/wp-content/uploads/2012/01/trimOnOSX.png) Checking if TRIM is activated on OS X Lion
 

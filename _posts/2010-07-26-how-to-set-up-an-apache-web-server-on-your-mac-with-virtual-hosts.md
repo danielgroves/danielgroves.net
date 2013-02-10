@@ -91,40 +91,40 @@ Next press Cmd+Shift+G in finder again and go to <tt>/etc/apache2/</tt> and open
 In finder now press Cmd+Shift+G for the last time and type in <tt>/etc/apache2/extra/</tt> and then open <tt>httpd-vhosts.conf</tt> in Fraise.  By default lines 27 to 42 will say:-
 
 {% highlight apacheconf %}
-&lt;VirtualHost *:80&gt;
+<VirtualHost *:80>
     ServerAdmin webmaster@dummy-host.example.com
     DocumentRoot "/usr/docs/dummy-host.example.com"
     ServerName dummy-host.example.com
     ServerAlias www.dummy-host.example.com
     ErrorLog "/private/var/log/apache2/dummy-host.example.com-error_log"
     CustomLog "/private/var/log/apache2/dummy-host.example.com-access_log" common
-&lt;/VirtualHost&gt;
+</VirtualHost>
 
-&lt;VirtualHost *:80&gt;
+<VirtualHost *:80>
     ServerAdmin webmaster@dummy-host2.example.com
     DocumentRoot "/usr/docs/dummy-host2.example.com"
     ServerName dummy-host2.example.com
     ErrorLog "/private/var/log/apache2/dummy-host2.example.com-error_log"
     CustomLog "/private/var/log/apache2/dummy-host2.example.com-access_log" common
-&lt;/VirtualHost&gt;
+</VirtualHost>
 {% endhighlight %}
 
 You can safely delete these lines, but leave the rest.  Personally I decided to comment them all out by placing a hash (#) at the start of each line incase I needed them for future reference.  Next add the following to to document.  
 
 {% highlight apacheconf %}
-&lt;VirtualHost *:80&gt;
+<VirtualHost *:80>
 	DocumentRoot "/Library/WebServer/Documents"
 	ServerName	localhost
-&lt;/VirtualHost&gt;
+</VirtualHost>
 {% endhighlight %}
 
 You can change the <tt>DocumentRoot</tt> if you like so it points anywhere on your system.  What this does is load the files located in <tt>/Library/WebServer/Documents</tt> when you type localhost into your browser.  Next we need to configure our custom Virtual host.  To do this duplicate the lins above and change them to your needs. For example this is what I added to the end of <tt>httpd-vhosts.conf</tt> for my vhost <tt>portfolio.local</tt> stored in <tt>/Users/danielgroves/Sites/portfolio/</tt>
 
 {% highlight apacheconf %}
-&lt;VirtualHost *:80&gt;
+<VirtualHost *:80>
 	DocumentRoot "/Users/danielgroves/Sites/portfolio"
 	ServerName	portfolio.local
-&lt;/VirtualHost&gt;
+</VirtualHost>
 {% endhighlight %}
 
 <img src="http://danielgroves.net/wp-content/uploads/2010/07/Screen-shot-2010-07-26-at-14.22.48-550x453.png" alt="Editing &quot;httpd-vhosts.conf&quot; in Fraise" title="Editing &quot;httpd-vhosts.conf&quot; in Fraise" width="550" height="453" class="size-large wp-image-229" />
