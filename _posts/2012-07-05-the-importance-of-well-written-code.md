@@ -3,6 +3,7 @@ layout: blog
 published: true
 title: The Importance of Well Written Code
 date: 2012-07-05 09:00:49.000000000 +01:00
+excerpt: Badly documented code in now commonplace all over the web, I take a look into a few simple steps to help make code more maintainable and easier for others to understand. 
 ---
 The topic for this post is somewhat generic, but important nonetheless. It's amazing how many developers just write code, without putting any thought into just what they're doing. They don't think about how future-proof it is, or consider others when writing code.
 

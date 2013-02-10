@@ -3,6 +3,7 @@ layout: blog
 published: true
 title: Starting Out with a VPS
 date: 2012-06-01 16:16:24.000000000 +01:00
+excerpt: A look into why I decided to make the move from a grid hosting package to a VPS and some of the challenges I faced. 
 ---
 It's both a good and a bad day when you need to upgrade your web hosting. It's bad due to the cost increase, but it's good because your websites are doing well enough to justify the new hosting. For me the jump from a [grid service with JustHost](http://justhost.com/ "JustHost") to a VPS was essential.
 

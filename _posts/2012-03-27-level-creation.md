@@ -2,6 +2,9 @@
 layout: blog
 published: true
 date: 2012-03-27 23:45:09.000000000 +01:00
+
+title: "Design Process: Level Creation"
+excerpt: A detailed look into how the levels were developed, making use of the designs and graphics that had already been completed. 
 ---
 The blog post was designed as a follow up to the [Level Design](http://danielgroves.net/2012/03/level-design/ "Level Design") post.
 

@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: Game Concept
+title: "Design Process: Game Concept"
 date: 2012-03-20 10:57:30.000000000 +00:00
 ---
 During this article I will be looking at the inspiration behind the game I am currently producing for the AINT207 (Games Development) at university. It will look at what my inspiration was and will also discuss the concept of the game. 

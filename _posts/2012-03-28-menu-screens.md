@@ -1,8 +1,10 @@
 ---
 layout: blog
 published: true
-title: Menu Screens
+title: "Design Process: Menu Screens"
 date: 2012-03-28 00:48:03.000000000 +01:00
+
+excerpt: How the menu screens were developed for the game.
 ---
 This blog post is designed as a follow up to '[Stitching Levels Together](http://danielgroves.net/2012/03/stitching-levels-together/ "Stitching Levels Together")'.
 
@@ -32,7 +34,7 @@ The final screen in the game is the score screen.
 
 Although viewing the 'scene' in stencil works this screen will calculate the users score by the user of a behaviour. This is looked at in more detail later on but it essentially calculates the deaths plus one and then divides the users time by the amount of deaths.
 
-### AssociatedBehaviours
+### Associated Behaviours
 
 This functionality does not come by simply placing the right elements on a new scene. In order to power this functionality some behaviours were required.
 

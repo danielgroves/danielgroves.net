@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: Character Design
+title: "Design Process: Character Design"
 date: 2012-03-27 13:15:34.000000000 +01:00
 ---
 This blog post is designed to follow up to the [Game Concept](http://danielgroves.net/2012/03/game-concept/ "Game Concept") post.

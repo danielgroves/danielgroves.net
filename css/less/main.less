@@ -6,6 +6,7 @@
 @dark-blue: #416078;
 @light-grey: #efefef;
 @light-blue: #cad7db;
+@med-grey: #777;
 @link: #1262a0;
 
 
@@ -76,7 +77,7 @@ p, ol, ul, pre {
 }
 
 ol, ul {
-	margin-left: 1.5em;
+	margin-left: 2em;
 }
 
 pre {
@@ -214,9 +215,20 @@ nav {
 
 footer {
 	text-align: center;
-	color: #777;
+	color: @med-grey;
 	font-size: .9em;
 	padding: 10px 0;
+}
+
+// Blog formatting
+.post-list {
+	li {
+		padding-bottom: 15px;
+	}
+}
+
+.excerpt {
+	color: @med-grey;
 }
 
 @media screen and (min-width: 768px) {
@@ -286,6 +298,10 @@ footer {
 	
 	pre code {
 		padding: 1% 2%;
+	}
+	
+	.post-list {
+		.columns(2, 35px);
 	}
 }
 

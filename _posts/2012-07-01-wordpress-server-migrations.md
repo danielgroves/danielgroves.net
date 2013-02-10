@@ -3,6 +3,7 @@ layout: blog
 published: true
 title: WordPress Server Migrations
 date: 2012-07-01 12:43:37.000000000 +01:00
+excerpt: After moving to a new server over the last few months I walk through a "bullet-proof" set of steps to migrate WordPress installations between servers with minimal downtime. 
 ---
 Recently I have been finishing the migration of websites from my old server to the new [VPS I recently wrote about](http://danielgroves.net/2012/06/starting-out-with-a-vps/). Having learnt a lot during this process about the better ways of doing things I figured it best to build a checklist to follow before forgetting all that I've learnt in the last few weeks.
 
