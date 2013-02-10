@@ -7,12 +7,13 @@ a{color:#1262a0;text-decoration:none;-webkit-transition:all 0.25s ease-in-out;-m
 a:active{border-bottom:1px solid #416078;}
 h1,h2,h3,h4,h5,h6{font-family:"proxima-nova-condensed";text-transform:uppercase;font-weight:300;}
 h2{font-size:2.7em;padding-bottom:5px;}
-p,ol,ul,code{font-size:1.5em;padding:7px 0;}
+h3{font-size:2.2em;padding-top:15px;}
+h4{padding-top:5px;font-size:1.8em;}
+p,ol,ul,pre{font-size:1.5em;padding:7px 0;}
 ol,ul{margin-left:1.5em;}
-pre{width:96%;padding:2%;overflow:scroll;}
-.highlight{border-radius:5px;}.highlight ::selection{background:#efefef;color:#073642;}
+pre{width:96%;padding:2%;overflow:scroll;}pre code{line-height:1em;font-family:'inconsolata',monospace;}
+.highlight{border-radius:5px;margin:7px 0;}.highlight ::selection{background:#efefef;color:#073642;}
 .highlight ::-moz-selection{background:#efefef;color:#073642;}
-code{line-height:1em;font-family:'inconsolata',monospace;}
 .ampersand{font-family:"adobe-caslon-pro","proxima-nova",helvetica,arial,sans-serif;font-style:italic;}
 header{text-align:center;font-size:1.5em;padding:20px 2% 10px;overflow:hidden;}header h1,header p{float:left;width:100%;}
 header p{font-size:1.2em;}

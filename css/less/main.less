@@ -60,7 +60,17 @@ h2 {
 	padding-bottom: 5px;
 }
 
-p, ol, ul, code {
+h3 {
+	font-size: 2.2em;
+	padding-top: 15px;
+}
+
+h4 {
+	padding-top: 5px;
+	font-size: 1.8em;
+}
+
+p, ol, ul, pre {
 	font-size: 1.5em;
 	padding: 7px 0;
 }
@@ -73,17 +83,17 @@ pre {
 	width: 96%;
 	padding: 2%;
 	overflow: scroll;
+	
+	code {
+		line-height: 1em;
+		font-family: 'inconsolata', monospace;
+	}
 }
 
 .highlight {
 	border-radius: 5px;
-	
 	.selection(@light-grey, #073642);
-}
-
-code {
-	line-height: 1em;
-	font-family: 'inconsolata', monospace;
+	margin: 7px 0;
 }
 
 .ampersand {
