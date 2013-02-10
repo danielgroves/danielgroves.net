@@ -60,13 +60,29 @@ h2 {
 	padding-bottom: 5px;
 }
 
-p, ol, ul {
+p, ol, ul, code {
 	font-size: 1.5em;
 	padding: 7px 0;
 }
 
 ol, ul {
 	margin-left: 1.5em;
+}
+
+pre {
+	width: 96%;
+	padding: 2%;
+	overflow: scroll;
+}
+
+.highlight {
+	border-radius: 5px;
+	
+	.selection(@light-grey, #073642);
+}
+
+code {
+	line-height: 1em;
 }
 
 .ampersand {

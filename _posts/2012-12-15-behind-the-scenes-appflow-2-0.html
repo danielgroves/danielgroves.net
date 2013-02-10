@@ -65,19 +65,21 @@ date: 2012-12-15 08:00:41.000000000 +00:00
 <p>Each stage of the deployment process has a environmental variable set in the Apache VirtualHost. This variable is easy to set (<code>SetEnv SERVER_ENVIRONMENT development</code>) and allows me to easily detect what environment WordPress is sat in. Once the environmental variable is set it's easy to grab the variable, see what is set to and load the correct configuration, as follows:</p>
 
 {% highlight php %}
-if (getenv('SERVER_ENVIRONMENT') == 'production') : 
-    // Database settings, Uniuqe Keys, Salts. 
-    // And, make sure debug-mode is off in this environment 
-    define('WP_DEBUG', false); 
-elseif (getenv('SERVER_ENVIRONMENT') == 'staging') : 
-    // Database settings, Uniuqe Keys, Salts. 
-    // Also, I have debug mode on in this environment 
-    define('WP_DEBUG', true); 
-elseif (getenv('SERVER_ENVIRONMENT') == 'development') : 
-    // Database settings, Uniuqe Keys, Salts. 
-    // Also, I have debug mode on in this environment 
-    define('WP_DEBUG', true); 
-endif;{% endhighlight %}
+<?php
+	if (getenv('SERVER_ENVIRONMENT') == 'production') : 
+	    // Database settings, Uniuqe Keys, Salts. 
+	    // And, make sure debug-mode is off in this environment 
+	    define('WP_DEBUG', false); 
+	elseif (getenv('SERVER_ENVIRONMENT') == 'staging') : 
+	    // Database settings, Uniuqe Keys, Salts. 
+	    // Also, I have debug mode on in this environment 
+	    define('WP_DEBUG', true); 
+	elseif (getenv('SERVER_ENVIRONMENT') == 'development') : 
+	    // Database settings, Uniuqe Keys, Salts. 
+	    // Also, I have debug mode on in this environment 
+	    define('WP_DEBUG', true); 
+	endif;
+{% endhighlight %}
 
 <p>This system is simple and effective, automating all the setting changes that are needed as the install is committed and pushed, and pulled between environments.</p>
 
