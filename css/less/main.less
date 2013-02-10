@@ -60,13 +60,30 @@ h2 {
 	padding-bottom: 5px;
 }
 
-p, ol, ul {
+p, ol, ul, code {
 	font-size: 1.5em;
 	padding: 7px 0;
 }
 
 ol, ul {
 	margin-left: 1.5em;
+}
+
+pre {
+	width: 96%;
+	padding: 2%;
+	overflow: scroll;
+}
+
+.highlight {
+	border-radius: 5px;
+	
+	.selection(@light-grey, #073642);
+}
+
+code {
+	line-height: 1em;
+	font-family: 'inconsolata', monospace;
 }
 
 .ampersand {
@@ -177,7 +194,7 @@ nav {
 	overflow: hidden;
 }
 
-article.main {
+.main {
 	width: 96%;
 	margin: 0 2%;
 }
@@ -246,6 +263,16 @@ footer {
 		.col .wrap {
 			.columns( 2, 35px );
 		}
+	}
+	
+	.blog {
+		max-width: 900px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+	code {
+		padding: 1% 2%;
 	}
 }
 

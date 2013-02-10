@@ -13,15 +13,16 @@ Well-written code really isn't  *that* hard to write. It requires structure and 
 Let's take the following snippet of PHP for an example. 
 
 {% highlight php %}
-
+<?php 
 	$name = $_GET['name'];
 	$sentance = 'Welcome, ' . $name;
 	echo $sentance;
-	
 {% endhighlight %}
 
 Ok, so thats a pretty simple example, but we improve on this code in a few simple steps that'll make it much easier to maintain at a later date.  Lets place this into a function which could, at a later date, contribute to a library or make it much easier to modify the welcome message on multiple pages at a later date.  
 
+{% highlight php %}
+<?php 
 	function welcome($name)
 	{
 	    $sentance = 'Welcome, ' . $name;
@@ -29,9 +30,12 @@ Ok, so thats a pretty simple example, but we improve on this code in a few simpl
 	}
 
 	echo welcome( $_GET['name'] );
+{% endhighlight %}
 
 Pretty simple, eh? By breaking your code down into smaller units like this it makes it clearer what is going on and easier to understand.  In a large application it also makes it a lot easier to find portions of code, read code and to maintain code.  Now lets take this a step further. 
 
+{% highlight php %}
+<?php 
 	/**
 	 * Returns standard welcome message for the user
 	 * @param $name The users name
@@ -44,13 +48,16 @@ Pretty simple, eh? By breaking your code down into smaller units like this it ma
 	}
 
 	echo welcome( $_GET['name'] );
+{% endhighlight %}
 
 I hope you can see at this stage how much easier this code is for someone new to a project to read now, and find out exactly whats going on.  Don't think these rules shouldn't apply to your work just because your currently the only person who works on your project.  New team members can arrive at any time, and these comments help greatly when revisiting old code. Even if you wrote it. 
 
-The comment above was added in the style of JavaDoc. JavaDoc can be used to generate documentation for your application simply by running a parser such as [phpDoc](http://www.phpdoc.org/ "PHP Doc, A program for generating PHP documentation")</a> on your code, generating API documentation thats easily accessible for your whole team. 
+The comment above was added in the style of JavaDoc. JavaDoc can be used to generate documentation for your application simply by running a parser such as [phpDoc](http://www.phpdoc.org/ "PHP Doc, A program for generating PHP documentation") on your code, generating API documentation thats easily accessible for your whole team. 
 
 Now, lets bulk out the code one final time to see how comments can help inside a function as well in order to demonstrate how useful they are on slightly more complex algorithms.  
 
+{% highlight php %}
+<?php 
 	/**
 	 * Detects if the user has provided a name or not a supplies the relevant 
 	 * Welcome message.  
@@ -73,6 +80,7 @@ Now, lets bulk out the code one final time to see how comments can help inside a
 	}
 
 	echo welcome( $_GET['name'] );
+{% endhighlight %}
 
 In this final example you can see how, even in this simple example, commenting your code and breaking it down logically can help to make your code readable and easily maintainable to anyone, even those who have never seen it before.  
 

@@ -5,6 +5,7 @@ server_port: 4000
 pygments: true
 future: false
 lsi: false
+markdown: maruku
 
 
 permalink: /notebook/:year/:month/:title
