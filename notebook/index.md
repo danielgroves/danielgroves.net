@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Notebook
+excerpt: The Thoughts, Problems and Solutions of a Web Developer
+
 nav-weight: 4
 nav-name: Notebook
 ---
-
-Essentially my blog
 
 <div class="post-list">
 	<ol>
