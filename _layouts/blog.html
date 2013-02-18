@@ -1,9 +1,15 @@
 {% include head.html %}
 
-<article class="main blog">
-	<h2>{{ page.title }}</h2>
-	{{ content }}
-</article>
+<section class="main">
+	<div class="title">
+		<h2 class="blog">{{ page.title }}</h2>
+		<p class="blog">{{ page.excerpt }}</p>
+	</div><!-- /.title -->
+	
+	<article class="blog">
+		{{ content }}
+	</article>
+</section>
 
 <section class="main blog">
 	<div id="disqus_thread"></div>

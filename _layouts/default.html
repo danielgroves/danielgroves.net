@@ -1,8 +1,15 @@
 {% include head.html %}
 
-<article class="main">
-	<h2>{{ page.title }}</h2>
-	{{ content }}
-</article>
+<section class="main">
+	<div class="title">
+		<h2>{{ page.title }}</h2>
+		<p>{{ page.excerpt }}</p>
+	</div><!-- /.title -->
+	
+	<article>
+		{{ content }}
+	</article>
+</section>
+
 
 {% include footer.html %}
