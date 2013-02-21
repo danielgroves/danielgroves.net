@@ -1,7 +1,9 @@
 ---
 layout: blog
 published: true
-title: Flash Game Planning the Details
+title: "Flash Game: Planning the Details"
+excerpt: The planning notes for the Flash Game tht was created for University. 
+
 date: 2011-02-04 14:53:19.000000000 +00:00
 ---
 Before starting on the development I wanted to ensure that I knew all of the details about the game, so I began to jot down some notes.  

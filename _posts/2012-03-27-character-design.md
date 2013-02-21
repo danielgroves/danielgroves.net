@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: "Design Process: Character Design"
+excerpt: The initial sketches of each chacter and the various states they can sit in.
+
 date: 2012-03-27 13:15:34.000000000 +01:00
 ---
 This blog post is designed to follow up to the [Game Concept](http://danielgroves.net/2012/03/game-concept/ "Game Concept") post.

@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: OS X Dock Spaces
+excerpt: A quick video which explains how to add a blank space into your OS X dock. 
+
 date: 2011-01-07 00:42:12.000000000 +00:00
 ---
 A few people recently have been asking how I achieved the spaces in my dock, see the video below for details.  The commands follow so you can copy &amp; paste them.  
