@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: Processing Visulisation Development
+excerpt: A walkthrough for how I created a weather feed visulisation in Processing for University.
+
 date: 2011-04-01 12:44:35.000000000 +01:00
 ---
 The concept for the data visualisation that I have produced came from the idea of how I have always seen data being presented as a child.  I took the principle of a simple bar graph and decided to show a history of several of the different pieces of information available in the feeds.  Further, I decided to implement the current windspeed into the data, but in a unique way.   I decided that the bars should all drift from left to right at the current windspeed, in order to keep the data readable I also decided that the addition of a click event should be present to pause this animation.  

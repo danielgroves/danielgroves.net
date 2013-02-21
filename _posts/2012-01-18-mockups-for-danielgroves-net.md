@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: Mockups for danielgroves.net
+excerpt: The mockups I built for the version two release of danielgroves.net
+
 date: 2012-01-18 11:53:00.000000000 +00:00
 ---
 A friend of mine is currently trying to improve his skills when designing UIs for the web, and asked to see the initial UI mockups that I created for this site.  

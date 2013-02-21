@@ -1,7 +1,9 @@
 ---
 layout: blog
 published: true
-title: Flash Game Genre and Inspiration
+title: "Flash Game: Genre and Inspiration"
+excerpt: How I came to choose the genre for the game, and what inspired it.
+
 date: 2011-02-03 01:35:33.000000000 +00:00
 ---
 I quickly decided that I would my flash game to be based around racing.  This is a popular type of game to design in flash, so why did I choose it as my genre? Why not an action or puzzle based game?

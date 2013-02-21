@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: "Bluetooth: Not Available"
+excerpt: 'The solution to OS X reporting "Bluetooth: Not Availiable" and refuse to recognise your Macs bluetooth chip'
+
 date: 2012-01-06 20:52:28.000000000 +00:00
 ---
 It's not very often that I get any issues at all with my MacBook, let alone an issue this bad. I can't actually remember the last time I had a major issue, but given my MacBook is now well out of warranty the last thing I am going to do is take it near a Genius bar and risk having pay out loads of money I don't have.

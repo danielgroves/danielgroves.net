@@ -1,7 +1,9 @@
 ---
 layout: blog
 published: true
-title: Flash Game Backend Processing
+title: "Flash Game: Backend Processing"
+excerpt: How the PHP script worked in able to allow the flash game to communicate with an external high-scores database. 
+
 date: 2011-02-04 21:49:34.000000000 +00:00
 ---
 In order to set-up a high-score system I need a database and some backend processing scripts, written in PHP.  

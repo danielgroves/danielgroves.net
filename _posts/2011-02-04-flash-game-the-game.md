@@ -1,7 +1,9 @@
 ---
 layout: blog
 published: true
-title: Flash Game The Game
+title: "Flash Game: The Game"
+excerpt: An explanation about the ActionScript that powered the Flash Game. 
+
 date: 2011-02-04 20:19:22.000000000 +00:00
 ---
 

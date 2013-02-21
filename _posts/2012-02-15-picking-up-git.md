@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: Picking Up GIT
+excerpt: An introduction of using the Git version control system, aimed at those who are just starting out. 
+
 date: 2012-02-15 00:28:23.000000000 +00:00
 ---
 Around a year ago [Nick Charlton](http://nickcharlton.net/ "Nick Charlton") ([@nickcharlton](http://twitter.com/nickcharlton "Nick Charlton on Twitter")) did a [talk on Git](http://nickcharlton.net/resources/guide_to_git.pdf "Nick Charlton's Guide to Git") in [Termisoc](http://termisoc.org "Termisoc"), this opened my eyes to a technology I had heard of but never actually used. [GIT](http://git-scm.com/ "GIT-SCM") is extremely useful when working on group projects, or when working on larger projects alone, although it does require the adoption of a very modular approach to working.

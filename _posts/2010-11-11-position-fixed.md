@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: position fixed
+title: "position: fixed;"
 date: 2010-11-11 18:57:33.000000000 +00:00
 ---
 ```position: fixed``` is one of the CSS attributes that is rarely used, it is one of those properties that few designers truly realise the power of.  For my IDAT102 website I have come up for a use for this particular property that was inspired by the store on the Apple website.  
