@@ -81,6 +81,16 @@ ol, ul {
 	margin-left: 2em;
 }
 
+hr {
+	border: none;
+	border-top: 1px solid @dark-blue;
+	height: 1px;
+	width: 60%;
+	position: relative;
+	margin: 0 auto; 
+	padding-bottom: 20px;
+}
+
 pre {
 	width: 96%;
 	padding: 2%;
@@ -333,6 +343,22 @@ figure {
 	}
 }
 
+.feature figure {
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	
+	a {
+		border: none;
+		background: transparent;
+	}
+	
+	img {
+		border: 3px solid @med-grey;
+		width: 98%;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	body {
 		font-size: 65%;
@@ -494,7 +520,6 @@ figure {
 		.col {
 			background: url('../images/image.png') 50% top no-repeat;
 			background-size: contain;
-			margin-top: 50px;
 			width: 30.3%;
 			padding: 10px 0 40px 0;
 			
@@ -514,6 +539,14 @@ figure {
 			.wrap {
 				.columns( 0, 0 );
 			}
+			
+			&.narrow {
+				width: 22%;
+			}
+			
+			&.wide {
+				width: 72%;
+			}
 		}
 	}
 	
@@ -521,6 +554,10 @@ figure {
 		float: left;
 		border: none;
 		margin: 0 1.5%;
+	}
+	
+	.feature .col {
+		padding-top: 0;
 	}
 	
 	.main {
