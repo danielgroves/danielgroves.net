@@ -51,9 +51,10 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "proxima-nova-condensed";
+	font-family: "proxima-nova-condensed", helvetica, arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
+	line-height: 105%;
 }
 
 h2 {
@@ -71,7 +72,7 @@ h4 {
 	font-size: 1.8em;
 }
 
-p, ol, ul, pre, form {
+p, ol, ul, pre, dl {
 	font-size: 1.5em;
 	padding: 7px 0;
 }
@@ -108,8 +109,10 @@ code {
 header {
 	text-align: center;
 	font-size: 1.5em;
-	padding: 20px 2% 10px;
+	padding: 140px 2% 10px;
 	overflow: hidden;
+	
+	background: url('../images/brand/PNG/Logo_96x96x32.png') center 20px no-repeat;
 	
 	h1, p {
 		float: left;
@@ -131,11 +134,13 @@ nav {
 	ul {
 		font-size: 1em;
 		padding: 0;
+		margin: 0;
 	}
 		
 	li {
 		width: 49%;
 		margin-left: 1%;
+		margin-top: 10px;
 		float: left;
 		list-style: none;
 	}
@@ -174,7 +179,7 @@ nav {
 	p {
 		color: @light-grey;
 		padding: 0;
-		line-height: 100%;
+		line-height: 120%;
 	}
 	
 	.slide {
@@ -246,9 +251,19 @@ footer {
 	color: @med-grey;
 }
 
-.post-list-excerpt .col {
-	padding-bottom: 0;
-	padding-top: 0;
+.post-list-excerpt {
+	.col {
+		padding: 0;
+			
+		&:first-of-type {
+			border: none;
+			padding-top: 10px;
+		}
+	}
+		
+	ol {
+		padding: 0;
+	}
 }
 
 .title {
@@ -303,6 +318,10 @@ form {
 		max-width: 1024px;
 	}
 	
+	header p {
+		font-size: 1em;
+	}
+	
 	nav {
 		text-align: center; 
 		
@@ -318,6 +337,7 @@ form {
 			width: auto;
 			display: inline;
 			margin: 0;
+			float: none;
 		}
 		
 		a {
@@ -353,6 +373,11 @@ form {
 		}
 	}
 	
+	.col {
+		padding-left: 1.5%;
+		padding-right: 1.5%;
+	}
+	
 	.blog {
 		max-width: 900px;
 		margin: 0 auto;
@@ -366,6 +391,10 @@ form {
 	.post-list {
 		.columns(2, 35px);
 		padding: 0 1.5%;
+	}
+	
+	.post-list-excerpt .col {
+			padding: 0 1.5%;
 	}
 	
 	.title {
@@ -404,6 +433,9 @@ form {
 	header {
 		text-align: left;
 		
+		padding: 35px 2% 32px 130px;
+		background-position: 20px 20px;
+		
 		h1, p {
 			float: left;
 			clear: left;
@@ -420,7 +452,7 @@ form {
 		margin: 0;
 		
 		position: absolute;
-		top: 10px;
+		top: 35px;
 		right: 2%;
 		
 		ul {
@@ -433,14 +465,14 @@ form {
 	
 	.columns-3 {
 		padding: 0 2%;
-		margin-top: 40px;
+		margin-top: 0;
 		
 		.col {
 			background: url('../images/image.png') 50% top no-repeat;
 			background-size: contain;
 			margin-top: 50px;
 			width: 30.3%;
-			padding: 170px 0 40px 0;
+			padding: 10px 0 40px 0;
 			
 			.wrap {
 				.columns( 0, 0 );
@@ -480,6 +512,35 @@ form {
 	
 	section {
 		clear: both;
+	}
+	
+	//cv
+	
+	dl.cv {
+		float: left;
+		clear: both;
+		padding: 10px 0;
+		width: 100%;
+		
+		dt {
+			float: right;
+			width: 80%;
+		}
+		
+		dd {
+			&.date {
+				float: left;
+				width: 20%;
+			}
+			
+			&.detail {
+				float: left;
+				clear: both;
+				padding-left: 20%;
+				color: #333;
+				font-size: 90%;
+			}
+		}
 	}
 }
 
