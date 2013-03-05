@@ -3,7 +3,7 @@
 @import 'elements';
 
 @dark-grey: #333333;
-@dark-blue: #416078;
+@dark-blue: #2D79AD;
 @light-grey: #efefef;
 @light-blue: #cad7db;
 @med-grey: #777;
@@ -196,14 +196,14 @@ nav {
 		overflow: hidden;
 		padding: 100px 10%;
 		
-		background: rgb(103,154,188); /* Old browsers */
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%, rgba(65,96,120,1) 100%); /* FF3.6+ */
-		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(103,154,188,1)), color-stop(100%,rgba(65,96,120,1))); /* Chrome,Safari4+ */
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
-		background: -ms-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* IE10+ */
-		background: radial-gradient(ellipse at center,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#679abc', endColorstr='#416078',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		background: @dark-blue; /* Old browsers */
+		background: -moz-radial-gradient(center, ellipse cover,  @dark-blue 0%, @light-blue 100%); /* FF3.6+ */
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@dark-blue), color-stop(100%,rgba(65,96,120,1))); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
+		background: -ms-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* IE10+ */
+		background: radial-gradient(ellipse at center,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@dark-blue', endColorstr='#416078',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	}
 }
 
@@ -394,7 +394,7 @@ figure {
 			border-bottom: 2px solid white;
 			
 			&.current_page_item {
-				border-bottom: 2px solid @dark-grey;
+				border-bottom: 2px solid @dark-blue;
 			}
 				
 			&:before {

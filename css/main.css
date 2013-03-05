@@ -48,7 +48,7 @@ a:hover {
   border-bottom: 1px solid #cad7db;
 }
 a:active {
-  border-bottom: 1px solid #416078;
+  border-bottom: 1px solid #2d79ad;
 }
 h1,
 h2,
@@ -87,7 +87,7 @@ ul {
 }
 hr {
   border: none;
-  border-top: 1px solid #416078;
+  border-top: 1px solid #2d79ad;
   height: 1px;
   width: 60%;
   position: relative;
@@ -189,31 +189,30 @@ nav a:hover {
   line-height: 120%;
 }
 .slider .slide {
-  background: #416078;
   overflow: hidden;
   padding: 100px 10%;
-  background: #679abc;
+  background: #2d79ad;
   /* Old browsers */
 
-  background: -moz-radial-gradient(center, ellipse cover, #679abc 0%, #416078 100%);
+  background: -moz-radial-gradient(center, ellipse cover, #2d79ad 0%, #cad7db 100%);
   /* FF3.6+ */
 
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #679abc), color-stop(100%, #416078));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #2d79ad), color-stop(100%, #416078));
   /* Chrome,Safari4+ */
 
-  background: -webkit-radial-gradient(center, ellipse cover, #679abc 0%, #416078 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #2d79ad 0%, #416078 100%);
   /* Chrome10+,Safari5.1+ */
 
-  background: -o-radial-gradient(center, ellipse cover, #679abc 0%, #416078 100%);
+  background: -o-radial-gradient(center, ellipse cover, #2d79ad 0%, #416078 100%);
   /* Opera 12+ */
 
-  background: -ms-radial-gradient(center, ellipse cover, #679abc 0%, #416078 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #2d79ad 0%, #416078 100%);
   /* IE10+ */
 
-  background: radial-gradient(ellipse at center, #679abc 0%, #416078 100%);
+  background: radial-gradient(ellipse at center, #2d79ad 0%, #416078 100%);
   /* W3C */
 
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#679abc', endColorstr='#416078', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@dark-blue', endColorstr='#416078', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 
 }
@@ -347,7 +346,7 @@ figure figcaption {
     text-align: center;
   }
   nav ul {
-    border-bottom: 1px solid #416078;
+    border-bottom: 1px solid #2d79ad;
     width: 75%;
     margin: 0 auto;
     overflow: hidden;
@@ -365,7 +364,7 @@ figure figcaption {
     border-bottom: 2px solid white;
   }
   nav a.current_page_item {
-    border-bottom: 2px solid #333333;
+    border-bottom: 2px solid #2d79ad;
   }
   nav a:before {
     content: '';
@@ -373,7 +372,7 @@ figure figcaption {
   }
   nav a:hover {
     padding-left: 20px;
-    border-bottom: 2px solid #416078;
+    border-bottom: 2px solid #2d79ad;
   }
   .slider .slide {
     padding: 10% 10%;
