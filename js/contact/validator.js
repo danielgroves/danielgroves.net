@@ -73,7 +73,17 @@ var valid = function() {
 }
 
 var post_data = function() {
+	var action = $('form').attr('action') + '?js=true';
+	var form = $.post(action, $("form").serialize());
 	
+	form.done(function() {
+		$('form').parent().prepend('<p class="success">Your message has been successfully sent. I will do my best to get back to you with 48-hours, although during busy times it may as long as a week. </p>');
+		$('form').fadeOut();
+	});
+	
+	form.fail(function() {
+		$('form').parent().prepend('<p class="error">I\'m sorry, their was an unknown error sending the message. If this keeps happening you can contact me by emailing hello[at]danielgroves[dot]net, or using any of the social networks listed in the left. Sorry about that. </p>');
+	});
 }
 
 var init = function() {
