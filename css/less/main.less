@@ -376,6 +376,17 @@ figure {
 	}
 }
 
+dl.cv {
+	padding: 10px 0;
+	width: 100%;
+		
+	dd {
+		padding: 5px 0 0 0;
+		color: #333;
+		font-size: 90%;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	body {
 		font-size: 65%;
@@ -493,6 +504,29 @@ figure {
 			}
 		}
 	}
+	
+	dl.cv {
+		float: left;
+		clear: both;
+		
+		dt {
+			float: right;
+			width: 80%;
+		}
+		
+		dd {
+			&.date {
+				float: left;
+				width: 20%;
+			}
+			
+			&.detail {
+				float: left;
+				clear: both;
+				padding-left: 20%;
+			}
+		}
+	}
 }
 
 @media screen and (min-width: 1024px) {
@@ -601,34 +635,9 @@ figure {
 	
 	section {
 		clear: both;
-	}
-	
-	//cv
-	
-	dl.cv {
-		float: left;
-		clear: both;
-		padding: 10px 0;
-		width: 100%;
 		
-		dt {
-			float: right;
-			width: 80%;
-		}
-		
-		dd {
-			&.date {
-				float: left;
-				width: 20%;
-			}
-			
-			&.detail {
-				float: left;
-				clear: both;
-				padding-left: 20%;
-				color: #333;
-				font-size: 90%;
-			}
+		&.col {
+			clear: none;
 		}
 	}
 }
