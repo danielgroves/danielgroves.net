@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: AFP Goodness between OS X Lion and Ubuntu 11.10
+excerpt: The process behind making Ubuntu share files with Mac OS Lion using the AFP protocol. 
+
 date: 2012-01-19 23:33:11.000000000 +00:00
 ---
 I've been working on assembling a private media and backup server for use with my Mac.  In order to do this I needed to have AFP working between OS X and Ubuntu, as this is the protocol required by Time Machine for network backup servers. 

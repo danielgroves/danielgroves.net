@@ -1,38 +1,59 @@
 ---
 layout: default
 title: Contact
+excerpt: How to drop me a line; whether to complain about your Mum, ask for help or offer me some money. 
+
 nav-weight: 5
 nav-name: Contact
+
+header: '<!-- Contact Validation -->
+		 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		 <script type="text/javascript" src="/js/contact/validator.min.js"></script>'
 ---
 
-<p>You can contact me all over the web, but it is normally best to drop me an email using the form on this page.</p>
+<section class="columns-2">
 
-<p>Other places you may find me online include <a href="http://twitter.com/danielsgroves" title="@danielsgroves on Twitter">Twitter</a> and <a href="http://forrst.com/people/danielgroves" title="Daniel Groves on Forrst">Forrst</a>. </p>
+	<div class="col">
+		<p>I am currently available for freelance work, and am taking enquiries via the contact form. For examples of my previous work take a look at my <a href="/portfolio" title="Portfolio of Daniel Groves">portfolio</a>.</p>
 
-<p>I am currently availiable for freelance work, and am taking enquiries via the contact form. For examples of my previous work take a look at my <a href="/portfolio" title="Portfolio of Daniel Groves">portfolio</a>.</p>
+		<p>You can email using the form to the right, or contact me on any of the following networks. </p>
 
-<form action="" method="post">
-	<dl>
-		<dt><label for="name">Name</label></dt>
-		<dd><input type="text" name="name" id="name" /></dd>
-	</dl>
+		<ul>
+			<li><a href="http://twitter.com/danielsgroves" title="Follow me on Twitter">Twitter</a></li>
+			<li><a href="https://github.com/danielgroves" title="Follow me on GitHub">GitHub</a></li>
+			<li><a href="https://alpha.app.net/danielsgroves" title="Follow me on App.net">App.net</a></li>
+			<li><a href="https://forrst.com/people/danielgroves" title="Checkout my work on Forrst">Forrst</a></li>
+		</ul>
+		
+		<p>You can also contact my via Skype, just introduce yourself and I'll get back to you as soon as I can. My Skype username is <a href="skype:groves.daniel" title="Contact me on Skype">groves.daniel</a>.</p>
+	</div><!-- /.col -->
+
+	<div class="col">
+		<form action="/contact/contact.php" method="post">
+			<dl>
+				<dt><label for="name">Name</label></dt>
+				<dd><input type="text" name="name" id="name" /></dd>
+			</dl>
 	
-	<dl>
-		<dt><label for="email">Email</label></dt>
-		<dd><input type="email" name="email" id="email" /></dd>
-	</dl>
+			<dl>
+				<dt><label for="email">Email</label></dt>
+				<dd><input type="email" name="email" id="email" /></dd>
+			</dl>
 	
-	<dl>
-		<dt><label for="subject">Subject</label></dt>
-		<dd><input type="text" name="subject" id="subject" /></dd>
-	</dl>
+			<dl>
+				<dt><label for="subject">Subject</label></dt>
+				<dd><input type="text" name="subject" id="subject" /></dd>
+			</dl>
 	
-	<dl>
-		<dt><label for="message">Message</label></dt>
-		<dd><textarea name="message" id="message"></textarea></dd>
-	</dl>
+			<dl class="textarea">
+				<dt><label for="message">Message</label></dt>
+				<dd><textarea name="message" id="message"></textarea></dd>
+			</dl>
 	
-	<div class="buttons">
-		<input type="submit" value="Submit" />
-	</div>
-</form>
+			<div class="buttons">
+				<input type="submit" value="Submit" />
+			</div>
+		</form>
+	</div><!-- /.col -->
+
+</section><!-- /.coluns-2 -->

@@ -10,6 +10,7 @@ markdown: maruku
 
 permalink: /notebook/:year/:month/:title
 pagination: 6
+url: http://danielgroves.net
 
 maruku:
     use_tex: false

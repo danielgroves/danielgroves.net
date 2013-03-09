@@ -1,9 +1,9 @@
-// Pygments import on last line of file, it's low priority to load it so it's last. 
+ // Pygments import on last line of file, it's low priority to load it so it's last. 
 
 @import 'elements';
 
 @dark-grey: #333333;
-@dark-blue: #416078;
+@dark-blue: #2D79AD;
 @light-grey: #efefef;
 @light-blue: #cad7db;
 @med-grey: #777;
@@ -51,9 +51,10 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "proxima-nova-condensed";
+	font-family: "proxima-nova-condensed", helvetica, arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
+	line-height: 105%;
 }
 
 h2 {
@@ -71,13 +72,22 @@ h4 {
 	font-size: 1.8em;
 }
 
-p, ol, ul, pre {
+p, ol, ul, pre, dl {
 	font-size: 1.5em;
 	padding: 7px 0;
 }
 
 ol, ul {
 	margin-left: 2em;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid @dark-blue;
+	height: 1px;
+	width: 60%;
+	position: relative;
+	margin: 20px auto; 
 }
 
 pre {
@@ -108,8 +118,10 @@ code {
 header {
 	text-align: center;
 	font-size: 1.5em;
-	padding: 20px 2% 10px;
+	padding: 140px 2% 10px;
 	overflow: hidden;
+	
+	background: url('../images/brand/PNG/Logo_96x96x32.png') center 20px no-repeat;
 	
 	h1, p {
 		float: left;
@@ -131,11 +143,13 @@ nav {
 	ul {
 		font-size: 1em;
 		padding: 0;
+		margin: 0;
 	}
 		
 	li {
 		width: 49%;
 		margin-left: 1%;
+		margin-top: 10px;
 		float: left;
 		list-style: none;
 	}
@@ -174,7 +188,7 @@ nav {
 	p {
 		color: @light-grey;
 		padding: 0;
-		line-height: 100%;
+		line-height: 120%;
 	}
 	
 	.slide {
@@ -182,14 +196,14 @@ nav {
 		overflow: hidden;
 		padding: 100px 10%;
 		
-		background: rgb(103,154,188); /* Old browsers */
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%, rgba(65,96,120,1) 100%); /* FF3.6+ */
-		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(103,154,188,1)), color-stop(100%,rgba(65,96,120,1))); /* Chrome,Safari4+ */
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
-		background: -ms-radial-gradient(center, ellipse cover,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* IE10+ */
-		background: radial-gradient(ellipse at center,  rgba(103,154,188,1) 0%,rgba(65,96,120,1) 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#679abc', endColorstr='#416078',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		background: @dark-blue; /* Old browsers */
+		background: -moz-radial-gradient(center, ellipse cover,  @dark-blue 0%, @light-blue 100%); /* FF3.6+ */
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@dark-blue), color-stop(100%,rgba(65,96,120,1))); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
+		background: -ms-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* IE10+ */
+		background: radial-gradient(ellipse at center,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@dark-blue', endColorstr='#416078',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	}
 }
 
@@ -199,18 +213,35 @@ nav {
 
 .col {
 	padding: 15px 5%;
-	border-bottom: 1px solid @light-blue;
+	margin: 0;
+	
+	.col {
+		padding: 15px 0;
+	}
 }
 
 .dark {
 	background: @dark-grey;
-	color: @light-grey;;
+	color: @light-grey;
 	overflow: hidden;
+	
+	a {
+		color: #fff;
+		border-bottom: 1px solid @med-grey;
+		
+		&:hover {
+			background: @med-grey;
+		}
+	}
 }
 
 .main {
 	width: 96%;
 	margin: 0 2%;
+	
+	&:last-of-type {
+		padding-bottom: 30px;
+	}
 }
 
 footer {
@@ -218,10 +249,11 @@ footer {
 	color: @med-grey;
 	font-size: .9em;
 	padding: 10px 0;
+	border-top: 1px solid #ccc;
 }
 
 // Blog formatting
-.post-list {
+.post-list, .post-list-excerpt {
 	li {
 		padding-bottom: 15px;
 	}
@@ -231,6 +263,130 @@ footer {
 	color: @med-grey;
 }
 
+.post-list-excerpt {
+	.col {
+		padding: 0;
+			
+		&:first-of-type {
+			border: none;
+			padding-top: 10px;
+		}
+	}
+		
+	ol {
+		padding: 0;
+	}
+}
+
+.title {
+	background: @dark-grey;
+	padding: 5%;
+	color: @light-grey;
+	
+	h2 {
+		line-height: 200%;
+	}
+	
+	p {
+		padding-bottom: 0;
+		font-weight: bold;
+	}
+}
+
+// Form
+form {
+	input, textarea {
+		width: 95%;
+		padding: 2%;
+	}
+	
+	input[type=submit] {
+		width: 99%;
+		padding: 2%;
+		max-width: 200px;
+		display: block;
+	}
+	
+	dt {
+		padding: 2% 0;
+	}
+	
+	textarea {
+		height: 5em;
+	}
+	
+	dl {
+		margin-bottom: 10px;
+		overflow: hidden;
+	}
+}
+
+// Images
+
+figure {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	border-top: 1px solid @light-grey;
+	border-bottom: 1px solid @light-grey;
+	padding: 10px 2%;
+	margin: 10px 0;
+	
+	img {
+		margin: 0 auto;
+		position: relative;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	figcaption {
+		color: @med-grey;
+		font-size: 120%;
+	}
+}
+
+.feature figure {
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	
+	a {
+		border: none;
+		background: transparent;
+	}
+	
+	img {
+		padding-top: 9px;
+	}
+	
+	&.preview {
+		border: none;
+		margin: 5px 0;
+		
+		img {
+			float: left;
+			border: 1px solid @med-grey;
+			padding: 0;
+		}
+		
+		figcaption {
+			text-align: left;
+			padding: 15px 0 0 60px;
+		}
+	}
+}
+
+dl.cv {
+	padding: 10px 0;
+	width: 100%;
+		
+	dd {
+		padding: 5px 0 0 0;
+		color: #333;
+		font-size: 90%;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	body {
 		font-size: 65%;
@@ -238,6 +394,10 @@ footer {
 	
 	.page {
 		max-width: 1024px;
+	}
+	
+	header p {
+		font-size: 1em;
 	}
 	
 	nav {
@@ -255,6 +415,7 @@ footer {
 			width: auto;
 			display: inline;
 			margin: 0;
+			float: none;
 		}
 		
 		a {
@@ -263,7 +424,7 @@ footer {
 			border-bottom: 2px solid white;
 			
 			&.current_page_item {
-				border-bottom: 2px solid @dark-grey;
+				border-bottom: 2px solid @dark-blue;
 			}
 				
 			&:before {
@@ -290,6 +451,18 @@ footer {
 		}
 	}
 	
+	.col {
+		padding-left: 1.5%;
+		padding-right: 1.5%;
+		
+		.col {
+			width: 47%;
+			padding: 0 0 40px 0;
+			float: left;
+			margin: 0 1.5%;
+		}
+	}
+	
 	.blog {
 		max-width: 900px;
 		margin: 0 auto;
@@ -302,6 +475,57 @@ footer {
 	
 	.post-list {
 		.columns(2, 35px);
+		padding: 0 1.5%;
+	}
+	
+	.post-list-excerpt .col {
+			padding: 0 1.5%;
+	}
+	
+	.title {
+		padding: 2%;
+		margin-bottom: 2%;
+	}
+	
+	form dl {
+		dt {
+			float: left;
+			width: 25%;
+		}
+		
+		dd {
+			float: right;
+			width: 75%;
+		}
+		
+		&.textarea {
+			dt, dd {
+				width: 100%;
+			}
+		}
+	}
+	
+	dl.cv {
+		float: left;
+		clear: both;
+		
+		dt {
+			float: right;
+			width: 80%;
+		}
+		
+		dd {
+			&.date {
+				float: left;
+				width: 20%;
+			}
+			
+			&.detail {
+				float: left;
+				clear: both;
+				padding-left: 20%;
+			}
+		}
 	}
 }
 
@@ -316,6 +540,9 @@ footer {
 	
 	header {
 		text-align: left;
+		
+		padding: 35px 2% 32px 130px;
+		background-position: 20px 20px;
 		
 		h1, p {
 			float: left;
@@ -333,7 +560,7 @@ footer {
 		margin: 0;
 		
 		position: absolute;
-		top: 10px;
+		top: 35px;
 		right: 2%;
 		
 		ul {
@@ -344,22 +571,22 @@ footer {
 		}
 	}
 	
+	.columns-2, .columns-3 {
+		h2 {
+			padding-top: 40px;
+		}
+	}
+	
 	.columns-3 {
 		padding: 0 2%;
-		margin-top: 40px;
+		margin-top: 0;
 		
 		.col {
-			background: url('../images/image.png') 50% top no-repeat;
-			background-size: contain;
-			margin-top: 50px;
-			width: 30.5%;
-			float: left;
-			padding: 170px 0 40px 0;
-			margin: 0 1.43%;
-			border: none;
+			width: 30.3%;
+			padding: 10px 0 40px 0;
 			
 			.wrap {
-				.columns( 0, 0 );
+				.columns( 1, 0 );
 			}
 		}
 	}
@@ -369,18 +596,49 @@ footer {
 		
 		.col {
 			width: 47%;
-			padding: 40px 1.5%;
-			border: none;
-			float: left;
+			padding: 0 0 40px 0;
 			
 			.wrap {
-				.columns( 0, 0 );
+				.columns( 1, 0 );
+			}
+			
+			&.narrow {
+				width: 22%;
+			}
+			
+			&.wide {
+				width: 72%;
 			}
 		}
 	}
 	
+	.col {
+		float: left;
+		border: none;
+		margin: 0 1.5%;
+	}
+	
+	.feature .col {
+		padding-top: 0;
+	}
+	
+	.main {
+		.columns-2, .columns-3 {
+			padding: 0;
+		}
+	}
+	
+	.post-list-excerpt .col {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	
 	section {
 		clear: both;
+		
+		&.col {
+			clear: none;
+		}
 	}
 }
 

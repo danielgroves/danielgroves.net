@@ -1,7 +1,9 @@
 ---
 layout: blog
 published: true
-title: Flash Game High Scores Page
+title: "Flash Game: High Scores Page"
+excerpt: How the high-scores were laoded by combining ActionScript with a server-side PHP script.
+
 date: 2011-02-04 21:07:44.000000000 +00:00
 ---
 This post looks at exactly how I extracted the high-scores form the database via PHP script.  

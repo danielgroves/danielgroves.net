@@ -1,7 +1,9 @@
 ---
 layout: blog
 published: true
-title: Flash Game Main Menu
+title: "Flash Game: Main Menu"
+excerpt: A breakdown of the ActionScript that was used for the games menu.
+
 date: 2011-02-04 16:12:17.000000000 +00:00
 ---
 The main menu is one of the more important parts of a game.  It gives you a method through which you can navigate the game and provide the user with instructions. 

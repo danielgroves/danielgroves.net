@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: Going Solid State
+excerpt: I share how I went about upgrading to an SSD whilst maintaining the volume of storage that I require on a dialy basis. 
+
 date: 2012-01-18 10:23:31.000000000 +00:00
 ---
 I've been considering getting a [solid state drive](http://en.wikipedia.org/wiki/Solid-state_drive "Solid State Drive") (or SSD) for a while. I have a [2008 MacBook](http://support.apple.com/kb/sp500 "Late 2008 MacBook") with a 2.00GHz Core 2 Duo, 4GB of DDR3 ram and a 640GB hard drive. That last point is an important one, I have a 640GB drive upgrade for a reason, I simply need to storage capacity. My MacBook is my primary computer and so I cannot afford to loose the storage capacity.

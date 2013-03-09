@@ -1,7 +1,9 @@
 ---
 layout: blog
 published: true
-title: AlfredApp Custum Colout Scheme
+title: AlfredApp Custum Colour Scheme
+excerpt: Just a quick theme for Alfred App. 
+
 date: 2011-01-05 22:36:23.000000000 +00:00
 ---
 Several people have been asking what settings I am using in order to create my [Alfred App](http://www.alfredapp.com/ "Alfred - Your Mac's personal butler") colour scheme, so following the screen shot are all of my settings.  

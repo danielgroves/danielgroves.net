@@ -2,6 +2,8 @@
 layout: blog
 published: true
 title: Pushing the Bounderies
+excerpt: An argument for not living in the past, but pushing the current technologies of the web instead. 
+
 date: 2010-11-13 18:29:22.000000000 +00:00
 ---
 Pushing the boundaries is not something everyone will do on the web.  In fact most people won't even think about incase the client doesn't like it, or because what they would have to do isn't a "proven method" yet.  This is one thing though, that I think we should all be doing, as much as possible.  

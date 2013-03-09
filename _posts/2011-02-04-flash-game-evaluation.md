@@ -1,7 +1,9 @@
 ---
 layout: blog
 published: true
-title: Flash Game Evaluation
+title: "Flash Game: Evaluation"
+excerpt: A reflection on the game production; what I could do better next time, and what I did well this time. 
+
 date: 2011-02-04 22:01:33.000000000 +00:00
 ---
 Making a game in flash isn't easy.  It takes a lot of time, especially if you are writing your first.  
