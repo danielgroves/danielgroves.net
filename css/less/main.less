@@ -72,13 +72,17 @@ h4 {
 	font-size: 1.8em;
 }
 
-p, ol, ul, pre, dl {
+p, ol, ul, pre, dl, blockquote {
 	font-size: 1.5em;
 	padding: 7px 0;
 }
 
 ol, ul {
 	margin-left: 2em;
+	
+	ol, ul {
+		font-size: inherit;
+	}
 }
 
 hr {
@@ -102,6 +106,14 @@ pre {
 
 code {
 	font-family: 'inconsolata', monospace;
+}
+
+blockquote {
+	padding-left: 2%;
+	margin-left: 2%;
+	border-left: 3px solid @dark-blue;
+	color: @med-grey;
+	font-style: italic;
 }
 
 .highlight {
