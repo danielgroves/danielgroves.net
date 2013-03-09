@@ -445,7 +445,7 @@ dl.cv {
 	}
 	
 	.columns-3, .columns-2 {
-		.col .wrap {
+		.wrap {
 			.columns( 2, 35px );
 		}
 	}
@@ -574,6 +574,10 @@ dl.cv {
 		h2 {
 			padding-top: 40px;
 		}
+		
+		.wrap {
+			.columns( 1, 0 );
+		}
 	}
 	
 	.columns-3 {
@@ -583,10 +587,6 @@ dl.cv {
 		.col {
 			width: 30.3%;
 			padding: 10px 0 40px 0;
-			
-			.wrap {
-				.columns( 1, 0 );
-			}
 		}
 	}
 	
@@ -596,18 +596,6 @@ dl.cv {
 		.col {
 			width: 47%;
 			padding: 0 0 40px 0;
-			
-			.wrap {
-				.columns( 1, 0 );
-			}
-			
-			&.narrow {
-				width: 22%;
-			}
-			
-			&.wide {
-				width: 72%;
-			}
 		}
 	}
 	
