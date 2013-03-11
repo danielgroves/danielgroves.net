@@ -72,13 +72,23 @@ h4 {
 	font-size: 1.8em;
 }
 
-p, ol, ul, pre, dl {
+p, ol, ul, pre, dl, blockquote {
 	font-size: 1.5em;
 	padding: 7px 0;
 }
 
 ol, ul {
 	margin-left: 2em;
+	
+	ol, ul {
+		font-size: inherit;
+	}
+}
+
+blockquote {
+	ul, ol {
+		font-size: inherit;
+	}
 }
 
 hr {
@@ -102,6 +112,14 @@ pre {
 
 code {
 	font-family: 'inconsolata', monospace;
+}
+
+blockquote {
+	padding-left: 2%;
+	margin-left: 2%;
+	border-left: 3px solid @dark-blue;
+	color: @med-grey;
+	font-style: italic;
 }
 
 .highlight {
@@ -629,4 +647,10 @@ dl.cv {
 	}
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (   min--moz-device-pixel-ratio: 2), only screen and (     -o-min-device-pixel-ratio: 2/1) { 
+	header {
+		background: url('../images/brand/PNG/Logo_256x256x32.png') center 20px no-repeat;
+		background-size: 96px 96px;
+	}
+}
 @import 'pygments';
