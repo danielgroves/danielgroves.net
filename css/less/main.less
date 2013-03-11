@@ -85,6 +85,12 @@ ol, ul {
 	}
 }
 
+blockquote {
+	ul, ol {
+		font-size: inherit;
+	}
+}
+
 hr {
 	border: none;
 	border-top: 1px solid @dark-blue;
@@ -641,4 +647,10 @@ dl.cv {
 	}
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (   min--moz-device-pixel-ratio: 2), only screen and (     -o-min-device-pixel-ratio: 2/1) { 
+	header {
+		background: url('../images/brand/PNG/Logo_256x256x32.png') center 20px no-repeat;
+		background-size: 96px 96px;
+	}
+}
 @import 'pygments';
