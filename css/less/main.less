@@ -653,4 +653,52 @@ dl.cv {
 		background-size: 96px 96px;
 	}
 }
+
+@media print {
+	* {
+		color: #000;
+		background: #fff;
+	}
+	
+	.page {
+		border: none;
+	}
+	
+	.slider {
+		display: none;
+	}
+	
+	nav { 
+		display: none;
+	}
+	
+	header { 
+		padding: 0;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+	
+	.columns-2, .columns-3, .col {
+		padding: 0;
+	}
+	
+	footer {
+		font-size: 85%;
+		color: @dark-grey;
+		margin-top: 20px;
+	}
+	
+	a {
+		color: @dark-blue !important;
+		text-decoration: underline !important;
+		border: none !important;
+		font-weight: bold;
+
+		&[href^=http]:after {
+			content:" <" attr(href) "> ";
+			font-weight: normal;
+		}
+	}
+}
+
 @import 'pygments';
