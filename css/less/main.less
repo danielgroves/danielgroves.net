@@ -655,20 +655,20 @@ dl.cv {
 }
 
 @media print {
-	* {
+	*, .excerpt {
 		color: #000;
 		background: #fff;
+	}
+	
+	.highlight pre code span {
+		color: #000 !important;
 	}
 	
 	.page {
 		border: none;
 	}
 	
-	.slider {
-		display: none;
-	}
-	
-	nav { 
+	.slider, nav, .thumbnails, form, #disqus_thread {
 		display: none;
 	}
 	
@@ -678,8 +678,9 @@ dl.cv {
 		margin-bottom: 20px;
 	}
 	
-	.columns-2, .columns-3, .col {
+	.columns-2, .columns-3, .col, .wrap, .main, .title {
 		padding: 0;
+		margin: 0;
 	}
 	
 	footer {
@@ -688,7 +689,7 @@ dl.cv {
 		margin-top: 20px;
 	}
 	
-	a {
+	a, li a strong {
 		color: @dark-blue !important;
 		text-decoration: underline !important;
 		border: none !important;
