@@ -41,7 +41,7 @@ a {
 	.transition(0.25s, ease-in-out);
 	
 	&:hover {
-		background: lighten(@light-blue, 10%);
+		background-color: lighten(@light-blue, 10%);
 		border-bottom: 1px solid @light-blue;
 	}
 	
@@ -144,11 +144,21 @@ blockquote {
 header {
 	text-align: center;
 	font-size: 1.5em;
-	padding: 140px 2% 10px;
 	overflow: hidden;
 	
-	background: url('../images/brand/PNG/Logo_96x96x32.png') center 20px no-repeat;
-	
+	> a {
+		display: block;
+		background: url('../images/brand/PNG/Logo_96x96x32.png') center 20px no-repeat;
+		border: none;
+		padding: 140px 2% 10px;
+		color: inherit;
+		
+		&:hover {
+			background-color: transparent;
+			border: none;
+		}
+	}
+
 	h1, p {
 		float: left;
 		width: 100%;
@@ -565,9 +575,12 @@ dl.cv {
 	
 	header {
 		text-align: left;
-		
-		padding: 35px 2% 32px 130px;
-		background-position: 20px 20px;
+			
+		> a {
+			padding: 36px 2% 98px 130px;
+			background-position: 20px 20px;
+			display: block;
+		}
 		
 		h1, p {
 			float: left;
