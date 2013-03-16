@@ -3,7 +3,7 @@ layout: blog
 published: true
 
 title: Version Three
-excerpt: A look at some of the changes and decision made in releasing version three of the site. 
+excerpt: A look at some of the changes and decisions made in releasing version three of the site. 
 ---
 
 A couple of weeks ago I released this site in it's current form. The old site was getting dated, and I felt Wordpress was over the top for what I was using the site for. 
@@ -35,7 +35,7 @@ I like Andy Clarke's point here, not all site need to be identical in every brow
 
 For the new site one of the first decisions I made was to leave Wordpress. I can't help feeling like Wordpress is suffering from feature-bloat in recent releases. Don't get me wrong, I think Wordpress is ideal for blog-format website with multiple authors, but on my personal website multiple authors isn't an issue. It's only me. 
 
-I made the decision to move to Jekyll, a ruby static site generator. I have no need for a backend CMS or database driven website. I'm quite happy to write content using markdown and then drop it into the relevant place once I'm happy with it. 
+I made the decision to move to [Jekyll][4], a Ruby static site generator. I have no need for a backend CMS or database driven website. I'm quite happy to write content using [Markdown][5] and then drop it into the relevant place once I'm happy with it. 
 
 I'm actually using Git behind the scenes with two branches, 'develop' for unpublished things and 'master' for the live site. Anything that is merged into master and pushed to [GitLab][3] automatically gets pulled down to the server, built, and deployed. This means updating content on the site is still easy to do and doesn't require me to think about what I'm doing. 
 
@@ -46,6 +46,10 @@ One of my main reasons for choosing to move away from Wordpress is speed. Whatev
 It has to be around five years since I designed my old branding. That is quite a long time. I decided with this new site that I would rebrand myself as I wanted to achieve a clean and modern look which is somewhat more professional and so suited to finding more freelance work. 
 
 The new branding was designed to present not just what I do, but also one of my main hobbies. The main shape in the design is a square, representing a *pixel*. I craft product for the web, which means I'm working with pixels on a daily basis. 
+<figure>
+![New logo representing both work and hobbies](/images/blog/2013-03-16-Version-Three/logo.png)
+<figcaption>New logo representing both work and hobbies</figcaption>
+</figure>
 
 Those who know me best may be able to take a guess at what the rounded cut-away section from the square represents. This is a wheel, with the small semi-circle on the far-right being a hub. One of my hobbies is mountain biking which is something I wanted to reflect in the new branding. 
 
@@ -60,3 +64,5 @@ The site itself reflects what I can do much better than the old site did and cer
 [1]: http://hardboiledwebdesign.com "Hardboiled Web Design website"
 [2]: http://get.gaug.es "Gauges Analytics Tracking"
 [3]: http://gitlab.org "GitLab, self-hosted Git management"
+[4]: https://github.com/mojombo/jekyll "Jekyll, a Ruby static site generator"
+[5]: http://daringfireball.net/projects/markdown/ "Markdown document syntax"
