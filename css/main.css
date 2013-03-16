@@ -11,7 +11,9 @@ h3{font-size:2.2em;padding-top:15px;}
 h4{padding-top:5px;font-size:1.8em;}
 p,ol,ul,pre,dl,blockquote{font-size:1.5em;padding:7px 0;}
 ol,ul{margin-left:2em;}ol ol,ul ol,ol ul,ul ul{font-size:inherit;}
-blockquote ul,blockquote ol{font-size:inherit;}
+img{max-width:100%;}
+blockquote ul,blockquote ol,blockquote p{font-size:inherit;}
+blockquote .author{padding-left:10%;}
 hr{border:none;border-top:1px solid #2d79ad;height:1px;width:60%;position:relative;margin:20px auto;}
 pre{width:96%;padding:2%;overflow:scroll;}pre code{line-height:1em;}
 code{font-family:'inconsolata',monospace;}
