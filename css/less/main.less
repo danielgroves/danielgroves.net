@@ -422,6 +422,46 @@ dl.cv {
 	}
 }
 
+/* Flickr */
+
+#flickr_content {
+	text-align: center;
+	
+	ul {
+		padding: 10px 0 0 0;
+		margin: 0;
+	}
+	
+	li {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: inline;
+	}
+	
+	img {
+		width: 90px;
+		height: 90px;
+		border: 1px solid @med-grey;
+		padding: 1%;
+		margin: 1%;
+		.transition(0.25s, ease-in-out);
+		
+		&:hover {
+			background: @med-grey;
+		}
+	}
+	
+	a, a:hover {
+		border: none;
+		background: none;
+	}
+	
+	h2 {
+		text-align: left;
+	}
+}
+
 @media screen and (min-width: 1px) { 
 	.page {
 		border: none;
