@@ -48,7 +48,7 @@ form input[type=submit]{width:99%;padding:2%;max-width:200px;display:block;}
 form dt{padding:2% 0;}
 form textarea{height:5em;}
 form dl{margin-bottom:10px;overflow:hidden;}
-figure{width:100%;clear:both;text-align:center;border-top:1px solid #efefef;border-bottom:1px solid #efefef;padding:10px 2%;margin:10px 0;}figure img{margin:0 auto;position:relative;max-width:100%;height:auto;}
+figure{width:96%;clear:both;text-align:center;border-top:1px solid #efefef;border-bottom:1px solid #efefef;padding:10px 2%;margin:10px 0;}figure img{margin:0 auto;position:relative;max-width:100%;height:auto;}
 figure figcaption{color:#777777;font-size:120%;}
 .feature figure{padding:0;overflow:hidden;position:relative;}.feature figure a{border:none;background:transparent;}
 .feature figure img{padding-top:9px;}
