@@ -11,6 +11,7 @@ markdown: redcarpet
 permalink: /notebook/:year/:month/:title
 pagination: 6
 url: http://danielgroves.net
+baseurl: http://danielgroves.net
 
 maruku:
     use_tex: false
