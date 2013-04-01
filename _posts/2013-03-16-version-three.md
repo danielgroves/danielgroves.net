@@ -20,7 +20,7 @@ Mobile–first design does this the other way around; you design a mobile site, 
 
 This approach holds several benefits. First of all, it means devices with low-bandwidth have less data to load before the user can use the site. It also means that browsers with lower capabilities are far easier to cater for. On mobile devices we're less likely to use advanced technologies that will go unsupported in older browsers, so supporting them becomes easier. 
 <figure>
-![The homepage rendered in the less capable IE9, notice the missing background gradient](/images/blog/2013-03-16-version-three/home-ie9.png)
+![The homepage rendered in the less capable IE9, notice the missing background gradient](/assets/images/blog/2013-03-16-version-three/home-ie9.png)
 <figcaption>The homepage rendered in the less capable IE9, notice the missing background gradient</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ It has to be around five years since I designed my old branding. That is quite a
 
 The new branding was designed to present not just what I do, but also one of my main hobbies. The main shape in the design is a square, representing a *pixel*. I craft product for the web, which means I'm working with pixels on a daily basis. 
 <figure>
-![New logo representing both work and hobbies](/images/blog/2013-03-16-version-three/logo.png)
+![New logo representing both work and hobbies](/assets/images/blog/2013-03-16-version-three/logo.png)
 <figcaption>New logo representing both work and hobbies</figcaption>
 </figure>
 

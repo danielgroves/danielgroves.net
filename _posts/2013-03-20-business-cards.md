@@ -11,7 +11,7 @@ After deciding I would like to do more freelance work I figured it was time I st
 As part of this I recently decided to get some business cards printed which have arrived with plenty of time to spare for [DigPen][1]. 
 
 <figure>
-	<img src="/images/blog/2013-03-20-business-cards/cards.jpg" alt="Luxe business cards from Moo.com" />
+	<img src="/assets/images/blog/2013-03-20-business-cards/cards.jpg" alt="Luxe business cards from Moo.com" />
 	<figcaption>
 		Luxe business cards from Moo.com
 	</figcaption>
