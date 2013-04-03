@@ -8,9 +8,11 @@ My site has previously been a static site with no generator behind it and [WordP
 
 Setting up and using the site is pretty easy. Make sure you ahve Ruby install, install the Jekyll gem and then run the server. Once you have Ruby installed:
 
-```gem install jekyll
+```bash
+gem install jekyll
 cd projest/directory/
-jekyll --server```
+jekyll --server
+```
 
 Then simply go to [localhost:4000](http://localhost:4000) in your browser. 
 
