@@ -36,7 +36,7 @@ For example, for a 300px wide div in a 900px wide container you would type `rc 3
 
 This second extension is a quick custom search workflow. Simply type ```mdn``` followed by what you want to search the <a href="https://developer.mozilla.org/en-US/" title="Mozilla Developer Network">Mozilla Developer Network</a> for. I primarily use this one for looking up css attributes to see what parameters they can take. 
 
-<a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Search Mozilla Developer Network workflow for Alfred">Download Responsive Calculator</a>
+<a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Search Mozilla Developer Network workflow for Alfred">Download Search MDN</a>
 
 ### Search PHP Documentation
 
@@ -49,7 +49,7 @@ This second extension is a quick custom search workflow. Simply type ```mdn``` f
 
 Searches the <a href="http://php.net/docs.php" title="PHP Documentation Website">PHP documentation</a> site for any provided input. If the input is a valid function name (e.g. ```str_replace```) it will take you directly to the documentation page for that function. An example search for the ```str_replace()``` function would be ```php str_replace```
 
-<a href="/assets/alfred_extensions/SearchPHPDocumentation.alfredworkflow" title="Download the Search PHP Documentation workflow for Alfred">Download Responsive Calculator</a>
+<a href="/assets/alfred_extensions/SearchPHPDocumentation.alfredworkflow" title="Download the Search PHP Documentation workflow for Alfred">Download Search PHP Documentation </a>
 
 ---
 
