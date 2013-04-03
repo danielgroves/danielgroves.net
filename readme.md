@@ -6,7 +6,7 @@ My site has previously been a static site with no generator behind it and [WordP
 
 ## Usage
 
-Setting up and using the site is pretty easy. Make sure you ahve Ruby install, install the Jekyll gem and then run the server. Once you have Ruby installed:
+Setting up and using the site is pretty easy. Make sure you have Ruby install, install the Jekyll gem and then run the server. Once you have Ruby installed:
 
 ```bash
 gem install jekyll
@@ -16,7 +16,7 @@ jekyll --server
 
 Then simply go to [localhost:4000](http://localhost:4000) in your browser. 
 
-## Licencing
+## Licensing
 
 The content and design have been bundled into one licence and the code has been bundled into a second. Check below for details. 
 
