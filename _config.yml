@@ -21,3 +21,14 @@ maruku:
 
 redcarpet:
   extensions: []
+  
+sitemap:
+    file: /sitemap.xml
+    exclude:
+        - /feed/index.xml
+        - /contact/sent.html
+    include_posts:
+        - /index.html
+        - /notebook/index.md
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
