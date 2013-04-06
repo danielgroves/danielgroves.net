@@ -3,7 +3,7 @@ layout: blog
 published: true
 
 title: Alfred Extensions
-excerpt: A selection of Alfred Externions made to aid developers
+excerpt: A selection of Alfred extensions made to aid developers
 ---
 
 With the release of Alfred v2 powerpack users have more flexibility than ever to create custom worlkflows. I have put together three quick extensions to make my own life easier, although others are more than welcome to take an use, or modify, these for any purpose. 
