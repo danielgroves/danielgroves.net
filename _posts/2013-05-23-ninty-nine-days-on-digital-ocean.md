@@ -6,7 +6,7 @@ title: Ninty–nine days on Digital Ocean
 excerpt: "Some thoughts around the care and features behind Digital Ocean"
 ---
 
-Roughly three months ago I got fed-up with the slow speeds of my old VPS. I decided to make the move to a new company, and after some to-ing and throwing I decided to give [Digital Ocean](https://www.digitalocean.com/?refcode=d0820e126448 “Digital Hosting Referral link”) a try; so far I've been thoroughly impressed. 
+Roughly three months ago I got fed-up with the slow speeds of my old VPS. I decided to make the move to a new company, and after some toing and froing I decided to give [Digital Ocean](https://www.digitalocean.com/?refcode=d0820e126448 “Digital Hosting Referral link”) a try; so far I've been thoroughly impressed. 
 
 <figure>
 	<a href="https://www.digitalocean.com/?refcode=d0820e126448" title="Digital Ocean Refferal Link">
