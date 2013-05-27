@@ -661,7 +661,7 @@ dl.cv dd {
     border: 1px solid #ccc;
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
   header {
     background: url('../assets/images/brand/PNG/Logo_256x256x32.png') center 20px no-repeat;
     background-size: 96px 96px;
