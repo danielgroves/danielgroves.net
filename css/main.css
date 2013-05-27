@@ -79,7 +79,7 @@ ul,
 pre,
 dl,
 blockquote,
-.vcard {
+.btn {
   font-size: 1.5em;
   padding: 7px 0;
 }
@@ -150,20 +150,26 @@ blockquote {
   font-family: "adobe-caslon-pro", "proxima-nova", helvetica, arial, sans-serif;
   font-style: italic;
 }
-.vcard a {
+.btn {
   display: block;
   width: 96%;
   background: #2d79ad;
   color: #fff;
   padding: 10px 2% 8px;
+  border: 0;
   border-bottom: 2px solid #2d79ad;
   text-align: center;
   font-family: "proxima-nova-condensed", helvetica, arial, sans-serif;
   text-transform: uppercase;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
-.vcard a:hover {
+.btn:hover {
   background: #cad7db;
   color: #2d79ad;
+  border-bottom: 2px solid #2d79ad;
 }
 header {
   text-align: center;
@@ -335,10 +341,7 @@ form textarea {
   padding: 2%;
 }
 form input[type=submit] {
-  width: 99%;
-  padding: 2%;
-  max-width: 200px;
-  display: block;
+  width: 100%;
 }
 form dt {
   padding: 2% 0;
