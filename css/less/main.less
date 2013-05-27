@@ -72,7 +72,7 @@ h4 {
 	font-size: 1.8em;
 }
 
-p, ol, ul, pre, dl, blockquote {
+p, ol, ul, pre, dl, blockquote, .vcard {
 	font-size: 1.5em;
 	padding: 7px 0;
 }
@@ -139,6 +139,23 @@ blockquote {
 .ampersand {
 	font-family: "adobe-caslon-pro", "proxima-nova", helvetica, arial, sans-serif;
 	font-style: italic;
+}
+
+.vcard a {
+	display: block;
+	width: 96%;
+	background: @dark-blue;
+	color: #fff;
+	padding: 10px 2% 8px;
+	border-bottom: 2px solid @dark-blue;
+	text-align: center;
+	font-family: "proxima-nova-condensed", helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	
+	&:hover {
+		background: @light-blue;
+		color: @dark-blue;
+	}
 }
 
 header {
@@ -578,12 +595,6 @@ dl.cv {
 			float: right;
 			width: 75%;
 		}
-		
-		&.textarea {
-			dt, dd {
-				width: 100%;
-			}
-		}
 	}
 	
 	dl.cv {
@@ -682,6 +693,14 @@ dl.cv {
 		.col {
 			width: 47%;
 			padding: 0 0 40px 0;
+			
+			&.wide {
+				width: 63%;
+			}
+			
+			&.narrow {
+				width: 30%;
+			}
 		}
 	}
 	
