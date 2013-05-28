@@ -3,7 +3,7 @@ layout: blog
 published: true
 
 title: Business Cards
-excerpt: A preview of my new business cards, some rethought on the Moo service and 10% off
+excerpt: A preview of my new business cards, some thoughts on the Moo service, and 10% off
 ---
 
 After deciding I would like to do more freelance work I figured it was time I started to try and make better use of networking events such as [DigPen][1] in order to spread my name around. This, in truth, is part of the reason I decided to redesign my portfolio website recently; I didn't feel I should try and sell myself on things that I've not even found time to put into practice on my own website. 
