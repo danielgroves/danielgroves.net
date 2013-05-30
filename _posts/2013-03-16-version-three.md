@@ -19,6 +19,7 @@ Traditionally when building a responsive website you would start with a desktop 
 Mobile–first design does this the other way around; you design a mobile site, then layer on top using media queries and calling in additional (non-essential) materials using JavaScript. 
 
 This approach holds several benefits. First of all, it means devices with low-bandwidth have less data to load before the user can use the site. It also means that browsers with lower capabilities are far easier to cater for. On mobile devices we're less likely to use advanced technologies that will go unsupported in older browsers, so supporting them becomes easier. 
+
 <figure>
 ![The homepage rendered in the less capable IE9, notice the missing background gradient](/assets/images/blog/2013-03-16-version-three/home-ie9.png)
 <figcaption>The homepage rendered in the less capable IE9, notice the missing background gradient</figcaption>
@@ -26,8 +27,8 @@ This approach holds several benefits. First of all, it means devices with low-ba
 
 The disadvantage to this approach also comes with the older browsers. They will not run the media queries which means they will be stuck with the mobile design. This does limit the design somewhat, but the important content is there. Besides, in the words of Andy Clarke:
 
-> Supporting a browser needn't mean making a design look the same [in every browser]
-> <p class="author">– Andy Clarke, [Hardboiled Web Design][1] </p>
+> Supporting a browser needn't mean making a design look the same [in every browser]</p>
+> <p class="author">– Andy Clarke, [Hardboiled Web Design][1] 
 
 I like Andy Clarke's point here, not all site need to be identical in every browser. As long as the experience is appropriate to what the particular browser supports, and the content is accessible, then we shouldn't worry about everything looking identical in every browser. 
 
@@ -46,6 +47,7 @@ One of my main reasons for choosing to move away from Wordpress is speed. Whatev
 It has to be around five years since I designed my old branding. That is quite a long time. I decided with this new site that I would rebrand myself as I wanted to achieve a clean and modern look which is somewhat more professional and so suited to finding more freelance work. 
 
 The new branding was designed to present not just what I do, but also one of my main hobbies. The main shape in the design is a square, representing a *pixel*. I craft product for the web, which means I'm working with pixels on a daily basis. 
+
 <figure>
 ![New logo representing both work and hobbies](/assets/images/blog/2013-03-16-version-three/logo.png)
 <figcaption>New logo representing both work and hobbies</figcaption>

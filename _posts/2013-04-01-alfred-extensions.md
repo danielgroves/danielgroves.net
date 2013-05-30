@@ -53,4 +53,4 @@ Searches the <a href="http://php.net/docs.php" title="PHP Documentation Website"
 
 ---
 
-If anyone has any suggestions for more extensions, improvments to my existing ones or finds any bugs please <a href="/contact/" title=-"Contact Daniel Groves">drop me an email</a> or comment below. 
+If anyone has any suggestions for more extensions, improvments to my existing ones or finds any bugs please <a href="/contact/" title="Contact Daniel Groves">drop me an email</a> or comment below. 
