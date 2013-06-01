@@ -11,7 +11,7 @@ Setting up and using the site is pretty easy. Make sure you have Ruby install, i
 ```bash
 gem install jekyll
 cd projest/directory/
-jekyll --server
+jekyll serve
 ```
 
 Then simply go to [localhost:4000](http://localhost:4000) in your browser. 
