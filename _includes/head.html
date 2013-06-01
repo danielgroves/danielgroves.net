@@ -8,6 +8,14 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		
+		<meta name="keywords" content="Website, Design, Development, Programmer, PHP, JavaScript, jQuery, HTML5, Semantic, CSS3" />
+		{% if page.excerpt %}
+			<meta name="description" content="{{ page.excerpt }}" />
+		{% else %}
+			<meta name="description" content="The home of Daniel Groves, a web designer and deveoper who floats between Plymouth and Bath, UK" />
+		{% endif %}
+		<meta name="author" content="Daniel Groves" />
+		
 		<link href="/css/main.css" rel="stylesheet" type="text/css" />
 		
 		<script type="text/javascript" src="//use.typekit.net/frx7rtl.js"></script>
@@ -20,6 +28,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/brand/iOS/icon_57x57@2x.png">
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/brand/iOS/icon_72x72@2x.png">
 		
+		<link rel="alternate" type="application/rss+xml" title="Notebook Feed" href="/feed/"> 
 	</head>
 	
 	<body>
