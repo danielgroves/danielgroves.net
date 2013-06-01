@@ -3,7 +3,7 @@
 <html>
 
 	<head>
-		<title>{{ page.title }}  &middot; Daniel Groves</title>
+		<title>{{ page.title }}  &middot; {{ site.name }}</title>
 		
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
@@ -35,9 +35,9 @@
 		{% else %}
 			<meta property="og:image" content="{{ site.url }}/assets/images/brand/PNG/Logo_Reverse_Padded_256x256x32.png"/>
 		{% endif %}
-		<meta property="og:title" content="{{ page.title }}  &middot; Daniel Groves"/>
+		<meta property="og:title" content="{{ page.title }}  &middot; {{ site.name }}"/>
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-		<meta property="og:site_name" content="Daniel Groves"/>
+		<meta property="og:site_name" content="{{ site.name }}"/>
 		<meta property="og:type" content="blog"/>
 	</head>
 	

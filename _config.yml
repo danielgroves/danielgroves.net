@@ -8,6 +8,7 @@ markdown: redcarpet
 permalink: /notebook/:year/:month/:title
 pagination: 6
 url: http://danielgroves.net
+name: Daniel Groves
 
 redcarpet:
   extensions: []
