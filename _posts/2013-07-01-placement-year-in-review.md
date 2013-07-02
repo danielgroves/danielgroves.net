@@ -8,7 +8,7 @@ excerpt: "Thoughts about the experiences from my industrail placement during my 
 
 Exactly one year ago today I started my industrial placement as part of my Web Applications Development degree at [Plymouth University][plym]. I've spent the placement year working for [ClubnetSEM][csm] as a web developer. 
 
-The majority of the work I've been doing over the last year has been Magento stores, with a fair few WordPress builds and some bespoke PHP work appearing here and there. One thing comes to mind at this point that I learnt over this last year, I don't *not* want to work with e–commerce in the future. The projects are far from exciting and rarely see the use of any bleeding-edge or emerging technologies. They even feel limited in terms of the design. 
+The majority of the work I've been doing over the last year has been Magento stores, with a fair few WordPress builds and some bespoke PHP work appearing here and there. One thing comes to mind at this point that I learnt over this last year, I do *not* want to work with e–commerce in the future. The projects are far from exciting and rarely see the use of any bleeding-edge or emerging technologies. They even feel limited in terms of the design. 
 
 Working on the companies internal CMS has reinforced some existing knowledge, simply how important [well-written, and documented, code is][code].  Much of the code in the internal CMS was repeated in multiple places. It was poorly laid out, had no documentation, and for someone new to it was near impossible to figure out how it worked. 
 
