@@ -26,7 +26,7 @@ I stopped here for a quick break to eat something before proceeding. At this poi
 
 As I approached Tavistock I was in two minds about weather I should head back or carry on to Plymouth, the back of my thighs hurt and I was starting to get pretty hungry. I polished off most of a water bottle on arrival and used one of my energy-gels. I've only used them once before and I'd forgotten just how much of a buzz they give you, you can feel them almost immediately and this is what ended up driving me on up to Princetown. 
 
-Heading up to Princetown I realised climbing on a road bike with no view in any direction but behind you is pretty boring. Not being one to waste this sort of time I spent it reindexing the front-mech to stop the rubbing; it's much more pleasent riding when it's quite. 
+Heading up to Princetown I realised climbing on a road bike with no view in any direction but behind you is pretty boring. Not being one to waste this sort of time I spent it reindexing the front-mech to stop the rubbing; it's much more pleasent riding when it's quiet. 
 
 The climb to Princetown is a long one, and I was starting to hurt *a lot* on arrival. It was nice as I approached from this direction, which I rarely do, to spot some of the bits of trail I used when [Mike French][mf] and I attempted a 100km ride at the end of my first year at uni. This went pretty badly wrong as a first ride after exam season where we'd both been off the bikes for just a tad too long. I can't remember how far we did end up going, but it certainly wasn't enough for the 100km goal. 
 
