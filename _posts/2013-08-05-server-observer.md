@@ -4,7 +4,7 @@ published: true
 
 title: Server Observer
 date: 2013-08-05 17:00 +00:00
-excerpt: ""
+excerpt: "Some details on my new project I am embarking on for my final year project, <em>Server Observer</em>"
 ---
 
 Recently I registered a new domain name, [serverapp.io][so]. This has been registered for an upcoming project which I will be completing as part of my final year project at university, but I'm also hoping for it to become *more* than just a final year project. You see, I'm yet to write a single line of code for it, but I have a lot of ideas for what I want to do and how to make it better than the competition. 
