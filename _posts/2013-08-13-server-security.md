@@ -55,7 +55,7 @@ Installing ufw on Ubuntu couldn't be easier, just run `sudo apt-get install ufw`
 If you're logged in via SSH ufw will warn you about the possible connection interruption when you enable it. Just hit 'y' as we've added an exception to the firewall already for SSH. At this point you have an active firewall that is blocking access on every port except for SSH, but you'll probably want to open up some more as well. 
 
 - `sudo ufw allow 80` will allow an http connection.
-- `sudo ufw allow 433` will allow an https connection.
+- `sudo ufw allow 443` will allow an https connection.
 - `sudo ufw allow 21` will allow an FTP connection; I do not recommend using FTP but we'll cover this later. 
 
 Only open the ports you need as you need them. Opening ports unnecessarily will only increase the risks that your server is open to. We can increase the security on our server by creating rules that are stricter than the current set. 
