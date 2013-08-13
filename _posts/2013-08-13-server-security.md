@@ -15,7 +15,7 @@ At this stage it would also be wise to make this clear: I am *by no means* a sec
 
 During this article, what I am going to cover is:
 
-- Disabaling the root account
+- Disabling the root account
 - Enabling a firewall
 - Securing SSH
 - Some best-practices
@@ -24,16 +24,16 @@ This will all be based upon [Ubuntu][ubuntu], but feel free to post suggested pa
 
 ### Disabling the root account
 
-The first thing I tend to do is to disable root account on the VPS. This has advtanges and disadvantages which are discussed in the [ubuntu documentation][ub_sudo], but it essentially boils down to the following:
+The first thing I tend to do is to disable root account on the VPS. This has advantages and disadvantages which are discussed in the [ubuntu documentation][ub_sudo], but it essentially boils down to the following:
 
 - Makes is harder for *you* to screw up
 - All `sudo` activity is logged
-- Easier to give and revoke superuser privlidges to users as nessessery
+- Easier to give and revoke superuser privileges to users as necessary
 - The root account password does *not* need to be distributed
 - Superuser authentication can expire quietly in the background while a user continues working. 
 - Harder to brake into a box through brute-force. If the attacker does not know your username it's harder to attack your account, and as root is disabled no attempts to crack the root login will let them in. 
 
-Disabling the root account on Ubuntu is pretty simple; but first you need to create yourself a new account with superuser privlidges (if you don't already have one). To create a new user run `useradd <username>` and follow each prompt as they appear to give the system your details. 
+Disabling the root account on Ubuntu is pretty simple; but first you need to create yourself a new account with superuser privileges (if you don't already have one). To create a new user run `useradd <username>` and follow each prompt as they appear to give the system your details. 
 
 Once you have a new user account add it to the 'sudo' group by running `usermod -aG sudo <username>`. This will enable your new account as a superuser, now logout of the root account and login as the new user.  
 
