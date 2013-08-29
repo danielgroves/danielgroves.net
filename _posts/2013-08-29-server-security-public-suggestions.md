@@ -119,7 +119,7 @@ The final point made was in regards to control panel security. My instincts with
 
 If you really must use one it should be limited to ensure it is accessible by as few people as possible. You could even go as far (I would) as limiting it to your servers IP, meaning you would need to create an SSH tunnel to your server before you could access it, this way you have two stages of authentication that are required before you can use the control panel. 
 
-### Summary 
+---
 
 For me the main two things I learnt to watch out for are the `unattended-upgrades` package and `fail2ban`, both of which I wasn't aware of before writing my [server security post][security]. 
 
