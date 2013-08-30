@@ -113,6 +113,17 @@ In the last article I covered limiting SSH to one IP only, and that this should 
 
 Cycas felt that this needs to be iterated on to try and enforce the point further. If you do want to limit SSH logins to only one IP address you really do need to ensure that is it static. Cycas suggests using backup ip addresses, but I would personally argue that is barely improves the situation if you're on a dynamic address still unless the backup is static. Having two dynamic addresses can still leave you in a situation where they both change, resulting in you getting locked out. 
 
+Another suggestion from [Dean Perry][tw_dp] is to use a VPN to access SSH, thus blocking any brute force attacks and effectively adding a second layer of authentication. 
+
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/danielsgroves">@danielsgroves</a> good post, thanks for sharing. Another thing about limiting SSH access to one or multiple IPs, you could use a VPN</p>&mdash; Dean Perry (@DeanPerry) <a href="https://twitter.com/DeanPerry/statuses/373227558508441600">August 29, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/danielsgroves">@danielsgroves</a> that’s what I use. Prevents the brute force SSH attacks so then something like fail2ban may not be needed. I use UFW for</p>&mdash; Dean Perry (@DeanPerry) <a href="https://twitter.com/DeanPerry/statuses/373228026118815744">August 29, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/danielsgroves">@danielsgroves</a> my server firewall management. Simple commands unlike the other main one, which I can’t remember the name of right now lol</p>&mdash; Dean Perry (@DeanPerry) <a href="https://twitter.com/DeanPerry/statuses/373228197481308160">August 29, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 #### Control Panel Security
 
 The final point made was in regards to control panel security. My instincts with these is simply to avoid them, they're an unknown asset where a small security hole could easily compromise your entire server as they are often required to be run on the root account. 
@@ -137,3 +148,4 @@ The main thing to learn from these posts was what else I could be doing to help 
 [sb]: http://www.adbury.net "Adbury Consulting"
 [wordpress]: http://wordpress.org "Wordpress"
 [rb_wp]: http://blog.shadypixel.com/spam-log-plugin/ "Integrating Wordpress with Fail2Ban"
+[tw_dp]: http://twitter.com/DeanPerry "Dean Perry on Twitter"
