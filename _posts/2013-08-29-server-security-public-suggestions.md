@@ -115,14 +115,9 @@ Cycas felt that this needs to be iterated on to try and enforce the point furthe
 
 Another suggestion from [Dean Perry][tw_dp] is to use a VPN to access SSH, thus blocking any brute force attacks and effectively adding a second layer of authentication. 
 
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/danielsgroves">@danielsgroves</a> good post, thanks for sharing. Another thing about limiting SSH access to one or multiple IPs, you could use a VPN</p>&mdash; Dean Perry (@DeanPerry) <a href="https://twitter.com/DeanPerry/statuses/373227558508441600">August 29, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Another thing about limiting SSH access to one or multiple IPs, you could use a VPN that’s what I use. Prevents the brute force SSH attacks so then something like fail2ban may not be needed. 
 
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/danielsgroves">@danielsgroves</a> that’s what I use. Prevents the brute force SSH attacks so then something like fail2ban may not be needed. I use UFW for</p>&mdash; Dean Perry (@DeanPerry) <a href="https://twitter.com/DeanPerry/statuses/373228026118815744">August 29, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/danielsgroves">@danielsgroves</a> my server firewall management. Simple commands unlike the other main one, which I can’t remember the name of right now lol</p>&mdash; Dean Perry (@DeanPerry) <a href="https://twitter.com/DeanPerry/statuses/373228197481308160">August 29, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<small>Quote comprised of three tweets by Derry Perry; [Tweet one][dp_tw1], [Tweet two][dp_tw2] and [Tweet three][dp_tw3]. </small>
 
 #### Control Panel Security
 
@@ -149,3 +144,6 @@ The main thing to learn from these posts was what else I could be doing to help 
 [wordpress]: http://wordpress.org "Wordpress"
 [rb_wp]: http://blog.shadypixel.com/spam-log-plugin/ "Integrating Wordpress with Fail2Ban"
 [tw_dp]: http://twitter.com/DeanPerry "Dean Perry on Twitter"
+[dp_tw1]: https://twitter.com/DeanPerry/status/373227558508441600 "Tweet one from Dean Perry"
+[dp_tw2]: https://twitter.com/DeanPerry/status/373228026118815744 "Tweet two from Dean Perry"
+[dp_tw3]: https://twitter.com/DeanPerry/status/373228197481308160 "Tweet three from Dean Perry"
