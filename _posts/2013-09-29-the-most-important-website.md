@@ -6,7 +6,7 @@ date: 2013-09-29 16:45:00.000000000 +00:00
 excerpt: "An answer to the question, \"What is the most import website on the internet?\""
 ---
 
-One of the modules I'm doing for the first term at University this term revolves mainly around phycology; for the lecture next week we were asked to consider a question to be discussed. 
+One of the modules I'm doing for the first term at University this term revolves mainly around psychology; for the lecture next week we were asked to consider a question to be discussed. 
 
 > What is the most important website on the internet?
 
