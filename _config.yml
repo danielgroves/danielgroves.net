@@ -2,6 +2,7 @@ safe: false
 port: 4000
 pygments: true
 future: false
+timezone: Europe/London
 lsi: false
 markdown: redcarpet
 
