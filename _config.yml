@@ -22,6 +22,7 @@ sitemap:
         - /feed/index.xml
         - /contact/sent.html
         - /build.sh
+        - /404.html
     include_posts:
         - /index.html
         - /notebook/index.md

@@ -1,0 +1,42 @@
+---
+layout: default
+title: Sorry, this page cannot be found
+excerpt: An error 404 has occurred, which means this page has been moved or no longer exists. 
+nav-weight: 0
+nav-name: 404
+---
+
+<p>You might enjoy some of my recent notebook entries below, or taking a peek at my <a href="/portfolio" title="A portfolio of some of my recent works">portfolio</a>. Otherwise, why not <a href="/contact" title="Contact Daniel Groves">drop me an email</a> to see if I can help. </p>
+
+<div class="columns-2 post-list-excerpt">
+	<h3>Suggested Reading</h3>
+	
+	<div class="col">
+		<ol>
+			{% for post in site.posts %}
+				{% if forloop.index <= 5 %}
+					<li>
+						<a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a> <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span><br />
+						<span class="excerpt">{{post.excerpt}}</span>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ol>
+	</div>
+	
+	<div class="col">
+		<ol start="6">
+			{% for post in site.posts %}
+				{% if forloop.index > 5 %}
+					{% if forloop.index <= 10 %}
+						<li>
+							<a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a> <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span><br />
+							<span class="excerpt">{{post.excerpt}}</span>
+						</li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</ol>
+	</div>
+	
+</div>
