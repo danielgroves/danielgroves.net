@@ -10,7 +10,7 @@ Setting up and using the site is pretty easy. Make sure you have Ruby install, i
 
 ```bash
 gem install jekyll
-cd projest/directory/
+cd project/directory/
 jekyll serve
 ```
 
