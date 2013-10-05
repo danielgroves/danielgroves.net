@@ -1,6 +1,6 @@
 # danielgroves.net Source
 
-This is the source for the current version of my portfolio. This may seem stagnent at times as I tend to keep development stuff privatly on my own GitLab install and only push changes over here when they go live on the site. 
+This is the source for the current version of my portfolio. This automatically pushed as I commit changes to the production branch. New features, content, and design changes are developed on private branches which are automatically pushed here when they are deployed. 
 
 My site has previously been a static site with no generator behind it and [WordPress](http://wordpress.org "WordPress Publishing Platform") based. 
 
