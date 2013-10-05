@@ -35,7 +35,7 @@ This works fine, but there are a few more tweaks I would like to make when I get
 
 ### Site Deploys
 
-This website (as of writing) runs on [Jekyll][jekll], which is a ruby-based static site generator. I've wanted to automate the deployment of this sites latest changes for some time, but have always had issues getting something working. 
+This website (as of writing) runs on [Jekyll][jekyll], which is a ruby-based static site generator. I've wanted to automate the deployment of this sites latest changes for some time, but have always had issues getting something working. 
 
 The entire site is committed into a git repository which I push up to my GitLab install. With this I wanted a post-receive hook which could hit a URL, which would pull the latest changes and build the site. 
 
