@@ -348,6 +348,16 @@ footer {
 	}
 }
 
+// Homepage latest posts
+#homeLatestPosts {
+	dd {
+		color: lighten(@dark-grey, 25%);
+		font-size: 85%;
+		line-height: 115%;
+		margin-bottom: 10px;
+	}
+}
+
 // Form
 form {
 	input, textarea {
@@ -581,6 +591,24 @@ dl.cv {
 		margin-bottom: 2%;
 	}
 	
+	// Homepage latest posts
+	#homeLatestPosts {
+		overflow: hidden;	
+		
+		dd, dt {
+			float: left;
+		}
+		
+		dt {
+			clear: left;
+		}
+		
+		dd {
+			padding-left: 1em;
+			padding-top: 6px;
+		}
+	}
+	
 	form dl {
 		dt {
 			float: left;
@@ -723,6 +751,19 @@ dl.cv {
 	.post-list-excerpt .col {
 		padding-bottom: 0;
 		padding-top: 0;
+	}
+	
+	// Homepage latest posts
+	#homeLatestPosts {
+		
+		dd, dt {
+			float: none;
+		}
+		
+		dd {
+			padding-left: 0;
+			padding-top: 0;
+		}
 	}
 	
 	section {
