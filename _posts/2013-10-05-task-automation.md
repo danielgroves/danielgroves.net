@@ -52,7 +52,7 @@ The version of the site you see on GitHub is a clone of what runs on production.
 git pull origin master
 
 # Build the site into the htdocs directory, so it's live straight away
-jekyll build -d htdocs
+/usr/local/bin/jekyll build -d htdocs
 
 # Sync up with GitHub open-source copy
 git push github master
