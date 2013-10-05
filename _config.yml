@@ -10,6 +10,8 @@ pagination: 6
 url: http://danielgroves.net
 name: Daniel Groves
 
+exclude: ['build.sh']
+
 redcarpet:
   extensions: []
   
@@ -18,6 +20,7 @@ sitemap:
     exclude:
         - /feed/index.xml
         - /contact/sent.html
+        - /build.sh
     include_posts:
         - /index.html
         - /notebook/index.md
