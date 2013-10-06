@@ -3,7 +3,7 @@ layout: blog
 published: true
 title: Task Automation
 date: 2013-10-05 15:00 +01:00
-excerpt: "How I've automated server backup and Jekyll site deployment"
+excerpt: "Using cron for Jekyll site builds and automated server backups"
 ---
 
 Doing a task manually for a while is fine, but us humans are somewhat unreliable when it comes to remembering to do small tasks everyday. You always have that brief thought of "*I'll do it in a bit*", and then proceed to forget about the task entirely. There is also the risk that you won't be in a position to complete the task at all, that you won't have access to the resources that you need, whether you're just in a meeting or on leave. 
