@@ -6,16 +6,41 @@ nav-name: Home
 
 header: '<!-- Contact Validation -->
 		 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		 <!--<script type="text/javascript" src="/assets/js/home/flickr.js"></script>-->'
+		 <!--<script type="text/javascript" src="/assets/js/home/flickr.js"></script>-->
+		 <script type="text/javascript" src="/assets/js/unslider/unslider.js"></script>
+		 <script>
+		 $(function() {
+		     $(".slider").unslider({
+		     	items: "> div",
+				item: " .slide",
+				fluid: true,
+				keys: true,
+				dots: true,
+				delay: 8000
+		     });
+		 });
+		 </script>'
 ---
 
 <section class="slider">
-	
-	<div class="slide" id="design_and_code">
-		<h2>Design <span class="ampersand">&amp;</span> Code</h2>
-		<p>I'm a web designer and developer in the southwest of England.</p>
+	<div>
+		<div class="slide" id="design_and_code">
+			<h2>Design <span class="ampersand">&amp;</span> Code</h2>
+			<p>I'm a web designer and developer in the southwest of England.</p>
+		</div>
+		<div class="slide">
+			<h2>Slide 2</h2>
+			<p>I'm a web designer and developer in the southwest of England.</p>
+		</div>
+		<div class="slide">
+			<h2>Slide 3</h2>
+			<p>I'm a web designer and developer in the southwest of England.</p>
+		</div>
+		<div class="slide">
+			<h2>Slide 4</h2>
+			<p>I'm a web designer and developer in the southwest of England.</p>
+		</div>
 	</div>
-	
 </section><!-- /.slider -->
 
 <section class="columns-3">
