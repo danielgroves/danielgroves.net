@@ -363,6 +363,16 @@ nav {
 	background: radial-gradient(ellipse at center,  #eee 0%,darken(#eee, 20%) 100%); /* W3C */
 }
 
+#portfolio {
+	background: @dark-blue; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  @dark-blue 0%, @light-blue 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@dark-blue), color-stop(100%,rgba(65,96,120,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* W3C */
+}
+
 .columns-2, .columns-3 {
 	overflow: hidden;
 }
