@@ -239,52 +239,6 @@ nav {
 	position: relative; 
 	overflow: auto; 
 	
-	h2 {
-		padding-bottom: 20px;
-		text-shadow: 1px 1px 1px @dark-grey;
-		color: white;
-		font-size: 3.5em;
-	}
-	
-	.extra h2 {
-		margin: 3px 0 4px 0;
-	}
-	
-	p {
-		color: @light-grey;
-		padding: 0;
-		line-height: 120%;
-		text-shadow: 1px 1px 1px @dark-grey;
-	}
-	
-	ul {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		
-		li {
-			display: block;
-			float: left;
-		}
-	}
-	
-	.slide {
-		background: @dark-blue;
-		overflow: hidden;
-		padding: 100px 0;
-		
-		background: @dark-blue; /* Old browsers */
-		background: -moz-radial-gradient(center, ellipse cover,  @dark-blue 0%, @light-blue 100%); /* FF3.6+ */
-		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@dark-blue), color-stop(100%,rgba(65,96,120,1))); /* Chrome,Safari4+ */
-		background: -webkit-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
-		background: -ms-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* IE10+ */
-		background: radial-gradient(ellipse at center,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* W3C */
-		
-		border-top: 1px solid @light-grey;
-		border-bottom: 1px solid @dark-grey;
-	}
-	
 	.dots {
 		position: absolute;
 		bottom: 0;
@@ -308,9 +262,73 @@ nav {
 			}
 		}
 	}
+	
+	h2 {
+		margin-top: 140px;
+		font-size: 3.5em;
+	}
+	
+	p {
+		padding: 20px 0 90px 0;
+		line-height: 120%;
+	}
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+		li {
+			display: block;
+			float: left;
+		}
+	}
+	
+	a.more {
+		background: rgba(0,0,0,.6);
+		border-radius: 6px;
+		font-size: 80%;
+		padding: 6px 12px;
+		
+		&:link, &:visited {
+			color: @light-grey;
+		}
+	}
+	
+	.slide {
+		background: @dark-blue;
+		overflow: hidden;
+		
+		border-top: 1px solid @light-grey;
+		border-bottom: 1px solid @dark-grey;
+		
+		color: @light-grey;
+		text-shadow: 1px 1px 1px @dark-grey;
+		
+		&.light {
+			color: @dark-grey;
+			text-shadow: none;
+			
+			a.more {
+				&:link, &:visited {
+					color: @light-grey;
+				}
+			}
+		}
+	}
 }
 
 #design_and_code {
+	/* Colour for backup */
+	background: @dark-blue; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  @dark-blue 0%, @light-blue 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@dark-blue), color-stop(100%,rgba(65,96,120,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* W3C */
+	
+	/* Background Image is better */
 	background-image: url('../images/home/feature.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -327,18 +345,13 @@ nav {
 }
 
 #open_source {
-	h2, p {
-		color: @dark-grey;
-		text-shadow: 1px 1px 1px @light-grey;
-	}
-	
 	h2 {
 		width: inherit;
 		background-image: url('../images/home/github.png');
 		background-repeat: no-repeat;
 		background-position: 5px 0;
 		text-indent: 45px;
-		margin: 0 auto;
+		margin: 140px auto 0;
 	}
 	
 	background: #eee; /* Old browsers */
@@ -635,12 +648,6 @@ dl.cv {
 		}
 	}
 	
-	.slider {
-		.slide {
-			padding: 150px 0;
-		}
-	}
-	
 	.columns-3, .columns-2 {
 		.wrap {
 			.columns( 2, 35px );
@@ -866,6 +873,10 @@ dl.cv {
 @media screen and (min-width: 1300px) { 
 	.page {
 		border: 1px solid #ccc;
+	}
+	
+	.slider .slide {
+		min-height: 400px;
 	}
 }
 
