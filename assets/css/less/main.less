@@ -246,6 +246,10 @@ nav {
 		font-size: 3.5em;
 	}
 	
+	.extra h2 {
+		margin: 3px 0 4px 0;
+	}
+	
 	p {
 		color: @light-grey;
 		padding: 0;
@@ -310,6 +314,40 @@ nav {
 	background-image: url('../images/home/feature.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+#server_observer {
+	background: #577a14; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #577a14 0%, darken(#577a14, 10%) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#577a14), color-stop(100%,darken(#577a14, 10%))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #577a14 0%,darken(#577a14, 10%) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #577a14 0%,darken(#577a14, 10%) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #577a14 0%,darken(#577a14, 10%) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #577a14 0%,darken(#577a14, 10%) 100%); /* W3C */
+}
+
+#open_source {
+	h2, p {
+		color: @dark-grey;
+		text-shadow: 1px 1px 1px @light-grey;
+	}
+	
+	h2 {
+		width: inherit;
+		background-image: url('../images/home/github.png');
+		background-repeat: no-repeat;
+		background-position: 5px 0;
+		text-indent: 45px;
+		margin: 0 auto;
+	}
+	
+	background: #eee; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #eee 0%, darken(#eee, 20%) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#eee), color-stop(100%,darken(#eee, 20%))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #eee 0%,darken(#eee, 20%) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #eee 0%,darken(#eee, 20%) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #eee 0%,darken(#eee, 20%) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #eee 0%,darken(#eee, 20%) 100%); /* W3C */
 }
 
 .columns-2, .columns-3 {
