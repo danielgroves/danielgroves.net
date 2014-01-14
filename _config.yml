@@ -15,7 +15,7 @@ exclude: ['build.sh']
 
 redcarpet:
   extensions: []
-  
+
 sitemap:
     file: /sitemap.xml
     exclude:
