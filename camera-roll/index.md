@@ -13,5 +13,6 @@ nav-name: Camera Roll
 		<h3><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h3>
 		<span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
 	</hgroup>
+	{{ post.content }}
 </article>
 {% endfor %}
