@@ -31,8 +31,8 @@ nav a{display:block;padding:5px 2%}nav a.current_page_item{color:#333;background
 nav a:before{content:'>';padding-right:3%}
 nav a:hover{border:none}
 .slider{text-align:center;font-size:1.2em}.slider h2{padding-bottom:20px;text-shadow:1px 1px 1px #333;color:#fff;font-size:3.5em}
-.slider p{color:#efefef;padding:0;line-height:120%}
-.slider .slide{overflow:hidden;padding:100px 10%;background:#2d79ad;background:-moz-radial-gradient(center, ellipse cover, #2d79ad 0, #cad7db 100%);background:-webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0, #2d79ad), color-stop(100%, #416078));background:-webkit-radial-gradient(center, ellipse cover, #2d79ad 0, #416078 100%);background:-o-radial-gradient(center, ellipse cover, #2d79ad 0, #416078 100%);background:-ms-radial-gradient(center, ellipse cover, #2d79ad 0, #416078 100%);background:radial-gradient(ellipse at center, #2d79ad 0, #416078 100%);}
+.slider p{color:#efefef;padding:0;line-height:120%;text-shadow:1px 1px 1px #333}
+.slider .slide{overflow:hidden;padding:100px 10%;background:#2d79ad;background:-moz-radial-gradient(center, ellipse cover, #2d79ad 0, #cad7db 100%);background:-webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0, #2d79ad), color-stop(100%, #416078));background:-webkit-radial-gradient(center, ellipse cover, #2d79ad 0, #416078 100%);background:-o-radial-gradient(center, ellipse cover, #2d79ad 0, #416078 100%);background:-ms-radial-gradient(center, ellipse cover, #2d79ad 0, #416078 100%);background:radial-gradient(ellipse at center, #2d79ad 0, #416078 100%);background-image:url('../images/home/feature.jpg');background-size:cover;background-repeat:no-repeat;border-top:1px solid #efefef;border-bottom:1px solid #333}
 .columns-2,.columns-3{overflow:hidden}
 .col{padding:15px 5%;margin:0}.col .col{padding:15px 0}
 .dark{background:#333;color:#efefef;overflow:hidden}.dark a{color:#fff;border-bottom:1px solid #777}.dark a:hover{background:#777}

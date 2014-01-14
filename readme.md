@@ -10,6 +10,8 @@ Setting up and using the site is pretty easy. Make sure you have Ruby install, i
 
 ```bash
 gem install jekyll
+gem install redcarpet
+easy_install pygments
 cd project/directory/
 jekyll serve
 ```
