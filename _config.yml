@@ -6,7 +6,7 @@ timezone: Europe/London
 lsi: false
 markdown: redcarpet
 
-permalink: /notebook/:year/:month/:title
+permalink: /:categories/:year/:month/:title
 pagination: 6
 url: http://danielgroves.net
 name: Daniel Groves

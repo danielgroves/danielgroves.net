@@ -12,7 +12,7 @@ nav-name: Notebook
 	
 	<div class="col">
 		<ol>
-			{% for post in site.posts %}
+			{% for post in site.categories.notebook %}
 				{% if forloop.index <= 5 %}
 					<li>
 						<a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a> <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span><br />
@@ -25,7 +25,7 @@ nav-name: Notebook
 	
 	<div class="col">
 		<ol start="6">
-			{% for post in site.posts %}
+			{% for post in site.categories.notebook %}
 				{% if forloop.index > 5 %}
 					{% if forloop.index <= 10 %}
 						<li>
@@ -43,7 +43,7 @@ nav-name: Notebook
 <h3>All Entries</h3>
 <div class="full post-list">
 	<ol>
-		{% for post in site.posts %}
+		{% for post in site.categories.notebook %}
 			{% if forloop.index > 0 %}
 				<li>
 					<a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a> <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
