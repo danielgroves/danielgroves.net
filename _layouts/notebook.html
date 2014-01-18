@@ -2,6 +2,7 @@
 layout: default
 title: Notebook
 excerpt: The Thoughts, Problems and Solutions of a Student and Web Developer
+category: notebook
 
 nav-weight: 4
 nav-name: Notebook
@@ -43,7 +44,7 @@ nav-name: Notebook
 <h3>All Entries</h3>
 <div class="full post-list">
 	<ol>
-		{% for post in site.categories.notebook %}
+		{% for post in paginator.posts %}
 			{% if forloop.index > 0 %}
 				<li>
 					<a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a> <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
