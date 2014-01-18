@@ -25,7 +25,7 @@ module Jekyll
     end
 
     def paginate(site, type, posts)
-      pages = Pager.calculate_pages(posts[1], site.config['cat-paginate'].to_i)
+      pages = Pager.calculate_pages(posts[1], site.config['paginate'].to_i)
       (1..pages).each do |num_page|
         pager = Pager.new(site, num_page, posts[1], pages)
         path = "/#{posts[0]}"

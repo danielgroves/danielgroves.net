@@ -10,7 +10,12 @@ permalink: /:categories/:year/:month/:title
 url: http://danielgroves.net
 name: Daniel Groves
 
-cat-paginate: 20
+paginate: 20
+
+# Disables the default paginator from working
+# Otherwise it generates /page2, /page3, etc
+# Will find a better fix when time presents itself
+paginate_path: ""
 
 exclude: ['build.sh']
 
