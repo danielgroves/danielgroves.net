@@ -316,12 +316,6 @@ footer {
 }
 
 // Blog formatting
-.post-list, .post-list-excerpt {
-	li {
-		padding-bottom: 15px;
-	}
-}
-
 .excerpt {
 	color: @med-grey;
 }
@@ -329,15 +323,11 @@ footer {
 .post-list-excerpt {
 	.col {
 		padding: 0;
-			
-		&:first-of-type {
-			border: none;
-			padding-top: 10px;
-		}
+		margin: 0;
 	}
-		
-	ol {
-		padding: 0;
+	
+	dt {
+		padding-top: 10px;
 	}
 }
 
@@ -771,6 +761,13 @@ dl.cv {
 	.post-list-excerpt .col {
 		padding-bottom: 0;
 		padding-top: 0;
+		width: 49%;
+		margin-left: 1%;
+		
+		&:first-of-type {
+			margin-right: 1%;
+			margin-left: 0;
+		}
 	}
 	
 	// Homepage latest posts

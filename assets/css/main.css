@@ -301,22 +301,15 @@ footer {
   padding: 10px 0;
   border-top: 1px solid #ccc;
 }
-.post-list li,
-.post-list-excerpt li {
-  padding-bottom: 15px;
-}
 .excerpt {
   color: #777777;
 }
 .post-list-excerpt .col {
   padding: 0;
+  margin: 0;
 }
-.post-list-excerpt .col:first-of-type {
-  border: none;
+.post-list-excerpt dt {
   padding-top: 10px;
-}
-.post-list-excerpt ol {
-  padding: 0;
 }
 .title {
   background: #333333;
@@ -673,6 +666,12 @@ dl.cv dd {
   .post-list-excerpt .col {
     padding-bottom: 0;
     padding-top: 0;
+    width: 49%;
+    margin-left: 1%;
+  }
+  .post-list-excerpt .col:first-of-type {
+    margin-right: 1%;
+    margin-left: 0;
   }
   #homeLatestPosts dd,
   #homeLatestPosts dt {
