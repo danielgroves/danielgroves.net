@@ -10,7 +10,7 @@ permalink: /:categories/:year/:month/:title
 url: http://danielgroves.net
 name: Daniel Groves
 
-paginate: 20
+cat-paginate: 20
 
 exclude: ['build.sh']
 
@@ -24,6 +24,7 @@ sitemap:
         - /contact/sent.html
         - /build.sh
         - /404.html
+        - /page*
     include_posts:
         - /index.html
         - /notebook/index.html
