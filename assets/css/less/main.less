@@ -350,6 +350,35 @@ footer {
 	font-size: 1.5em;
 }
 
+.pagination {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	
+	a, strong {
+		padding: 5px 10px;
+		margin: 10px 3px 0 3px;
+		.rounded(2px);
+		
+		display: inline-block;
+	}
+	
+	strong {
+		background: @dark-blue;
+		color: @light-grey;
+	}
+	
+	a {
+		background: @light-grey;
+		
+		&:hover {
+			background: @dark-blue;
+			color: @light-grey;
+			border: none;
+		}
+	}
+}
+
 // Homepage latest posts
 #homeLatestPosts {
 	dd {
