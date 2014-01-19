@@ -5,7 +5,7 @@ title: Plymouth to Pricetown (and back again)
 date: 2014-01-19 21:30
 ---
 
-Over the last few months most of the Uni club rides have been kept pretty local. With what appeared to be a window of good weather this weekend we decided to head out onto Dartmoor to do one of the clubs classic rides. After meeting at 9:30 we proceeded to fix an early-batch of mechanicals before proceeding up the Tamar Valley cycle path towards Yelverton. At Yelverton we frustratingly experienced yet another mechanical as one of the group snapped a chain. 
+Over the last few months most of the Uni club rides have been kept pretty local. With what appeared to be a window of good weather this weekend we decided to head out onto Dartmoor to do one of the clubs classic rides. After meeting at 9:30 we proceeded to fix an early-batch of mechanicals before proceeding up the Plym Valley cycle path towards Yelverton. At Yelverton we frustratingly experienced yet another mechanical as one of the group snapped a chain. 
 
 <figure>
     <img src="/assets/camera-roll/2014/01/DSC_8287.jpg" />
@@ -19,7 +19,7 @@ From Yelverton we proceeded up the road to Burrator Reservoir where we paused fo
     <figcaption>Approaching the top of Eylesbarrow Climb</figcaption>
 </figure>
 
-The Eylesbarrow Climb features a few shorter decents along the way which, although rather fun, are resonably easy going. 
+The Eylesbarrow Climb features a few shorter decents along the way which, although rather fun, are reasonably easy going. 
 
 <figure>
     <img src="/assets/camera-roll/2014/01/DSC_8315.jpg" />
@@ -40,6 +40,6 @@ The final length of singletrack lead us directly into Pricetown, where we procee
     <figcaption>Nick popping the front wheel over a drainage duct</figcaption>
 </figure>
 
-Unfortunatly while we enjoyed some food and hot drinks, the weather proceeded to turn as the skies opened up. I left the camera burried deep in my bag after this as we proceeded back down the singletrack, taking the right turn down the *Black Widow* decent. After this it was a quick blast around Barrator Reservoir again, before proceeding back the the Plym Vallery trail through Meavy. 
+Unfortunately while we enjoyed some food and hot drinks, the weather proceeded to turn as the skies opened up. I left the camera buried deep in my bag after this as we proceeded back down the singletrack, taking the right turn down the *Widowmaker* decent. After this it was a quick blast around Barrator Reservoir again, before proceeding back the the Plym Valley trail through Meavy. 
 
-This ride totaled around 70km all in, and is achivable within four hours under good condition without any mechanicals. Unfortunatly today my phone battery died in the Fox Tor cafe after just 38km which, thanks to numerous mechanicals, took around five hours. 
+This ride totalled around 70km all in, and is achievable within four hours under good condition without any mechanicals. Unfortunately today my phone battery died in the Fox Tor cafe after just 38km which, thanks to numerous mechanicals, took around five hours. 
