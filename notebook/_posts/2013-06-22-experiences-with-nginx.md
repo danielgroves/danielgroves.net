@@ -3,7 +3,7 @@ layout: blog
 published: true
 
 title: Experiences with Nginx
-excerpt: "Documenting some of my experiences adn problems that arroused when I made the decision to switch from Apache to Nginx"
+excerpt: "Documenting some of my experiences and problems that arroused when I made the decision to switch from Apache to Nginx"
 ---
 
 I've used Apache in production and development environments for about as long as I can remember, but when I recently switched to [Digital Ocean][do] I also made the decision to switch to [Nginx][ng]. 
