@@ -7,7 +7,7 @@ lsi: false
 markdown: redcarpet
 
 permalink: /:categories/:year/:month/:title
-url: http://danielgroves.net
+url: https://danielgroves.net
 name: Daniel Groves
 
 paginate: 20
