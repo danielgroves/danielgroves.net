@@ -145,6 +145,7 @@ blockquote {
 .ampersand {
   font-family: "adobe-caslon-pro", "proxima-nova", helvetica, arial, sans-serif;
   font-style: italic;
+  line-height: 100%;
 }
 .btn {
   display: block;
