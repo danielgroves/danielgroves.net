@@ -20,7 +20,7 @@ We left around three in the afternoon, pushing fast out to Burrator Reservoir wi
 	<figcaption>Joe at the top of the Eylesbarrow Climb</figcaption>
 </figure>
 
-As the last light disappeared we fitted the lights and proceeded the last few hunted meters into Princetown, where we were surprised to find it was mild enough to sit outside for dinner. On the return we briefly stopped no the Widowmaker descent to attempt some night-time action photography; This didn't go so well, so I won't pain you with the results. It's not easy when you can't see the camera, let alone anything through the view finder. 
+As the last light disappeared we fitted the lights and proceeded the last few hunted meters into Princetown, where we were surprised to find it was mild enough to sit outside for dinner. On the return we briefly stopped on the Widowmaker descent to attempt some night time action photography; this didn't go so well, so I won't pain you with the results. It's not easy when you can't see the camera, let alone anything through the view finder. 
 
 <figure>
 	<img src="/assets/camera-roll/2014/02/DSC_9110.jpg" alt="Last Light" />
