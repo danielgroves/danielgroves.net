@@ -42,7 +42,7 @@ Fail2ban can be installed via `apt` and only takes a few minutes to configure wi
 	
 Once installed navigate to `/etc/fail2ban` and duplicate `jail.conf` to `jail.local`. 
 
-	cp /etc/fail2ban
+	cd /etc/fail2ban
 	sudo cp jail.conf jail.local
 
 Once you've done this edit the configuration file to suit your setup. Initially I'm running a very basic configuration with my own IP on the 'ignored' list, a longer blocking period (24-hours, or there about) and a shorter retry interval. This is easy to do, by tweaking the settings shown below. My IP is obscured by 'x'. 
