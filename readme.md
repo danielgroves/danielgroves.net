@@ -20,15 +20,19 @@ Then simply go to [localhost:4000](http://localhost:4000) in your browser.
 
 ## Licensing
 
-The content and design have been bundled into one licence and the code has been bundled into a second. Check below for details. 
+The content and design have been bundled into one license and the code has been bundled into a second. Check below for details. 
 
 ### The Content and Design
 
-The content and design are licenced under [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/ "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported Licence"). Essentially, this allows you to share content and to adapt (or build upon) my works, but not for commerical purposes and only if you share attribution and under the same licence agreement. 
+The content and design are licensed under [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/ "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License"). Essentially, this allows you to share content and to adapt (or build upon) my works, but not for commercial purposes and only if you share attribution and under the same license agreement. 
+
+### Photographs
+
+The photographs used on this site are licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/ "Create Commons Attribution-NonCommercial-NoDerivatives 4.0 International License"). Essentially this means that you cannot share any of this material for commercial purposes without prior permission, but you may share for non-commercial purposes with attribution as long as it has not been modified. 
 
 ### The Code
 
-The code is licenced under [MIT](http://opensource.org/licenses/MIT "MIT Licence Agreement"), therefore the following applies: 
+The code is licensed under [MIT](http://opensource.org/licenses/MIT "MIT License Agreement"), therefore the following applies: 
 
 Copyright (c) 2013 Daniel Groves
 
