@@ -25,4 +25,4 @@ I've not posted anything new recently due to working on [finishing my degree](/n
 
 For anyone interested in the route, follow National Cycle Network route 27 out of Plymouth to Yelverton, and the cut across the moor to Bymore Wood, where the main single-track areas descend to and follow the River Walkham. You will require OS Map *OL 28 Dartmoor*.
 
-<iframe height='500' width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='http://www.strava.com/activities/139888616/embed/ac2622fdcd341be0dfce914d3e5b7faa092a5ac4'></iframe>
+<iframe height='405px' width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='http://www.strava.com/activities/139888616/embed/ac2622fdcd341be0dfce914d3e5b7faa092a5ac4'></iframe>
