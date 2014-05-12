@@ -6,16 +6,22 @@ timezone: Europe/London
 lsi: false
 markdown: redcarpet
 
-permalink: /notebook/:year/:month/:title
-pagination: 6
-url: http://danielgroves.net
+permalink: /:categories/:year/:month/:title
+url: https://danielgroves.net
 name: Daniel Groves
+
+paginate: 20
+
+# Disables the default paginator from working
+# Otherwise it generates /page2, /page3, etc
+# Will find a better fix when time presents itself
+paginate_path: ""
 
 exclude: ['build.sh']
 
 redcarpet:
   extensions: []
-  
+
 sitemap:
     file: /sitemap.xml
     exclude:
@@ -23,8 +29,9 @@ sitemap:
         - /contact/sent.html
         - /build.sh
         - /404.html
+        - /page*
     include_posts:
         - /index.html
-        - /notebook/index.md
+        - /notebook/index.html
     change_frequency_name: "change_frequency"
     priority_name: "priority"

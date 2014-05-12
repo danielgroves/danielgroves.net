@@ -1,8 +1,6 @@
 ---
 layout: stark
 title: Designer &amp; Developer
-nav-weight: 1
-nav-name: Home
 
 header: '<!-- Contact Validation -->
 		 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -63,7 +61,7 @@ header: '<!-- Contact Validation -->
 	<div class="col">
 		<h2>Writing</h2>
 		<dl id="homeLatestPosts">
-			{% for post in site.posts limit: 4 %}
+			{% for post in site.categories.notebook limit: 4 %}
 				{% if forloop.index > 0 %}
 					<dt><a href="{{ site.base_url }}{{ post.url }}">{{post.title}}</a> <span>{{ post.date | date: "%d/%m/%Y" }}</span><d/t>
 					<dd>{{post.excerpt}}</dd>

@@ -19,7 +19,9 @@
 		
 		{{ page.header}}
 		
-		<link rel="alternate" type="application/rss+xml" title="Notebook Feed" href="{{ site.url }}/feed/"> 
+		<link rel="alternate" type="application/rss+xml" title="Site Feed" href="{{ site.url }}/feed/">
+		<link rel="alternate" type="application/rss+xml" title="Notebook Feed" href="{{ site.url }}/feed/notebook/">
+		<link rel="alternate" type="application/rss+xml" title="Adventures and Photography Feed" href="{{ site.url }}/feed/adventures-photography"> 
 		
 		<link rel="apple-touch-icon-precomposed" href="/assets/images/brand/iOS/icon_57x57.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/brand/iOS/icon_72x72.png">
@@ -27,10 +29,11 @@
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/brand/iOS/icon_72x72@2x.png">
 		
 		{% if page.image %}
-			<meta property="og:image" content="{{ page.image }}"/>
+		<meta property="og:image" content="{{ page.image }}"/>
 		{% else %}
-			<meta property="og:image" content="{{ site.url }}/assets/images/brand/PNG/Logo_Reverse_Padded_256x256x32.png"/>
+		<meta property="og:image" content="{{ site.url }}/assets/images/brand/PNG/Logo_Reverse_Padded_256x256x32.png"/>
 		{% endif %}
+
 		<meta property="og:title" content="{{ page.title }}  &middot; {{ site.name }}"/>
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
 		<meta property="og:site_name" content="{{ site.name }}"/>

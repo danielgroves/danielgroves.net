@@ -141,6 +141,7 @@ blockquote {
 .ampersand {
 	font-family: "adobe-caslon-pro", "proxima-nova", helvetica, arial, sans-serif;
 	font-style: italic;
+	line-height: 100%;
 }
 
 .btn {
@@ -419,12 +420,6 @@ footer {
 }
 
 // Blog formatting
-.post-list, .post-list-excerpt {
-	li {
-		padding-bottom: 15px;
-	}
-}
-
 .excerpt {
 	color: @med-grey;
 }
@@ -432,15 +427,11 @@ footer {
 .post-list-excerpt {
 	.col {
 		padding: 0;
-			
-		&:first-of-type {
-			border: none;
-			padding-top: 10px;
-		}
+		margin: 0;
 	}
-		
-	ol {
-		padding: 0;
+	
+	dt {
+		padding-top: 10px;
 	}
 }
 
@@ -456,6 +447,39 @@ footer {
 	p {
 		padding-bottom: 0;
 		font-weight: bold;
+	}
+}
+
+.photo span.date {
+	font-size: 1.5em;
+}
+
+.pagination {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	
+	a, strong {
+		padding: 5px 10px;
+		margin: 10px 3px 0 3px;
+		.rounded(2px);
+		
+		display: inline-block;
+	}
+	
+	strong {
+		background: @dark-blue;
+		color: @light-grey;
+	}
+	
+	a {
+		background: @light-grey;
+		
+		&:hover {
+			background: @dark-blue;
+			color: @light-grey;
+			border: none;
+		}
 	}
 }
 
@@ -676,10 +700,18 @@ dl.cv {
 		}
 	}
 	
+	.photo hgroup,
+	.photo p,
+	.photo figcaption,
 	.blog {
 		max-width: 830px;
 		margin: 0 auto;
 		position: relative;
+	}
+
+	.photo h3,
+	.photo span.date {
+		display: inline-block;
 	}
 	
 	.post-list {
@@ -856,6 +888,13 @@ dl.cv {
 	.post-list-excerpt .col {
 		padding-bottom: 0;
 		padding-top: 0;
+		width: 49%;
+		margin-left: 1%;
+		
+		&:first-of-type {
+			margin-right: 1%;
+			margin-left: 0;
+		}
 	}
 	
 	// Homepage latest posts
@@ -891,7 +930,7 @@ dl.cv {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) { 
-	header {
+	header > a {
 		background: url('../images/brand/PNG/Logo_256x256x32.png') center 20px no-repeat;
 		background-size: 96px 96px;
 	}
