@@ -22,6 +22,7 @@ body {
   border: 1px solid #ccc;
   border-top: none;
   background: #fff;
+  overflow-x: hidden;
 }
 ::selection {
   background: rgba(0, 0, 0, 0.8);
@@ -205,23 +206,17 @@ nav ul {
   margin: 0;
 }
 nav li {
-  width: 49%;
-  margin-left: 1%;
-  margin-top: 10px;
+  width: 100%;
   float: left;
   list-style: none;
 }
 nav a {
   display: block;
-  padding: 5px 2%;
+  padding: 10px 2%;
 }
 nav a.current_page_item {
   color: #333333;
   background: #cad7db;
-}
-nav a:before {
-  content: '>';
-  padding-right: 3%;
 }
 nav a:hover {
   border: none;
@@ -229,22 +224,79 @@ nav a:hover {
 .slider {
   text-align: center;
   font-size: 1.2em;
+  position: relative;
+  overflow: auto;
+}
+.slider .dots {
+  position: absolute;
+  bottom: 0;
+  list-style: none;
+  font-size: 0;
+  text-align: center;
+  width: 100%;
+}
+.slider .dots li {
+  border: 2px solid #efefef;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin: 3px 6px;
+  display: inline-block;
+  -webkit-box-shadow: 0px 1px 1px #333333;
+  -moz-box-shadow: 0px 1px 1px #333333;
+  box-shadow: 0px 1px 1px #333333;
+}
+.slider .dots li.active,
+.slider .dots li:hover {
+  cursor: pointer;
+  background: #efefef;
 }
 .slider h2 {
-  padding-bottom: 20px;
-  text-shadow: 1px 1px 1px #333333;
-  color: white;
+  margin-top: 100px;
   font-size: 3.5em;
 }
 .slider p {
-  color: #efefef;
-  padding: 0;
+  padding: 10px 0 100px 0;
   line-height: 120%;
-  text-shadow: 1px 1px 1px #333333;
+}
+.slider ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.slider ul li {
+  display: block;
+  float: left;
+}
+.slider a.more {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+  font-size: 80%;
+  padding: 6px 12px;
+  display: inline-block;
+}
+.slider a.more:link,
+.slider a.more:visited {
+  color: #efefef;
 }
 .slider .slide {
+  background: #2d79ad;
   overflow: hidden;
-  padding: 100px 10%;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #333333;
+  color: #efefef;
+  text-shadow: 1px 1px 1px #333333;
+}
+.slider .slide.light {
+  color: #333333;
+  text-shadow: none;
+}
+.slider .slide.light a.more:link,
+.slider .slide.light a.more:visited {
+  color: #efefef;
+}
+#design_and_code {
+  /* Colour for backup */
   background: #2d79ad;
   /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #2d79ad 0%, #cad7db 100%);
@@ -259,11 +311,63 @@ nav a:hover {
   /* IE10+ */
   background: radial-gradient(ellipse at center, #2d79ad 0%, #416078 100%);
   /* W3C */
+  /* Background Image is better */
   background-image: url('../images/home/feature.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  border-top: 1px solid #efefef;
-  border-bottom: 1px solid #333333;
+}
+#adventures_photography {
+  background-image: url('/assets/images/home/slider_4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#adventures_photography h2,
+#adventures_photography p {
+  text-align: center;
+  width: 100%;
+}
+#open_source {
+  background: #eee;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #eeeeee 0%, #bbbbbb 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #eeeeee 0%, #bbbbbb 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #eeeeee 0%, #bbbbbb 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #eeeeee 0%, #bbbbbb 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #eeeeee 0%, #bbbbbb 100%);
+  /* W3C */
+}
+#open_source h2 span {
+  width: inherit;
+  background-image: url('../images/home/github.png');
+  background-repeat: no-repeat;
+  background-position: 5px 0;
+  padding-left: 65px;
+  margin: 100px auto 0;
+}
+#portfolio {
+  background: #2d79ad;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #2d79ad 0%, #cad7db 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #2d79ad), color-stop(100%, #416078));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #2d79ad 0%, #416078 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #2d79ad 0%, #416078 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #2d79ad 0%, #416078 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #2d79ad 0%, #416078 100%);
+  /* W3C */
+}
+#portfolio p {
+  padding-bottom: 99px;
 }
 .columns-2,
 .columns-3 {
@@ -481,41 +585,6 @@ dl.cv dd {
   header p {
     font-size: 1em;
   }
-  nav {
-    text-align: center;
-  }
-  nav ul {
-    border-bottom: 1px solid #2d79ad;
-    width: 75%;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
-  }
-  nav li {
-    width: auto;
-    display: inline;
-    margin: 0;
-    float: none;
-  }
-  nav a {
-    display: inline-block;
-    padding: 10px 20px 7px 20px;
-    border-bottom: 2px solid white;
-  }
-  nav a.current_page_item {
-    border-bottom: 2px solid #2d79ad;
-  }
-  nav a:before {
-    content: '';
-    padding: 0;
-  }
-  nav a:hover {
-    padding-left: 20px;
-    border-bottom: 2px solid #2d79ad;
-  }
-  .slider .slide {
-    padding: 10% 10%;
-  }
   .columns-3 .wrap,
   .columns-2 .wrap {
     -moz-column-count: 2;
@@ -606,6 +675,36 @@ dl.cv dd {
     padding: 2%;
   }
 }
+@media screen and (min-width: 850px) {
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    border-bottom: 1px solid #2d79ad;
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  nav li {
+    width: auto;
+    display: inline;
+    margin: 0;
+    float: none;
+  }
+  nav a {
+    display: inline-block;
+    padding: 10px 20px 7px 20px;
+    border-bottom: 2px solid white;
+  }
+  nav a.current_page_item {
+    border-bottom: 2px solid #2d79ad;
+  }
+  nav a:hover {
+    padding-left: 20px;
+    border-bottom: 2px solid #2d79ad;
+  }
+}
 @media screen and (min-width: 1024px) {
   body {
     font-size: 68%;
@@ -613,36 +712,6 @@ dl.cv dd {
   .page {
     max-width: 1300px;
     border: none;
-  }
-  header {
-    text-align: left;
-  }
-  header > a {
-    padding: 36px 2% 98px 130px;
-    background-position: 20px 20px;
-    display: block;
-  }
-  header h1,
-  header p {
-    float: left;
-    clear: left;
-    width: auto;
-  }
-  header p {
-    font-size: 1em;
-  }
-  nav {
-    width: auto;
-    margin: 0;
-    position: absolute;
-    top: 35px;
-    right: 2%;
-  }
-  nav ul {
-    margin: 0;
-    float: right;
-    width: auto;
-    display: block;
   }
   .columns-2 h2,
   .columns-3 h2 {
@@ -690,13 +759,13 @@ dl.cv dd {
   .main .columns-3 {
     padding: 0;
   }
-  .post-list-excerpt .col {
+  .post-list-excerpt.columns-2 .col {
     padding-bottom: 0;
     padding-top: 0;
     width: 49%;
     margin-left: 1%;
   }
-  .post-list-excerpt .col:first-of-type {
+  .post-list-excerpt.columns-2 .col:first-of-type {
     margin-right: 1%;
     margin-left: 0;
   }
@@ -713,6 +782,46 @@ dl.cv dd {
   }
   section.col {
     clear: none;
+  }
+  .slider .slide {
+    min-height: 350px;
+    padding-top: 50px;
+  }
+  #adventures_photography h2,
+  #adventures_photography p {
+    width: 61%;
+  }
+}
+@media screen and (min-width: 1215px) {
+  header {
+    text-align: left;
+  }
+  header > a {
+    padding: 36px 2% 98px 130px;
+    background-position: 20px 20px;
+    display: block;
+  }
+  header h1,
+  header p {
+    float: left;
+    clear: left;
+    width: auto;
+  }
+  header p {
+    font-size: 1em;
+  }
+  nav {
+    width: auto;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    right: 2%;
+  }
+  nav ul {
+    margin: 0;
+    float: right;
+    width: auto;
+    display: block;
   }
 }
 @media screen and (min-width: 1300px) {

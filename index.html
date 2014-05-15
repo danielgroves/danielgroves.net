@@ -4,20 +4,44 @@ title: Designer &amp; Developer
 
 header: '<!-- Contact Validation -->
 		 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		 <!--<script type="text/javascript" src="/assets/js/home/flickr.js"></script>-->'
+		 <script type="text/javascript" src="/assets/js/unslider/unslider.js"></script>
+		 <script>
+		 $(function() {
+		     $(".slider").unslider({
+		     	items: "> div",
+				item: " .slide",
+				fluid: true,
+				keys: true,
+				dots: true,
+				delay: 8000
+		     });
+		 });
+		 </script>'
 ---
 
 <section class="slider">
-				
-	<div class="slide" id="design_and_code">
-		<h2>Design <span class="ampersand">&amp;</span> Code</h2>
-		<p>I'm a web designer and developer in the southwest of England.</p>
+	<div>
+		<div class="slide" id="design_and_code">
+			<h2>Design <span class="ampersand">&amp;</span> Code</h2>
+			<p>I'm a web designer and developer in the southwest of England.</p>
+		</div>
+		<div class="slide light" id="open_source">
+			<h2><span>Open Source</span></h2>
+			<p>A collection of open-source contributions. <a href="https://github.com/danielgroves" class="more">View profile &#8594;</a></p>
+		</div>
+		<div class="slide" id="portfolio">
+			<h2>Portfolio</h2>
+			<p>Works completed for clients and university. <a href="https://github.com/danielgroves" class="more">View works &#8594;</a></p>
+		</div>
+		<div class="slide" id="adventures_photography">
+			<h2>Adventures and Photography</h2>
+			<p>Adventures across Dartmoor and Scotland <a href="/adventures-photography/" class="more">View adventures &#8594;</a></p>
+		</div>
 	</div>
-				
 </section><!-- /.slider -->
-			
+
 <section class="columns-3">
-				
+
 	<article class="col">
 		<h2>Design</h2>
 		<div class="wrap">
@@ -25,7 +49,7 @@ header: '<!-- Contact Validation -->
 			<p>I work with HTML5, CSS3 and JavaScript to develop responsive designs in the browser. This way you can see how the finished product will look and behave, this prevents you having a static product with a poor experience whilst saving you money. </p>
 		</div>
 	</article>
-				
+
 	<article class="col">
 		<h2>Code</h2>
 		<div class="wrap">
@@ -33,7 +57,7 @@ header: '<!-- Contact Validation -->
 			<p>I use GIT for version control in all of my projects to ensure that it is easily to collaborate with other developers, experiment new with features and control changes. </p>
 		</div>
 	</article>
-				
+
 	<div class="col">
 		<h2>Writing</h2>
 		<dl id="homeLatestPosts">
@@ -45,11 +69,11 @@ header: '<!-- Contact Validation -->
 			{% endfor %}
 		</dl>
 	</div>
-				
+
 </section><!-- /.columns-3 -->
-			
+
 <section class="columns-2 dark" id="flickr">
-				
+
 	<article class="col">
 		<h2>About</h2>
 		<div class="wrap">
@@ -57,7 +81,7 @@ header: '<!-- Contact Validation -->
 			<p>You can see details of my <a href="/resume/" title="Daniel Groves Curriculum Vitae">qualifications in my CV</a>. </p>
 		</div>
 	</article>
-	
+
 	<section class="col" id="flickr_content">
 		<h2>Photography</h2>
 		<ul class="photos">
@@ -68,5 +92,5 @@ header: '<!-- Contact Validation -->
 			<li><a href="http://www.flickr.com/photos/danielsgroves/7088526967/in/photostream" title="Low Bank, Cumbria"><img src="/assets/images/home/5.jpg" alt="Low Bank, Cumbria" /></a></li>
 		</ul>
 	</section>
-				
+
 </section><!-- /.columns-2 -->

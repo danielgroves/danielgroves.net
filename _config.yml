@@ -10,7 +10,7 @@ permalink: /:categories/:year/:month/:title
 url: https://danielgroves.net
 name: Daniel Groves
 
-paginate: 20
+paginate: 12
 
 # Disables the default paginator from working
 # Otherwise it generates /page2, /page3, etc
@@ -35,3 +35,5 @@ sitemap:
         - /notebook/index.html
     change_frequency_name: "change_frequency"
     priority_name: "priority"
+
+hire_me: true
