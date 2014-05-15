@@ -206,25 +206,18 @@ nav {
     }
 
     li {
-        width: 49%;
-        margin-left: 1%;
-        margin-top: 10px;
+        width: 100%;
         float: left;
         list-style: none;
     }
 
     a {
         display: block;
-        padding: 5px 2%;
+        padding: 10px 2%;
 
         &.current_page_item {
             color: @dark-grey;
             background: @light-blue;
-        }
-
-        &:before {
-            content: '>';
-            padding-right: 3%;
         }
 
         &:hover {
@@ -649,45 +642,6 @@ dl.cv {
         font-size: 1em;
     }
 
-    nav {
-        text-align: center;
-
-        ul {
-            border-bottom: 1px solid @dark-blue;
-            width: 75%;
-            margin: 0 auto;
-            overflow: hidden;
-            text-align: center;
-        }
-
-        li {
-            width: auto;
-            display: inline;
-            margin: 0;
-            float: none;
-        }
-
-        a {
-            display: inline-block;
-            padding: 10px 20px 7px 20px;
-            border-bottom: 2px solid white;
-
-            &.current_page_item {
-                border-bottom: 2px solid @dark-blue;
-            }
-
-            &:before {
-                content: '';
-                padding: 0;
-            }
-
-            &:hover {
-                padding-left: 20px;
-                border-bottom: 2px solid @dark-blue;
-            }
-        }
-    }
-
     .columns-3, .columns-2 {
         .wrap {
             .columns( 2, 35px );
@@ -792,6 +746,42 @@ dl.cv {
     }
 }
 
+@media screen and (min-width: 850px) {
+    nav {
+        text-align: center;
+
+        ul {
+            border-bottom: 1px solid @dark-blue;
+            width: 75%;
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        li {
+            width: auto;
+            display: inline;
+            margin: 0;
+            float: none;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px 7px 20px;
+            border-bottom: 2px solid white;
+
+            &.current_page_item {
+                border-bottom: 2px solid @dark-blue;
+            }
+
+            &:hover {
+                padding-left: 20px;
+                border-bottom: 2px solid @dark-blue;
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 1024px) {
     body {
         font-size: 68%;
@@ -800,42 +790,6 @@ dl.cv {
     .page {
         max-width: 1300px;
         border: none;
-    }
-
-    header {
-        text-align: left;
-
-        > a {
-            padding: 36px 2% 98px 130px;
-            background-position: 20px 20px;
-            display: block;
-        }
-
-        h1, p {
-            float: left;
-            clear: left;
-            width: auto;
-        }
-
-        p {
-            font-size: 1em;
-        }
-    }
-
-    nav {
-        width: auto;
-        margin: 0;
-
-        position: absolute;
-        top: 35px;
-        right: 2%;
-
-        ul {
-            margin: 0;
-            float: right;
-            width: auto;
-            display: block;
-        }
     }
 
     .columns-2, .columns-3 {
@@ -933,6 +887,44 @@ dl.cv {
     #adventures_photography {
         h2, p {
             width: 61%;
+        }
+    }
+}
+
+@media screen and (min-width: 1215px) {
+    header {
+        text-align: left;
+
+        > a {
+            padding: 36px 2% 98px 130px;
+            background-position: 20px 20px;
+            display: block;
+        }
+
+        h1, p {
+            float: left;
+            clear: left;
+            width: auto;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+
+    nav {
+        width: auto;
+        margin: 0;
+
+        position: absolute;
+        top: 35px;
+        right: 2%;
+
+        ul {
+            margin: 0;
+            float: right;
+            width: auto;
+            display: block;
         }
     }
 }

@@ -206,23 +206,17 @@ nav ul {
   margin: 0;
 }
 nav li {
-  width: 49%;
-  margin-left: 1%;
-  margin-top: 10px;
+  width: 100%;
   float: left;
   list-style: none;
 }
 nav a {
   display: block;
-  padding: 5px 2%;
+  padding: 10px 2%;
 }
 nav a.current_page_item {
   color: #333333;
   background: #cad7db;
-}
-nav a:before {
-  content: '>';
-  padding-right: 3%;
 }
 nav a:hover {
   border: none;
@@ -591,38 +585,6 @@ dl.cv dd {
   header p {
     font-size: 1em;
   }
-  nav {
-    text-align: center;
-  }
-  nav ul {
-    border-bottom: 1px solid #2d79ad;
-    width: 75%;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
-  }
-  nav li {
-    width: auto;
-    display: inline;
-    margin: 0;
-    float: none;
-  }
-  nav a {
-    display: inline-block;
-    padding: 10px 20px 7px 20px;
-    border-bottom: 2px solid white;
-  }
-  nav a.current_page_item {
-    border-bottom: 2px solid #2d79ad;
-  }
-  nav a:before {
-    content: '';
-    padding: 0;
-  }
-  nav a:hover {
-    padding-left: 20px;
-    border-bottom: 2px solid #2d79ad;
-  }
   .columns-3 .wrap,
   .columns-2 .wrap {
     -moz-column-count: 2;
@@ -713,6 +675,36 @@ dl.cv dd {
     padding: 2%;
   }
 }
+@media screen and (min-width: 850px) {
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    border-bottom: 1px solid #2d79ad;
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  nav li {
+    width: auto;
+    display: inline;
+    margin: 0;
+    float: none;
+  }
+  nav a {
+    display: inline-block;
+    padding: 10px 20px 7px 20px;
+    border-bottom: 2px solid white;
+  }
+  nav a.current_page_item {
+    border-bottom: 2px solid #2d79ad;
+  }
+  nav a:hover {
+    padding-left: 20px;
+    border-bottom: 2px solid #2d79ad;
+  }
+}
 @media screen and (min-width: 1024px) {
   body {
     font-size: 68%;
@@ -720,36 +712,6 @@ dl.cv dd {
   .page {
     max-width: 1300px;
     border: none;
-  }
-  header {
-    text-align: left;
-  }
-  header > a {
-    padding: 36px 2% 98px 130px;
-    background-position: 20px 20px;
-    display: block;
-  }
-  header h1,
-  header p {
-    float: left;
-    clear: left;
-    width: auto;
-  }
-  header p {
-    font-size: 1em;
-  }
-  nav {
-    width: auto;
-    margin: 0;
-    position: absolute;
-    top: 35px;
-    right: 2%;
-  }
-  nav ul {
-    margin: 0;
-    float: right;
-    width: auto;
-    display: block;
   }
   .columns-2 h2,
   .columns-3 h2 {
@@ -828,6 +790,38 @@ dl.cv dd {
   #adventures_photography h2,
   #adventures_photography p {
     width: 61%;
+  }
+}
+@media screen and (min-width: 1215px) {
+  header {
+    text-align: left;
+  }
+  header > a {
+    padding: 36px 2% 98px 130px;
+    background-position: 20px 20px;
+    display: block;
+  }
+  header h1,
+  header p {
+    float: left;
+    clear: left;
+    width: auto;
+  }
+  header p {
+    font-size: 1em;
+  }
+  nav {
+    width: auto;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    right: 2%;
+  }
+  nav ul {
+    margin: 0;
+    float: right;
+    width: auto;
+    display: block;
   }
 }
 @media screen and (min-width: 1300px) {
