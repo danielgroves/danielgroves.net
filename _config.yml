@@ -1,6 +1,6 @@
 safe: false
 port: 4000
-pygments: true
+highlighter: 'pygments'
 future: false
 timezone: Europe/London
 lsi: false
