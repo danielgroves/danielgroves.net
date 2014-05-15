@@ -21,11 +21,11 @@ This was taken from the funicular railway car park looking up one of the ski slo
 These next two images were both taken from the same place at the top of Loch Leven. They both show the scene in very different light as the afternoon progressed into the evening.
 
 <figure>
-    <img src="/assets/camera-roll/2014/01/DSC_7781.jpg" alt="Looking up during Cairngorm ski slopes during the summer months" />
-    <figcaption>Light punching through the clouds in the far distance</figcaption>
+    <img src="/assets/camera-roll/2014/01/DSC_7781.jpg" alt="Light punching through the clouds in the far distance looking down Loch Leven" />
+    <figcaption>Light punching through the clouds in the far distance looking down Loch Leven</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/camera-roll/2014/01/DSC_7803.jpg" alt="Looking up during Cairngorm ski slopes during the summer months" />
+    <img src="/assets/camera-roll/2014/01/DSC_7803.jpg" alt="Cloud breaking up as the day progressed and mist started to rise from the loch banks" />
     <figcaption>Cloud breaking up as the day progressed and mist started to rise from the loch banks</figcaption>
 </figure>
