@@ -258,11 +258,11 @@ nav a:hover {
   background: #efefef;
 }
 .slider h2 {
-  margin-top: 140px;
+  margin-top: 100px;
   font-size: 3.5em;
 }
 .slider p {
-  padding: 20px 0 90px 0;
+  padding: 10px 0 100px 0;
   line-height: 120%;
 }
 .slider ul {
@@ -279,6 +279,7 @@ nav a:hover {
   border-radius: 6px;
   font-size: 80%;
   padding: 6px 12px;
+  display: inline-block;
 }
 .slider a.more:link,
 .slider a.more:visited {
@@ -321,21 +322,15 @@ nav a:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#server_observer {
-  background: #577a14;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #577a14 0%, #384e0d 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #577a14), color-stop(100%, #384e0d));
-  /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #577a14 0%, #384e0d 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #577a14 0%, #384e0d 100%);
-  /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #577a14 0%, #384e0d 100%);
-  /* IE10+ */
-  background: radial-gradient(ellipse at center, #577a14 0%, #384e0d 100%);
-  /* W3C */
+#adventures_photography {
+  background-image: url('/assets/images/home/slider_4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#adventures_photography h2,
+#adventures_photography p {
+  text-align: center;
+  width: 100%;
 }
 #open_source {
   background: #eee;
@@ -359,7 +354,7 @@ nav a:hover {
   background-repeat: no-repeat;
   background-position: 5px 0;
   text-indent: 45px;
-  margin: 140px auto 0;
+  margin: 100px auto 0;
 }
 #portfolio {
   background: #2d79ad;
@@ -376,6 +371,9 @@ nav a:hover {
   /* IE10+ */
   background: radial-gradient(ellipse at center, #2d79ad 0%, #416078 100%);
   /* W3C */
+}
+#portfolio p {
+  padding-bottom: 99px;
 }
 .columns-2,
 .columns-3 {
@@ -823,13 +821,18 @@ dl.cv dd {
   section.col {
     clear: none;
   }
+  .slider .slide {
+    min-height: 350px;
+    padding-top: 50px;
+  }
+  #adventures_photography h2,
+  #adventures_photography p {
+    width: 61%;
+  }
 }
 @media screen and (min-width: 1300px) {
   .page {
     border: 1px solid #ccc;
-  }
-  .slider .slide {
-    min-height: 400px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {

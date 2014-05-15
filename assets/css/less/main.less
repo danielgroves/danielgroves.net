@@ -265,12 +265,12 @@ nav {
     }
 
     h2 {
-        margin-top: 140px;
+        margin-top: 100px;
         font-size: 3.5em;
     }
 
     p {
-        padding: 20px 0 90px 0;
+        padding: 10px 0 100px 0;
         line-height: 120%;
     }
 
@@ -290,6 +290,7 @@ nav {
         border-radius: 6px;
         font-size: 80%;
         padding: 6px 12px;
+        display: inline-block;
 
         &:link, &:visited {
             color: @light-grey;
@@ -335,14 +336,15 @@ nav {
     background-repeat: no-repeat;
 }
 
-#server_observer {
-    background: #577a14; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #577a14 0%, darken(#577a14, 10%) 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#577a14), color-stop(100%,darken(#577a14, 10%))); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #577a14 0%,darken(#577a14, 10%) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #577a14 0%,darken(#577a14, 10%) 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #577a14 0%,darken(#577a14, 10%) 100%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  #577a14 0%,darken(#577a14, 10%) 100%); /* W3C */
+#adventures_photography {
+    background-image: url('/assets/images/home/slider_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2, p {
+        text-align: center;
+        width: 100%;
+    }
 }
 
 #open_source {
@@ -352,7 +354,7 @@ nav {
         background-repeat: no-repeat;
         background-position: 5px 0;
         text-indent: 45px;
-        margin: 140px auto 0;
+        margin: 100px auto 0;
     }
 
     background: #eee; /* Old browsers */
@@ -372,6 +374,10 @@ nav {
     background: -o-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* Opera 12+ */
     background: -ms-radial-gradient(center, ellipse cover,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* IE10+ */
     background: radial-gradient(ellipse at center,  @dark-blue 0%,rgba(65,96,120,1) 100%); /* W3C */
+
+    p {
+        padding-bottom: 99px;
+    }
 }
 
 .columns-2, .columns-3 {
@@ -917,15 +923,23 @@ dl.cv {
             clear: none;
         }
     }
+
+    // Slider
+    .slider .slide {
+        min-height: 350px;
+        padding-top: 50px;
+    }
+
+    #adventures_photography {
+        h2, p {
+            width: 61%;
+        }
+    }
 }
 
 @media screen and (min-width: 1300px) {
     .page {
         border: 1px solid #ccc;
-    }
-
-    .slider .slide {
-        min-height: 400px;
     }
 }
 
