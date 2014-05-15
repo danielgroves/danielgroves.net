@@ -4,7 +4,7 @@ published: true
 title: Cairngorms and Loch Leven
 excerpt: "A small selection of pictures from two weeks on Scotland"
 date: 2014-01-14 22:40
-thumb: /assets/camera-roll/2014/01/DSC_7615.jpg
+thumb: /assets/camera-roll/2014/01/DSC_7803_thumb.jpg
 ---
 
 I recently decided that in order to motivate myself to both use the camera more, and get more of what I shoot "out there" I would start a camera roll. This is essentially a photo blog, something I have been considering starting for some time now.
@@ -21,11 +21,11 @@ This was taken from the funicular railway car park looking up one of the ski slo
 These next two images were both taken from the same place at the top of Loch Leven. They both show the scene in very different light as the afternoon progressed into the evening.
 
 <figure>
-    <img src="/assets/camera-roll/2014/01/DSC_7781.jpg" alt="Looking up during Cairngormski slopes during the summer months" />
+    <img src="/assets/camera-roll/2014/01/DSC_7781.jpg" alt="Looking up during Cairngorm ski slopes during the summer months" />
     <figcaption>Light punching through the clouds in the far distance</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/camera-roll/2014/01/DSC_7803.jpg" alt="Looking up during Cairngormski slopes during the summer months" />
+    <img src="/assets/camera-roll/2014/01/DSC_7803.jpg" alt="Looking up during Cairngorm ski slopes during the summer months" />
     <figcaption>Cloud breaking up as the day progressed and mist started to rise from the loch banks</figcaption>
 </figure>
