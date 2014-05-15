@@ -348,12 +348,12 @@ nav a:hover {
   background: radial-gradient(ellipse at center, #eeeeee 0%, #bbbbbb 100%);
   /* W3C */
 }
-#open_source h2 {
+#open_source h2 span {
   width: inherit;
   background-image: url('../images/home/github.png');
   background-repeat: no-repeat;
   background-position: 5px 0;
-  text-indent: 45px;
+  padding-left: 65px;
   margin: 100px auto 0;
 }
 #portfolio {
