@@ -799,13 +799,13 @@ dl.cv dd {
   .main .columns-3 {
     padding: 0;
   }
-  .post-list-excerpt .col {
+  .post-list-excerpt.columns-2 .col {
     padding-bottom: 0;
     padding-top: 0;
     width: 49%;
     margin-left: 1%;
   }
-  .post-list-excerpt .col:first-of-type {
+  .post-list-excerpt.columns-2 .col:first-of-type {
     margin-right: 1%;
     margin-left: 0;
   }
