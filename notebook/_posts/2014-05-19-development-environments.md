@@ -2,7 +2,7 @@
 layout: blog
 published: true
 title: Development Environments with Vagrant and Ansible
-date: 2014-05-19 21:00
+date: 2014-05-22 09:00
 excerpt: "How to use Vagrant and Ansible together to build a powerful, flexible and portable development environment"
 ---
 
