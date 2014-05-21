@@ -3,26 +3,26 @@ layout: blog
 published: true
 title: Development Environments with Vagrant and Ansible
 date: 2014-05-19 21:00
-excerpt: "Looking at Vagrant and Ansible as a development environment solution"
+excerpt: "How to use Vagrant and Ansible together to build a powerful, flexible and portable development environment"
 ---
 
-[Vagrant](http://www.vagrantup.com "Configurable, cross-platform, development environments") is one of those technologies which I once didn't think I needed, but after giving it a go it quickly became an indispensable part of my daily workflow. Without it working on [Server Observer](https://serverapp.io "Simple and Reliable Server Monitoring") would have been much more difficult. The same can easily be applied to many other projects I have worked on as part of my degree.
+[Vagrant](http://www.vagrantup.com "Configurable, cross-platform, development environments") is one of those technologies which I once didn't think I needed, but after giving it a go it quickly became an indispensable part of my daily workflow. Without it, working on [Server Observer](https://serverapp.io "Simple and Reliable Server Monitoring") would have been much more difficult. The same can easily be applied to many other projects I have worked on as part of my degree.
 
-Vagrant itself is only *part* of the solution, it handles the generation and basic imaging of virtual machines isolated development environments. However, Vagrant doesn't handle the provisioning of these virtual machines. It's still up to us to handling the installation and configuration of the packages we require to work. Thank-fully, Vagrant is easily integrates with existing provisioners including [Chef](http://www.getchef.com "IT Automation"), [Puppet](http://puppetlabs.com "Automated IT Ops") and my provisioner of choice *[Ansible](http://www.ansible.com/home "Simple IT Automation")*.
+Vagrant itself is only *part* of the solution, it handles the generation and basic imaging of virtual machines to form isolated development environments. However, Vagrant doesn't handle the provisioning of these virtual machines. It's still up to us to handle the installation and configuration of the packages we require to work. Thankfully, Vagrant is easily integrates with existing provisioners including [Chef](http://www.getchef.com "IT Automation"), [Puppet](http://puppetlabs.com "Automated IT Ops"), and my provisioner of choice *[Ansible](http://www.ansible.com/home "Simple IT Automation")*.
 
-Once a virtual machine has been generated and a provisioner has been developed it is suddenly very fast to start a development environment on a brand-new computer without having to worry about finding, installing, and configuring multiple project dependencies. Any developer can pickup a project and start working on it with little manual work, in the same environment as everyone else, using their favourite text-editor on their local computer.
+Once a virtual machine has been generated and a provisioner has been developed it is very fast to start a development environment on a brand-new computer without having to worry about finding, installing, and configuring multiple project dependencies. Any developer can pickup a project and start working on it with little manual work, in the same environment as everyone else, using their favourite text-editor on their local computer.
 
 This article will take you through the stages of setting up a Vagrant configuration for a new virtual machine, and how to provision this with software using two custom Ansible playbooks. This will be a very hands-on tutorial where I'd recommend trying things for yourself. It is backed by a [repository on GitHub](https://github.com/danielgroves/Vagrant-Tutorial "Vagrant Tutorial on GitHub") with a complete copy of all of the resources used in this tutorial.
 
-In this tutorial we'll create a Django development environment, using a Postgresql backend. Despite this, this tutorial can easily be adapted for other setups, such as the Nginx/MySQL/PHP-FPM setup in the [php branch](https://github.com/danielgroves/Vagrant-Tutorial/tree/php "Nginx, PHP and MySQL Vagrant + Ansible setup").
+In this tutorial we'll create a Django development environment, using a PostgreSQL backend. Despite this, this tutorial can easily be adapted for other setups, such as the Nginx/MySQL/PHP-FPM setup in the [php branch](https://github.com/danielgroves/Vagrant-Tutorial/tree/php "Nginx, PHP and MySQL Vagrant + Ansible setup").
 
 ### Preparation
 
-If you haven't used the Terminal before on your computer, I would suggest you [familiarise yourself with the basics](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/ "Mac AppStorm Terminal Tutorial"). I will not be giving you a step-by-step of every command you need to run, so some knowledge will be required for navigating the file system on your platform. What commands are given here should be the same for Mac and Linux.
+If you haven't used the Terminal before on your computer, I would suggest you [familiarise yourself with the basics](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/ "Mac AppStorm Terminal Tutorial"). This tutorial is very terminal-heavy, it would be wise for you to know what you're doing. At a very minimum you'll need to know how to navigate the file system on your operating system. Commands given here should be the same for Mac and Linux.
 
 Make sure you've [installed the latest version of Vagrant for your platform](http://www.vagrantup.com/downloads.html "Download Vagrant") (version 1.5.4 at time of writing), as well as [Ansible](http://docs.ansible.com/intro_installation.html "Install Ansible") (version 1.6.1 at time of writing). If you don't already use it you'll also need to install [Virtualbox](https://www.virtualbox.org "Oracle Virtualbox"), although it is possible to use Vagrant with [VMware Fusion or Hyper-V](http://docs.vagrantup.com/v2/providers/index.html "Vagrant Providers"). Once this is done we're ready to start building our first development environment.
 
-Vagrant is designed to be committed directly into your projects source control, along with any provisioners used. This is certainly something that is advised, as it makes the use of the environment as simple as possible, and also helps to document what the system dependencies are and when they change. Vagrant will create some files which do not want to commit though, just as the use of virtualenv later in this tutorial will. The following `.gitignore` file will stop any of these files from being committed by accident.
+Vagrant is designed to be committed directly into your projects source control, along with any provisioners used. This is certainly something that is advised, as it makes the use of the environment as simple as possible, and also helps to document what the system dependencies are and when they change. Vagrant will create some files which you do not want to commit though, just as the use of virtualenv later in this tutorial will. The following `.gitignore` file will stop any of these files from being committed by accident.
 
 ```
 # Vagrant
@@ -41,9 +41,9 @@ local/
 
 Create a directory on you local file system to work from and navigate into this from the terminal. Feel free to initiate some version control software within the directory, before running `vagrant init`. This will generate a basic configuration file for us to work from, including some extensive commenting which should help you understand what is going on. For this use case the vast majority of this is not needed, so we'll remove this once we've gained a basic understanding of what is required.
 
-Vagrant doesn't use the standard images most operating system distributors provide. Instead it uses a 'vagrant box', which will contain multiple pre-configured packages as well as the operating system. Anyone can generate a box, and [Vagrant Cloud](https://vagrantcloud.com/discover/featured "Featured Vagrant Boxes") already has many to choose from with various pre-isntalled packages. I tend to work from a standard Ubuntu Precise 64 box, as this is the operating system that most of my servers run. To make use of this, we'll set config.vm.box to '`hasicorp/precise64`'.
+Vagrant doesn't use the standard images most operating system distributors provide. Instead it uses a 'vagrant box', which will contain multiple pre-configured packages as well as the operating system. Anyone can generate a box, and [Vagrant Cloud](https://vagrantcloud.com/discover/featured "Featured Vagrant Boxes") already has many to choose from with various pre-installed packages. I tend to work from a standard Ubuntu Precise 64 box, as this is the operating system that most of my servers run. To make use of this, we'll set `config.vm.box` to '`hashicorp/precise64`'.
 
-While we're adding this to the configuration we'll forward a port from out local computer to the Python development server and configure a shared folder which will allow us to work on the code-base on our local computer and have Vagrant synchronise changes into the development environment. Change your Vagrant file as follows:
+While we're adding this to the configuration we'll forward a port from our local computer to the Python development server and configure a shared folder which will allow us to work on the code-base on our local computer and have Vagrant synchronise changes into the development environment. Change your Vagrant file as follows:
 
 {% highlight ruby %}
 # -*- mode: ruby -*-
@@ -88,7 +88,7 @@ On the command line, run `vagrant up`. At this point Vagrant will download the U
 
 ### Provisioning Vagrant
 
-At this point we have a development virtual machine, but it lacks the dependencies of out project; this is where the provisioner comes in. In order to get started we need to set-out a basic directory structure contains the files and folders required by Ansible. Initially, this may appear to be overkill but getting everything organised now makes life easier at a later date. We can use the terminal to take a few shortcuts and quickly build the required directory structure.
+At this point we have a development virtual machine, but it lacks the dependencies of our project; this is where the provisioner comes in. In order to get started we need to set-out a basic directory structure contains the files and folders required by Ansible. Initially, this may appear to be overkill but getting everything organised now makes life easier at a later date. We can use the terminal to take a few shortcuts and quickly build the required directory structure.
 
 ```
 mkdir -p provision/{setup,deploy}/{tasks,vars,handlers}
@@ -122,7 +122,7 @@ Vagrantfile
 
 The idea here is to spilt the Ansible configuration up into multiple playbooks to help keep everything organised and as reusable as possible. The setup directory will have the configuration for the operating system, while the deploy will contain everything required for the virtualenv.
 
-Now, let's tell Vagrant about the provisioners. Add the following just inside the closing `end` statement in the `Vagrantfile`.
+Now, let's tell Vagrant about the provisioners. Add the following just inside the closing `end` statement in the `Vagrantfile`:
 
 {% highlight ruby %}
 # Install required software, dependencies and configurations on the
@@ -166,9 +166,9 @@ This section will focus on the *setup* playbook. The first thing we need to do i
 {% endhighlight %}
 
 
-This will update the package cache with `apt`, and then ensure each of the programs are installed alongside their dependencies. You'll notice two dependencies have a comment next to them detailing they're required by Ansible. These two programs allow Ansible to interact directly with Postgresql allowing us to automate its setup.
+This will update the package cache with `apt`, and then ensure each of the programs are installed alongside their dependencies. You'll notice two dependencies have a comment next to them detailing they're required by Ansible. These two programs allow Ansible to interact directly with PostgreSQL, allowing us to automate its setup.
 
-Earlier on we booted our virtual machine, but it was not provisioned as this hadn't been developed at the time. Rather than throwing away and rebuilding the virtual machine, we can force vagrant to provision the virtual machine by running `vagrant provision`. The final lines of the output should look like this:
+Earlier on we booted our virtual machine, but it was not provisioned as this hadn't been developed at the time. Rather than throwing away and rebuilding the virtual machine we can force vagrant to provision the virtual machine by running `vagrant provision`. The final lines of the output should look like this:
 
 ```
 PLAY RECAP ********************************************************************
@@ -177,9 +177,9 @@ default                    : ok=2    changed=1    unreachable=0    failed=0
 
 #### Configuring PostgreSQL
 
-At this point we're making good progress, however we need to configure Postgresql so that our Django project can use it. The first thing that needs doing is the authentication configuration so local users can use password authentication. To do this a file called `pg_hba.conf` needs replacing. I will not explain this in any detail here, however the file needed is in the GitHub repository. [Download a copy](https://github.com/danielgroves/Vagrant-Tutorial/blob/master/provision/setup/files/pg_hba.conf "Postgres authentication configuration on GitHub") and add a '`files`' directory within the setup playbook and place the file in there, named `pg_hba.conf`.
+At this point we're making good progress, however we need to configure PostgreSQL so that our Django project can use it. The first thing that needs doing is the authentication configuration so local users can use password authentication. To do this a file called `pg_hba.conf` needs replacing, I will not explain this in any detail here, however the file needed is in the GitHub repository. [Download a copy](https://github.com/danielgroves/Vagrant-Tutorial/blob/master/provision/setup/files/pg_hba.conf "Postgres authentication configuration on GitHub") and add a '`files`' directory within the setup playbook and place the file in there, named `pg_hba.conf`.
 
-Add the following to the `provision/setup/tasks/main.yml` to copy the new configuration onto the server.
+Add the following to the `provision/setup/tasks/main.yml` to copy the new configuration onto the server:
 
 {% highlight yaml %}
 {% raw %}
@@ -191,7 +191,7 @@ Add the following to the `provision/setup/tasks/main.yml` to copy the new config
 {% endraw %}
 {% endhighlight %}
 
-You'll notice this statements ends with a `notify` action. This calls a handler with the given name in the event that the task changes anything on the system. In this case should the `pg_hba.conf` file change, it'll restart Postgresql to load the new configuration. We do need to write this handler though, so add the following to `provision/setup/handlers/main.yml`.
+You'll notice this statement ends with a `notify` action. This calls a handler with the given name in the event that the task changes anything on the system. In this case should the `pg_hba.conf` file change, it'll restart PostgreSQL to load the new configuration. We do need to write this handler though, so add the following to `provision/setup/handlers/main.yml`.
 
 {% highlight yaml %}
 - name: Restart Postgres
@@ -199,7 +199,7 @@ You'll notice this statements ends with a `notify` action. This calls a handler 
   service: name=postgresql state=restarted
 {% endhighlight %}
 
-Now we have reconfigured postgres to allow local user to login we need to create a user and a database. First, we'll add some variables which contains the details we want to use for the new user. Add the following to `provision/setup/vars/main.yml`.
+Now we have reconfigured PostgreSQL to allow local user to login we need to create a user and a database. First, we'll add some variables which contain the details we want to use for the new user. Add the following to `provision/setup/vars/main.yml`:
 
 {% highlight yaml %}
 db_name: django_app
@@ -207,7 +207,7 @@ db_user: django
 db_password: sdjgh34iutwefhfgbqkj3
 {% endhighlight %}
 
-Now, we can use the Ansible postgres module to configure a user and a database within Postresqsl. Add the following to `provision/setup/tasks/main.yml`.
+Now, we can use the Ansible PostgreSQL module to configure a user and a database. Add the following to `provision/setup/tasks/main.yml`:
 
 {% highlight yaml %}
 {% raw %}
@@ -228,13 +228,13 @@ Now, we can use the Ansible postgres module to configure a user and a database w
 {% endraw %}
 {% endhighlight %}
 
-The `sudo_user` lines tell Ansible what user to run a command as, and since Postgresql will only allow users to login from the `postgres` account by default we tell Ansible to run the commands as this user.
+The `sudo_user` lines tell Ansible what user to run a command as, and since PostgreSQL will only allow users to login from the `postgres` account by default we tell Ansible to run the commands as this user.
 
 With this section complete we have now successfully provisioned a virtual machine with all of the system dependencies for the project. To force vagrant to re-provision the virtual machine and so load the latest changes run `vagrant provision`.
 
 #### Working with Virtualenv
 
-Now we're making good progress, but it's time to move onto provisioning the software deployment dependencies. From here on we'll be working with the `deploy` playbook. The first thing to consider is we'll be using pip to install a series of python modules within a playbook. To do this we need a requirements file which will be passed to pip. Let's install the latest versions on Django and South, as well as psycopg2 so that Django can talk to the postgres database. Create a file called `requirements.txt` within the app directory, and add the following:
+Now we're making good progress, but it's time to move onto provisioning the software deployment dependencies. From here on we'll be working with the `deploy` playbook. The first thing to consider is we'll be using pip to install a series of python modules within a playbook. To do this we need a requirements file which will be passed to pip. Let's install the latest versions of Django and South, as well as psycopg2 so that Django can talk to the PostgreSQL database. Create a file called `requirements.txt` within the app directory, and add the following:
 
 ```
 Django
@@ -242,7 +242,7 @@ South
 psycopg2
 ```
 
-Now, we'll tell Ansible to create a virtualenv and then to install the required modules. Add the following to `provision/deploy/tasks/main.yml`.
+Now, we'll tell Ansible to create a virtualenv, and then to install the required modules. Add the following to `provision/deploy/tasks/main.yml`:
 
 {% highlight yaml %}
 {% raw %}
@@ -251,17 +251,15 @@ Now, we'll tell Ansible to create a virtualenv and then to install the required 
 {% endraw %}
 {% endhighlight %}
 
-You'll notice the use of the `virtualenv_path` variable, let's add this in the `provision/deploy/vars/main.yml` file.
+You'll notice the use of the `virtualenv_path` variable, let's add this in the `provision/deploy/vars/main.yml` file:
 
 {% highlight yaml %}
 virtualenv_path: /var/www/django-app
 {% endhighlight %}
 
-Now run `vagrant provision` again to setup the python virtual environment, then we can start wotking with Django.
+Now run `vagrant provision` again to setup the python virtual environment, then we can start working with Django.
 
 #### Working with Django
-
-Before we can use Ansible to automatically synchronise and migrate our database we need a Dajngo application.
 
 Once the provisioner has finished running that's pretty much it for the initial setup, however we could take this further. Let's setup a basic Django application with South and then use ansible to setup the database on the virtual machine creation. Run the following to SSH into the virtual machine, activate the virtual environment and create a new Django application.
 
@@ -272,7 +270,7 @@ source bin/activate
 django-admin.py startproject vagranttest
 ```
 
-This will have created the initial app, but now we need to update the `settings.py` file so Django can talk to Postgresql. Find the following lines in `app/vagranttest/vagranttest/settings.py`:
+This will have created the initial app, but now we need to update the `settings.py` file so Django can talk to PostgreSQL. Find the following lines in `app/vagranttest/vagranttest/settings.py`:
 
 {% highlight python %}
 # Database
@@ -358,7 +356,7 @@ It's also worth noting that you should always add `.vagrant/` to the ignore file
 
 ### Summery
 
-Vagrant provides a flexible way of allowing multiple developers to work on complex project with little manual setup time or complexity and without littering their system with project dependencies. It is a well-designed platform which allows complex infrastructure to be replicated on a local computer with ease by as many developers as required.
+Vagrant provides a flexible way of allowing multiple developers to work on complex projects with little manual setup time or complexity, and without littering their system with project dependencies. It is a well-designed platform which allows complex infrastructure to be replicated on a local computer with ease by as many developers as required.
 
 Ansible presents a powerful way of provisioning servers and virtual machines with a minimal leaning curve. This article has only touched on the basics of what Ansible can do, covering the basics of keeping your configuration organised, and how to setup and configure basic software packages.
 
