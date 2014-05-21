@@ -26,7 +26,7 @@ Now we have this template the first thing we'll do is strip out the parts which 
 
 When building your environment with Vagrant you start with a base-image known as a 'box'. This is generally your choice of operating system and in some cases some dependencies. There are plenty to choose from, and [Vagrant Cloud](https://vagrantcloud.com/discover/featured "Featured Vagrant Boxes") provides a good place to start when looking for the perfect box for your project. In this case we'll use the `hashicorp/precise64` box to get a standard Ubuntu 12.04 x64 install.
 
-While we're adding this to the configuration we'll forward a port from out local computer to the Python development server and configure a shard folder which will allow us to work on the code-base on our local computer and have Vagrant synchronise it into the virtual machine. Change your Vagrant file as follows:
+While we're adding this to the configuration we'll forward a port from out local computer to the Python development server and configure a shared folder which will allow us to work on the code-base on our local computer and have Vagrant synchronise it into the virtual machine. Change your Vagrant file as follows:
 
 {% highlight ruby %}
 # -*- mode: ruby -*-
@@ -146,6 +146,7 @@ This section will focus on the 'setup' playbook. The first thing we need to do i
 {% highlight yaml %}
 {% raw %}
 - name: Install packages
+  sudo: yes
   apt: pkg={{ item }} state=installed update_cache=yes
   with_items:
       # Database
@@ -161,7 +162,7 @@ This section will focus on the 'setup' playbook. The first thing we need to do i
 {% endhighlight %}
 
 
-This will update the package cache with apt, and then ensure each of the programs in installed alongside their dependencies. You'll notice two dependencies have a comment next to them detailing they're required by Ansible. These two programs allow Ansible to interact directly with Postgres allowing us to automate its setup.
+This will update the package cache with apt, and then ensure each of the programs are installed alongside their dependencies. You'll notice two dependencies have a comment next to them detailing they're required by Ansible. These two programs allow Ansible to interact directly with Postgres allowing us to automate its setup.
 
 Earlier on we bought up out virtual machine, but it was not provisioned as this hadn't been developed at the time. Rather than throwing this away and rebuilding it we can force vagrant to provision the virtual machine by running `vagrant provision`.
 
@@ -172,32 +173,34 @@ default                    : ok=2    changed=1    unreachable=0    failed=0
 
 #### Configuring PostgreSQL
 
-At this point we're making good progress, however we need to configure Postgres so that our Django project can use it. The first thing that needs doing is the authentication configuration so local users can use password authentication. To do this a file called `pg_hba.conf` needs replacing. I will not explain this in any detail here, however the file needed is in the GitHub repository. [Download a copy](https://github.com/danielgroves/Vagrant-Tutorial/blob/master/provision/pg_hba.conf "Postgres authentication configuration on GitHub") and add a '`files`' directory within the setup playbook and place the file in there, named `pg_hba.conf`.
+At this point we're making good progress, however we need to configure Postgres so that our Django project can use it. The first thing that needs doing is the authentication configuration so local users can use password authentication. To do this a file called `pg_hba.conf` needs replacing. I will not explain this in any detail here, however the file needed is in the GitHub repository. [Download a copy](https://github.com/danielgroves/Vagrant-Tutorial/blob/master/provision/setup/files/pg_hba.conf "Postgres authentication configuration on GitHub") and add a '`files`' directory within the setup playbook and place the file in there, named `pg_hba.conf`.
 
 Add the following to the `setup/tasks/main.yml` to copy the new configuration onto the server.
 
 {% highlight yaml %}
 {% raw %}
 - name: Allow password authentication for local socket users
+  sudo: yes
   copy: src=pg_hba.conf dest=/etc/postgresql/9.1/main/pg_hba.conf force=yes
   notify:
       - Restart Postgres
 {% endraw %}
 {% endhighlight %}
 
-You'll notice this statements ends with a `notify` action. This calls a handler with the given name in the event that the task chancges anything on the system. In his case should the `pg_hba.cong` file change, it'll restart postgres to load the new configuration. We do need to write this handler though, so add the following to `setup/handlers/main.yml`.
+You'll notice this statements ends with a `notify` action. This calls a handler with the given name in the event that the task changes anything on the system. In his case should the `pg_hba.conf` file change, it'll restart postgres to load the new configuration. We do need to write this handler though, so add the following to `setup/handlers/main.yml`.
 
 {% highlight yaml %}
 - name: Restart Postgres
+  sudo: yes
   service: name=postgresql state=restarted
 {% endhighlight %}
 
 Now we have reconfigured postgres to allow local user to login we need to create a user and a database. First, we'll add some variables which contains the details we want to use for the new user. Add the following to `setup/vars/main.yml`.
 
 {% highlight yaml %}
-- db_name: django_app
-- db_user: django
-- db_password: sdjgh34iutwefhfgbqkj3
+db_name: django_app
+db_user: django
+db_password: sdjgh34iutwefhfgbqkj3
 {% endhighlight %}
 
 Now, we can use the Ansible postgres module to configure a user and database within postgres. Add the following to `setup/tasks/main.yml`.
@@ -247,7 +250,7 @@ Now, we'll tell ansible to create a virtualenv and then to install the required 
 You'll notice the use of the `virtualenv_path` variable, let's add this in the `deploy/vars/main.yml` file.
 
 {% highlight yaml %}
-- virtualenv_path: /var/www/django-app
+virtualenv_path: /var/www/django-app
 {% endhighlight %}
 
 Now run `vagrant provision` again to setup the python virtual environment, then we can start wotking with Django.
@@ -268,25 +271,62 @@ django-admin.py startproject vagranttest
 This will have created the initial app, but now we need to update the `settings.py` file so Django can talk to Postgres. Find the following lines in `app/vagranttest/vagranttest/settings.py`:
 
 {% highlight python %}
+# Database
+# https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
 {% endhighlight %}
 
 And replace them with:
 
 {% highlight python %}
+# Database
+# https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'django_app',
+        'USER': 'django',
+        'PASSWORD': 'sdjgh34iutwefhfgbqkj3',
+        'HOST': 'localhost',
+    }
+}
+{% endhighlight %}
+
+And add south for migrations support:
+
+{% highlight python %}
+# Application definition
+
+INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'South',
+)
 {% endhighlight %}
 
 Now, let's make Ansible sync our database for us.
 
-```
+{% highlight yaml %}
+{% raw %}
 - name: Django syncdb
   django_manage: command=syncdb app_path={{ virtualenv_path }}/vagranttest virtualenv={{ virtualenv_path }}
 - name: Django migrate
   django_manage: command=migrate app_path={{ virtualenv_path }}/vagranttest virtualenv={{ virtualenv_path }}
-```
+{% endraw %}
+{% endhighlight %}
 
-Now provision the virtual machine one final time to ensure that it runs thrugh properly with `vagrant provision`.
+Now provision the virtual machine one final time to ensure that it runs through properly with `vagrant provision`.
 
 ### Putting Everything to Work
 
@@ -297,12 +337,13 @@ vagrant up
 vagrant ssh
 cd /var/www/django-app
 source bin/activate
-python vagranttest/manage.py 0.0.0.0:8080
+python vagranttest/manage.py runserver 0.0.0.0:8080
 ```
 
 Once they've done this they'll have an identical environment to everyone else, will be able to continue working in their favourite editor, and will be able to access the project by simply accessing `http://localhost:8080` in a browser on their local machine.
 
 There are a few Vagrant commands worth knowing:
+
 * `vagrant up`: Boots a virtual machine
 * `vagrant provision`: Force the provisioners to be run again a virtual machine. Useful for updating the configuration of existing virtual machines.
 * `vagrant halt`: Shutdown a virtual machine.
