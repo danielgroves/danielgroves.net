@@ -14,7 +14,7 @@ Once a virtual machine has been generated and a provisioner has been developed i
 
 This article will take you through the stages of setting up a Vagrant configuration for a new virtual machine, and how to provision this with software using two custom Ansible playbooks. This will be a very hands-on tutorial where I'd recommend trying things for yourself. It is backed by a [repository on GitHub](https://github.com/danielgroves/Vagrant-Tutorial "Vagrant Tutorial on GitHub") with a complete copy of all of the resources used in this tutorial.
 
-In this tutorial we'll create a Django development environment, using a Postgresql backend. Despite this, this tutorial can easily be adapted for other setups, such as the Nginx/MySQL/PHP-FPM setup in the [php branch](https://github.com/danielgroves/Vagrant-Tutorial/php "Vagrant Tutorial on GitHub").
+In this tutorial we'll create a Django development environment, using a Postgresql backend. Despite this, this tutorial can easily be adapted for other setups, such as the Nginx/MySQL/PHP-FPM setup in the [php branch](https://github.com/danielgroves/Vagrant-Tutorial/tree/php "Nginx, PHP and MySQL Vagrant + Ansible setup").
 
 ### Preparation
 
