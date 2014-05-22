@@ -354,7 +354,7 @@ There are a few Vagrant commands worth knowing:
 
 It's also worth noting that you should always add `.vagrant/` to the ignore file for your source control. Otherwise you will be committing entire virtual machines to your project, which is the last thing you want to do.
 
-### Summery
+### Summary
 
 Vagrant provides a flexible way of allowing multiple developers to work on complex projects with little manual setup time or complexity, and without littering their system with project dependencies. It is a well-designed platform which allows complex infrastructure to be replicated on a local computer with ease by as many developers as required.
 
