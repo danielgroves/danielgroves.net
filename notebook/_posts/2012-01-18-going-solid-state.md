@@ -2,7 +2,7 @@
 layout: blog
 published: true
 title: Going Solid State
-excerpt: I share how I went about upgrading to an SSD whilst maintaining the volume of storage that I require on a dialy basis. 
+excerpt: I share how I went about upgrading to an SSD whilst maintaining the volume of storage that I require on a dialy basis.
 
 date: 2012-01-18 10:23:31.000000000 +00:00
 ---
@@ -36,17 +36,17 @@ All of this was completed on version OS 10.7.2 "Lion" with no problems, although
 
 TRIM will most likely not be activated on any Mac that does not have an apple supplied SSD under the hood, but it is easy to enable. To check if it is enabled or not go to " -> About This Mac -> More Info...". From here press system report and then select "Serial-ATA" in the sidebar. If it is enabled it should look something like the image below.
 
-[<img class="size-medium wp-image-598" title="Checking if TRIM is activated on OS X Lion" src="http://danielgroves.net/wp-content/uploads/2012/01/trimOnOSX-550x425.png" alt="Checking if TRIM is activated on OS X Lion" width="550" height="425" />](http://danielgroves.net/wp-content/uploads/2012/01/trimOnOSX.png) Checking if TRIM is activated on OS X Lion
+<figure>
+    <img src="/assets/images/blog/2012-01-18-going-solid-state/check-trim-enabled.png" alt="How to check if TRIM is enabled on a Mac" />
+    <figcaption>How to check if TRIM is enabled on a Mac</figcaption>
+</figure>
 
 To activate TRIM fire up a new Terminal window a use the following commands:
 
 {% highlight bash %}
 sudo cp /System/Library/Extensions/IOAHCIFamily.kext/Contents/PlugIns/IOAHCIBlockStorage.kext/Contents/MacOS/IOAHCIBlockStorage /System/Library/Extensions/IOAHCIFamily.kext/Contents/PlugIns/IOAHCIBlockStorage.kext/Contents/MacOS/IOAHCIBlockStorage.original
-
 sudo perl -pi -e 's|(\x52\x6F\x74\x61\x74\x69\x6F\x6E\x61\x6C\x00).{9}(\x00\x51)|$1\x00\x00\x00\x00\x00\x00\x00\x00\x00$2|sg' /System/Library/Extensions/IOAHCIFamily.kext/Contents/PlugIns/IOAHCIBlockStorage.kext/Contents/MacOS/IOAHCIBlockStorage
-
 sudo kextcache -system-prelinked-kernel
-
 sudo kextcache -system-caches
 {% endhighlight %}
 
