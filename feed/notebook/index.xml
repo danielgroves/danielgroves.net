@@ -1,28 +1,23 @@
 ---
-layout: empty
+layout: feed
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Notebook - Daniel Groves</title>
+    <link href="http://danielgroves.net/feed/notebook/" rel="self"/>
+    <link href="http://danielgroves.net/notebook/"/>
 
-	<title>Notebook - Daniel Groves</title>
-	<link href="http://danielgroves.net/feed/notebook/" rel="self"/>
-	<link href="http://danielgroves.net/notebook/"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://danielgroves.net/</id>
+    <author>
+    	<name>Daniel Groves</name>
+    	<email>hello@danielgroves.net</email>
+    </author>
 
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://danielgroves.net/</id>
-	<author>
-		<name>Daniel Groves</name>
-		<email>hello@danielgroves.net</email>
-	</author>
-
-	{% for post in site.categories.notebook %}
-	<entry>
-		<title>{{ post.title }}</title>
-		<link href="http://danielgroves.net{{ post.url }}"/>
-		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://danielgroves.net{{ post.id }}</id>
-		<content type="html">{{ post.content | xml_escape }}</content>
-	</entry>
-	{% endfor %}
-
-</feed>
+    {% for post in site.categories.notebook %}
+    <entry>
+    	<title>{{ post.title }}</title>
+    	<link href="http://danielgroves.net{{ post.url }}"/>
+    	<updated>{{ post.date | date_to_xmlschema }}</updated>
+    	<id>http://danielgroves.net{{ post.id }}</id>
+    	<content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
