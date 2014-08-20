@@ -1,12 +1,12 @@
-# 
+#
 # Based on RealJenius.com cat_and_tag_generator
 # https://github.com/realjenius/realjenius.com/blob/master/_plugins/cat_and_tag_generator.rb
-# 
+#
 
 module Jekyll
 
   class CatsAndTags < Generator
-  
+
     safe true
 
     def generate(site)
@@ -19,23 +19,23 @@ module Jekyll
       end
     end
 
-    def build_subpages(site, type, posts) 
-      posts[1] = posts[1].sort_by { |p| -p.date.to_f }     
+    def build_subpages(site, type, posts)
+      posts[1] = posts[1].sort_by { |p| -p.date.to_f }
       paginate(site, type, posts)
     end
 
     def paginate(site, type, posts)
-      pages = Pager.calculate_pages(posts[1], site.config['paginate'].to_i)
+      pages = Jekyll::Paginate::Pager.calculate_pages(posts[1], site.config['paginate'].to_i)
       (1..pages).each do |num_page|
-        pager = Pager.new(site, num_page, posts[1], pages)
+        pager = Jekyll::Paginate::Pager.new(site, num_page, posts[1], pages)
         path = "/#{posts[0]}"
         if num_page > 1
           path = path + "/#{num_page}"
         end
-        
+
         newpage = GroupSubPage.new(site, site.source, path, type, posts[0])
         newpage.pager = pager
-        site.pages << newpage 
+        site.pages << newpage
 
       end
     end
@@ -49,13 +49,13 @@ module Jekyll
       @name = 'index.html'
 
       self.process(@name)
-      
+
       if File.exist?(File.join(base, '_layouts/') + "#{val}.html")
         self.read_yaml(File.join(base, '_layouts'), "#{val}.html")
       else
         self.read_yaml(File.join(base, '_layouts'), "default.html")
       end
-      
+
       self.data["grouptype"] = type
       self.data[type] = val
     end
