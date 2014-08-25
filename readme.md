@@ -6,7 +6,7 @@ My site has previously been a static site with no generator behind it and [WordP
 
 ## Build Status
 
-[![build status](http://ci.danielgroves.net/projects/8/status.png?ref=master)](http://ci.danielgroves.net/projects/8?ref=master)
+[![build status](https://ci.danielgroves.net/projects/19/status.png?ref=master)](https://ci.danielgroves.net/projects/19/)
 
 ## Usage
 
