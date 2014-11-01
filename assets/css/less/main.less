@@ -402,8 +402,7 @@ nav {
 }
 
 .main {
-    width: 96%;
-    margin: 0 2%;
+    width: 100%;
 
     &:last-of-type {
         padding-bottom: 30px;
@@ -520,12 +519,12 @@ form {
 // Images
 
 figure {
-    width: 96%;
+    width: 100%;
     clear: both;
     text-align: center;
     border-top: 1px solid @light-grey;
     border-bottom: 1px solid @light-grey;
-    padding: 10px 2%;
+    padding: 10px 0;
     margin: 10px 0;
 
     img {
@@ -664,7 +663,8 @@ dl.cv {
     .photo p,
     .photo figcaption,
     .photo h3,
-    .blog {
+    .blog,
+    figure.restrict {
         max-width: 830px;
         margin: 0 auto;
         position: relative;
