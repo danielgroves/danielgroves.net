@@ -423,6 +423,8 @@ footer {
 }
 
 .post-list-excerpt {
+    padding: 0 2%;
+
     .col {
         padding: 0;
         margin: 0;
@@ -435,8 +437,9 @@ footer {
 
 .title {
     background: @dark-grey;
-    padding: 5%;
+    padding: 2%;
     color: @light-grey;
+    margin-bottom: 2%;
 
     h2 {
         line-height: 200%;
@@ -583,6 +586,15 @@ dl.cv {
     }
 }
 
+.photo hgroup,
+.photo p,
+.photo figcaption,
+.photo h3,
+.photo ul,
+.main.blog {
+    padding: 0 2%;
+}
+
 /* Flickr */
 
 #flickr_content {
@@ -670,6 +682,7 @@ dl.cv {
         max-width: 830px;
         margin: 0 auto;
         position: relative;
+        padding: 0 0;
     }
 
     .photo ul {
@@ -692,6 +705,10 @@ dl.cv {
     .title {
         padding: 2%;
         margin-bottom: 2%;
+    }
+
+    .photo .excerpt {
+        height: 3.5em;
     }
 
     // Homepage latest posts
@@ -843,12 +860,6 @@ dl.cv {
 
     .feature .col {
         padding-top: 0;
-    }
-
-    .main {
-        .columns-2, .columns-3 {
-            padding: 0;
-        }
     }
 
     .post-list-excerpt.columns-2 .col {
