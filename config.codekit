@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18027",
+"creatorBuild": "17756",
 "files": {
 	"\/_site\/assets\/camera-roll\/2014\/01\/DSC_7615.jpg": {
 		"fileType": 16384,
@@ -550,26 +550,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/_site\/assets\/css\/less\/main.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/less\/main.less",
-		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/_site\/assets\/css\/less\/pygments.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -595,15 +575,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/css\/lightview.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2241,17 +2212,6 @@
 		"initialSize": 191889,
 		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/05\/DSC_9764.jpg",
 		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/05\/DSC_9764.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/camera-roll\/2014\/10\/[watermark + resize + optimization]\/DSC_0467.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.04784e+06,
-		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/10\/[watermark + resize + optimization]\/DSC_0467.JPG",
-		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/10\/[watermark + resize + optimization]\/DSC_0467.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

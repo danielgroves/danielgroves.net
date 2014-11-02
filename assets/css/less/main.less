@@ -532,6 +532,7 @@ figure {
         position: relative;
         max-width: 100%;
         height: auto;
+        max-height: 100%;
     }
 
     figcaption {
@@ -663,11 +664,16 @@ dl.cv {
     .photo p,
     .photo figcaption,
     .photo h3,
+    .photo ul,
     .blog,
-    figure.restrict {
+    figure.restrict img {
         max-width: 830px;
         margin: 0 auto;
         position: relative;
+    }
+
+    .photo ul {
+        max-width: 770px;
     }
 
     .photo span.date {
