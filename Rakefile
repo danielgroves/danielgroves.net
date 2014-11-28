@@ -15,7 +15,14 @@ task :build_all => :version do
 end
 
 task :deploy => :build do
-  system "rsync -avz --delete _site/ danielsgroves@danielgroves.net:temp/"
+  branches = `git branch`
+
+  if branches.include? "* master"
+    puts "On master branch, will attempt to deploy"
+    system "rsync -avz --delete _site/ danielsgroves@danielgroves.net:temp/"
+  else
+    puts "Cannot deploy non-master branch"
+  end
 end
 
 def jekyll(args)
