@@ -4,6 +4,10 @@ task :version do
   jekyll "--version"
 end
 
+task :watch do
+  jekyll "--watch --future"
+end
+
 task :build => :version do
   clean
   jekyll "build"
