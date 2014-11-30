@@ -5,7 +5,7 @@ task :version do
 end
 
 task :watch do
-  jekyll "--watch --future"
+  jekyll "serve --watch --future"
 end
 
 task :build => :version do
