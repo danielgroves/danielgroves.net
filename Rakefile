@@ -24,6 +24,8 @@ task :deploy => :build do
   if branches.include? "* master"
     puts "On master branch, will attempt to deploy"
     system "rsync -avz --delete _site/ danielsgroves@danielgroves.net:temp/"
+    system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
+    system "git push github master"
   else
     puts "Cannot deploy non-master branch"
   end
