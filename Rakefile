@@ -23,6 +23,7 @@ task :deploy => :build do
     puts "On master branch, will attempt to deploy"
     system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['REMOTE']}"
     system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
+    system "git reset HEAD --hard"
     system "git push github master"
   else
     puts "Cannot deploy non-master branch"
