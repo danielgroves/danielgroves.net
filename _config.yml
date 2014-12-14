@@ -17,7 +17,7 @@ paginate: 12
 # Will find a better fix when time presents itself
 paginate_path: ""
 
-exclude: ['build.sh']
+exclude: ['build.sh', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'Pipfile']
 
 redcarpet:
   extensions: []
