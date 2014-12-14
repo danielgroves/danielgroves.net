@@ -4,7 +4,7 @@ title: Adventures and Photography
 excerpt: Adventures and dabbling with Digital Photography
 ---
 
-<div class="columns-3">
+<div class="columns-3 photo">
 	{% for post in paginator.posts %}
 		<dl class="col">
 			<dd class="image"><img src="{{ post.thumb }}" alt="{% if post.alt %}{{ post.alt }}{% else %}Thumbnail image for {{ post.title }}{% endif %}" /></dd>

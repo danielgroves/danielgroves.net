@@ -402,8 +402,7 @@ nav {
 }
 
 .main {
-    width: 96%;
-    margin: 0 2%;
+    width: 100%;
 
     &:last-of-type {
         padding-bottom: 30px;
@@ -424,6 +423,8 @@ footer {
 }
 
 .post-list-excerpt {
+    padding: 0 2%;
+
     .col {
         padding: 0;
         margin: 0;
@@ -436,8 +437,9 @@ footer {
 
 .title {
     background: @dark-grey;
-    padding: 5%;
+    padding: 2%;
     color: @light-grey;
+    margin-bottom: 2%;
 
     h2 {
         line-height: 200%;
@@ -520,12 +522,12 @@ form {
 // Images
 
 figure {
-    width: 96%;
+    width: 100%;
     clear: both;
     text-align: center;
     border-top: 1px solid @light-grey;
     border-bottom: 1px solid @light-grey;
-    padding: 10px 2%;
+    padding: 10px 0;
     margin: 10px 0;
 
     img {
@@ -533,6 +535,7 @@ figure {
         position: relative;
         max-width: 100%;
         height: auto;
+        max-height: 100%;
     }
 
     figcaption {
@@ -581,6 +584,16 @@ dl.cv {
         color: #333;
         font-size: 90%;
     }
+}
+
+.photo hgroup,
+.photo p,
+.photo figcaption,
+.photo h3,
+.photo ul,
+.main.blog {
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 /* Flickr */
@@ -663,13 +676,21 @@ dl.cv {
     .photo hgroup,
     .photo p,
     .photo figcaption,
-    .blog {
+    .photo h3,
+    .photo ul,
+    .blog,
+    figure.restrict img {
         max-width: 830px;
         margin: 0 auto;
         position: relative;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    .photo h3,
+    .photo ul {
+        max-width: 770px;
+    }
+
     .photo span.date {
         display: inline-block;
     }
@@ -686,6 +707,10 @@ dl.cv {
     .title {
         padding: 2%;
         margin-bottom: 2%;
+    }
+
+    .photo .excerpt {
+        height: 3.5em;
     }
 
     // Homepage latest posts
@@ -837,12 +862,6 @@ dl.cv {
 
     .feature .col {
         padding-top: 0;
-    }
-
-    .main {
-        .columns-2, .columns-3 {
-            padding: 0;
-        }
     }
 
     .post-list-excerpt.columns-2 .col {
