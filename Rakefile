@@ -21,7 +21,7 @@ end
 task :deploy => :build do
   if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
     puts "On master branch, will attempt to deploy"
-    system "rsync -avz --delete _site/ #{ENV['REMOTE']}"
+    system "rsync -avz --omit-dir-times --delete _site/ #{ENV['REMOTE']}"
     system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
     system "git push github master"
   else
