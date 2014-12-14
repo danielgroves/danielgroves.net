@@ -19,9 +19,7 @@ task :build_all => :version do
 end
 
 task :deploy => :build do
-  branches = `git branch`
-
-  if branches.include? "* master"
+  if ENV['CI_BUILD_REF_NAME']? "master"
     puts "On master branch, will attempt to deploy"
     system "rsync -avz --delete _site/ #{ENV['REMOTE']}"
     system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
