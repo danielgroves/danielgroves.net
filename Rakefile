@@ -1,5 +1,5 @@
 task default: %w[build]
-linebreak "\n\n =========================\n"
+linebreak = "\n\n =========================\n"
 
 task :version do
   jekyll "--version"
