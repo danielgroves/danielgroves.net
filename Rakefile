@@ -29,6 +29,7 @@ task :deploy => :build do
     puts "Attempting to push open Git Repo"
     system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
     system "git reset HEAD --hard"
+    system "git checkout master"
     system "git push github master"
   else
     puts linebreak
