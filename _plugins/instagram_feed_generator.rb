@@ -37,8 +37,16 @@ module Jekyll
 
         def render(context)
             out = ''
+            previous= ''
 
             @feed.each do |photo|
+                upload_time = Time.at(photo.created_time.to_i)
+
+                if !previous.equal? upload_time.strftime("%m")
+                    out += "<h3>#{upload_time.strftime("%B %Y")}</h3>"
+                    previous = upload_time.strftime("%m")
+                end
+
                 out += "<figure>\n"
                 out += "    <a href=\"#{photo.link}\" title=\"View on Instagram\">"
                 out += "        <img src=\"#{photo.images.low_resolution.url}\" width=\"#{photo.images.low_resolution.url}\" height=\"#{photo.images.low_resolution.url}\" />\n"
