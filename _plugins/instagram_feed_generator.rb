@@ -40,7 +40,9 @@ module Jekyll
 
             @feed.each do |photo|
                 out += "<figure>\n"
-                out += "    <img src=\"#{photo.images.standard_resolution.url}\" width=\"#{photo.images.standard_resolution.url}\" height=\"#{photo.images.standard_resolution.url}\" />\n"
+                out += "    <a href=\"#{photo.link}\" title=\"View on Instagram\">"
+                out += "        <img src=\"#{photo.images.low_resolution.url}\" width=\"#{photo.images.low_resolution.url}\" height=\"#{photo.images.low_resolution.url}\" />\n"
+                out += "    </a>"
 
                 if photo.caption
                     out += "    <figcaption>#{photo.caption.text}</figcaption>\n"
