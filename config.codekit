@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17756",
+"creatorBuild": "18027",
 "files": {
 	"\/_site\/assets\/camera-roll\/2014\/01\/DSC_7615.jpg": {
 		"fileType": 16384,
@@ -229,6 +229,39 @@
 		"initialSize": 92630,
 		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/02\/DSC_9110.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/02\/DSC_9110.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/04\/clapper-bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.5293e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/04\/clapper-bridge.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/04\/clapper-bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/04\/ptown-view.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.51596e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/04\/ptown-view.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/04\/ptown-view.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/04\/swincombe-bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.36973e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/04\/swincombe-bridge.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/04\/swincombe-bridge.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -537,6 +570,138 @@
 		"initialSize": 235908,
 		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/10\/DSC_1079.JPG",
 		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/10\/DSC_1079.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1172.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211640,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1172.JPG",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1172.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1181.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136588,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1181.JPG",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1181.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1182.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 288474,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1182.JPG",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1182.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1187.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278649,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1187.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1187.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1283.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220996,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1283.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1283.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1283_Thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 501723,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1283_Thumb.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1283_Thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1319.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 323162,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1319.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1319.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1322.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178397,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1322.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1322.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1324.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266777,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1324.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1324.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1351.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 257248,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1351.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1351.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1358.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398595,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1358.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1358.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/camera-roll\/2014\/12\/DSC_1367.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230222,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1367.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2014\/12\/DSC_1367.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2183,6 +2348,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/camera-roll\/2014\/04\/clapper-bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.5293e+06,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/04\/clapper-bridge.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/04\/clapper-bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/04\/ptown-view.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.51596e+06,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/04\/ptown-view.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/04\/ptown-view.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/04\/swincombe-bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.36973e+06,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/04\/swincombe-bridge.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/04\/swincombe-bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/camera-roll\/2014\/05\/DSC_9752.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2490,6 +2688,138 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1172.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211640,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1172.JPG",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1172.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1181.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136588,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1181.JPG",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1181.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1182.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 288474,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1182.JPG",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1182.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1187.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278649,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1187.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1187.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1283.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220996,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1283.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1283.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1283_Thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 501723,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1283_Thumb.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1283_Thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1319.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 323162,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1319.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1319.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1322.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178397,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1322.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1322.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1324.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266777,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1324.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1324.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1351.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 257248,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1351.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1351.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1358.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398595,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1358.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1358.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2014\/12\/DSC_1367.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230222,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1367.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2014\/12\/DSC_1367.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/css\/less\/elements.less": {
 		"allowInsecureImports": 0,
