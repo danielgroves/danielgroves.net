@@ -20,7 +20,11 @@ instagram:
     client_id: ""
     client_secret: ""
     user_id:
+    min_timestamp: 2014-01-01T00:00:00+00:00
+    max_timestamp: 2014-12-31T11:59:59+00:00
 ```
+
+Timestamps should comply with the ISO8601 standard. The user id should be your user's instagram id, mine is a 10-digit integer. 
 
 Then run using rake : `bundle exec rake watch`
 
