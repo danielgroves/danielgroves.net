@@ -1,4 +1,5 @@
 require 'instagram'
+require 'time'
 
 module Jekyll
     class InstagramFeed < Liquid::Tag
@@ -12,25 +13,26 @@ module Jekyll
                 config.client_secret = @client_secret
             end
 
-            instagram = Instagram.user_recent_media(@user_id, {:min_timestamp => 1416441600})
-            print "Found #{instagram.length} images. "
+            instagram = Instagram.user_recent_media(@user_id, {:min_timestamp => @min_timestamp, :max_timestamp => @max_timestamp})
 
+            print "Found #{instagram.length} images. "
             @feed = Array.new
             instagram.each do |instagram|
                 if (tag.nil? || tag.empty?) || (instagram.tags.include? tag.strip)
                     @feed.push(instagram)
                 end
             end
-
-          print "Filtered #{@feed.length} images on tag '#{tag}'"
+            print "Filtered #{@feed.length} images on tag '#{tag}'"
         end
 
         def get_settings
             instagram_config = Jekyll.configuration({})['instagram']
 
-            @client_id = !instagram_config.nil? && instagram_config['client_id'] ? instagram_config['client_id'] : ENV['INST_CLIENT_ID']
-            @client_secret = !instagram_config.nil? && instagram_config['client_secret'] ? instagram_config['client_secret'] : ENV['INST_CLIENT_SECRET']
-            @user_id = !instagram_config.nil? && instagram_config['user_id'] ? instagram_config['user_id'] : ENV['INST_USER_ID']
+            @client_id = instagram_config['client_id'] ? instagram_config['client_id'] : ENV['INST_CLIENT_ID']
+            @client_secret = instagram_config['client_secret'] ? instagram_config['client_secret'] : ENV['INST_CLIENT_SECRET']
+            @user_id = instagram_config['user_id']
+            @min_timestamp = instagram_config['min_timestamp'].to_i
+            @max_timestamp = instagram_config['max_timestamp'].to_i
         end
 
         def render(context)
