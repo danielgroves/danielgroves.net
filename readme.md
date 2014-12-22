@@ -13,12 +13,27 @@ My site has previously been a static site with no generator behind it and [WordP
 Setting up and using the site is pretty easy. Make sure you have Ruby install, install the Jekyll gem and then run the server. Once you have Ruby installed:
 
 ```bash
-gem install jekyll
-gem install redcarpet
-easy_install pygments
-cd project/directory/
-jekyll serve
+gem install bundler
+bundle install
 ```
+
+If you're going to use the Instagram support, specify the settings as environmental variables (`INST_CLIENT_ID="" INST_CLIENT_SECRET="" INST_USER_ID=""`) or append tot he configuration file:
+
+```yaml
+instagram:
+    client_id: ""
+    client_secret: ""
+    user_id:
+```
+
+Then run using rake : `bundle exec rake watch`
+
+Other rake tasks are:
+* `versions` - Jekyll version number
+* `watch` - Start the Jekyll server in watch mode with future posts
+* `build` - Do a production build
+* `build_all` - Do a build with all drafts and future posts
+* `deploy` - Run a production build and deploy to the remote server
 
 Then simply go to [localhost:4000](http://localhost:4000) in your browser.
 
