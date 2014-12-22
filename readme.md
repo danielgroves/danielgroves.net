@@ -24,13 +24,14 @@ instagram:
     max_timestamp: 2014-12-31T11:59:59+00:00
 ```
 
-Timestamps should comply with the ISO8601 standard. The user id should be your user's instagram id, mine is a 10-digit integer. 
+Timestamps should comply with the ISO8601 standard. The user id should be your user's instagram id, mine is a 10-digit integer.
 
 Then run using rake : `bundle exec rake watch`
 
 Other rake tasks are:
 * `versions` - Jekyll version number
 * `watch` - Start the Jekyll server in watch mode with future and draft posts
+* `serve` - Just serve the site. Normally used when I want to do regular manual builds. 
 * `build` - Do a production build
 * `build_all` - Do a build with all drafts and future posts
 * `deploy` - Run a production build and deploy to the remote server

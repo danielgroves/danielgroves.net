@@ -9,6 +9,10 @@ task :watch do
     jekyll "serve --watch --future --drafts"
 end
 
+task :serve do
+    jekyll "serve"
+end
+
 task :build => :version do
     clean
     puts $linebreak
