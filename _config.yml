@@ -37,3 +37,8 @@ sitemap:
     priority_name: "priority"
 
 hire_me: false
+
+instagram:
+    client_id: "43ded072c3454f5ba4b02f1c4ff19e29"
+    client_secret: "de4ea68d56f14be583e4bad8314eaf50"
+    user_id: 1358824988
