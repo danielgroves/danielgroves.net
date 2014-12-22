@@ -30,7 +30,7 @@ Then run using rake : `bundle exec rake watch`
 
 Other rake tasks are:
 * `versions` - Jekyll version number
-* `watch` - Start the Jekyll server in watch mode with future posts
+* `watch` - Start the Jekyll server in watch mode with future and draft postsg
 * `build` - Do a production build
 * `build_all` - Do a build with all drafts and future posts
 * `deploy` - Run a production build and deploy to the remote server
