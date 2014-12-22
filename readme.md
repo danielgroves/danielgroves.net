@@ -30,10 +30,12 @@ Then run using rake : `bundle exec rake watch`
 
 Other rake tasks are:
 * `versions` - Jekyll version number
-* `watch` - Start the Jekyll server in watch mode with future and draft postsg
+* `watch` - Start the Jekyll server in watch mode with future and draft posts
 * `build` - Do a production build
 * `build_all` - Do a build with all drafts and future posts
 * `deploy` - Run a production build and deploy to the remote server
+
+To use the rake deploy task the `REMOTE` environmental variable should be set. This is the remote passed to `rsync`, and should take the following format: `REMOTE='user@example.com:/path/to/www/'`
 
 Then simply go to [localhost:4000](http://localhost:4000) in your browser.
 
