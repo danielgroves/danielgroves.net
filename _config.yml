@@ -40,5 +40,5 @@ hire_me: false
 
 instagram:
     user_id: 1358824988
-    min_timestamp: 2012-01-01T00:00:00+00:00
-    max_timestamp: 2014-12-31T11:59:59+00:00
+    min_timestamp: 2015-01-01T00:00:00+00:00
+    max_timestamp: 2015-12-31T11:59:59+00:00
