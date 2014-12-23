@@ -37,25 +37,23 @@ module Jekyll
 
         def render(context)
             out = ''
-            previous= ''
 
             @feed.each do |photo|
-                upload_time = Time.at(photo.created_time.to_i)
-
-                if !previous.equal? upload_time.strftime("%m")
-                    out += "<h3>#{upload_time.strftime("%B %Y")}</h3>"
-                    previous = upload_time.strftime("%m")
-                end
-
                 out += "<figure>\n"
-                out += "    <a href=\"#{photo.link}\" title=\"View on Instagram\">"
+                out += "    <a href=\"#{photo.link}\" title=\"View on Instagram\">\n"
                 out += "        <img src=\"#{photo.images.low_resolution.url}\" width=\"#{photo.images.low_resolution.url}\" height=\"#{photo.images.low_resolution.url}\" />\n"
-                out += "    </a>"
+                out += "    </a>\n"
+                out += "    <figcaption>\n"
 
                 if photo.caption
-                    out += "    <figcaption>#{photo.caption.text}</figcaption>\n"
+                    out += "        <span class=\"caption\">#{photo.caption.text}</span>\n"
+                else
+                    out += "        <span class=\"caption\"></span>\n"
                 end
 
+                out += "        <span class=\"date\">Uploaded on #{Time.at(photo.created_time.to_i).strftime('%d %B %Y')}</span>\n"
+                out += "        <a href=\"#{photo.link}\" title=\"View this image on Instagram\">View on Instagram &rarr;</a>"
+                out += "    </figcaption>\n"
                 out += "</figure>\n"
             end
 

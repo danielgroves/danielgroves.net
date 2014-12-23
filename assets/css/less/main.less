@@ -456,6 +456,31 @@ footer {
     font-size: 1.5em;
 }
 
+.gallery {
+    overflow: hidden;
+
+    figure {
+        width: 100%;
+        float: left;
+        clear: none;
+        padding: 0 .5%;
+    }
+
+    img {
+        margin-top: 1%;
+    }
+
+    figcaption {
+        span {
+            height: 2em;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: block;
+        }
+    }
+}
+
 .pagination {
     width: 100%;
     text-align: center;
@@ -773,6 +798,13 @@ dl.cv {
     pre {
         padding: 2%;
     }
+
+    .gallery {
+        figure {
+            width: 32.7%;
+            padding: 0 .3%;
+        }
+    }
 }
 
 @media screen and (min-width: 850px) {
@@ -914,6 +946,13 @@ dl.cv {
     #adventures_photography {
         h2, p {
             width: 61%;
+        }
+    }
+
+    .gallery {
+        figure {
+            width: 24%;
+            padding: 0 .5%;
         }
     }
 }
