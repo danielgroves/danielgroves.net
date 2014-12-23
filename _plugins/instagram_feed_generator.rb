@@ -13,7 +13,7 @@ module Jekyll
                 config.client_secret = @client_secret
             end
 
-            instagram = Instagram.user_recent_media(@user_id, {:min_timestamp => @min_timestamp, :max_timestamp => @max_timestamp})
+            instagram = Instagram.user_recent_media(@user_id, {:min_timestamp => @min_timestamp, :max_timestamp => @max_timestamp, :count => @count})
 
             print "Found #{instagram.length} images. "
             @feed = Array.new
@@ -33,6 +33,7 @@ module Jekyll
             @user_id = instagram_config['user_id']
             @min_timestamp = instagram_config['min_timestamp'].to_i
             @max_timestamp = instagram_config['max_timestamp'].to_i
+            @count = instagram_config['count'].nil? ? 1000 : instagram_config['count']
         end
 
         def render(context)
