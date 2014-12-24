@@ -5,7 +5,7 @@
 		<h2>{{ page.title }}</h2>
 		<p>{{ page.excerpt }}</p>
 	</div><!-- /.title -->
-	
+
 	<article class="main easyread">
 		{{ content }}
 	</article>
@@ -13,7 +13,7 @@
 
 <hr />
 
-<section class="main blog">
+<section class="main easyread">
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
 	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -21,7 +21,7 @@
 	//var disqus_developer = 1; // or 1 based on if you're looking to skip URL authentication
 	var disqus_url = '{{ site.url }}{{ page.url }}/';
 	var disqus_title = '{{ page.title }}';
-	
+
 	/* * * DON'T EDIT BELOW THIS LINE * * */
 	(function() {
 		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
