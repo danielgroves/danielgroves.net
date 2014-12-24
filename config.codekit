@@ -1624,17 +1624,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/images\/home\/slider_4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 218748,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/home\/slider_4.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/home\/slider_4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/images\/icons\/zoom.png": {
 		"fileType": 32768,
 		"ignore": 0,
