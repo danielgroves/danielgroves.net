@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: Scotland Photography
 date: 2013-09-01 21:00:00.000000000 +00:00

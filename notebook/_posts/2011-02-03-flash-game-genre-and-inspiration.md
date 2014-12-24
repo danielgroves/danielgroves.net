@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "Flash Game: Genre and Inspiration"
 excerpt: How I came to choose the genre for the game, and what inspired it.

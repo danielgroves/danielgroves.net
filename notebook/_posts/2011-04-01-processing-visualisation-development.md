@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: Processing Visulisation Development
 excerpt: A walkthrough for how I created a weather feed visulisation in Processing for University.

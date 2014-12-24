@@ -1,5 +1,5 @@
 ---
-layout: photo
+layout: photo_comment
 published: true
 title: Royal William Yard
 date: 2014-01-21 11:30

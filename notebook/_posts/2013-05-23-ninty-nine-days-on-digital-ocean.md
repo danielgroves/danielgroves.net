@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 
 title: Ninty–nine days on Digital Ocean

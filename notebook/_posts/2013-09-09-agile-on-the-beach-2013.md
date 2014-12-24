@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: Agile on the Beach 2013
 date: 2013-09-09 13:30:00.000000000 +00:00

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "Design Process: Stitching Levels Together"
 date: 2012-03-28 00:11:51.000000000 +01:00

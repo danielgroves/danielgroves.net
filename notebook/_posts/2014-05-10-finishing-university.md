@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "Ending an era: finishing university"
 date: 2014-05-10 18:00

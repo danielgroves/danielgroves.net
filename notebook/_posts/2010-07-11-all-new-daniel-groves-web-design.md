@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: All new Daniel Groves Web Design
 date: 2010-07-11 11:14:00.000000000 +01:00

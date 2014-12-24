@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "Design Process: Level Design"
 date: 2012-03-27 22:25:39.000000000 +01:00

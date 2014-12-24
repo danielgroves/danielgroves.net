@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: The Most Important Website
 date: 2013-09-29 16:45:00.000000000 +00:00

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "Design Process: Project Completion"
 date: 2012-03-28 18:15:43.000000000 +01:00

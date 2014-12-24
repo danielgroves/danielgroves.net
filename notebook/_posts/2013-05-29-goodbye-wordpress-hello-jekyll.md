@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 
 title: Goodbye WordPress, Hello Jekyll
@@ -32,7 +32,7 @@ One of the first things I did after committing to using Jekyll was to [export my
 The initial export went well, the necessary metadata was copied across as expected. I striped out the tags and categories as I simply didn't want these at this stage and was left with something like this for each of the posts:
 
 {% highlight yaml %}
-layout: blog
+layout: blog_comment
 published: true
 title: AlfredApp Custum Colour Scheme
 

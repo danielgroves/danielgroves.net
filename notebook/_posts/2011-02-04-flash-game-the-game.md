@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "Flash Game: The Game"
 excerpt: An explanation about the ActionScript that powered the Flash Game. 

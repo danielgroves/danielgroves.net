@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "Flash Game: Evaluation"
 excerpt: A reflection on the game production; what I could do better next time, and what I did well this time. 

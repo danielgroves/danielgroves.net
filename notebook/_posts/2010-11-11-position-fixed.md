@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "position: fixed;"
 date: 2010-11-11 18:57:33.000000000 +00:00

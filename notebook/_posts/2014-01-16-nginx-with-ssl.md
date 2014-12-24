@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: Configuring Nginx with SSL
 date: 2014-01-17 08:00

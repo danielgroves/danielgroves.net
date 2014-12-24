@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: "Design Process: Menu Screens"
 date: 2012-03-28 00:48:03.000000000 +01:00

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: The Importance of Well Written Code
 date: 2012-07-05 09:00:49.000000000 +01:00

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: Task Automation
 date: 2013-10-05 15:00 +01:00

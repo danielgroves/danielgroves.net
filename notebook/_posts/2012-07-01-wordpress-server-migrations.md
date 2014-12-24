@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_comment
 published: true
 title: WordPress Server Migrations
 date: 2012-07-01 12:43:37.000000000 +01:00
