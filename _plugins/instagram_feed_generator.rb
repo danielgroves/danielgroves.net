@@ -39,23 +39,29 @@ module Jekyll
         def render(context)
             out = ''
 
-            @feed.each do |photo|
-                out += "<figure>\n"
-                out += "    <a href=\"#{photo.link}\" title=\"View on Instagram\">\n"
-                out += "        <img src=\"#{photo.images.low_resolution.url}\" width=\"#{photo.images.low_resolution.url}\" height=\"#{photo.images.low_resolution.url}\" />\n"
-                out += "    </a>\n"
-                out += "    <figcaption>\n"
+            out += "<p class=\"easyread\">There are #{365 - @feed.length} images left to upload.</p>"
 
-                if photo.caption
-                    out += "        <span class=\"caption\">#{photo.caption.text}</span>\n"
-                else
-                    out += "        <span class=\"caption\"></span>\n"
+            if @feed.length > 0
+
+                @feed.each do |photo|
+                    out += "<figure>\n"
+                    out += "    <a href=\"#{photo.link}\" title=\"View on Instagram\">\n"
+                    out += "        <img src=\"#{photo.images.low_resolution.url}\" width=\"#{photo.images.low_resolution.url}\" height=\"#{photo.images.low_resolution.url}\" />\n"
+                    out += "    </a>\n"
+                    out += "    <figcaption>\n"
+
+                    if photo.caption
+                        out += "        <span class=\"caption\">#{photo.caption.text}</span>\n"
+                    else
+                        out += "        <span class=\"caption\"></span>\n"
+                    end
+
+                    out += "        <span class=\"date\">Uploaded on #{Time.at(photo.created_time.to_i).strftime('%d %B %Y')}</span>\n"
+                    out += "        <a href=\"#{photo.link}\" title=\"View this image on Instagram\">View on Instagram &rarr;</a>"
+                    out += "    </figcaption>\n"
+                    out += "</figure>\n"
                 end
 
-                out += "        <span class=\"date\">Uploaded on #{Time.at(photo.created_time.to_i).strftime('%d %B %Y')}</span>\n"
-                out += "        <a href=\"#{photo.link}\" title=\"View this image on Instagram\">View on Instagram &rarr;</a>"
-                out += "    </figcaption>\n"
-                out += "</figure>\n"
             end
 
             return out
