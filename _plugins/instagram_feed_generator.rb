@@ -38,11 +38,11 @@ module Jekyll
 
         def render(context)
             out = ''
-
             out += "<p class=\"easyread\">There are #{365 - @feed.length} images left to upload.</p>"
 
-            if @feed.length > 0
-
+            if Time.now.year < 2015
+                out += '<p class="easyread">This challenge has not yet started. It will begin at midnight on the 1st January 2014.</p>'
+            else
                 @feed.each do |photo|
                     out += "<figure>\n"
                     out += "    <a href=\"#{photo.link}\" title=\"View on Instagram\">\n"
@@ -61,7 +61,6 @@ module Jekyll
                     out += "    </figcaption>\n"
                     out += "</figure>\n"
                 end
-
             end
 
             return out
