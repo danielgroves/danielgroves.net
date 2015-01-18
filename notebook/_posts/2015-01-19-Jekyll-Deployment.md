@@ -4,7 +4,7 @@ published: true
 title: "Jekyll Deployment"
 excerpt: Using GitLab CI to automate Jekyll Deployments.
 
-date: 2030-01-10 09:00
+date: 2015-01-19 08:30
 ---
 
 A while back I wrote about how I deployed my Jekyll based site using a [small bash script triggered by cron](/notebook/2013/10/task-automation/ "Task Automation"). This was a fast solution to develop, but had plenty of room for improvement. During my final year at university I started to research continuous integration and setup my own [GitLab CI](https://about.gitlab.com/gitlab-ci/ "Open Source Continuous Integration") installation to go alongside my [GitLab](https://about.gitlab.com "Open Source Git Repository Management") installation. These integrate perfectly and for the last nine-months or so I've wanted to setup a real deployment system using GitLab CI at the heart.
@@ -219,4 +219,4 @@ gem "rake"
 
 With relatively minimal effort we have developed a simple system which allows us to use automated deployments which are fail-safe, so we won't deploy any build that break by accident. This is a completely transparent process with runs in the background without any user input making deployment a simple task which can be forgotten about.
 
-All of the code in this example can be seen in [the GitHub repository for this site](https://github.com/danielgroves/danielgroves.net "danielgroves.net on GitHub"). 
+All of the code in this example can be seen in [the GitHub repository for this site](https://github.com/danielgroves/danielgroves.net "danielgroves.net on GitHub").
