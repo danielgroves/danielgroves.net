@@ -49,20 +49,20 @@ task default: %w[build]
 $linebreak = "\n\n =========================\n"
 
 task :build do
-    clean
-    puts $linebreak
-    puts "Building for production"
-    jekyll "build"
+  clean
+  puts $linebreak
+  puts "Building for production"
+  jekyll "build"
 end
 
 def jekyll(args)
-    system "jekyll #{args}"
+  system "jekyll #{args}"
 end
 
 def clean
-    puts $linebreak
-    puts "Cleaning previous builds"
-    system "rm -Rf _site/"
+  puts $linebreak
+  puts "Cleaning previous builds"
+  system "rm -Rf _site/"
 end
 {% endhighlight %}
 
@@ -72,14 +72,14 @@ In the past for debugging I've found it useful to output the version number of J
 
 {% highlight ruby %}
 task :version do
-    jekyll "--version"
+  jekyll "--version"
 end
 
 task :build => :version do
-    clean
-    puts $linebreak
-    puts "Building for production"
-    jekyll "build"
+  clean
+  puts $linebreak
+  puts "Building for production"
+  jekyll "build"
 end
 {% endhighlight %}
 
@@ -87,10 +87,10 @@ If we're not on the master branch we'll want to build all future and draft posts
 
 {% highlight ruby %}
 task :build_all => :version do
-    clean
-    puts $linebreak
-    puts "Building with all future and draft posts"
-    jekyll "build --future --drafts"
+  clean
+  puts $linebreak
+  puts "Building with all future and draft posts"
+  jekyll "build --future --drafts"
 end
 {% endhighlight %}
 
@@ -98,21 +98,21 @@ Finally we need to be able to deploy the site, but only when running against the
 
 {% highlight ruby %}
 task :deploy => :build do
-    if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
-        puts $linebreak
-        puts "On master branch, will attempt to deploy"
-        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['REMOTE']}"
+  if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
+    puts $linebreak
+    puts "On master branch, will attempt to deploy"
+    system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['REMOTE']}"
 
-        puts $linebreak
-        puts "Attempting to push open Git Repo"
-        system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
-        system "git reset HEAD --hard"
-        system "git checkout master"
-        system "git push github master"
-    else
-        puts $linebreak
-        puts "Cannot deploy non-master branch"
-    end
+    puts $linebreak
+    puts "Attempting to push open Git Repo"
+    system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
+    system "git reset HEAD --hard"
+    system "git checkout master"
+    system "git push github master"
+  else
+    puts $linebreak
+    puts "Cannot deploy non-master branch"
+  end
 end
 {% endhighlight %}
 
@@ -125,57 +125,57 @@ task default: %w[build]
 $linebreak = "\n\n =========================\n"
 
 task :version do
-    jekyll "--version"
+  jekyll "--version"
 end
 
 task :watch do
-    jekyll "serve --watch --future --drafts"
+  jekyll "serve --watch --future --drafts"
 end
 
 task :serve do
-    jekyll "serve"
+  jekyll "serve"
 end
 
 task :build => :version do
-    clean
-    puts $linebreak
-    puts "Building for production"
-    jekyll "build"
+  clean
+  puts $linebreak
+  puts "Building for production"
+  jekyll "build"
 end
 
 task :build_all => :version do
-    clean
-    puts $linebreak
-    puts "Building with all future and draft posts"
-    jekyll "build --future --drafts"
+  clean
+  puts $linebreak
+  puts "Building with all future and draft posts"
+  jekyll "build --future --drafts"
 end
 
 task :deploy => :build do
-    if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
-        puts $linebreak
-        puts "On master branch, will attempt to deploy"
-        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['REMOTE']}"
+  if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
+    puts $linebreak
+    puts "On master branch, will attempt to deploy"
+    system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['REMOTE']}"
 
-        puts $linebreak
-        puts "Attempting to push open Git Repo"
-        system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
-        system "git reset HEAD --hard"
-        system "git checkout master"
-        system "git push github master"
-    else
-        puts $linebreak
-        puts "Cannot deploy non-master branch"
-    end
+    puts $linebreak
+    puts "Attempting to push open Git Repo"
+    system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
+    system "git reset HEAD --hard"
+    system "git checkout master"
+    system "git push github master"
+  else
+    puts $linebreak
+    puts "Cannot deploy non-master branch"
+  end
 end
 
 def jekyll(args)
-    system "jekyll #{args}"
+  system "jekyll #{args}"
 end
 
 def clean
-    puts $linebreak
-    puts "Cleaning previous builds"
-    system "rm -Rf _site/"
+  puts $linebreak
+  puts "Cleaning previous builds"
+  system "rm -Rf _site/"
 end
 {% endhighlight %}
 
