@@ -17,7 +17,7 @@ paginate: 12
 # Will find a better fix when time presents itself
 paginate_path: ""
 
-exclude: ['build.sh', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'Pipfile']
+exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock']
 
 redcarpet:
   extensions: []
@@ -26,19 +26,20 @@ sitemap:
     file: /sitemap.xml
     exclude:
         - /feed/index.xml
-        - /contact/sent.html
-        - /build.sh
         - /404.html
         - /page*
+        - /Gemfile
+        - /Gemfile.lock
+        - /Rakefile
     include_posts:
         - /index.html
         - /notebook/index.html
     change_frequency_name: "change_frequency"
     priority_name: "priority"
 
-hire_me: false
-
 instagram:
     user_id: 1358824988
     min_timestamp: 2015-01-01T00:00:00+00:00
     max_timestamp: 2015-12-31T11:59:59+00:00
+
+gem: ["bourbon", "neat"]
