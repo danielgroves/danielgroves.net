@@ -158,6 +158,12 @@ body > footer {
       @include span-columns(6);
     }
   }
+
+  p {
+    padding: 1em 10px;
+    color: $colour-type-deemphasis;
+    border-top: 1px solid $colour-type-main;
+  }
 }
 
 main header {
