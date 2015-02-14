@@ -1,5 +1,5 @@
 $colour-main: #333;
-$colour-secondary: #5d7788;
+$colour-secondary: #34424b;
 $colour-tertiary: #666;
 $colour-subtle: #eee;
 
@@ -10,3 +10,7 @@ $colour-type-deemphasis: $colour-tertiary;
 
 $font-serif: "chaparral-pro", "georgia", serif;
 $font-sans: "source-sans-pro", "Helvetica", sans-serif;
+
+$bp-600: min-width, 600px;
+
+$content-column-width: 750px;

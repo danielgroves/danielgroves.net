@@ -1,13 +1,16 @@
 ---
-layout: default
+layout: stark
 title: Notebook
 excerpt: The Thoughts, Problems and Solutions of a Web Developer
 ---
 
-<section class="article-list">
-  {% for post in paginator.posts %}
-    {% include article-list.html post=post %}
-  {% endfor %}
-</section>
+<main>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.excerpt }}</p>
+  </header>
 
-{% include pagination.html paginator=paginator %}
+  {% include article-list.html paginator=paginator %}
+
+  {% include pagination.html paginator=paginator %}
+</main>

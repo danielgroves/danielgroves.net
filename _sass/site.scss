@@ -4,10 +4,15 @@ body {
   line-height: 160%;
   color: $colour-type-main;
   font-size: 1.2rem;
+
+  @include media($bp-600) {
+    font-size: 1.4rem;
+  }
 }
 
-p {
+p, ol, ul {
   padding: 10px 10px 0;
+  @include content-column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
+  @include content-column;
 }
 
 a {
@@ -24,7 +30,7 @@ a {
   }
 
   &:active, &:visited, &:hover {
-    color: darken($colour-type-em, 20)
+    color: lighten($colour-type-em, 20)
   }
 }
 
@@ -33,6 +39,17 @@ header, main, footer, aside {
 
   margin: 0 auto;
   max-width: 600px;
+
+  @include media($bp-600) {
+    max-width: 1000px;
+  }
+}
+
+.row {
+  @include media($bp-600) {
+    @include row;
+      padding-bottom: 2em;
+  }
 }
 
 body > header {
@@ -69,6 +86,8 @@ body > footer {
   margin-top: 3em;
   padding: 1em 0;
 
+  @include content-column;
+
   nav, section {
     padding: 0 10px;
 
@@ -76,9 +95,19 @@ body > footer {
       padding: 1em 0 0;
     }
   }
+
+  @include media($bp-600) {
+    section {
+      @include span-columns(12)
+    }
+
+    nav {
+      @include span-columns(6);
+    }
+  }
 }
 
-article header {
+main header {
   padding: 3em 0 2.8em;
 
   h1 {
@@ -96,34 +125,43 @@ article header {
   }
 }
 
-.article-list article {
-  padding: 0 0 2em 0;
+.article-list {
+  @include row;
 
-  &:last-of-type {
-    padding: 0;
-  }
+  article {
+    padding: 0 0 2em 0;
 
-  header {
-    padding: 0;
-
-    h1 {
-      font-size: 1.2em;
+    &:last-of-type {
+      padding: 0;
     }
 
-    a {
-      &:link, &:visited, &:active {
-        text-decoration: none;
+    header {
+      padding: 0;
+
+      h1 {
+        font-size: 1.2em;
+      }
+
+      a {
+        &:link, &:visited, &:active {
+          text-decoration: none;
+        }
       }
     }
-  }
 
-  footer {
-    padding: 0 10px;
-  }
+    footer {
+      padding: 0 10px;
+    }
 
-  img {
-    max-width: 100%;
-    width: 100%;
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    @include media($bp-600) {
+      @include span-columns(6);
+      padding: 0;
+    }
   }
 }
 
