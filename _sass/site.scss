@@ -1,5 +1,5 @@
 body {
-  font-family: "chaparral-pro", "georgia", serif;
+  font-family: $font-serif;
   font-weight: 300;
   line-height: 160%;
   color: $colour-type-main;
@@ -11,7 +11,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "source-sans-pro", "Helvetica", sans-serif;
+  font-family: $font-sans;
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
@@ -23,7 +23,7 @@ a {
     font-weight: 600;
   }
 
-  &:active, &:visited {
+  &:active, &:visited, &:hover {
     color: darken($colour-type-em, 20)
   }
 }
@@ -37,7 +37,7 @@ header, main, footer, aside {
 
 body > header {
   background: $colour-secondary;
-  font-family: "source-sans-pro", "Helvetica", sans-serif;
+  font-family: $font-sans;
   border-bottom: 1px solid $colour-main;
 
   a {
@@ -96,11 +96,61 @@ article header {
   }
 }
 
+.article-list article {
+  padding: 0 0 2em 0;
+
+  &:last-of-type {
+    padding: 0;
+  }
+
+  header {
+    padding: 0;
+
+    h1 {
+      font-size: 1.2em;
+    }
+
+    a {
+      &:link, &:visited, &:active {
+        text-decoration: none;
+      }
+    }
+  }
+
+  footer {
+    padding: 0 10px;
+  }
+
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 article {
   h2 {
     font-size: 1.8em;
     padding-top: 1.5em;
     line-height: 120%;
+  }
+}
+
+nav.pageinate {
+  margin-top: 3em;
+  text-align: center;
+
+  a, strong {
+    padding: 10px 17px;
+    margin: 0 5px;
+    background: $colour-secondary;
+    border-radius: 100px;
+
+    color: $colour-subtle;
+  }
+
+  strong {
+    background: $colour-subtle;
+    color: $colour-secondary;
   }
 }
 
@@ -115,4 +165,39 @@ pre {
   border-bottom: 1px solid $colour-tertiary;
 
   @include fill-parent;
+}
+
+figure {
+  padding: 10px 0;
+  border-top: 1px solid $colour-subtle;
+  border-bottom: 1px solid $colour-subtle;
+  margin-top: 10px;
+
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    font-family: $font-sans;
+    font-size: .9em;
+    color: $colour-type-deemphasis;
+    text-align: center;
+    line-height: 120%;
+  }
+}
+
+hr {
+  margin: 2em 10px 1.4em;
+  border-top: 1px solid $colour-tertiary;
+
+  &::after {
+    content: "\2605\00a0\00a0\00a0\00a0\00a0\2605\00a0\00a0\00a0\00a0\00a0\2605"; // "(star)     (star)     (star)"
+    position: relative;
+    left: 50%;
+    top: -1rem;
+    margin-left: -4rem;
+    background: #fff;
+    padding: 0 2rem;
+    font-size: .8rem;
+  }
 }

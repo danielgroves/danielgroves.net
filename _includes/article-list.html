@@ -1,0 +1,15 @@
+<article>
+  {% if include.post.thumb %}
+    <img src="{{ include.post.thumb }}" alt="Thumbnail for {{ include.post.title }}" class="thumbnail" />
+  {% endif %}
+
+  <header>
+    <h1><a href="{{ include.post.base_url }}{{ include.post.url }}">{{ include.post.title }}</a></h1>
+  </header>
+
+  <footer>
+    <span>{{ include.post.date | date: "%d/%m/%Y" }}</span>
+  </footer>
+
+  <p>{{ include.post.excerpt }}</p>
+</article>

@@ -1,0 +1,13 @@
+{% if include.paginator.total_pages > 1 %}
+  <nav class="pageinate">
+    {% for page in (1..include.paginator.total_pages) %}
+      {% if page == include.paginator.page %}
+        <strong>{{ page }}</strong>
+      {% elsif page == 1 %}
+        <a href="/notebook/">{{ page }}</a>
+      {% else %}
+        <a href="/notebook/{{ page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+{% endif %}
