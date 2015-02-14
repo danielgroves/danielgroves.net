@@ -1,6 +1,6 @@
-@mixin content-column() {
+@mixin content-column($width: $content-column-width) {
   width: 100%;
-  max-width: $content-column-width;
+  max-width: $width;
   margin-left: auto;
   margin-right: auto;
   position: relative;

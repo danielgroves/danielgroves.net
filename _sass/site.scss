@@ -11,9 +11,13 @@ body {
 }
 
 main {
-  p, ol, ul {
+  p, ol, ul, figcaption {
     padding: 10px 10px 0;
     @include content-column;
+  }
+
+  section, article {
+    @include content-column(1200px);
   }
 }
 
@@ -270,6 +274,10 @@ figure {
     color: $colour-type-deemphasis;
     text-align: center;
     line-height: 120%;
+
+    @include media($bp-600) {
+      font-size: .7em;
+    }
   }
 }
 
