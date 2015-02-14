@@ -5,26 +5,26 @@ excerpt: Adventures and dabbling with Digital Photography
 ---
 
 <div class="columns-3 photo">
-	{% for post in paginator.posts %}
-		<dl class="col">
-			<dd class="image"><img src="{{ post.thumb }}" alt="{% if post.alt %}{{ post.alt }}{% else %}Thumbnail image for {{ post.title }}{% endif %}" /></dd>
-			<dt><a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a></dd>
-			<dd class="date">{{ post.date | date: "%d/%m/%Y" }}</span></dd>
-			<dd class="excerpt">{{post.excerpt}}</span></dd>
-		</dl>
-	{% endfor %}
+  {% for post in paginator.posts %}
+    <dl class="col">
+      <dd class="image"><img src="{{ post.thumb }}" alt="{% if post.alt %}{{ post.alt }}{% else %}Thumbnail image for {{ post.title }}{% endif %}" /></dd>
+      <dt><a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a></dd>
+      <dd class="date">{{ post.date | date: "%d/%m/%Y" }}</span></dd>
+      <dd class="excerpt">{{post.excerpt}}</span></dd>
+    </dl>
+  {% endfor %}
 </div>
 
 {% if paginator.total_pages > 1 %}
-	<div class="pagination">
-		{% for page in (1..paginator.total_pages) %}
-			{% if page == paginator.page %}
-				<strong>{{ page }}</strong>
-			{% elsif page == 1 %}
-				<a href="/adventures-photography/">{{ page }}</a>
-			{% else %}
-				<a href="/adventures-photography/{{ page }}">{{ page }}</a>
-			{% endif %}
-		{% endfor %}
-	</div>
+  <div class="pagination">
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <strong>{{ page }}</strong>
+      {% elsif page == 1 %}
+        <a href="/adventures-photography/">{{ page }}</a>
+      {% else %}
+        <a href="/adventures-photography/{{ page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
 {% endif %}

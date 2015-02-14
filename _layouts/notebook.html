@@ -5,38 +5,38 @@ excerpt: The Thoughts, Problems and Solutions of a Web Developer
 ---
 
 <div class="columns-2 post-list-excerpt">
-	<h3>Chronological Entries</h3>
+  <h3>Chronological Entries</h3>
 
-	<dl class="col">
-		{% for post in paginator.posts %}
-			{% if forloop.index <= 6 %}
-				<dt><a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a></dd>
-				<dd class="date">{{ post.date | date: "%d/%m/%Y" }}</span></dd>
-				<dd class="excerpt">{{post.excerpt}}</span></dd>
-			{% endif %}
-		{% endfor %}
-	</dl>
-	<dl class="col">
-		{% for post in paginator.posts %}
-			{% if forloop.index > 6 %}
-				<dt><a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a></dd>
-				<dd class="date">{{ post.date | date: "%d/%m/%Y" }}</span></dd>
-				<dd class="excerpt">{{post.excerpt}}</span></dd>
-			{% endif %}
-		{% endfor %}
-	</dl>
+  <dl class="col">
+    {% for post in paginator.posts %}
+      {% if forloop.index <= 6 %}
+        <dt><a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a></dd>
+        <dd class="date">{{ post.date | date: "%d/%m/%Y" }}</span></dd>
+        <dd class="excerpt">{{post.excerpt}}</span></dd>
+      {% endif %}
+    {% endfor %}
+  </dl>
+  <dl class="col">
+    {% for post in paginator.posts %}
+      {% if forloop.index > 6 %}
+        <dt><a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a></dd>
+        <dd class="date">{{ post.date | date: "%d/%m/%Y" }}</span></dd>
+        <dd class="excerpt">{{post.excerpt}}</span></dd>
+      {% endif %}
+    {% endfor %}
+  </dl>
 </div>
 
 {% if paginator.total_pages > 1 %}
-	<div class="pagination">
-		{% for page in (1..paginator.total_pages) %}
-			{% if page == paginator.page %}
-				<strong>{{ page }}</strong>
-			{% elsif page == 1 %}
-				<a href="/notebook/">{{ page }}</a>
-			{% else %}
-				<a href="/notebook/{{ page }}">{{ page }}</a>
-			{% endif %}
-		{% endfor %}
-	</div>
+  <div class="pagination">
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <strong>{{ page }}</strong>
+      {% elsif page == 1 %}
+        <a href="/notebook/">{{ page }}</a>
+      {% else %}
+        <a href="/notebook/{{ page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
 {% endif %}

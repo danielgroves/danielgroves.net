@@ -8,16 +8,16 @@ layout: feed
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>http://danielgroves.net/</id>
     <author>
-    	<name>Daniel Groves</name>
-    	<email>hello@danielgroves.net</email>
+      <name>Daniel Groves</name>
+      <email>hello@danielgroves.net</email>
     </author>
 
     {% for post in site.categories.notebook %}
     <entry>
-    	<title>{{ post.title }}</title>
-    	<link href="http://danielgroves.net{{ post.url }}"/>
-    	<updated>{{ post.date | date_to_xmlschema }}</updated>
-    	<id>http://danielgroves.net{{ post.id }}</id>
-    	<content type="html">{{ post.content | xml_escape }}</content>
+      <title>{{ post.title }}</title>
+      <link href="http://danielgroves.net{{ post.url }}"/>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <id>http://danielgroves.net{{ post.id }}</id>
+      <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
     {% endfor %}
