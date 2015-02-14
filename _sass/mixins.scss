@@ -1,0 +1,7 @@
+@mixin content-column() {
+  width: 100%;
+  max-width: $content-column-width;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
