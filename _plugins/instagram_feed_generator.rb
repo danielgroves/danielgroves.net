@@ -13,16 +13,21 @@ module Jekyll
                 config.client_secret = @client_secret
             end
 
-            instagram = Instagram.user_recent_media(@user_id, {:min_timestamp => @min_timestamp, :max_timestamp => @max_timestamp, :count => @count})
-
-            print "Found #{instagram.length} images. "
             @feed = Array.new
-            instagram.each do |instagram|
-                if (tag.nil? || tag.empty?) || (instagram.tags.include? tag.strip)
-                    @feed.push(instagram)
-                end
+
+            if @client_id && @client_secret
+              instagram = Instagram.user_recent_media(@user_id, {:min_timestamp => @min_timestamp, :max_timestamp => @max_timestamp, :count => @count})
+
+              print "Found #{instagram.length} images. "
+              instagram.each do |instagram|
+                  if (tag.nil? || tag.empty?) || (instagram.tags.include? tag.strip)
+                      @feed.push(instagram)
+                  end
+              end
+              print "Filtered #{@feed.length} images on tag '#{tag}'"
+            else
+              print "No Instagram client id and/or secret given. Please refer to the docs, the instragram feed will not be generated."
             end
-            print "Filtered #{@feed.length} images on tag '#{tag}'"
         end
 
         def get_settings
