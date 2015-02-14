@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: Pushing the Bounderies
 excerpt: An argument for not living in the past, but pushing the current technologies of the web instead. 
@@ -29,7 +29,7 @@ So, whats going on here?  <tt>-webkit-border-radius</tt>, <tt>-moz-border-radius
 
 The other thing this CSS is doing is applying a <tt>box-shadow</tt>, again with webkit, mozilla and generic CSS to ensure the largest possible audience get the effects.  
 
-### Validation
+## Validation
 
 At this point you probably thinking "but surely this doesn't validate".  Well, you'd be right there.  So, stop what your doing and go and watch Elliot Jay Stocks speaking at the Front End Conference 2010, with his presentation ["Stop Worrying &amp; Get On With It"](http://www.frontend2010.com/video/elliot-jay-stocks "Elliot Jay Stocks presentation at Front End Conf, 2010").  
 

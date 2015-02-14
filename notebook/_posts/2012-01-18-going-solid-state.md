@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: Going Solid State
 excerpt: I share how I went about upgrading to an SSD whilst maintaining the volume of storage that I require on a dialy basis.
@@ -8,13 +8,13 @@ date: 2012-01-18 10:23:31.000000000 +00:00
 ---
 I've been considering getting a [solid state drive](http://en.wikipedia.org/wiki/Solid-state_drive "Solid State Drive") (or SSD) for a while. I have a [2008 MacBook](http://support.apple.com/kb/sp500 "Late 2008 MacBook") with a 2.00GHz Core 2 Duo, 4GB of DDR3 ram and a 640GB hard drive. That last point is an important one, I have a 640GB drive upgrade for a reason, I simply need to storage capacity. My MacBook is my primary computer and so I cannot afford to loose the storage capacity.
 
-### The Solution
+## The Solution
 
 To solve this issue I decided to loose my SuperDrive and to have dual hard drives in my MacBook instead. This meant I would run an SSD as my primary drive, and my old 640GB optical drive as a secondary bay, sat where my SuperDrive once was.
 
 The disadvantage of this, aside from the obvious sacrifice of my SuperDrive, is a small reduction in battery life as I am now running dual hard drives. The advantage is of course the huge performance increase that comes with an SSD, as well as keeping the large amount of storage capacity I had before.
 
-### The Hardware
+## The Hardware
 
 I decided that this had to be done on a budget. I'm a student and so I don't have loads of cash to blow. I aimed to get everything I need for as close to the £100 mark as I could.
 
@@ -28,7 +28,7 @@ Finally I also ordered an [external DVD±RW drive](http://www.ebay.co.uk/itm/320
 
 With the exception of the DVD drive everything has now arrived and been running for about a week. I have had a few bugs to iron out, maybe I'll look into those in a future post, but for now the biggest issue.
 
-### TRIM on a Mac
+## TRIM on a Mac
 
 [TRIM](http://en.wikipedia.org/wiki/TRIM "TRIM on an SSD") is vital have have running when using an SSD. I won't go into any depth about it here as it is easy enough to find information on it elsewhere on the internet. What I will do here is explain how to activate it on OS X and how to find out if it is working on OS X.
 

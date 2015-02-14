@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: Writing Markdown
@@ -12,7 +12,7 @@ Today, I spotted the announcement for [Byword 2][byword] though, and thought I'd
 
 Generally, I don't want many features when writing markdown. I want a minimal editor which does away with all of the menus and any other clutter; I want to focus on writing. This is was always exactly why I chose to write in iA Writer, it did just this and nothing else. It was, however, far from perfect. 
 
-### The Problems
+## The Problems
 
 The problem with iA Writer, in the end, is the *lack* of features. Never thought I'd be saying that when it comes to a Markdown writer. Let me explain. 
 
@@ -42,7 +42,7 @@ Yet in reality, I was getting this:
 
 I'm sorry, but for such as basic feature as converting markdown to HTML, I'd expect that to work flawlessly. Every-time. 
 
-### Trailing Byword
+## Trailing Byword
 
 My experiment so far shows Byword 2 to be a much more stable, reliable, editor; it doesn't seem to suffer from the same issues as iA Writer.  Unlike iA Writer, Byword comes with a very basic preferences panel. This has all the customisations you may want, without adding any feature bloat. 
 
@@ -66,7 +66,7 @@ Focus mode can also be fine-tuned to your personal taste in Byword. It allows tw
 
 Bywords has no issues using references links, or exporting links to clean and semantic HTML either. This means that, for me, Byword pretty much ticks all of the boxes. 
 
-### iOS
+## iOS
 
 Both iA Writer and Byword have iOS counterparts, each of them integrates with Dropbox and iCloud to make it easy to pickup working where you left off on your Mac. 
 

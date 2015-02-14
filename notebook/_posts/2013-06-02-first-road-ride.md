@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: The first real road ride
@@ -18,7 +18,7 @@ Sometime yesturday afternoon I decided it would be a good idea to take advantage
 2. It's surprisingly enjoyable
 3. It hurts
 
-### The Ride
+## The Ride
 
 I left Plymouth about 4:30, making pretty good time up to Yelverton; it took me just 43 minutes, which was unexpected. I had about an hour in my head, but the whole time I was in the saddle I was amazed by how much faster it was riding on the road bike without a backpack. Normally it takes me 30 minutes just to reach Derriford on my commute, so reaching Yelverton with only an additional 13 minutes was quite impressive to me. 
 
@@ -47,7 +47,7 @@ A quick shower, pizza, and an episode of *Prison Break* later I was all set agai
 
 Oh, and it turns out having a fly hit you at 30mph+ in the face actually hurts quite a lot. 
 
-### Strava Statistics
+## Strava Statistics
 
 Since getting a smartphone that is actually smart, unlike my old Blackberry, I've been using Strava for iOS to start recording all of my riding. This includes everything from the daily commute to weekend rides that are just for fun. 
 

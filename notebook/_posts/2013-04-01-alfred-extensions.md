@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: Alfred Extensions
@@ -8,7 +8,7 @@ excerpt: A selection of Alfred extensions made to aid developers
 
 With the release of Alfred v2 powerpack users have more flexibility than ever to create custom worlkflows. I have put together three quick extensions to make my own life easier, although others are more than welcome to take an use, or modify, these for any purpose. 
 
-### Responsive Calucator
+## Responsive Calucator
 
 <figure>
 	<a href="/assets/alfred_extensions/ResponsiveCalculator.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/responsiveCalc.png" alt="Responsive Calculator workflow for Alfred" /></a>
@@ -25,7 +25,7 @@ For example, for a 300px wide div in a 900px wide container you would type `rc 3
 
 <a href="/assets/alfred_extensions/ResponsiveCalculator.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred">Download Responsive Calculator</a>
 
-### Search MDN
+## Search MDN
 
 <figure>
 	<a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/searchMdn.png" alt="Search MDN workflow for Alfred" /></a>
@@ -38,7 +38,7 @@ This second extension is a quick custom search workflow. Simply type ```mdn``` f
 
 <a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Search Mozilla Developer Network workflow for Alfred">Download Search MDN</a>
 
-### Search PHP Documentation
+## Search PHP Documentation
 
 <figure>
 	<a href="/assets/alfred_extensions/SearchPHPDocumentation.alfredworkflow" title="Download the Search PHP Documentation workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/searchPHP.png" alt="Search PHP workflow for Alfred" /></a>

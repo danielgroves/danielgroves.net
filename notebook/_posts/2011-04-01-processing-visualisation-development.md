@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: Processing Visulisation Development
 excerpt: A walkthrough for how I created a weather feed visulisation in Processing for University.
@@ -8,7 +8,7 @@ date: 2011-04-01 12:44:35.000000000 +01:00
 ---
 The concept for the data visualisation that I have produced came from the idea of how I have always seen data being presented as a child.  I took the principle of a simple bar graph and decided to show a history of several of the different pieces of information available in the feeds.  Further, I decided to implement the current windspeed into the data, but in a unique way.   I decided that the bars should all drift from left to right at the current windspeed, in order to keep the data readable I also decided that the addition of a click event should be present to pause this animation.  
 
-### Class File
+## Class File
 
 The development of the data visualisation took shape in several steps, the first of these was to develop a class file for the bars.  These objects are all pretty much the same, a rectangle.  The only ways they differentiate are in colour, height and the horizontal position.  
 
@@ -74,7 +74,7 @@ class Bar
 {% endhighlight %}
 
 
-### Highest Value Function
+## Highest Value Function
 
 In order to map the bars correctly I need to establish the highest value from each of the feeds I need to stream.  In order to do this I wrote the following function which simply returns that highest number as a float.  
 
@@ -96,7 +96,7 @@ int highestValue( int index )
 }
 {% endhighlight %}
 
-### Bar Color Function
+## Bar Color Function
 
 I decided that the colour of each bar should change based on the current outside temperature.  In order to do this I decided to create a function that would generate the correct colour for each.  The function assigns a random amount of green, and uses the current temperature for the red and blue.  Finally the alpha is decreased over each bar to help show that some data is older than other pieces.  
 
@@ -119,7 +119,7 @@ color barColor( int index)
 }
 {% endhighlight %}
 
-### Main Code Block
+## Main Code Block
 
 Finally, the main block of code contains the click event, XML processing, object set-up and the draw and setup functions.  I ahve added additional comments to the source code below to explain it.  
 
@@ -203,7 +203,7 @@ void mousePressed(MouseEvent e)
 }
 {% endhighlight %}
 
-### Evaluation
+## Evaluation
 
 If I had more time to do this project again I would have added protocols to deal with things such as negative numbers, these currently generate a bar of 0 height, meaning that it appears to be a brocken bar.  I would also have optimised the actual code much more so that it doesn't use so much memory when running, an would also load faster.  
 

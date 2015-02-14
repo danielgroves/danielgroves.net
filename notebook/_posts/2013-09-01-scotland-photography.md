@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: Scotland Photography
 date: 2013-09-01 21:00:00.000000000 +00:00
@@ -21,7 +21,7 @@ Those of you who know me in person are probably aware that I spent two weeks in 
 
 I went for the final weeks of July, returning home in the first few days of August, and almost a month later I've finally finished compiling a collection of my favourite shots from the holiday.  Although most of these have had minimal editing they are all reasonably close to how they were taken. The modifications that have been made are minor, and were done with the intent of helping the images gain more of the atmosphere from the time they were taken. 
 
-### Photos
+## Photos
 
 The first place we stayed was on a small campsite near Loch Morlich below the Cairngorm mountain range, just outside Aviemore. 
 

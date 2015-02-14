@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: Business Cards

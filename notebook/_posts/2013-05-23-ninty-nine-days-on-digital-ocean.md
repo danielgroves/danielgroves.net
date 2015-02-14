@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: Ninty–nine days on Digital Ocean
@@ -33,6 +33,6 @@ The hosting also features a free backup system; personally I'd always keep a loc
 
 Over the last year we've seen a massive surge in the volume of companies offering two step authentication; from [Dropbox](http://db.tt/z8vH3xA "Dropbox refferal link") to Google and App.net. Digital Ocean havn't been left behind here which is great to see, given the sensitive nature of the data we're trusting them with and jsut how much damage can be done with a hosting control panel. 
 
-### Summary
+## Summary
 
 In the last three months I've been using them I've not had any speed or down-time issues. They listen to what the customers want and take security seriously. [Digital Ocean](https://www.digitalocean.com/?refcode=d0820e126448 “Digital Hosting Referral link”) have remained fast with good customer service and looks to be my host-of-choice for sometime to come. 

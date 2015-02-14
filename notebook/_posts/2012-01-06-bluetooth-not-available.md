@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: "Bluetooth: Not Available"
 excerpt: 'The solution to OS X reporting "Bluetooth: Not Availiable" and refuse to recognise your Macs bluetooth chip'
@@ -18,6 +18,6 @@ Unfortunately for me his solution didn't work, but I had an idea which, for now,
 
 I have published these finding here with the hope that someone will find them useful, or perhaps I may require them again one day in the future.
 
-### Update 23/01/2012
+## Update 23/01/2012
 
 This issue occurred again today, and this time none of the steps outlined here would work in order to fix the issue. After more research and trail and error exercises, I found that [resetting the SMC](http://support.apple.com/kb/ht3964 "Reset the SMC on an Intel Mac") in an intel based Mac is another common solution, and worked for me on this occasion.

@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: "Design Process: Game Concept"
 excerpt: A look into the ideas behind my AINT207 odule at university where I am required to build a game. 
@@ -8,7 +8,7 @@ date: 2012-03-20 10:57:30.000000000 +00:00
 ---
 During this article I will be looking at the inspiration behind the game I am currently producing for the AINT207 (Games Development) at university. It will look at what my inspiration was and will also discuss the concept of the game. 
 
-### Idea Generation
+## Idea Generation
 
 During the initial idea generation process I listed each category of game that I could think of, and then sub categories within each. I decided to do this so that I could easily select the correct category to work with based on the type available types of game.
 
@@ -20,11 +20,11 @@ I have decided my game should suit a young audience as they arefrequentlytrying 
 
 Based on thisI decided to make a side scroller action game as this is a simple game style that is easy for anyone of any age to learn and play.
 
-### Inspiration
+## Inspiration
 
 Examples of games I have taken inspiration from vary in terms of the platforms that they run on and the target ages.
 
-#### Super Mario Deluxe
+### Super Mario Deluxe
 
 [Mario](http://mario.nintendo.com/ "Mario Information") is a popular game that has been around for many years, and has been highly successful on multiple platforms over the years.
 
@@ -34,7 +34,7 @@ Mario is a side scrolling adventure game where the user has to dodge enemies, sc
 
 The artwork chosen in Mario has been kept extremely simple and is mostly based off block graphics which are simple and easy to produce for many different situations. Another key aspect of them is their small file sizes, something that is essential when trying to fit as much as possible onto a small amount of memory such as with the game boy, or when making a game available for download via the internet.
 
-#### Crazy Castle Four
+### Crazy Castle Four
 
 [Bugs Bunny Crazy Castle Four](http://uk.gameboy.ign.com/objects/012/012201.html "Bugs Bunny Crazy Castle Four") was a game that I played as a child and so hold further inspiration for the game I have created. Like Mario it has a simple artwork style and the objective is the reach the end of the level, although with this game the player also had to find keys along the way in order to get out the other side.
 
@@ -42,7 +42,7 @@ The artwork chosen in Mario has been kept extremely simple and is mostly based o
 
 The game also featured challenges such as negotiating bottomless pits and has a basic AI built in so that in some situations the enemies would follow the user to make the game harder.
 
-#### Sonic the hedgehog
+### Sonic the hedgehog
 
 Another game that I have taken inspiration from is Sonic the Hedgehog. Sonic was a unique game as it focused on not only allowing the user to go over things, but also allowed them to take other paths such as loops.
 
@@ -50,7 +50,7 @@ Another game that I have taken inspiration from is Sonic the Hedgehog. Sonic was
 
 The Sonic scoring system also ![relied on multiple variables](http://info.sonicretro.org/Sonic_the_Hedgehog_(16-bit)#Scoring "Sonic Scoring System") making it a very dynamic scoring system. As a result if the user was do make the tiniest of changes in their gameplay from attempt to attempt on the same level they would get very different results.
 
-### Game Concept
+## Game Concept
 
 The concept for the game is for an Adventure side-scrolling game along the lines of Mario. Mine will differ as it will be aimed at a younger audience with a much simpler objective.
 

@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: Development Environments with Vagrant and Ansible
 date: 2014-05-22 09:00
@@ -16,7 +16,7 @@ This article will take you through the stages of setting up a Vagrant configurat
 
 In this tutorial we'll create a Django development environment, using a PostgreSQL backend. Despite this, this tutorial can easily be adapted for other setups, such as the Nginx/MySQL/PHP-FPM setup in the [php branch](https://github.com/danielgroves/Vagrant-Tutorial/tree/php "Nginx, PHP and MySQL Vagrant + Ansible setup").
 
-### Preparation
+## Preparation
 
 If you haven't used the Terminal before on your computer, I would suggest you [familiarise yourself with the basics](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/ "Mac AppStorm Terminal Tutorial"). This tutorial is very terminal-heavy, it would be wise for you to know what you're doing. At a very minimum you'll need to know how to navigate the file system on your operating system. Commands given here should be the same for Mac and Linux.
 
@@ -37,7 +37,7 @@ local/
 .pyc
 ```
 
-### Getting Started
+## Getting Started
 
 Create a directory on you local file system to work from and navigate into this from the terminal. Feel free to initiate some version control software within the directory, before running `vagrant init`. This will generate a basic configuration file for us to work from, including some extensive commenting which should help you understand what is going on. For this use case the vast majority of this is not needed, so we'll remove this once we've gained a basic understanding of what is required.
 
@@ -86,7 +86,7 @@ You'll notice that the `config.vm.synced_folder` line maps `./app` on our local 
 
 On the command line, run `vagrant up`. At this point Vagrant will download the Ubuntu box if it isn't already on your system, make a clone for the specific virtual machine, and boot the virtual machine with the given configuration. If needed it is possible to [change the default emulated hardware](http://docs.vagrantup.com/v2/virtualbox/configuration.html "Hardware Requirements") (default of 512MB memory and a single-core CPU) or have [one Vagrantfile launch multiple virtual machines](http://docs.vagrantup.com/v2/multi-machine/index.html "Vagrant multi-machine support").
 
-### Provisioning Vagrant
+## Provisioning Vagrant
 
 At this point we have a development virtual machine, but it lacks the dependencies of our project; this is where the provisioner comes in. In order to get started we need to set-out a basic directory structure contains the files and folders required by Ansible. Initially, this may appear to be overkill but getting everything organised now makes life easier at a later date. We can use the terminal to take a few shortcuts and quickly build the required directory structure.
 
@@ -143,7 +143,7 @@ Then, add the following to `provision/vagrant.yml`:
 
 Now, when a new virtual machine is started with Vagrant it will automatically run the `vagrant.yml` with Ansible, which will run each of the playbooks in turn.
 
-#### Installing Applications
+### Installing Applications
 
 This section will focus on the *setup* playbook. The first thing we need to do is install the system dependencies we require. Add the following to `provision/setup/tasks/main.yml`:
 
@@ -175,7 +175,7 @@ PLAY RECAP ********************************************************************
 default                    : ok=2    changed=1    unreachable=0    failed=0
 ```
 
-#### Configuring PostgreSQL
+### Configuring PostgreSQL
 
 At this point we're making good progress, however we need to configure PostgreSQL so that our Django project can use it. The first thing that needs doing is the authentication configuration so local users can use password authentication. To do this a file called `pg_hba.conf` needs replacing, I will not explain this in any detail here, however the file needed is in the GitHub repository. [Download a copy](https://github.com/danielgroves/Vagrant-Tutorial/blob/master/provision/setup/files/pg_hba.conf "Postgres authentication configuration on GitHub") and add a '`files`' directory within the setup playbook and place the file in there, named `pg_hba.conf`.
 
@@ -232,7 +232,7 @@ The `sudo_user` lines tell Ansible what user to run a command as, and since Post
 
 With this section complete we have now successfully provisioned a virtual machine with all of the system dependencies for the project. To force vagrant to re-provision the virtual machine and so load the latest changes run `vagrant provision`.
 
-#### Working with Virtualenv
+### Working with Virtualenv
 
 Now we're making good progress, but it's time to move onto provisioning the software deployment dependencies. From here on we'll be working with the `deploy` playbook. The first thing to consider is we'll be using pip to install a series of python modules within a playbook. To do this we need a requirements file which will be passed to pip. Let's install the latest versions of Django and South, as well as psycopg2 so that Django can talk to the PostgreSQL database. Create a file called `requirements.txt` within the app directory, and add the following:
 
@@ -259,7 +259,7 @@ virtualenv_path: /var/www/django-app
 
 Now run `vagrant provision` again to setup the python virtual environment, then we can start working with Django.
 
-#### Working with Django
+### Working with Django
 
 Once the provisioner has finished running that's pretty much it for the initial setup, however we could take this further. Let's setup a basic Django application with South and then use ansible to setup the database on the virtual machine creation. Run the following to SSH into the virtual machine, activate the virtual environment and create a new Django application.
 
@@ -330,7 +330,7 @@ Now, let's make Ansible sync our database for us.
 
 Now provision the virtual machine one final time to ensure that it runs through properly.
 
-### Putting Everything to Use
+## Putting Everything to Use
 
 That's all there is to it. Now any developers working on the project simply clone the repository and run:
 
@@ -354,7 +354,7 @@ There are a few Vagrant commands worth knowing:
 
 It's also worth noting that you should always add `.vagrant/` to the ignore file for your source control. Otherwise you will be committing entire virtual machines to your project, which is the last thing you want to do.
 
-### Summary
+## Summary
 
 Vagrant provides a flexible way of allowing multiple developers to work on complex projects with little manual setup time or complexity, and without littering their system with project dependencies. It is a well-designed platform which allows complex infrastructure to be replicated on a local computer with ease by as many developers as required.
 

@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: Approaching Responsive Design
@@ -8,7 +8,7 @@ excerpt: "Some considorations for approaching a new responsive web design projec
 
 When approaching a responsive website there are two main approaches, *mobile–first* or *desktop–first*.  Both have their advantages and disadvantages, so the method you choose should depend on your audience, browser–support requirements and how restricted you are by legacy code. 
 
-### Mobile–first Design
+## Mobile–first Design
 
 The idea with mobile–first design is to approach the design for mobile devices first, as the browsers on these devices tend to have less power and capabilities at there disposal.  Once the most basic mobile design is ready you apply progressive enhancements to the site to improve and re-flow the content for larger, or desktop, devices. This essentially means starting by designing for a narrow width and then using media-queries to reflow the content for wider devices. 
 
@@ -20,7 +20,7 @@ One issue with working to the mobile–first methodology is how minimal the cont
 
 Mobile—first can really help you to think about what is actually required and what is content is just extra *"fluff"*, and so not really required. Due to this mix of really putting the content first and progressive enhancement this is my favourite approach. 
 
-### Desktop–first Design
+## Desktop–first Design
 
 Desktop–first based responsive design is probably the most common form on the web today. It's the easiest way for responsive design to be implemented as it allows for the use of exiting code, preventing the need for a ground-up rebuild of the site. This method is often favoured, especially on larger sites with a lot of legacy code, as it allows for a fast 'conversion'. 
 

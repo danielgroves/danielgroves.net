@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: "position: fixed;"
 date: 2010-11-11 18:57:33.000000000 +00:00
@@ -13,13 +13,13 @@ As highlighted in the screenshot above on the Apple store website page for confi
 
 When using this I began to think, why don't more websites use this type of system.  Why not apply this same technique to the navigation on my website so that the user can easily move around the site without have to do pointless scrolling to return to the top of the page.  
 
-### Applying ```position: fixed```
+## Applying ```position: fixed```
 
 Generally when you position elements using CSS on the web you position them relatively to other elements on the page.  For example you could use ```position: absolute``` which allows you to position elements on a webpage in relation to the elements container.  This means that I could centre a ```div``` on a web page and then position my navigation and content in relation to the corners of this div.  
 
 When using ```position: fixed``` you are no longer working in relation to the parent of the element, but relatively to the browser viewport itself.  What this means is I can make something such as a ```div```, or in the case of my project the website navigation, stay with the user as they move around the page.  
 
-### Code Explanation
+## Code Explanation
 
 When looking at my [project website](http://danielgroves.net) you can see that the sidebar follows the user up and down the page that they are browsing.  
 

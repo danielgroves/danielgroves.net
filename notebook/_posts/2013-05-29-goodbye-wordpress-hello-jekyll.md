@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: Goodbye WordPress, Hello Jekyll
@@ -25,14 +25,14 @@ I decided against using a framework with Jekyll as it, in my experience, limits 
 
 Once thing I *was* going to say at this point as how incomplete the documentation for Jekyll felt, however this has changed since I last checked as a [documentation site][docs] has been developed. 
 
-### Exporting from WordPress
+## Exporting from WordPress
 
 One of the first things I did after committing to using Jekyll was to [export my posts from WordPress][wpexport]; this proved to be the biggest headache of the migration. 
 
 The initial export went well, the necessary metadata was copied across as expected. I striped out the tags and categories as I simply didn't want these at this stage and was left with something like this for each of the posts:
 
 {% highlight yaml %}
-layout: blog_comment
+layout: default
 published: true
 title: AlfredApp Custum Colour Scheme
 
@@ -47,7 +47,7 @@ When I exported from Wordpress it turned out quite a few things had gone wrong. 
 
 Once characters had been dealt with I used a similar technique to deal with short-codes. 
 
-### Navigation
+## Navigation
 
 The navigation is one thing I am yet to perfect. Just to be clear, I'm not talking about the [post listing][post-list] here, but the page navigation. This is one of the areas of Jekyll that I found to be less-well documented and one area which I intend to revisit as soon as time allows. 
 
@@ -55,7 +55,7 @@ Look at any of the links in the navigation at the top of this page, and you'll n
 
 This isn't really a major problem though, but I do intend to come back and fix it in the future. 
 
-### Harder, Better, Faster, Stronger
+## Harder, Better, Faster, Stronger
 
 Since moving to Jekyll I've been writing more, something I'm putting this down to a workflow which suits me better. In all honesty, I've never been a huge fan of the WordPress content editor; it's distracing and misses important features in full-screen mode. Markdown provides me with all the features I need as I write, without the distraction. 
 
@@ -77,7 +77,7 @@ Now this has been declared (which really is as simple as adding it to the front-
 
 That's it. 
 
-### Summary
+## Summary
 
 I love how easy it is to just add anything I like into tempaltes without having to 'declare' a feature to some content managment system. For me, it's got everything I need and nothing I don't need. I can write in Markdown, commit everything into one Git repository, and publish the whole site in a couple of commands. 
 

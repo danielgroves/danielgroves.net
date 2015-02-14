@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: Task Automation
 date: 2013-10-05 15:00 +01:00
@@ -10,7 +10,7 @@ Doing a task manually for a while is fine, but us humans are somewhat unreliable
 
 Again, this is fine for some tasks, but not for everything. For this reason I've recently been looking to automate a few tasks, some of which I've been meaning to get around to for some time, others I've only just considered automating. 
 
-### Server Backups
+## Server Backups
 
 Don't panic, these have been automated for a while, but it hasn't been a solution I've been happy with. Initially I had to manually download everything, after this I had Rsync running on a cron job loading everything onto a local filesystem. The first approach took far to much time and effort to keep the backups, and the second lost some important information such as file permissions. My new solution retains file permissions and creates a collection of archives. 
 
@@ -33,7 +33,7 @@ tar -zcvf /media/archive/odinson/${DATE}.tar.gz /media/odinson
 
 This works fine, but there are a few more tweaks I would like to make when I get the time. I would like this script to store the last 30-days of backups, the last backup of each month for the last year and then the last backup of each year, much like Apple's [Time Machine][tm] does. I should be able to do this with another shell script, which parses the date of each tar and calculates it's age, deciding whether to keep it or bin it. 
 
-### Site Deploys
+## Site Deploys
 
 This website (as of writing) runs on [Jekyll][jekyll], which is a ruby-based static site generator. I've wanted to automate the deployment of this sites latest changes for some time, but have always had issues getting something working. 
 

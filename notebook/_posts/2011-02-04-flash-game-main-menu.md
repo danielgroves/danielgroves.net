@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: "Flash Game: Main Menu"
 excerpt: A breakdown of the ActionScript that was used for the games menu.

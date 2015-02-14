@@ -4,3 +4,4 @@ _site/
 vendor/
 .idea/
 .jekyll-metadata
+.sass-cache/

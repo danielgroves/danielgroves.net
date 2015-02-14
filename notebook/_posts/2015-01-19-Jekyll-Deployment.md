@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 published: true
 title: "Jekyll Deployment"
 excerpt: Using GitLab CI to automate Jekyll Deployments.
@@ -9,7 +9,7 @@ date: 2015-01-19 08:30
 
 A while back I wrote about how I deployed my Jekyll based site using a [small bash script triggered by cron](/notebook/2013/10/task-automation/ "Task Automation"). This was a fast solution to develop, but had plenty of room for improvement. During my final year at university I started to research continuous integration and setup my own [GitLab CI](https://about.gitlab.com/gitlab-ci/ "Open Source Continuous Integration") installation to go alongside my [GitLab](https://about.gitlab.com "Open Source Git Repository Management") installation. These integrate perfectly and for the last nine-months or so I've wanted to setup a real deployment system using GitLab CI at the heart.
 
-### Repository Management
+## Repository Management
 
 In order to understand why I do things in the way explained here a basic understanding of how I manage this site is required. It has two hosted repositories, one in my private GitLab installation and one on GitHub. I only ever interact directly with the version sat in GitLab, and all changes I make (past minor corrections) take place in development branches. When I want something to go live I merge it into the `master` branch.
 
@@ -17,7 +17,7 @@ At CI level I build the site and confirm that any changes do not break the build
 
 What you see on GitHub is the same as what is currently deployed.
 
-### Dependencies
+## Dependencies
 
 The first stage is to work towards automating everything; dependencies and tasks. The fist thing was to create a `Gemfile` which contains the ruby gems the site is dependent on. To use this we require the `bundler` gem to be already installed on the CI runner as well as the local development machine. My initial `Gemfile` looked something like:
 
@@ -30,7 +30,7 @@ gem "redcarpet"
 
 We can then run `bundle install` to ensure that all gems are installed to the machine.
 
-### Tasks
+## Tasks
 
 With dependencies handled we now need some level of task automation. Rake is idea for this, so we'll add the Rake gem to our Gemfile.
 
@@ -179,7 +179,7 @@ def clean
 end
 {% endhighlight %}
 
-### CI Setup
+## CI Setup
 
 At this point setting up the CI jobs is a trivial task thanks to the dependency and task automation. We have two tasks, one to build and test all future posts and drafts, and a second one to do a production build and try to deploy.
 
@@ -215,7 +215,7 @@ gem "redcarpet"
 gem "rake"
 {% endhighlight %}
 
-### Conclusions
+## Conclusions
 
 With relatively minimal effort we have developed a simple system which allows us to use automated deployments which are fail-safe, so we won't deploy any build that break by accident. This is a completely transparent process with runs in the background without any user input making deployment a simple task which can be forgotten about.
 

@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: Version Three
@@ -12,7 +12,7 @@ Times have changed since I last redesigned the site. Last-time CSS3 media querie
 
 When I was building my new site I wanted to make sure it was as fast as possible. For my target audience supporting a large history of browsers wasn't an issue, but mobile devices would be. For this reason I decided *mobile–first* design would be the best approach. 
 
-### Mobile–first Design
+## Mobile–first Design
 
 Traditionally when building a responsive website you would start with a desktop site and adjust it by tweaking widths, positioning elements and hiding thing from view for lower-resolution devices using media queries. 
 
@@ -32,7 +32,7 @@ The disadvantage to this approach also comes with the older browsers. They will 
 
 I like Andy Clarke's point here, not all site need to be identical in every browser. As long as the experience is appropriate to what the particular browser supports, and the content is accessible, then we shouldn't worry about everything looking identical in every browser. 
 
-### Leaving Wordpress
+## Leaving Wordpress
 
 For the new site one of the first decisions I made was to leave Wordpress. I can't help feeling like Wordpress is suffering from feature-bloat in recent releases. Don't get me wrong, I think Wordpress is ideal for blog-format website with multiple authors, but on my personal website multiple authors isn't an issue. It's only me. 
 
@@ -42,7 +42,7 @@ I'm actually using Git behind the scenes with two branches, 'develop' for unpubl
 
 One of my main reasons for choosing to move away from Wordpress is speed. Whatever way you cut it, a static site is going to be faster than any database driven website. 
 
-### New Branding
+## New Branding
 
 It has to be around five years since I designed my old branding. That is quite a long time. I decided with this new site that I would rebrand myself as I wanted to achieve a clean and modern look which is somewhat more professional and so suited to finding more freelance work. 
 
@@ -57,7 +57,7 @@ Those who know me best may be able to take a guess at what the rounded cut-away 
 
 The branding represents not just *what I do*, but *who I am* as well. 
 
-### Summary
+## Summary
 
 I feel like the new redesign has gone well. Feedback has been fantastic with only minor corrections being pointed out and the statistics from [Gauges][2] show that most features are supported well in all browsers that are visiting the site. 
 

@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: Web Applications Development
 date: 2010-09-28 10:54:09.000000000 +01:00

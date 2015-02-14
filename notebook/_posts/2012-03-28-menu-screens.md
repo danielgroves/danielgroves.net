@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: "Design Process: Menu Screens"
 date: 2012-03-28 00:48:03.000000000 +01:00
@@ -10,7 +10,7 @@ This blog post is designed as a follow up to '[Stitching Levels Together](http:/
 
 Menu screens are vital to just about any game. They hold the game together, present information and guide the user through the game. The game I have created requires three menu screens; Main Menu, Instructions, and Score.
 
-### Main Menu
+## Main Menu
 
 For the game I have kept the Main Menu very simple, providing just two options to the user.
 
@@ -18,7 +18,7 @@ For the game I have kept the Main Menu very simple, providing just two options t
 
 The Main Menu simply allows the user to start playing the game or to proceed to the instructions screen in order to find out how to play.
 
-### Instructions Screen
+## Instructions Screen
 
 The instructions screen contains details on how to play the game and what to look out for.
 
@@ -26,7 +26,7 @@ The instructions screen contains details on how to play the game and what to loo
 
 The paragraphs of text explaining the game are helped by the visual cues provided below so the user will recognise the enemies.
 
-### Score Screen
+## Score Screen
 
 The final screen in the game is the score screen.
 
@@ -34,11 +34,11 @@ The final screen in the game is the score screen.
 
 Although viewing the 'scene' in stencil works this screen will calculate the users score by the user of a behaviour. This is looked at in more detail later on but it essentially calculates the deaths plus one and then divides the users time by the amount of deaths.
 
-### Associated Behaviours
+## Associated Behaviours
 
 This functionality does not come by simply placing the right elements on a new scene. In order to power this functionality some behaviours were required.
 
-#### Change Scene Via a Button
+### Change Scene Via a Button
 
 In order to change the scene via a button press a custom behaviour was required.
 
@@ -46,7 +46,7 @@ In order to change the scene via a button press a custom behaviour was required.
 
 In order to change scene when a button was pressed I turned each of the buttons into an 'actor'. Once these buttons were created as an actor it was a simple case of adding a click event to each of them in order to load the corresponding scene.
 
-#### Score calculation and drawing
+### Score calculation and drawing
 
 The score calculation one of the more advanced parts of the custom behaviour coding.
 
@@ -60,6 +60,6 @@ Timer / (TimesFried + 1)
 
 Once this has been done the behaviour draws the users score while the rest of the scene is being drawn. This involves generating the text in the correct font, rounding the score to the nearest whole integer and then displaying it at the correct co-ordinates.
 
-### Conclusion
+## Conclusion
 
 This document shows the depth of thought that has gone in tot he generation of the games menus and scoring system. It demonstrates that all of the recorded information throughout the game has been recorded for a reason and shows some of the techniques that have been applied behind the game.

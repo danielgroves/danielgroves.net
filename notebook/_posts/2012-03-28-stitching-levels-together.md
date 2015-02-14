@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: "Design Process: Stitching Levels Together"
 date: 2012-03-28 00:11:51.000000000 +01:00
@@ -9,7 +9,7 @@ This blog post was designed as a follow up to the [Level Creation](http://daniel
 
 Just having the levels designed and built is not enough. In order for each level to function as intended they need to record the users deaths, and the amount of time it has taken them to play.
 
-### Death Management
+## Death Management
 
 The first thing that I added to each level was a behaviour that reset the level and added a death to a global variable if the user was to die.
 
@@ -21,7 +21,7 @@ When the user dies they script automatically takes the number of existing deaths
 
 Once this has been done the scene crossfades and reloads the scene.
 
-### Proceeding to the next Level
+## Proceeding to the next Level
 
 In the game the user has to reach the right-hand side of the screen in order to proceed to the next level. During map creation I placed an invisible region down the entire right side of the screen so that on contact the user would be transported to the next level.
 
@@ -29,7 +29,7 @@ In the game the user has to reach the right-hand side of the screen in order to 
 
 This behaviour detects when the users Actor enters a specified region. On entry the behaviour will automatically crossfade the scene from the existing onto the scene that is specified to load next.
 
-### Time Keeping
+## Time Keeping
 
 In order to record the time that the user took to complete each level another behaviour was required.
 
@@ -37,7 +37,7 @@ In order to record the time that the user took to complete each level another be
 
 This behaviour is always running, so as soon as it finishes running it runs again. Essentially it waits one second and then adds one second to the global variable 'Timer'. This allow the same timer to be shared by all levels in order to calculate how long it has taken the user to complete the game.
 
-### Reset
+## Reset
 
 It is important to wipe any old user data before letting them start a new game. In order to ensure that they do not keep any old deaths or add onto the old timers the system stats are all reset at the start of the first level.
 
@@ -45,6 +45,6 @@ It is important to wipe any old user data before letting them start a new game. 
 
 This behaviour simply takes each of the three global variables and resets them back to '0' ensuring a fair and consistent user experience.
 
-### Conclusion
+## Conclusion
 
 All of these simple behaviours are essential to ensuring that the game runs properly and can perform the necessary functions. Although they are all relatively simple without them the game simply could not operate.

@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: "Server Security: Public Suggestions"
@@ -11,11 +11,11 @@ A few weeks I published a blog post on [server security][security]. I promised t
 
 The post detailed what I was doing at the time to secure a new server as a whole. This provoked some level of response which is what I'll write about here, these are a few more packages that can be used, as well as a response to some discussions, that came out of the [previous post][security]. 
 
-### Packages
+## Packages
 
 After the previous post I was recommended some further packages that can easily be installed and configured in order to help with the protection on your server. Some of these will have been mentioned in the original article, but have more detail here. 
 
-#### Unattended Upgrades
+### Unattended Upgrades
 
 One of the first recommendations I received was to use `unattended-upgrades`.  This package automates the installation of system updates, you can configure it to only do security updates, or to do all updates. If required certain packages can be blacklisted from the upgrades. As with most packages on Ubuntu it is easy enough to install through apt. 
 
@@ -32,7 +32,7 @@ Once you have configured this you'll need to set the update intervals. This is d
 
 This removes a routine that otherwise you would have to do manually in order to ensure your server has all of the latest security patches installed. Once installed and configured your system will upgrade packages on your system as par your configuration, automating the update and upgrade tasks. 
 
-#### Fail2ban
+### Fail2ban
 
 Fail2ban is a intrusion prevention framework written in Python which can help to prevent brute-force attacks by updating your firewall settings on the fly. Once installed you configure it to watch services, and then after a set amount of attempts block an IP address for a set amount of time. 
 
@@ -89,15 +89,15 @@ In the comments on the previous article [Steve Blamey][sb] pointed out that you 
 
 However, Fail2Ban is more powerful than UFW in that it allows you to integrate it into your Web Apps, providing an easy and secure way to block brute-force attacks on your web applications, such as [Wordpress][wordpress]. I won't cover how to do this here though, as there are plenty of good guides already available such as the [Random Bits one][rb_wp], as recommended by Fail2Ban. 
 
-#### Other Suggestions
+### Other Suggestions
 
 Other suggestions were [nmap][nmap] and [sshfp][sshfp]. I've not included details for either of these here as nmap is more of a security auditing tool, which is a whole other discussion for another time. sshfp, I think, is simply debatable as to how much it helps. If you check your SSH fingerprints anyway it is of no benefit, however it does add an element of convenience for those who otherwise wouldn't. 
 
-### Discussions
+## Discussions
 
 Over on the [last post][security] [@Cycas][tw_cycas] made a few good points, which I feel are up for discussion. These mainly revolve around thinking more carefully around points I had already made in the last article. 
 
-#### Root Accounts
+### Root Accounts
 
 Originally I recommended disabling root accounts on your VPS, but Cycas made the point that this may result in you getting additional downtime if your host requires this account for making configuration changes. 
 
@@ -105,7 +105,7 @@ Originally I recommended disabling root accounts on your VPS, but Cycas made the
 
 This makes a valid case for not changing the root password on your VPS, although personally I'd rather the company didn't have access to mine. It could be worth getting in contact with your provider before changing the password, or disabling the account, to see what they have to say on the matter. Ask them if they ever use it to make configuration changes, what the policy is for protecting the password and the usage policy of root logins.  
 
-#### SSH on your IP only
+### SSH on your IP only
 
 In the last article I covered limiting SSH to one IP only, and that this should only be done if you have a static IP address. 
 
@@ -119,7 +119,7 @@ Another suggestion from [Dean Perry][tw_dp] is to use a VPN to access SSH, thus 
 
 <small>Quote comprised of three tweets by Derry Perry; [Tweet one][dp_tw1], [Tweet two][dp_tw2] and [Tweet three][dp_tw3]. </small>
 
-#### Control Panel Security
+### Control Panel Security
 
 The final point made was in regards to control panel security. My instincts with these is simply to avoid them, they're an unknown asset where a small security hole could easily compromise your entire server as they are often required to be run on the root account. 
 

@@ -1,5 +1,5 @@
 ---
-layout: photo_comment
+layout: default
 published: true
 title: Burrator and Sheepstor Exploration
 date: 2014-02-03 12:30

@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: OS X Dock Spaces
 excerpt: A quick video which explains how to add a blank space into your OS X dock. 

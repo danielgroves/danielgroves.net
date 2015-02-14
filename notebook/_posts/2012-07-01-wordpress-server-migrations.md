@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: WordPress Server Migrations
 date: 2012-07-01 12:43:37.000000000 +01:00
@@ -9,7 +9,7 @@ Recently I have been finishing the migration of websites from my old server to t
 
 This checklist assumes that you are migrating a WordPress install, although the steps should be similar for migrating any website.
 
-### Migrating a site
+## Migrating a site
 
 Initially I always lock down the site. I'm not going to reference any particular plugin to do the job here, there are plenty to choose from, but essentially you want to stop users commenting and members from posting. Your aiming to stop people from writing to the database to ensure it integrity during the transfer process.
 
@@ -19,7 +19,7 @@ Once this is done its time to update the DNS for your domain. Ensure the server 
 
 Now it time to play the waiting game. Wait until your able to access the site through the domain on the new server and navigate to your settings and then permalink structure, don't change anything just hit 'Save Changes'. This will make sure that your .htaccess file is present and correctly set-up as this is often missed when transferring the site between servers. Now remove your lock down to allow the sites users to resume activity like normal.
 
-### Summery
+## Summery
 
 So, to summarise in a few short steps:
 

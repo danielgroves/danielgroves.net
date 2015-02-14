@@ -1,0 +1,118 @@
+body {
+  font-family: "chaparral-pro", "georgia", serif;
+  font-weight: 300;
+  line-height: 160%;
+  color: $colour-type-main;
+  font-size: 1.2rem;
+}
+
+p {
+  padding: 10px 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "source-sans-pro", "Helvetica", sans-serif;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  &:link {
+    color: $colour-type-em;
+    font-weight: 600;
+  }
+
+  &:active, &:visited {
+    color: darken($colour-type-em, 20)
+  }
+}
+
+header, main, footer, aside {
+  @include fill-parent;
+
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+body > header {
+  background: $colour-secondary;
+  font-family: "source-sans-pro", "Helvetica", sans-serif;
+  border-bottom: 1px solid $colour-main;
+
+  a {
+    &:link, &:active, &:visited {
+      text-decoration: none;
+      color: #eee;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #eee;
+    padding: 1em 0;
+  }
+
+  p {
+    display: none;
+  }
+
+  nav {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+body > footer {
+  border-top: 1px solid $colour-type-main;
+  margin-top: 3em;
+  padding: 1em 0;
+
+  nav, section {
+    padding: 0 10px;
+
+    h2 {
+      padding: 1em 0 0;
+    }
+  }
+}
+
+article header {
+  padding: 3em 0 2.8em;
+
+  h1 {
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: $colour-type-em;
+  }
+
+  p {
+    font-weight: 300;
+    padding-top: 20px;
+    color: $colour-type-deemphasis;
+  }
+}
+
+article {
+  h2 {
+    font-size: 1.8em;
+    padding-top: 1.5em;
+    line-height: 120%;
+  }
+}
+
+pre {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  overflow-x: scroll;
+  background: $colour-subtle;
+  color: $colour-tertiary;
+  border-top: 1px solid $colour-tertiary;
+  border-bottom: 1px solid $colour-tertiary;
+
+  @include fill-parent;
+}

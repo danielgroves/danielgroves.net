@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 
 title: Server Security
@@ -22,7 +22,7 @@ During this article, what I am going to cover is:
 
 This will all be based upon [Ubuntu][ubuntu], but feel free to post suggested packages for other distributions in the comments. 
 
-### Disabling the root account
+## Disabling the root account
 
 The first thing I tend to do is to disable root account on the VPS. This has advantages and disadvantages which are discussed in the [ubuntu documentation][ub_sudo], but it essentially boils down to the following:
 
@@ -39,7 +39,7 @@ Once you have a new user account add it to the 'sudo' group by running `usermod 
 
 Assuming you have now logged in without any issues we can disable the root account. To do this run `sudo passwd -dl root`, and that all there is to it. 
 
-### Enabling a firewall
+## Enabling a firewall
 
 The idea of a firewall is to manage connections to your server in order to help block or filter unwanted packets. Blocking unwanted packets helps us to ensure a server is properly secured and helps prevent malicious access attempts, for this reason firewalls are often thought of a a first-line of defence. In many corporate environments a hardware firewall is used, but for you small VPS we'll setup a software firewall. 
 
@@ -96,7 +96,7 @@ This will only allow connection to port 22 from the ip `172.20.10.2`, you should
 
 Once this is done SSH access can only be gained from your IP address. For more details on the advanced ufw configuration options, [check the documentation][ufw]. 
 
-### Key Based Authentication
+## Key Based Authentication
 
 Key based authentication is primarily used to increase the security when connecting to a server via SSH over that of a password. A key-pairs consists of a public "encrypting" key and a private "decrypting" key, the public key is stored in an `authorized_keys` file on the remote server which is used to authenticate SSH sessions. 
 
@@ -144,7 +144,7 @@ At this point we need to restart SSH for the changes to take effect, run `sudo s
 
 Thats it, as long as you successfully logged in without your *server* prompting you for your password then everything has worked as expected. It's perfectly normal for your local system to ask for your authentication key password, on OS X you can tell the system to remember this in the keychain. 
 
-### Good Practice
+## Good Practice
 
 There are good practices that can be carried out, some of which we've already looked at. 
 
@@ -153,13 +153,13 @@ There are good practices that can be carried out, some of which we've already lo
 - Avoid public web-based interfaces for configuration; these can be exploited to gain access to your server, if you must have one only allow access to it from your own IP and your servers. You can always access it by creating and [SSH tunnel][ssh-tunnel] to your server. 
 - Run SSH on an abnormal port; this makes life harder for an attacker. 
 
-#### Use SFTP, not FTP
+### Use SFTP, not FTP
 
 When using SFTP user login with their normal accounts from the remote server. In order to allow the use of SFTP ensure that a line reading `Subsystem sftp /usr/lib/openssh/sftp-server` exists in your `sshd_config` file. If you have to add it you will need to restart SSH after, although Ubuntu should have it by default. 
 
 Now all local system users will be able to login with SFTP, if you opened port 21 for FTP earlier you'll now be able to close this port on your firewall and uninstall FTP from your system. 
 
-#### Run SSH on an abnormal port
+### Run SSH on an abnormal port
 
 First, open the new port on your firewall. Do this in exactly the same way as detailed in the firewall section, but remember the port number you choose. For this example I will use port number 12345. If you had SSH configured to only be accessible from a certain IP address don't forget do do the same now. 
 

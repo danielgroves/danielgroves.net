@@ -1,4 +1,26 @@
     <footer>
+      <section class="suggested">
+        <h2>Suggested Posts</h2>
+        <dl>
+          {% for post in site.related_posts %}
+            {% if forloop.index <= 2 %}
+              <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
+              <dd>{{ post.excerpt }}</dd>
+            {% endif %}
+          {% endfor %}
+        </dl>
+      </section>
+
+      <nav class="pages">
+        <h2>Pages</h2>
+        {% include pages.html %}
+      </nav>
+
+      <nav class="elsewhere">
+        <h2>Elsewhere</h2>
+        {% include elsewhere.html %}
+      </nav>
+
       <p>These pixels were handcrafted in southwest England &middot; <a href="mailto:hello@danielgroves.net" title="Email hello@danielgroves.net">Contact</a> &middot; <a href="/feed" title="Suscribe to the website RSS feed">RSS</a> &middot; <a href="https://github.com/danielgroves/danielgroves.net" title="View the website source on GitHub" target="_blank">GitHub</a> &middot; <a href="https://twitter.com/danielsgroves" title="Follow Daniel Groves on Twitter" target="_blank">Twitter</a> &middot; <a href="http://instagram.com/danielsgroves/" title="Follow me on Instagram" target="_blank">Instagram</a></p>
       <p>Powered by <a href="https://github.com/mojombo/jekyll" title="Jekyll Satatic Site Generator on GitHub" target="_blank">Jekyll</a> &middot; Hosted on <a href="https://www.digitalocean.com/?refcode=d0820e126448" title="Digital Ocean Affiliate Link">Digital Ocean</a> &middot; Copyright 2010 &#8211; 2014 Daniel Groves</p>
     </footer>
@@ -13,7 +35,6 @@
       ga('send', 'pageview');
 
     </script>
-
   </body>
 
 </html>

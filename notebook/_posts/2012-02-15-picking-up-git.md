@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: Picking Up GIT
 excerpt: An introduction of using the Git version control system, aimed at those who are just starting out. 
@@ -10,13 +10,13 @@ Around a year ago [Nick Charlton](http://nickcharlton.net/ "Nick Charlton") ([@n
 
 Anyhow, before I start drifting off topic, this is intended to extend from what Nick taught me, although it will cover many of the same things. Nicks guide got me off to a good start, but this article is intended as a fast crash-course in using git for those I am completing group work with.
 
-### Setting up Shop
+## Setting up Shop
 
 I won't cover the install of Git here, it's easy enough to find guides on this all over the internet. A good place to start would be with the official [GitHub](http://github.com "GitHub Website") guides; which covers [Windows](http://help.github.com/win-set-up-git/ "Setup Git on Windows"), [Mac OS X](http://help.github.com/mac-set-up-git/ "Install Git on Mac OS X"), and [Linux](http://help.github.com/linux-set-up-git/ "Install Git on Linux"). Once installed your all good to go.
 
 Where I am actually going to start with this guide is with actually using Git. For this guide the setting up shop will cover navigating to a repository (repo) via the command line, creating a repo, cloning/forking a repo, and adding a remote to a repository.
 
-#### Navigating to a Repo
+### Navigating to a Repo
 
 Navigating to via the command line is easy enough, and only two command are required. Firstly you'll need to fire up a Terminal window on Unix, or Git Bash on Windows - this was explained in the install links above.
 
@@ -31,7 +31,7 @@ The second command that can used used is the <tt>ls</tt> command, list. You can 
 
 Presuming we are in the <tt>/Users/danielsgroves/</tt> directory the first command would simple have listed all of the folders in danielsgroves/, but the second would have listed the contents of the danielsgroves/Documents directory. These two commands should be enough to allow you to navigate to your Git repositories.
 
-#### Starting a Repository
+### Starting a Repository
 
 Starting your own Git repository is very easy. Create a folder where you want to store it and navigate to this location using the Terminal (or Git Bash on Windows). To start your repo simply run the following command.
 
@@ -41,7 +41,7 @@ This will initiate an empty Git repository, creating the <tt>.git</tt> folder wh
 
 Of course this is only the first half, to use this repo with other people you will need to add a remoterepositorytosynchronisewith. Remote repositories will be covered in detail later in this article.
 
-#### Forking and Cloning a Repository
+### Forking and Cloning a Repository
 
 Forking arepositoryas almostthe same as copying one, with a few subtledifferences. When you fork arepositoryyou not only copy it, but it's entire history as well. Further to this you can make changes and aftercommittingthem issue a pull-request to the owner of the originalrepositoryso that they thenhavethe option to merge your changes with the mainrepository.
 
@@ -59,7 +59,7 @@ An example of doing this follows.
 
 This command will clone the repository, andautomaticallycreate a remote for you called "origin", you can see this by running <tt>git remote</tt>.
 
-#### Adding a Remote
+### Adding a Remote
 
 A remote needs to be added in order to push your repository allowing you to share your code with other collaborators. This is pretty simple to do, and is easiest to do with a GitHub repository. GitHub is free for any number of [open source](http://en.wikipedia.org/wiki/Open_source "Open Source on Wikipedia") repositories. If you are a student, however, you can [apply for a free micro account](https://github.com/edu "Contact GitHub for a free Student Micro account")..
 
@@ -75,11 +75,11 @@ So for my [example repository](https://github.com/danielgroves/Example-Repositor
 
 Git automatically identifies if you have access to a repository based on the RSA key you use to login to the server.
 
-### Operating Git
+## Operating Git
 
 Now your all set up you need to know how to use the day to day commands that you will need to operate Git.
 
-#### Checking the Status
+### Checking the Status
 
 When using Git the status of yourrepositorieswill frequently change, new files will be added and commits will be made, but how do we check exactly where we are?
 
@@ -87,7 +87,7 @@ The <tt>git status</tt> command will tell you which files git is currently track
 
 To use this command simply run <tt>git status</tt>.
 
-#### Adding and Editing
+### Adding and Editing
 
 Adding and editing files is a simple enough process within Git. Firstly, you just create files like you normally would, once you have created these files you simply run the following command from within your Git repository.
 
@@ -99,7 +99,7 @@ This command will add all files within the folder to the repository, in the situ
 
 This command will just add the file "readme.mdown" to the repository.
 
-#### Committing Changes
+### Committing Changes
 
 When working with Git it is important to work in a modular fashion. You complete one task and then proceed to commit your changes before continuing.
 
@@ -141,7 +141,7 @@ This will then return a message along these lines. Files changed, Inserts and De
  create mode 100644 mobile.js
 {% endhighlight %}
 
-#### Pushing Changes
+### Pushing Changes
 
 Pushing changes is pretty easy, but in order to do this you will require a 'remote'. If you created a new repository on your computer then you'll need to follow the steps in the 'Adding a Remote' section above.
 
@@ -170,7 +170,7 @@ The screenshot below show the repository after the initial push, as you can see 
 
 [<img class="size-medium wp-image-691" title="Repository After Initial Git Push" src="http://danielgroves.net/wp-content/uploads/2012/02/RespositoyAfterInitaGitPush-550x362.png" alt="Repository After Initial Git Push" width="550" height="362" />](http://danielgroves.net/wp-content/uploads/2012/02/RespositoyAfterInitaGitPush.png)
 
-#### Pulling Changes
+### Pulling Changes
 
 For this final section of the article I have logged into the GitHub website to make some changes to one of the files, allowing me to demonstrate how a pull works.
 
@@ -196,6 +196,6 @@ Fast-forward
  1 files changed, 4 insertions(+), 0 deletions(-)
 {% endhighlight %}
  
-### Final Note
+## Final Note
 
 When working in groups it is common for suchoccurrencesas two different people editing the same file, resulting in a merge beingnecessary. In this event I would suggest starting by looking through the official [GitHub guide to git](http://help.github.com/remotes/ "Managing remotes on GitHub help") before searching Google if the information doesn't help in your situation.

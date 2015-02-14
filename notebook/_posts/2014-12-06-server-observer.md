@@ -1,5 +1,5 @@
 ---
-layout: blog_comment
+layout: default
 published: true
 title: "Shutting Down Server Observer"
 excerpt: The reasoning behind why I am shutting down the Server Observer service, and what's coming next for it.
@@ -17,7 +17,7 @@ Despite all of this the project has been a success. It's done everything I asked
 
 As it stands the system has 16 test-users who have helped me throughout the last year. The system is currently holding about 7GB of data for these users, which translates to roughly 35, 779, 500 rows of data.
 
-### What next?
+## What next?
 
 Fistly, I'm going to turn-off the current hosted service at the end of the month. Do not expect to see anything open-source appear before this date.
 
