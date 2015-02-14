@@ -159,10 +159,14 @@ body > footer {
     }
   }
 
-  p {
+  section.smallprint {
     padding: 1em 10px;
     color: $colour-type-deemphasis;
     border-top: 1px solid $colour-type-main;
+  }
+
+  p {
+    padding: 10px 0 0;
   }
 }
 

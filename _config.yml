@@ -10,6 +10,7 @@ permalink: /:categories/:year/:month/:title
 url: https://danielgroves.net
 name: Daniel Groves
 description: "Code wrangler and Photographer in Southwest England"
+email: "hello@danielgroves.net"
 
 paginate: 12
 
