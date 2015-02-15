@@ -266,6 +266,7 @@ pre {
   border-bottom: 1px solid $colour-tertiary;
 
   @include fill-parent;
+  @include content-column;
 }
 
 figure {
