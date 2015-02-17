@@ -12,7 +12,7 @@ body {
 
 main {
   p, ol, ul, figcaption {
-    padding: 10px 10px 0;
+    padding: .7rem .5rem 0;
     @include content-column;
   }
 
@@ -24,8 +24,8 @@ main {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-sans;
   text-transform: uppercase;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: .5rem;
+  padding-right: .5rem;
   @include content-column;
 }
 
@@ -89,7 +89,7 @@ body > header {
     text-align: center;
 
     a {
-      padding: 10px 0;
+      padding: .5rem 0;
     }
   }
 
@@ -105,7 +105,7 @@ body > header {
     h1 {
       font-size: 1em;
       text-align: left;
-      padding: .8em 0 .8em 30px;
+      padding: .8em 0 .8em 1.5rem;
     }
 
     nav {
@@ -142,7 +142,7 @@ body > footer {
   @include content-column;
 
   nav, section {
-    padding: 0 10px;
+    padding: 0 .5rem;
 
     h2 {
       padding: 1em 0 0;
@@ -160,13 +160,13 @@ body > footer {
   }
 
   section.smallprint {
-    padding: 1em 10px;
+    padding: 1em .5rem;
     color: $colour-type-deemphasis;
     border-top: 1px solid $colour-type-main;
   }
 
   p {
-    padding: 10px 0 0;
+    padding: .5rem 0 0;
   }
 }
 
@@ -213,7 +213,7 @@ main header {
     }
 
     footer {
-      padding: 0 10px;
+      padding: 0 .5rem;
     }
 
     img {
@@ -241,10 +241,10 @@ nav.pageinate {
   text-align: center;
 
   a, strong {
-    padding: 10px 17px;
+    padding: .5rem .85rem;
     margin: 0 5px;
     background: $colour-secondary;
-    border-radius: 100px;
+    border-radius: 5rem;
 
     color: $colour-subtle;
   }
@@ -256,9 +256,9 @@ nav.pageinate {
 }
 
 pre {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-top: .7rem;
+  margin-bottom: .5rem;
+  padding: .5rem;
   overflow-x: scroll;
   background: $colour-subtle;
   color: $colour-tertiary;
@@ -270,10 +270,10 @@ pre {
 }
 
 figure {
-  padding: 10px 0;
+  padding: .5rem 0;
   border-top: 1px solid $colour-subtle;
   border-bottom: 1px solid $colour-subtle;
-  margin-top: 10px;
+  margin: .5rem 0;
 
   img {
     width: 100%;
@@ -293,7 +293,7 @@ figure {
 }
 
 hr {
-  margin: 2em 10px 1.4em;
+  margin: 2em .5rem 1.4em;
   border-top: 1px solid $colour-tertiary;
 
   &::after {
