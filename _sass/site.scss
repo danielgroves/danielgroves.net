@@ -58,6 +58,53 @@ header, main, footer, aside {
   }
 }
 
+.intro {
+  @include row;
+  padding: 3rem .5rem;
+
+  span {
+    float: left;
+    clear: both;
+  }
+
+  .me {
+    font-family: $font-sans;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1em;
+    @include content-column;
+
+    @include media($bp-900) {
+      position: relative;
+      left: .9em;
+    }
+
+    :first-of-type {
+      width: 1.5em;
+      text-align: right;
+    }
+
+    :last-of-type {
+      padding-left: 1.5em;
+
+      @include media($bp-600) {
+        padding-top: .7em;
+      }
+    }
+  }
+
+  .description {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: center;
+    @include content-column;
+
+    span {
+      padding-top: 3em;
+    }
+  }
+}
+
 body > header {
   background: $colour-secondary;
   font-family: $font-sans;

@@ -1,23 +1,25 @@
     <footer>
-      {% if site.related_posts %}
-        {% assign section_posts = site.related_posts %}
-        {% assign section_title = "suggested" %}
-      {% else %}
-        {% assign section_posts = site.posts %}
-        {% assign section_title = "recent" %}
-      {% endif %}
+      {% if page.footer_related_posts %}
+        {% if site.related_posts %}
+          {% assign section_posts = site.related_posts %}
+          {% assign section_title = "suggested" %}
+        {% else %}
+          {% assign section_posts = site.posts %}
+          {% assign section_title = "recent" %}
+        {% endif %}
 
-      <section class="{{ section_title }}">
-        <h2>{{ section_title }} Posts</h2>
-        <dl>
-          {% for post in section_posts %}
-            {% if forloop.index <= 4 %}
-              <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-              <dd>{{ post.excerpt }}</dd>
-            {% endif %}
-          {% endfor %}
-        </dl>
-      </section>
+        <section class="{{ section_title }}">
+          <h2>{{ section_title }} Posts</h2>
+          <dl>
+            {% for post in section_posts %}
+              {% if forloop.index <= 4 %}
+                <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
+                <dd>{{ post.excerpt }}</dd>
+              {% endif %}
+            {% endfor %}
+          </dl>
+        </section>
+      {% endif %}
 
       <div class="row">
         <nav class="pages">

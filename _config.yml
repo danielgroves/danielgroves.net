@@ -9,7 +9,7 @@ markdown: redcarpet
 permalink: /:categories/:year/:month/:title
 url: https://danielgroves.net
 name: Daniel Groves
-description: "Code wrangler and Photographer in Southwest England"
+description: "Developer and photographer based in southwest england who is addicted to the mountains."
 email: "hello@danielgroves.net"
 
 paginate: 12
@@ -45,3 +45,21 @@ instagram:
     max_timestamp: 2015-12-31T11:59:59+00:00
 
 gems: ["bourbon", "neat"]
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      footer_related_posts: true
+
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "stark"
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
