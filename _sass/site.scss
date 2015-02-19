@@ -165,7 +165,7 @@ body > footer {
     border-top: 1px solid $colour-type-main;
   }
 
-  p {
+  p, dt {
     padding: .5rem 0 0;
   }
 }
@@ -241,7 +241,7 @@ nav.pageinate {
   text-align: center;
 
   a, strong {
-    padding: .5rem .85rem;
+    padding: .5rem 1rem;
     margin: 0 5px;
     background: $colour-secondary;
     border-radius: 5rem;
