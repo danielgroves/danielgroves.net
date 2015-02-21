@@ -1,11 +1,32 @@
+GIT
+  remote: https://github.com/jekyll/jekyll.git
+  revision: ea8920354ae6441796c4b7dd09376e61b1089e3c
+  ref: ea8920
+  specs:
+    jekyll (2.2.0)
+      classifier (~> 1.3)
+      colorator (~> 0.1)
+      jekyll-coffeescript (~> 1.0)
+      jekyll-gist (~> 1.0)
+      jekyll-paginate (~> 1.0)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 1.0)
+      kramdown (~> 1.3)
+      liquid (~> 2.6.1)
+      mercenary (~> 0.3.3)
+      pygments.rb (~> 0.6.0)
+      redcarpet (~> 3.1)
+      safe_yaml (~> 1.0)
+      toml (~> 0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
-    classifier-reborn (2.0.3)
-      fast-stemmer (~> 1.0)
+    classifier (1.3.4)
+      fast-stemmer (>= 1.0.0)
     coffee-script (2.3.0)
       coffee-script-source
       execjs
@@ -25,21 +46,6 @@ GEM
       faraday_middleware (>= 0.8, < 0.10)
       hashie (>= 0.4.0)
       multi_json (~> 1.0, >= 1.0.3)
-    jekyll (2.5.3)
-      classifier-reborn (~> 2.0)
-      colorator (~> 0.1)
-      jekyll-coffeescript (~> 1.0)
-      jekyll-gist (~> 1.0)
-      jekyll-paginate (~> 1.0)
-      jekyll-sass-converter (~> 1.0)
-      jekyll-watch (~> 1.1)
-      kramdown (~> 1.3)
-      liquid (~> 2.6.1)
-      mercenary (~> 0.3.3)
-      pygments.rb (~> 0.6.0)
-      redcarpet (~> 3.1)
-      safe_yaml (~> 1.0)
-      toml (~> 0.1.0)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
@@ -50,7 +56,7 @@ GEM
       listen (~> 2.7)
     kramdown (1.5.0)
     liquid (2.6.1)
-    listen (2.8.5)
+    listen (2.8.4)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -69,7 +75,7 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
     safe_yaml (1.0.4)
-    sass (3.4.10)
+    sass (3.4.9)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -81,6 +87,6 @@ PLATFORMS
 
 DEPENDENCIES
   instagram
-  jekyll
+  jekyll!
   rake
   redcarpet
