@@ -3,73 +3,75 @@ title: "Developer and Photographer"
 footer_related_posts: false
 ---
 
-<div class="intro">
-  <div class="me">
-    <span>Hi,</span>
-    <span>I'm Daniel Groves</span>
+<main>
+  <div class="intro">
+    <div class="me">
+      <span>Hi,</span>
+      <span>I'm Daniel Groves</span>
+    </div>
+
+    <div class="description">
+      <span>I'm a developer and photographer based in southwest england who is addicted to mountains.</span>
+    </div>
   </div>
 
-  <div class="description">
-    <span>I'm a developer and photographer based in southwest england who is addicted to mountains.</span>
+  <div class="columnset threeup">
+    <section class="developer">
+      <header>
+        <h1>Developer</h1>
+      </header>
+      <p>I develop clean and maintainable code for my own personal projects, open-source contributions, and my employer. </p>
+      <p>I work in a number of languages including C#, Python, Ruby and Java. I have experience with web frameworks such as Django, Ruby on Rails and ASP.net.</p>
+      <p>I use GIT for version control in all of my projects to ensure that it is easily to collaborate with other developers, experiment new with features and control changes.</p>
+    </section>
+
+    <section class="photographer">
+      <header>
+        <h1>Photographer</h1>
+      </header>
+
+      <p>I am a keen photographer who spends as much time shooting and editing photographs as breathing. </p>
+      <p>Although primerily a landscape photosgrapher, I have also been known to dabble in street and action-sport photography. </p>
+      <p>In order to help push my photography to the next level I am working to complete a <a href="/photo365" title="Photo365 challenge attempt">Photo365 challenge</a> over 2015. </p>
+    </section>
+
+    <section class="writer">
+      <header>
+        <h1>Writer</h1>
+      </header>
+
+      <p>Despite spending much of my time writing code and taking photographs I frequently set time aside to read and write. After any significant adventure or photoshoot I tend to docuemnt them on my <em>adventures and photography</em> page. </p>
+      <p>I also regularly write about technical challenges and projects on which I have embarked in attempt to document things for my own future reference, as well as with the small chance that they will aid somebody else. </p>
+    </section>
   </div>
-</div>
 
-<div class="columnset threeup">
-  <section class="developer">
-    <header>
-      <h1>Developer</h1>
-    </header>
-    <p>I develop clean and maintainable code for my own personal projects, open-source contributions, and my employer. </p>
-    <p>I work in a number of languages including C#, Python, Ruby and Java. I have experience with web frameworks such as Django, Ruby on Rails and ASP.net.</p>
-    <p>I use GIT for version control in all of my projects to ensure that it is easily to collaborate with other developers, experiment new with features and control changes.</p>
-  </section>
+  <div class="columnset threeup">
+    <aside>
+      <h1>Latest Notebook Entries</h1>
+      <dl>
+        {% for post in site.categories.notebook %}
+          {% if forloop.index <= 4 %}
+            <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
+            <dd>{{ post.excerpt }}</dd>
+          {% endif %}
+        {% endfor %}
+      </dl>
+    </aside>
 
-  <section class="photographer">
-    <header>
-      <h1>Photographer</h1>
-    </header>
+    <aside>
+      <h1>Latest Photography</h1>
+    </aside>
 
-    <p>I am a keen photographer who spends as much time shooting and editing photographs as breathing. </p>
-    <p>Although primerily a landscape photosgrapher, I have also been known to dabble in street and action-sport photography. </p>
-    <p>In order to help push my photography to the next level I am working to complete a <a href="/photo365" title="Photo365 challenge attempt">Photo365 challenge</a> over 2015. </p>
-  </section>
-
-  <section class="writer">
-    <header>
-      <h1>Writer</h1>
-    </header>
-
-    <p>Despite spending much of my time writing code and taking photographs I frequently set time aside to read and write. After any significant adventure or photoshoot I tend to docuemnt them on my <em>adventures and photography</em> page. </p>
-    <p>I also regularly write about technical challenges and projects on which I have embarked in attempt to document things for my own future reference, as well as with the small chance that they will aid somebody else. </p>
-  </section>
-</div>
-
-<div class="columnset threeup">
-  <aside>
-    <h1>Latest Notebook Entries</h1>
-    <dl>
-      {% for post in site.categories.notebook %}
-        {% if forloop.index <= 4 %}
-          <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-          <dd>{{ post.excerpt }}</dd>
-        {% endif %}
-      {% endfor %}
-    </dl>
-  </aside>
-
-  <aside>
-    <h1>Latest Photography</h1>
-  </aside>
-
-  <aside>
-    <h1>Latest Adventures</h1>
-    <dl>
-      {% for post in site.categories.adventures-photography %}
-        {% if forloop.index <= 2 %}
-          <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-          <dd>{{ post.excerpt }}</dd>
-        {% endif %}
-      {% endfor %}
-    </dl>
-  </aside>
-</div>
+    <aside>
+      <h1>Latest Adventures</h1>
+      <dl>
+        {% for post in site.categories.adventures-photography %}
+          {% if forloop.index <= 2 %}
+            <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
+            <dd>{{ post.excerpt }}</dd>
+          {% endif %}
+        {% endfor %}
+      </dl>
+    </aside>
+  </div>
+</main>

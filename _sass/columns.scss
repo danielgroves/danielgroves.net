@@ -2,10 +2,6 @@
   @include content-column(1500px);
   @include row;
 
-  h1 {
-    max-width: none;
-  }
-
   p, dl {
     padding-left: .5rem;
     padding-right: .5rem;
