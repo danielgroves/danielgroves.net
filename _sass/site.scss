@@ -217,7 +217,7 @@ body > footer {
   }
 }
 
-main header {
+main > header {
   padding: 3em 0 2.8em;
 
   h1 {
@@ -232,46 +232,6 @@ main header {
     font-weight: 300;
     padding-top: 20px;
     color: $colour-type-deemphasis;
-  }
-}
-
-.article-list {
-  @include row;
-
-  article {
-    padding: 0 0 2em 0;
-
-    &:last-of-type {
-      padding: 0;
-    }
-
-    header {
-      padding: 0;
-
-      h1 {
-        font-size: 1.2em;
-      }
-
-      a {
-        &:link, &:visited, &:active {
-          text-decoration: none;
-        }
-      }
-    }
-
-    footer {
-      padding: 0 .5rem;
-    }
-
-    img {
-      max-width: 100%;
-      width: 100%;
-    }
-
-    @include media($bp-600) {
-      @include span-columns(6);
-      padding: 0;
-    }
   }
 }
 
@@ -352,5 +312,52 @@ hr {
     background: #fff;
     padding: 0 2rem;
     font-size: .8rem;
+  }
+}
+
+
+////
+// Homepage Specific
+////
+.columnset {
+  .developer, .photographer, .writer {
+    margin-top: 3em;
+    
+    header::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 150px;
+      background: #666;
+      margin-bottom: 1em;
+    }
+  }
+}
+
+////
+// Article Lists
+////
+
+.articlelist {
+  article {
+    padding: 0 0 2em 0;
+
+    header {
+      padding: 0;
+
+      h1 {
+        font-size: 1.2em;
+      }
+
+      a {
+        &:link, &:visited, &:active {
+          text-decoration: none;
+        }
+      }
+    }
+
+    footer {
+      padding: 0 .5rem;
+    }
   }
 }

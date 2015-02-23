@@ -1,0 +1,34 @@
+.columnset {
+  @include content-column(1500px);
+  @include row;
+
+  h1 {
+    max-width: none;
+  }
+
+  p, dl {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  &.threeup {
+    section, aside, article {
+      @include media($bp-900) {
+        @include span-columns(4);
+      }
+    }
+  }
+
+  &.twoup {
+    section, aside, article {
+      @include media($bp-900) {
+        @include span-columns(6);
+      }
+    }
+  }
+}
