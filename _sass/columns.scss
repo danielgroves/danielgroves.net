@@ -13,7 +13,7 @@
   }
 
   &.threeup {
-    section, aside, article {
+    > section, > aside, > article {
       @include media($bp-900) {
         @include span-columns(4);
       }
@@ -21,14 +21,13 @@
   }
 
   &.twoup {
-    section, aside, article {
+    > section, > aside, > article {
       @include media($bp-900) {
         @include span-columns(6);
       }
     }
   }
 }
-
 
 .columnset + .columnset {
   margin-top: 2rem;

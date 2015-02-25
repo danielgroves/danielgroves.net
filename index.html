@@ -48,30 +48,50 @@ footer_related_posts: false
   <div class="columnset threeup">
     <aside>
       <h1>Latest Notebook Entries</h1>
-      <dl>
         {% for post in site.categories.notebook %}
-          {% if forloop.index <= 4 %}
-            <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-            <dd>{{ post.excerpt }}</dd>
+          {% if forloop.index <= 3 %}
+            <article>
+              <header>
+                <h1><a href="{{ post.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+              </header>
+
+              <footer>
+                <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+              </footer>
+
+              <p>{{ post.excerpt }}</p>
+            </article>
           {% endif %}
         {% endfor %}
-      </dl>
-    </aside>
-
-    <aside>
-      <h1>Latest Photography</h1>
     </aside>
 
     <aside>
       <h1>Latest Adventures</h1>
-      <dl>
-        {% for post in site.categories.adventures-photography %}
-          {% if forloop.index <= 2 %}
-            <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-            <dd>{{ post.excerpt }}</dd>
-          {% endif %}
-        {% endfor %}
-      </dl>
+      {% for post in site.categories.adventures-photography %}
+        {% if forloop.index <= 2 %}
+          <article>
+            {% if forloop.index == 1 %}
+              {% if post.thumb %}
+                <img src="{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" />
+              {% endif %}
+            {% endif %}
+
+            <header>
+              <h2><a href="{{ post.base_url }}{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
+
+            <footer>
+              <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+            </footer>
+
+            <p>{{ post.excerpt }}</p>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </aside>
+
+    <aside>
+      <h1>Latest Photography</h1>
     </aside>
   </div>
 </main>
