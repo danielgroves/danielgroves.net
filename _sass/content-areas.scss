@@ -1,0 +1,128 @@
+header, main, footer, aside {
+  @include fill-parent;
+
+  margin: 0 auto;
+  max-width: 600px;
+
+  @include media($bp-600) {
+    max-width: 100%;
+  }
+}
+
+main {
+  section, article {
+    @include content-column(1200px);
+  }
+}
+
+body > header {
+  background: $colour-secondary;
+  font-family: $font-sans;
+  border-bottom: 1px solid $colour-main;
+  font-size: 1rem;
+
+  a {
+    display: inline-block;
+    width: 100%;
+
+    &:link, &:active, &:visited {
+      text-decoration: none;
+      color: #eee;
+    }
+
+    &.current_page_item {
+      background: lighten($colour-secondary, 20);
+    }
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #eee;
+    padding: 1em 0;
+  }
+
+  nav {
+    text-align: center;
+
+    a {
+      padding: .5rem 0;
+    }
+  }
+
+  @include media($bp-900) {
+    overflow: hidden;
+    font-size: .8em;
+
+    > a {
+      @include span-columns(3);
+      display: block;
+    }
+
+    h1 {
+      font-size: 1em;
+      text-align: left;
+      padding: .8em 0 .8em 1.5rem;
+    }
+
+    nav {
+      @include span-columns(9);
+      text-align: right;
+      text-transform: uppercase;
+
+      a {
+        padding: .8em 1em .8em 1em;
+      }
+
+      ul {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+      }
+
+      li {
+        display: inline-block;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+body > footer {
+  border-top: 1px solid $colour-type-main;
+  margin-top: 3em;
+  padding: 1em 0;
+
+  @include content-column;
+
+  nav, section {
+    padding: 0 .5rem;
+
+    h2 {
+      padding: 1em 0 0;
+    }
+  }
+
+  @include media($bp-600) {
+    section {
+      @include span-columns(12)
+    }
+
+    nav {
+      @include span-columns(6);
+    }
+  }
+
+  section.smallprint {
+    padding: 1em .5rem;
+    color: $colour-type-deemphasis;
+    border-top: 1px solid $colour-type-main;
+  }
+
+  p, dt {
+    padding: .5rem 0 0;
+  }
+}
