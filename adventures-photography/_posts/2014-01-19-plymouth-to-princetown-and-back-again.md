@@ -5,6 +5,7 @@ title: Plymouth to Princetown (and back again)
 excerpt: "A day on the moor: a series of pictures from Plymouth to Princetown and back."
 date: 2014-01-19 21:30
 thumb: /assets/camera-roll/2014/01/DSC_8342_thumb.jpg
+comments: true
 ---
 
 Over the last few months most of the Uni club rides have been kept pretty local. With what appeared to be a window of good weather this weekend we decided to head out onto Dartmoor to do one of the clubs classic rides. After meeting at 9:30 we proceeded to fix an early-batch of mechanicals before proceeding up the Plym Valley cycle path towards Yelverton. At Yelverton we frustratingly experienced yet another mechanical as one of the group snapped a chain.

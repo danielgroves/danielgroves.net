@@ -5,6 +5,7 @@ title: Burrator and Sheepstor Exploration
 date: 2014-02-03 12:30
 excerpt: "Exploring new riding options around Burrator Reservoir and Sheepstor"
 thumb: /assets/camera-roll/2014/02/DSC_8550_thumb.jpg
+comments: true
 ---
 
 Being located in Plymouth the university cycling club regularly rides out towards Burrator Reservoir to do a loop up to Princetown and back; we’re rather well located for it. Lately, however, Joe and I have been wanting to explore more in the area to try and find some new trails to ride. To start things off we headed out the normal route (via the Plym Vally cycle path) and then cracked out an OS map at the head of the reservoir.

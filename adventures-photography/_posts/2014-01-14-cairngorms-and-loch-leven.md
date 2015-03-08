@@ -5,6 +5,7 @@ title: Cairngorms and Loch Leven
 excerpt: "A small selection of pictures from two weeks on Scotland"
 date: 2014-01-14 22:40
 thumb: /assets/camera-roll/2014/01/DSC_7803_thumb.jpg
+comments: true
 ---
 
 I recently decided that in order to motivate myself to both use the camera more, and get more of what I shoot "out there" I would start a camera roll. This is essentially a photo blog, something I have been considering starting for some time now.

@@ -5,6 +5,7 @@ title: Double Waters
 date: 2014-05-11 16:45
 excerpt: "A few pictures from a recent Double Waters loop"
 thumb: /assets/camera-roll/2014/05/DSC_9752_thumb.jpg
+comments: true
 ---
 
 I've not posted anything new recently due to working on [finishing my degree](/notebook/2014/05/finishing-university/ "Thoughts on the last four years at University"), resulting in having very little time to play bikes and cameras. Having finished last Friday afternoon, however, I spent today with two friends (Luke Shackleton and James Mandall) riding bikes and playing with cameras on a *Double Waters* loop. Unfortunately due to the rather foul weather the camera had to spend most of the day hidden away in my bag, but for a brief moment on the main descent the sun did appear.

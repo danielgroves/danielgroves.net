@@ -51,6 +51,7 @@ defaults:
       path: ""
     values:
       footer_related_posts: true
+      comments: false
 
   - scope:
       path: ""
