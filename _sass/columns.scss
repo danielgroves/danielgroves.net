@@ -13,6 +13,12 @@
   }
 
   &.threeup {
+    @include media($bp-900) {
+      margin-left: 1%;
+      margin-right: 1%;
+      width: 98%;
+    }
+
     > section, > aside, > article {
       @include media($bp-900) {
         @include span-columns(4);
