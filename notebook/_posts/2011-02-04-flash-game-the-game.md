@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: "Flash Game: The Game"
 excerpt: An explanation about the ActionScript that powered the Flash Game. 

@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: "Flash Game: Backend Processing"
 excerpt: How the PHP script worked in able to allow the flash game to communicate with an external high-scores database. 

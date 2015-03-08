@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: "Flash Game: High Scores Page"
 excerpt: How the high-scores were laoded by combining ActionScript with a server-side PHP script.

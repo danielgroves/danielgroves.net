@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: "Shutting Down Server Observer"
 excerpt: The reasoning behind why I am shutting down the Server Observer service, and what's coming next for it.

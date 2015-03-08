@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: Configuring Nginx with SSL
 date: 2014-01-17 08:00

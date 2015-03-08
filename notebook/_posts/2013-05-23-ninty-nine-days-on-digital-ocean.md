@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 
 title: Ninty–nine days on Digital Ocean

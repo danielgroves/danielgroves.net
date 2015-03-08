@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: "Flash Game: Planning the Details"
 excerpt: The planning notes for the Flash Game tht was created for University. 

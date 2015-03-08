@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 
 title: Goodbye WordPress, Hello Jekyll
@@ -33,6 +35,8 @@ The initial export went well, the necessary metadata was copied across as expect
 
 {% highlight yaml %}
 layout: default
+comments: true
+
 published: true
 title: AlfredApp Custum Colour Scheme
 

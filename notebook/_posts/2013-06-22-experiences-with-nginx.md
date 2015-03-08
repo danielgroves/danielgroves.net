@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 
 title: Experiences with Nginx

@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: Development Environments with Vagrant and Ansible
 date: 2014-05-22 09:00

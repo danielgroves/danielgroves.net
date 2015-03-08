@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: AFP Goodness between OS X Lion and Ubuntu 11.10
 excerpt: The process behind making Ubuntu share files with Mac OS Lion using the AFP protocol. 

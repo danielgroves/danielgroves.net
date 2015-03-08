@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 date: 2012-03-27 23:45:09.000000000 +01:00
 

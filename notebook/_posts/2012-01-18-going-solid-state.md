@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: Going Solid State
 excerpt: I share how I went about upgrading to an SSD whilst maintaining the volume of storage that I require on a dialy basis.

@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: "Design Process: Character Design"
 excerpt: The initial sketches of each chacter and the various states they can sit in.

@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: Picking Up GIT
 excerpt: An introduction of using the Git version control system, aimed at those who are just starting out. 

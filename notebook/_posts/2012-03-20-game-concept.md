@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: "Design Process: Game Concept"
 excerpt: A look into the ideas behind my AINT207 odule at university where I am required to build a game. 

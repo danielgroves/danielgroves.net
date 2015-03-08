@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+
 published: true
 title: Starting Out with a VPS
 date: 2012-06-01 16:16:24.000000000 +01:00
