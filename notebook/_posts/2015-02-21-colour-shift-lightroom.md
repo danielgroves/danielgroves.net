@@ -1,8 +1,8 @@
 ---
 layout: blog
 published: true
-title: Incorrect Colour with 32-bit TIFF files in Lightroom
-excerpt: When creating a 32-bit RAW images in Photoshop, Lightroom will render the image with incorrect colour. This can be solved through the use of Photoshop Smart Objects.
+title: Colour Shift with 32-bit RAW files in Lightroom
+excerpt: When creating 32-bit RAW images in Photoshop, Lightroom will render the image with incorrect colour. This can be solved through the use of Photoshop Smart Objects.
 
 date: 2015-02-18 20:30
 ---
@@ -15,9 +15,17 @@ Not only do 32-bit images hold a greater range of colour and more accurate colou
 
 The problem with 32-bit images is Photoshop CC doesn't allow images to be directly exported from Photoshop itself, and thus Lightroom is required. This in itself isn't a problem, but Lightroom will treat any 32-bit raw files (such as a TIFF or DNG) [as an un-toned image][32bittoning] and attempt to apply its own base-toning on top of this image.
 
+<figure>
+    <img src="/assets/images/blog/2015-02-21-colour-shift-lightroom/colourshift.jpg" alt="" />
+
+    <figcaption>
+        Colour shift between Lightroom and Photoshop, with the incorrect image on the left and the correct image on the right.
+    </figcaption>
+</figure>
+
 Thankfully there is a simple way to work around this; smart objects. By combining multiple layers (or converting a single 32-bit layer) into a smart object it is possible change the final document into a 16-bit image while retaining the advanced editing abilities that are held by the 32-bit image. Once combined the smart-object will be a flattened version of those documents held within allowing access to the original documents, and automatically taking in any changes made to those documents.
 
-Doing this is a simple case of selecting all of the layers within a 32-bit RAW file and then right-clicking and selecting "Create Smart Object". Once this has finished selecting Images, Mode, and then "16 bit/channel" followed by "Don't Merge" in the following popup will convert the final image into a 16-bit RAW file.
+Doing this is a simple case of selecting all of the layers within a 32-bit RAW file and then right-clicking and selecting "Convert to Smart Object". Once this has finished select "Image", "Mode", and then "16 Bits/Channel" from the top menu, followed by "Don't Merge" in the popup that follows. This will convert the final image into a 16-bit RAW file. Getting back to your 32-bit document is a simple case of double-clicking the page icon in the bottom corner of the layer preview image. 
 
 From time to time Lightroom doesn't pickup the changes to the image if the image was saved as a 32-bit file previously. Working around this is just as easy; right-click the file and select Metadata followed by "Read Metadata from File".
 
