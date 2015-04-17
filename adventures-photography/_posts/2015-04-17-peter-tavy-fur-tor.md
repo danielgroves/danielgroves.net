@@ -4,7 +4,7 @@ published: true
 title: Peter Tavy and Fur Tor
 excerpt: Backpacking to Fur Tor on Dartmoor for the Photography.
 
-date: 2015-04-17 21:00
+date: 2015-04-17 20:40
 ---
 
 It's not uncommon for Mike and I to meetup on the weekend to head out with our cameras. During the last few months we've managed to git quite a few trips in, sometimes for the day and sometimes over the weekend. Last weekend we drove out to Peter Tavy, parked up, and walked out to Fur Tor with the hope of a good sunset to photograph.
@@ -41,6 +41,6 @@ At 5:30am the next morning I stuck my head out of my tent door, concluded it was
 <figure>
   <img src="/assets/camera-roll/2015/04/20150412-DSC_5378.jpg" title="Mike on the walk back, just after White Tor. " />
   <figcaption>
-    Mike on the walk back, just after White Tor. 
+    Mike on the walk back, just after White Tor.
   </figcaption>
 </figure>
