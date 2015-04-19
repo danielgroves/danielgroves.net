@@ -81,3 +81,16 @@ aside.elsewhere_on_the_web {
     background-color: #55acee;
   }
 }
+
+footer {
+  background: #d2d2d2;
+  font-family: $font-sans;
+  line-height: 120%;
+  padding: .7em 0;
+  color: #333333;
+
+  p {
+    @include outer-container($content-max-width);
+    padding: .5em 0;
+  }
+}
