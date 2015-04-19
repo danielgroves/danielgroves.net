@@ -1,43 +1,43 @@
-    <footer>
+    <aside class="more_like_this">
       {% if page.footer_related_posts %}
-        {% if site.related_posts %}
-          {% assign section_posts = site.related_posts %}
-          {% assign section_title = "suggested" %}
-        {% else %}
-          {% assign section_posts = site.posts %}
-          {% assign section_title = "recent" %}
-        {% endif %}
-
-        <section class="{{ section_title }}">
-          <h2>{{ section_title }} Posts</h2>
-          <dl>
-            {% for post in section_posts %}
-              {% if forloop.index <= 4 %}
-                <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-                <dd>{{ post.excerpt }}</dd>
-              {% endif %}
-            {% endfor %}
-          </dl>
+        <h2>More Like This</h2>
+        <section>
+        <dl>
+          {% for post in site.related_posts %}
+            {% if forloop.index <= 2 %}
+              <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
+              <dd>{{ post.excerpt }}</dd>
+            {% endif %}
+          {% endfor %}
+        </dl>
+        <dl>
+          {% for post in site.related_posts %}
+            {% if forloop.index >= 3 and forloop.index <= 4 %}
+              <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
+              <dd>{{ post.excerpt }}</dd>
+            {% endif %}
+          {% endfor %}
+        </dl>
         </section>
       {% endif %}
+    </aside>
 
-      <div class="row">
-        <nav class="pages">
-          <h2>Pages</h2>
-          {% include pages.html %}
-        </nav>
+    <aside class="elsewhere_on_the_web">
+      <h2>Elsewhere on the Web</h2>
 
-        <nav class="elsewhere">
-          <h2>Elsewhere</h2>
-          {% include elsewhere.html %}
-        </nav>
-      </div>
+      <ul>
+        <li class="social__instagram"><a href="" title="" target="_blank">Instagram</a></li>
+        <li class="social__twitter"><a href="" title="" target="_blank">Twitter</a></li>
+        <li class="social__facebook"><a href="" title="" target="_blank">Facebook</a></li>
+        <li class="social__googleplus"><a href="" title="" target="_blank">Google+</a></li>
+        <li class="social__github"><a href="" title="" target="_blank">Gtihub</a></li>
+        <li class="social__500px"><a href="" title="" target="_blank">500px</a></li>
+      </ul>
+    </aside>
 
-      <section class="smallprint">
-        <p>If you have any questions, queries or feedback please feel free to drop me an <a href="mailto:{{ site.email }}" title="Email {{ site.email }}">email</a>, or contact me on any of the networks mentioned above. </p>
-        <p>You can suscribe to the latest content via RSS. There are three feeds; <em><a href="{{ site.url }}/feed" title="The RSS feed for all content">everything</a></em>, <em><a href="{{ site.url }}/feed/notebook" title="The RSS feed for my notebook entries">notebook</a></em>, and <em><a href="{{ site.url }}/feed/adventures-photography" title="The RSS feed for my adventures and photography entries">adventures and photography</a></em>. </p>
-        <p>This handcrafted website is powered by <a href="https://github.com/mojombo/jekyll" title="Jekyll Satatic Site Generator on GitHub" target="_blank">Jekyll</a> and hosted on <a href="https://www.digitalocean.com/?refcode=d0820e126448" title="Digital Ocean Affiliate Link">Digital Ocean</a>. The source code can be found on <a href="https://github.com/danielgroves/danielgroves.net" title="Website source and licence details">GitHub</a>, where the theme licence can be found. All content is copyright 2010 – 2015 Daniel Groves. </p>
-      </section>
+    <footer>
+      <p>Powered by Jekyll and hosted on Digital Ocean. </p>
+      <p>Copyright 2010 – {{ site.time | date: '%Y' }} Daniel Groves. For licence details, see <a href="https://github.com/danielgroves/danielgroves.net" title="danielgroves.net GitHub repository" target="_blank">the GitHub repository</a>. </p>
     </footer>
 
     <script>
@@ -45,10 +45,8 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
       ga('create', 'UA-8335925-2', 'danielgroves.net');
       ga('send', 'pageview');
-
     </script>
   </body>
 
