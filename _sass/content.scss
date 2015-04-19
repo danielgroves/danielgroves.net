@@ -1,0 +1,47 @@
+article {
+  p {
+    font-family: $font-serif;
+    font-size: 1.3em;
+    @include outer-container($content-max-width);
+    line-height: 150%;
+    padding-bottom: 1em;
+  }
+
+  div {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  header {
+    @include outer-container($content-max-width);
+
+    h1, p, span {
+      font-weight: 100;
+      font-family: $font-sans;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      padding: 1em 0 .4em 0;
+      color: #333333;
+    }
+
+    span {
+      display: inline-block;
+      padding-right: 1em;
+      color: #5c5c5c;
+
+      &:last-of-type {
+        padding-right: 0;
+      }
+    }
+
+    p {
+      font-size: 1.5em;
+      color: #5c5c5c;
+      padding: 2em 0 1.5em 0;
+    }
+  }
+}

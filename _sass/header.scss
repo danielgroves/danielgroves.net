@@ -1,0 +1,31 @@
+body > header {
+  @include fill-parent;
+
+  background: #000000;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.8);
+
+  position: fixed;
+  top: 0;
+
+  border-bottom: 1px solid #333333;
+
+  a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: $font-sans;
+
+    padding: 1em;
+    display: inline-block;
+  }
+
+  nav {
+    float: right;
+
+    li {
+      display: inline-block;
+    }
+  }
+}

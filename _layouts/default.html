@@ -4,8 +4,13 @@ layout: stark
 
 <main>
   <article>
+    {% if page.banner %}
+      <div style="background-image: url({{ page.banner }})"></div>
+    {% endif %}
     <header>
       <h1>{{ page.title }}</h1>
+      <span><strong>Published:</strong> 15 January 2015</span>
+      <span><strong>Tags:</strong> Photography, Photohop</span>
       <p>{{ page.excerpt }}</p>
     </header>
 
