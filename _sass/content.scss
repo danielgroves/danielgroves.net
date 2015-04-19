@@ -20,6 +20,27 @@ article {
     background-position: bottom;
   }
 
+  figure {
+    @include outer-container($figure-max-width);
+    padding: 2em 0 3em 0;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    figcaption {
+      font-family: $font-sans;
+      background: #f4f4f4;
+      width: 100%;
+      padding: 1em;
+      text-align: center;
+      color: #5c5c5c;
+      font-size: 95%;
+    }
+  }
+
   header {
     @include outer-container($content-max-width);
 
