@@ -36,3 +36,48 @@ aside.more_like_this {
     }
   }
 }
+
+aside.elsewhere_on_the_web {
+  ul {
+    @include row(table);
+  }
+
+  li {
+    @include span-columns(2);
+    height: 4em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 2em;
+    text-indent: 10000%;
+  }
+
+  .social__instagram {
+    background: url("/styles/images/instagram.png") 0 0;
+    background-size: 100%;
+  }
+
+  .social__facebook {
+    background-image: url("/styles/images/facebook.png");
+    background-color: #3a5795;
+  }
+
+  .social__googleplus {
+    background-image: url("/styles/images/google+.png");
+    background-color: #9d532f;
+  }
+
+  .social__github {
+    background-image: url("/styles/images/github.png");
+    background-color: #3f3f3f;
+  }
+
+  .social__500px {
+    background-image: url("/styles/images/500px.png");
+    background-color: #000;
+  }
+
+  .social__twitter {
+    background-image: url("/styles/images/twitter.png");
+    background-color: #55acee;
+  }
+}
