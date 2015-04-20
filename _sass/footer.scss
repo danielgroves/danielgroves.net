@@ -16,7 +16,7 @@ aside {
 }
 
 aside.more_like_this {
-  background: #d2d2d2;
+  background: $color-light-grey;
 
   dl {
     @include span-columns(6);
@@ -83,7 +83,7 @@ aside.elsewhere_on_the_web {
 }
 
 body > footer {
-  background: #d2d2d2;
+  background: $color-light-grey;
   font-family: $font-sans;
   line-height: 120%;
   padding: .7em 0;

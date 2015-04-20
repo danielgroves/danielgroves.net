@@ -11,6 +11,7 @@ article {
     @include outer-container($content-max-width);
     line-height: 150%;
     padding-bottom: 1em;
+    color: $color-normal-text;
   }
 
   div {
@@ -32,11 +33,11 @@ article {
 
     figcaption {
       font-family: $font-sans;
-      background: #f4f4f4;
+      background: $color-light-grey;
       width: 100%;
       padding: 1em;
       text-align: center;
-      color: #5c5c5c;
+      color: $color-light-text;
       font-size: 95%;
     }
   }
@@ -52,13 +53,13 @@ article {
     h1 {
       font-size: 2.5em;
       padding: 1em 0 .4em 0;
-      color: #333333;
+      color: $color-normal-text;
     }
 
     span {
       display: inline-block;
       padding-right: 1em;
-      color: #5c5c5c;
+      color: $color-light-text;
 
       &:last-of-type {
         padding-right: 0;
@@ -67,14 +68,14 @@ article {
 
     p {
       font-size: 1.5em;
-      color: #5c5c5c;
+      color: $color-light-text;
       padding: 2em 0 1.5em 0;
     }
   }
 
   footer p {
     font-family: $font-sans;
-    color: #5c5c5c;
+    color: $color-light-text;
     font-size: 1.4em;
     padding: 1em 0 2em 0;
   }
