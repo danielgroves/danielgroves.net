@@ -13,7 +13,15 @@ layout: stark
     <header>
       <h1>{{ page.title }}</h1>
       <span><strong>Published:</strong> 15 January 2015</span>
-      <span><strong>Tags:</strong> Photography, Photohop</span>
+
+      {% if page.tags %}
+        <span>
+          <strong>Tags:</strong>
+          {% for tag in page.tags %}
+            <a href="{{ site.url }}/tag/{{ tag }}" title="Index for {{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+        </span>
+      {% endif %}
       <p>{{ page.excerpt }}</p>
     </header>
 
