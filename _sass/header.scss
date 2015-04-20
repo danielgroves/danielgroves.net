@@ -8,8 +8,6 @@ body > header {
   position: fixed;
   top: 0;
 
-  border-bottom: 1px solid #333333;
-
   a {
     color: #ffffff;
     font-weight: bold;
@@ -17,8 +15,14 @@ body > header {
     text-decoration: none;
     font-family: $font-sans;
 
-    padding: 1em;
+    padding: 17px 1em 17px 1em;
     display: inline-block;
+
+    &:hover, &.current_page_item {
+      text-decoration: none;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #fff;
+    }
   }
 
   nav {
