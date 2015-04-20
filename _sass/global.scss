@@ -10,3 +10,28 @@ a {
     text-decoration: underline;
   }
 }
+
+h2 {
+  font-family: $font-sans;
+  @include outer-container($content-max-width);
+  font-weight: 100;
+  font-size: 1.6em;
+  padding: 1em 0 .5em 0;
+}
+
+hr {
+  @include outer-container($content-max-width);
+  padding: .5em 0 1em 0;
+}
+
+ol, ul {
+  @include outer-container($content-max-width);
+  font-family: $font-serif;
+  padding: 0 0 1em 0;
+  font-size: 1.3rem;
+
+  li {
+    padding: 0 0 .5em .2em;
+    margin-left: 1.2em;
+  }
+}
