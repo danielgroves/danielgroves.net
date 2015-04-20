@@ -1,0 +1,12 @@
+body {
+  font-size: 1.2em;
+}
+
+a {
+  color: #1a8be2;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
