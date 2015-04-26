@@ -9,5 +9,5 @@ $color-normal-text: #333333;
 $color-light-text: #797979;
 
 $grid-columns: 12 !default;
-$tablet: @include new-breakpoint(min-width 480px 8);
-$desktop: @include new-breakpoint(min-width 1000px 12);
+$tablet: min-width 720px 8;
+$desktop: min-width 1000px 12;

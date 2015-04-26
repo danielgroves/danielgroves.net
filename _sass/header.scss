@@ -52,6 +52,7 @@ body > header {
       width: 100%;
       margin: 0;
       font-size: 1rem;
+      padding: 0;
 
       a {
         padding: 19px 1em 18px 1em;
@@ -63,6 +64,10 @@ body > header {
         }
       }
     }
+  }
+
+  ul {
+    padding: 0;
   }
 
   @include media($tablet) {
@@ -78,13 +83,20 @@ body > header {
       float: right;
       clear: none;
 
+      &.hidden {
+        height: auto;
+      }
+
       li {
         display: inline-block;
         width: auto;
 
-        &:hover, &.current_page_item {
-          padding-bottom: 16px;
-          border-bottom: 2px solid #fff;
+        a {
+          &:hover, &.current_page_item {
+            padding-bottom: 16px;
+            border-bottom: 2px solid #fff;
+            border-left: none;
+          }
         }
       }
     }
