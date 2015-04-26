@@ -16,34 +16,77 @@ body > header {
     font-family: $font-sans;
 
     padding: 17px 1em 17px 1em;
-    display: inline-block;
+    display: block;
+
+    position: relative;
 
     &:hover {
       text-decoration: none;
     }
   }
 
-  nav {
+  h1 {
+    text-align: center;
+  }
+
+  .toggle {
     float: right;
+    font-size: .8rem;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -.4rem;
+  }
+
+  nav {
+    clear: left;
+    height: auto;
+    overflow: hidden;
+
+    &.hidden {
+      height: 0;
+    }
 
     li {
-      display: inline-block;
+      display: block;
+      width: 100%;
+      margin: 0;
+      font-size: 1rem;
 
       a {
         padding: 19px 1em 18px 1em;
 
         &:hover, &.current_page_item {
           text-decoration: none;
-          padding-bottom: 16px;
-          border-bottom: 2px solid #fff;
+          padding-left: .9em;
+          border-left: .1em solid #fff;
         }
       }
     }
   }
 
-  ul, li {
-    font-size: 1rem;
-    padding: 0;
-    margin: 0;
+  @include media($tablet) {
+    a {
+      display: inline-block;
+    }
+
+    .toggle {
+      display: none;
+    }
+
+    nav {
+      float: right;
+      clear: none;
+
+      li {
+        display: inline-block;
+        width: auto;
+
+        &:hover, &.current_page_item {
+          padding-bottom: 16px;
+          border-bottom: 2px solid #fff;
+        }
+      }
+    }
   }
 }
