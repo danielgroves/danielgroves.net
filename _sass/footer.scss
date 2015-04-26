@@ -51,6 +51,22 @@ aside.elsewhere_on_the_web {
     margin: 0;
     width: 50%;
     float: left;
+
+    @include media($tablet) {
+      width: 25%;
+
+      &:first-of-type, &:nth-of-type(4n) {
+        margin-left: 12.5%;
+      }
+    }
+
+    @include media($desktop) {
+      width: 16.666%;
+
+      &:first-of-type, &:nth-of-type(4n) {
+        margin-left: 0;
+      }
+    }
   }
 
   .social__instagram {
