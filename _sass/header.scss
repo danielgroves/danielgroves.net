@@ -18,10 +18,8 @@ body > header {
     padding: 17px 1em 17px 1em;
     display: inline-block;
 
-    &:hover, &.current_page_item {
+    &:hover {
       text-decoration: none;
-      padding-bottom: 15px;
-      border-bottom: 2px solid #fff;
     }
   }
 
@@ -30,6 +28,16 @@ body > header {
 
     li {
       display: inline-block;
+
+      a {
+        padding: 19px 1em 18px 1em;
+
+        &:hover, &.current_page_item {
+          text-decoration: none;
+          padding-bottom: 16px;
+          border-bottom: 2px solid #fff;
+        }
+      }
     }
   }
 
