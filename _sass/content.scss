@@ -17,7 +17,7 @@ article {
     font-size: 1.3em;
     @include outer-container($content-max-width);
     line-height: 150%;
-    padding-bottom: 1em;
+    padding: 0 1rem 1em 1rem;
     color: $color-normal-text;
   }
 
@@ -39,6 +39,7 @@ article {
       text-align: center;
       color: $color-light-text;
       font-size: 95%;
+      line-height: 130%;
     }
   }
 
@@ -48,11 +49,14 @@ article {
     h1, p, span {
       font-weight: 100;
       font-family: $font-sans;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     h1 {
       font-size: 2.5em;
-      padding: 1em 0 .4em 0;
+      padding-top: 1em;
+      padding-bottom: .4em;
       color: $color-normal-text;
     }
 
@@ -70,7 +74,8 @@ article {
     p {
       font-size: 1.5em;
       color: $color-light-text;
-      padding: 2em 0 1.5em 0;
+      padding-top: 2em;
+      padding-bottom: 1.5em;
     }
   }
 
@@ -78,7 +83,7 @@ article {
     font-family: $font-sans;
     color: $color-light-text;
     font-size: 1.4em;
-    padding: 1em 0 2em 0;
+    padding: 1em 1rem 2em 1rem;
   }
 }
 
