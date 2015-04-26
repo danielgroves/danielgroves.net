@@ -5,12 +5,15 @@ aside {
 
   h2, section, ul {
     @include outer-container($content-max-width);
+    padding: 0 1rem;
   }
 
   h2 {
     color: #333333;
     font-weight: 100;
     font-size: 1.6em;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 1em;
   }
 }
@@ -19,7 +22,7 @@ aside.more_like_this {
   background: $color-light-grey;
 
   dl {
-    @include span-columns(6);
+    @include span-columns(4);
     color: #333333;
 
     dt {
@@ -38,21 +41,20 @@ aside.more_like_this {
 }
 
 aside.elsewhere_on_the_web {
-  ul {
-    @include row(table);
-  }
-
   li {
-    @include span-columns(2);
-    height: 75px;
+    height: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 32px;
     text-indent: 10000%;
+    list-style: none;
+    margin: 0;
+    width: 50%;
+    float: left;
   }
 
   .social__instagram {
-    background: url("/styles/images/instagram.png") 0 0;
+    background-image: url("/styles/images/instagram.png");
     background-size: 100%;
   }
 
@@ -85,12 +87,12 @@ aside.elsewhere_on_the_web {
 body > footer {
   background: $color-light-grey;
   font-family: $font-sans;
-  line-height: 120%;
+  line-height: 150%;
   padding: .7em 0;
   color: #333333;
 
   p {
     @include outer-container($content-max-width);
-    padding: .5em 0;
+    padding: .5em 1rem;
   }
 }
