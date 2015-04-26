@@ -1,7 +1,7 @@
 aside {
   font-family: $font-sans;
   overflow: hidden;
-  padding: 2em 0;
+  padding: 2em 0 3em 0;
 
   h2, section, ul {
     @include outer-container($content-max-width);
@@ -44,10 +44,10 @@ aside.elsewhere_on_the_web {
 
   li {
     @include span-columns(2);
-    height: 4em;
+    height: 75px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 2em;
+    background-size: auto 32px;
     text-indent: 10000%;
   }
 
