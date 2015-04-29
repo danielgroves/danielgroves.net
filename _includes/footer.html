@@ -1,43 +1,47 @@
-    <aside class="more_like_this">
-      {% if page.footer_related_posts %}
-        <h2>More Like This</h2>
-        <section>
-        <dl>
-          {% for post in site.related_posts %}
-            {% if forloop.index <= 2 %}
-              <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-              <dd>{{ post.excerpt }}</dd>
-            {% endif %}
-          {% endfor %}
-        </dl>
-        <dl>
-          {% for post in site.related_posts %}
-            {% if forloop.index >= 3 and forloop.index <= 4 %}
-              <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-              <dd>{{ post.excerpt }}</dd>
-            {% endif %}
-          {% endfor %}
-        </dl>
-        </section>
-      {% endif %}
-    </aside>
+    {% if page.footer_related_posts %}
+      <aside class="more_like_this">
+          <section>
+            <h2>More Like This</h2>
+            <dl>
+              {% for post in site.related_posts %}
+                {% if forloop.index <= 2 %}
+                  <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
+                  <dd>{{ post.excerpt }}</dd>
+                {% endif %}
+              {% endfor %}
+            </dl>
+            <dl>
+              {% for post in site.related_posts %}
+                {% if forloop.index >= 3 and forloop.index <= 4 %}
+                  <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
+                  <dd>{{ post.excerpt }}</dd>
+                {% endif %}
+              {% endfor %}
+            </dl>
+          </section>
+      </aside>
+    {% endif %}
 
     <aside class="elsewhere_on_the_web">
-      <h2>Elsewhere on the Web</h2>
-
-      <ul>
-        <li class="social__instagram"><a href="" title="" target="_blank">Instagram</a></li>
-        <li class="social__twitter"><a href="" title="" target="_blank">Twitter</a></li>
-        <li class="social__facebook"><a href="" title="" target="_blank">Facebook</a></li>
-        <li class="social__googleplus"><a href="" title="" target="_blank">Google+</a></li>
-        <li class="social__github"><a href="" title="" target="_blank">Gtihub</a></li>
-        <li class="social__500px"><a href="" title="" target="_blank">500px</a></li>
-      </ul>
+      <section>
+        <h2>Elsewhere on the Web</h2>
+  
+        <ul>
+          <li class="social__instagram"><a href="" title="" target="_blank">Instagram</a></li>
+          <li class="social__twitter"><a href="" title="" target="_blank">Twitter</a></li>
+          <li class="social__facebook"><a href="" title="" target="_blank">Facebook</a></li>
+          <li class="social__googleplus"><a href="" title="" target="_blank">Google+</a></li>
+          <li class="social__github"><a href="" title="" target="_blank">Gtihub</a></li>
+          <li class="social__500px"><a href="" title="" target="_blank">500px</a></li>
+        </ul>
+      </section>
     </aside>
 
     <footer>
-      <p>Powered by Jekyll and hosted on Digital Ocean. </p>
-      <p>Copyright 2010 – {{ site.time | date: '%Y' }} Daniel Groves. For licence details, see <a href="https://github.com/danielgroves/danielgroves.net" title="danielgroves.net GitHub repository" target="_blank">the GitHub repository</a>. </p>
+      <section>
+        <p>Powered by Jekyll and hosted on Digital Ocean. </p>
+        <p>Copyright 2010 – {{ site.time | date: '%Y' }} Daniel Groves. For licence details, see <a href="https://github.com/danielgroves/danielgroves.net" title="danielgroves.net GitHub repository" target="_blank">the GitHub repository</a>. </p>
+      </section>
     </footer>
 
     <script>

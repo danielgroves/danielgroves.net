@@ -1,5 +1,5 @@
 body {
-  font-size: 1.2em;
+  font-size: 62.5%;
 }
 
 a {
@@ -13,19 +13,19 @@ a {
 
 h2 {
   font-family: $font-sans;
-  @include outer-container($content-max-width);
+  @include outer-container();
   font-weight: 100;
   font-size: 1.6em;
   padding: 1em 0 .5em 0;
 }
 
 hr {
-  @include outer-container($content-max-width);
+  @include outer-container();
   padding: .5em 0 1em 0;
 }
 
 ol, ul {
-  @include outer-container($content-max-width);
+  @include outer-container();
   font-family: $font-serif;
   padding: 0 0 1em 0;
   font-size: 1.3rem;

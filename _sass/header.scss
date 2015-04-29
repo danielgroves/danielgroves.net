@@ -9,15 +9,14 @@ body > header {
   top: 0;
 
   a {
+    @include rem-fallback(padding, 1.3, 1);
+    
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     font-family: $font-sans;
-
-    padding: 17px 1em 17px 1em;
     display: block;
-
     position: relative;
 
     &:hover {
@@ -27,15 +26,17 @@ body > header {
 
   h1 {
     text-align: center;
+    @include rem-fallback(font-size, 1.1);
   }
 
   .toggle {
+    @include rem-fallback(font-size, .8);
+    @include rem-fallback(margin-top, -.4);
+    @include rem-fallback(right, 1);
+    
     float: right;
-    font-size: .8rem;
     position: absolute;
     top: 50%;
-    right: 10px;
-    margin-top: -.4rem;
   }
 
   nav {
@@ -48,18 +49,19 @@ body > header {
     }
 
     li {
+      @include rem-fallback(font-size, 1);
+      
       display: block;
       width: 100%;
       margin: 0;
-      font-size: 1rem;
       padding: 0;
 
       a {
-        padding: 19px 1em 18px 1em;
+        @include rem-fallback(padding, 1.9, 1, 1.8, 1);
 
         &:hover, &.current_page_item {
+          @include rem-fallback(padding-left, .9);
           text-decoration: none;
-          padding-left: .9em;
           border-left: .1em solid #fff;
         }
       }
@@ -93,7 +95,7 @@ body > header {
 
         a {
           &:hover, &.current_page_item {
-            padding-bottom: 16px;
+            @include rem-fallback(padding-bottom, 1.6);
             border-bottom: 2px solid #fff;
             border-left: none;
           }

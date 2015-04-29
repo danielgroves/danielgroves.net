@@ -1,92 +1,110 @@
 article {
+  @include row;
   padding: 4em 0 0 0;
-
-  &.image {
-    padding: 0;
+  
+  
+  // Header Image.
+  @include media($tablet) {
+    &.image {
+      padding: 0;
+    }
+    
+    div.image {
+      width: 100%;
+      height: 80vh;
+      background-size: cover;
+      background-position: bottom;
+    }
   }
-
-  div.image {
-    width: 100%;
-    height: 80vh;
-    background-size: cover;
-    background-position: bottom;
+  
+  
+  // Main content column settings. 
+  header, section, footer {
+    @include outer-container;
   }
+  
+  h1, h2, h3, h4, h5, h6,
+  p, ol, ul, span {
+    @include span-columns(10);
+    @include shift(1);
+  }
+  
+  
+  // Wide content column settings. 
+  figure {
+    @include row;
+  }
+  
+  
+  // Page Header
+  header {
+    h1, p, span {
+      font-weight: 100;
+      font-family: $font-sans;
+    }
 
+    h1 {
+      @include rem-fallback(font-size, 2.5);
+      @include rem-fallback(padding-top, 4);
+      @include rem-fallback(padding-bottom, .8);
+      color: $color-normal-text;
+    }
+
+    span {
+      color: $color-light-text;
+      @include rem-fallback(font-size, 1);
+      display: block;
+      
+      @include media($tablet) {
+        display: inline-block;
+        @include rem-fallback(padding-right, 1);
+        
+        &:last-of-type {
+          padding-right: 0;
+        }
+      }
+    }
+
+    p {
+      @include subtle-emphases;
+    }
+  }
+  
+  
+  // Page Footer
+  footer p {
+    @include subtle-emphases;
+  }
+  
+  // Content Styles
   p {
+    @include rem-fallback(font-size, 1.4);
+    @include rem-fallback(line-height, 1.8);
+    @include rem-fallback(padding, .4, 0);
     font-family: $font-serif;
-    font-size: 1.3em;
-    @include outer-container($content-max-width);
-    line-height: 150%;
-    padding: 0 1rem 1em 1rem;
     color: $color-normal-text;
   }
 
   figure {
-    @include outer-container($figure-max-width);
-    padding: 2em 0 3em 0;
-
+    @include rem-fallback(padding, .4, 0);
+    
     img {
-      width: 100%;
+      max-width: 100%;
+      width: auto;
       height: auto;
       display: block;
     }
 
     figcaption {
+      @include span-columns(12);
+      @include rem-fallback(font-size, 1);
+      @include rem-fallback(line-height, 1.2);
+      @include rem-fallback(padding, .8, 1);
+      
       font-family: $font-sans;
       background: $color-light-grey;
-      width: 100%;
-      padding: 1em;
       text-align: center;
       color: $color-light-text;
-      font-size: 95%;
-      line-height: 130%;
     }
   }
-
-  header {
-    @include outer-container($content-max-width);
-
-    h1, p, span {
-      font-weight: 100;
-      font-family: $font-sans;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      padding-top: 1em;
-      padding-bottom: .4em;
-      color: $color-normal-text;
-    }
-
-    span {
-      display: inline-block;
-      padding-right: 1em;
-      color: $color-light-text;
-      font-size: .8em;
-
-      &:last-of-type {
-        padding-right: 0;
-      }
-    }
-
-    p {
-      font-size: 1.5em;
-      color: $color-light-text;
-      padding-top: 2em;
-      padding-bottom: 1.5em;
-    }
-  }
-
-  footer p {
-    font-family: $font-sans;
-    color: $color-light-text;
-    font-size: 1.4em;
-    padding: 1em 1rem 2em 1rem;
-  }
-}
-
-section.comments {
-  @include outer-container($content-max-width);
 }

@@ -1,13 +1,10 @@
 $font-serif: "chaparral-pro", "georgia", serif;
 $font-sans: "source-sans-pro", "Helvetica", sans-serif;
 
-$content-max-width: 900px;
-$figure-max-width: 1300px;
-
 $color-light-grey: #ecebeb;
 $color-normal-text: #333333;
 $color-light-text: #797979;
 
-$grid-columns: 4 !default;
-$tablet: min-width 720px 8;
-$desktop: min-width 1000px 12;
+$max-width: 1300px !default;
+$tablet: min-width 720px;
+$desktop: min-width 1000px;

@@ -1,20 +1,25 @@
 aside {
+  @include row;
+  @include rem-fallback(padding, 1, 0, 2, 0);
+  
   font-family: $font-sans;
   overflow: hidden;
-  padding: 2em 0 3em 0;
+  
+  section {
+    @include outer-container();
+  }
 
-  h2, section, ul {
-    @include outer-container($content-max-width);
-    padding: 0 1rem;
+  h2, ul {
+    @include span-columns(10);
+    @include shift(1);
   }
 
   h2 {
+    @include rem-fallback(padding-bottom, 1);
+    @include rem-fallback(font-size, 1.6);
+    
     color: #333333;
     font-weight: 100;
-    font-size: 1.6em;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1em;
   }
 }
 
@@ -22,51 +27,42 @@ aside.more_like_this {
   background: $color-light-grey;
 
   dl {
-    @include span-columns(4);
+    @include span-columns(10);
+    @include shift(1);
     color: #333333;
 
     dt {
-      font-size: 1.3em;
-      padding-bottom: .7em;
+      @include rem-fallback(font-size, 1.3);
+      @include rem-fallback(line-height, 1.5);
+      @include rem-fallback(padding-bottom, .5);
     }
 
     dd + dt {
-      padding-top: 1.1em;
+      @include rem-fallback(padding-top, 1.1);
     }
 
     dd {
-      line-height: 180%;
+      @include rem-fallback(font-size, 1);
+      @include rem-fallback(line-height, 1.3);
     }
+  }
+  
+  dl + dl {
+    @include rem-fallback(padding-top, 1.1);
   }
 }
 
 aside.elsewhere_on_the_web {
   li {
+    @include span-columns(6);
+    margin: 0;
+    
     height: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 32px;
     text-indent: 10000%;
     list-style: none;
-    margin: 0;
-    width: 50%;
-    float: left;
-
-    @include media($tablet) {
-      width: 25%;
-
-      &:first-of-type, &:nth-of-type(4n) {
-        margin-left: 12.5%;
-      }
-    }
-
-    @include media($desktop) {
-      width: 16.666%;
-
-      &:first-of-type, &:nth-of-type(4n) {
-        margin-left: 0;
-      }
-    }
   }
 
   .social__instagram {
@@ -101,14 +97,21 @@ aside.elsewhere_on_the_web {
 }
 
 body > footer {
+  @include rem-fallback(padding, .7, 0);
+  @include rem-fallback(line-height, 1.5);
+  
   background: $color-light-grey;
   font-family: $font-sans;
-  line-height: 150%;
-  padding: .7em 0;
   color: #333333;
+  
+  section {
+    @include outer-container;
+  }
 
   p {
-    @include outer-container($content-max-width);
-    padding: .5em 1rem;
+    @include span-columns(10);
+    @include shift(1);
+    @include rem-fallback(padding, .5, 1);
+    @include rem-fallback(font-size, 1);
   }
 }
