@@ -1,10 +1,10 @@
 aside {
   @include row;
   @include rem-fallback(padding, 1, 0, 2, 0);
-  
+
   font-family: $font-sans;
   overflow: hidden;
-  
+
   section {
     @include outer-container();
   }
@@ -12,12 +12,17 @@ aside {
   h2, ul {
     @include span-columns(10);
     @include shift(1);
+
+    @include media($tablet) {
+      @include span-columns(8);
+      @include shift(2);
+    }
   }
 
   h2 {
     @include rem-fallback(padding-bottom, 1);
     @include rem-fallback(font-size, 1.6);
-    
+
     color: #333333;
     font-weight: 100;
   }
@@ -30,6 +35,11 @@ aside.more_like_this {
     @include span-columns(10);
     @include shift(1);
     color: #333333;
+
+    @include media($tablet) {
+      @include span-columns(8);
+      @include shift(2);
+    }
 
     dt {
       @include rem-fallback(font-size, 1.3);
@@ -46,7 +56,7 @@ aside.more_like_this {
       @include rem-fallback(line-height, 1.3);
     }
   }
-  
+
   dl + dl {
     @include rem-fallback(padding-top, 1.1);
   }
@@ -56,13 +66,18 @@ aside.elsewhere_on_the_web {
   li {
     @include span-columns(6);
     margin: 0;
-    
+
     height: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 32px;
     text-indent: 10000%;
     list-style: none;
+
+    @include media($tablet) {
+      @include span-columns(4);
+      margin: 0;
+    }
   }
 
   .social__instagram {
@@ -102,11 +117,11 @@ aside.elsewhere_on_the_web {
 body > footer {
   @include rem-fallback(padding, .7, 0);
   @include rem-fallback(line-height, 1.5);
-  
+
   background: $color-light-grey;
   font-family: $font-sans;
   color: #333333;
-  
+
   section {
     @include outer-container;
   }
@@ -116,5 +131,12 @@ body > footer {
     @include shift(1);
     @include rem-fallback(padding, .5, 1);
     @include rem-fallback(font-size, 1);
+
+    @include media($tablet) {
+      @include span-columns(8);
+      @include shift(2);
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 }
