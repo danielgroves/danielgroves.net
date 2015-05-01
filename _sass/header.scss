@@ -10,7 +10,7 @@ body > header {
 
   a {
     @include rem-fallback(padding, 1.3, 1);
-    
+
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
@@ -33,7 +33,7 @@ body > header {
     @include rem-fallback(font-size, .8);
     @include rem-fallback(margin-top, -.4);
     @include rem-fallback(right, 1);
-    
+
     float: right;
     position: absolute;
     top: 50%;
@@ -50,15 +50,13 @@ body > header {
 
     li {
       @include rem-fallback(font-size, 1);
-      
+
       display: block;
       width: 100%;
       margin: 0;
       padding: 0;
 
       a {
-        @include rem-fallback(padding, 1.9, 1, 1.8, 1);
-
         &:hover, &.current_page_item {
           @include rem-fallback(padding-left, .9);
           text-decoration: none;
@@ -94,8 +92,10 @@ body > header {
         width: auto;
 
         a {
+          @include rem-fallback(padding, 1.3, 1);
           &:hover, &.current_page_item {
-            @include rem-fallback(padding-bottom, 1.6);
+            @include rem-fallback(padding-bottom, 1.1);
+            @include rem-fallback(padding-left, 1);
             border-bottom: 2px solid #fff;
             border-left: none;
           }
