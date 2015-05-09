@@ -35,3 +35,64 @@ ol, ul {
     margin-left: 1.2em;
   }
 }
+
+
+// Main content area basic formatting
+main {
+  @include row;
+  padding: 4em 0 0 0;
+  
+  
+  header, section, footer {
+    @include outer-container;
+  }
+  
+  
+  // Page Header
+  header {
+    h1, p, span {
+      font-weight: 100;
+      font-family: $font-sans;
+      
+      // TODO: Consolidate duplicated styles (content -> Main content column settings.)
+      @include span-columns(10);
+      @include shift(1);
+      
+      span {
+        width: auto;
+        margin: 0;
+      }
+  
+      @include media($tablet) {
+        @include span-columns(8);
+        @include shift(2);
+      }
+    }
+
+    h1 {
+      @include rem-fallback(font-size, 2.5);
+      @include rem-fallback(padding-top, 4);
+      @include rem-fallback(padding-bottom, .8);
+      color: $color-normal-text;
+    }
+
+    span {
+      color: $color-light-text;
+      @include rem-fallback(font-size, 1);
+      display: block;
+
+      @include media($tablet) {
+        display: inline-block;
+        @include rem-fallback(padding-right, 1);
+
+        &:last-of-type {
+          padding-right: 0;
+        }
+      }
+    }
+
+    p {
+      @include subtle-emphases;
+    }
+  }
+}

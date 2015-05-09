@@ -1,8 +1,4 @@
 article {
-  @include row;
-  padding: 4em 0 0 0;
-
-
   // Header Image.
   @include media($tablet) {
     &.image {
@@ -19,11 +15,7 @@ article {
 
 
   // Main content column settings.
-  header, section, footer {
-    @include outer-container;
-  }
-
-  h1, h2, h3, h4, h5, h6,
+  h1, h2, h3, h4, h5, h6, hr, 
   p, ol, ul, span, pre code {
     @include span-columns(10);
     @include shift(1);
@@ -43,41 +35,6 @@ article {
   // Wide content column settings.
   figure {
     @include span-columns(12);
-  }
-
-
-  // Page Header
-  header {
-    h1, p, span {
-      font-weight: 100;
-      font-family: $font-sans;
-    }
-
-    h1 {
-      @include rem-fallback(font-size, 2.5);
-      @include rem-fallback(padding-top, 4);
-      @include rem-fallback(padding-bottom, .8);
-      color: $color-normal-text;
-    }
-
-    span {
-      color: $color-light-text;
-      @include rem-fallback(font-size, 1);
-      display: block;
-
-      @include media($tablet) {
-        display: inline-block;
-        @include rem-fallback(padding-right, 1);
-
-        &:last-of-type {
-          padding-right: 0;
-        }
-      }
-    }
-
-    p {
-      @include subtle-emphases;
-    }
   }
 
 
