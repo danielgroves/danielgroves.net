@@ -40,6 +40,14 @@ aside.more_like_this {
       @include span-columns(8);
       @include shift(2);
     }
+    
+    @include media($desktop) {
+      @include span-columns(4);
+      
+      &:last-of-type {
+        @include shift(0);
+      }
+    }
 
     dt {
       @include rem-fallback(font-size, 1.3);
