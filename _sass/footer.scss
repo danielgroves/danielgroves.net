@@ -6,7 +6,7 @@ aside {
   overflow: hidden;
 
   section {
-    @include outer-container();
+    @include outer-container;
   }
 
   h2, ul {
@@ -62,21 +62,39 @@ aside.more_like_this {
   }
 }
 
-aside.elsewhere_on_the_web {
+aside.elsewhere_on_the_web {  
+  ul {
+    @include row(table);
+    @include span-columns(10);
+    
+    @include media($tablet) {
+      @include span-columns(8);
+    }
+  }
+
+
   li {
     @include span-columns(6);
-    margin: 0;
 
     height: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 32px;
-    text-indent: 10000%;
     list-style: none;
+    
+    text-indent: 1000000%;
+    
+    display: block;
+    float:left;
+    margin: 0;
 
     @include media($tablet) {
       @include span-columns(4);
-      margin: 0;
+    }
+
+    @include media($desktop) {
+      @include span-columns(2);
+      @include reset-display;
     }
   }
 
