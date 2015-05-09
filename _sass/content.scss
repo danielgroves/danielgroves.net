@@ -24,9 +24,14 @@ article {
   }
 
   h1, h2, h3, h4, h5, h6,
-  p, ol, ul, span {
+  p, ol, ul, span, pre code {
     @include span-columns(10);
     @include shift(1);
+    
+    span {
+      width: auto;
+      margin: 0;
+    }
 
     @include media($tablet) {
       @include span-columns(8);
@@ -82,7 +87,7 @@ article {
   }
 
   // Content Styles
-  p {
+  p, pre {
     @include rem-fallback(font-size, 1.4);
     @include rem-fallback(line-height, 1.8);
     @include rem-fallback(padding, .4, 0);
@@ -115,5 +120,20 @@ article {
       text-align: center;
       color: $color-light-text;
     }
+  }
+  
+  pre {
+    background-color: $color-light-grey;
+    overflow: hidden;
+    @include fill-parent;
+    
+    code {
+      overflow-x: scroll;
+    }
+  }
+  
+  code {
+    @include rem-fallback(font-size, 1.2);
+    font-family: "Inconsolata", "Fixed";
   }
 }
