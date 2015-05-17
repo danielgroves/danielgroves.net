@@ -1,0 +1,27 @@
+#landing {
+	#intro {
+		@include rem-fallback(padding-top, 4);
+		@include rem-fallback(font-size, 1.4);
+		@include fill-parent;
+		@include row;
+		
+		background: #333 url(/assets/camera-roll/2015/04/20150411-DSC_5263-Edit.jpg) center center no-repeat;
+		
+		span {
+			@include span-columns(10);
+			@include shift(1);
+			
+			text-align: center;
+			color: #fff;
+			
+			&:first-of-type {
+				@include rem-fallback(font-size, 3);
+				@include rem-fallback(padding, 8, 0);
+			}
+			
+			&:last-of-type {
+				@include rem-fallback(padding-bottom, 6);
+			}
+		}
+	}
+}
