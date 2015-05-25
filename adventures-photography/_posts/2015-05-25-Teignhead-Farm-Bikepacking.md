@@ -4,7 +4,7 @@ published: true
 title: Bikepacking at Teignhead Farm Ruin
 excerpt: A bikepacking trip across Dartmoor to wild camp and Teignhead Farm Ruin.
 
-date: 2015-05-25 17:15
+date: 2015-05-25 17:20
 thumb: /assets/camera-roll/2015/05/DSC_7154-Edit-Thumb.jpg
 ---
 
@@ -19,9 +19,9 @@ This was by no means a lightweight trip; the bike weighed in around 25kg loaded 
   </figcaption>
 </figure>
 
-Progress was slow for Max and I. Max had a problem with his bike where the rear brake was stuck on, and we lacked the tools to do a field repair on it. As a result of this we were reduced to a slow pace on what is normally a very quick set of miles up the *Plym Valley Trail* to Yelverton, along the top of Burrator Reservoir and continuing up the old railway line into Princetown.
+Progress was initially slow as Max had a problem with his bike where the rear brake was stuck on, and we lacked the tools to do a field repair on it. As a result of this we were reduced to a slow pace on what is normally a very quick few miles up the *Plym Valley Trail* to Yelverton, along the top of Burrator Reservoir and continuing up the old railway line into Princetown.
 
-It was 14:20 when we reached Princetown for lunch, so we made the decision to skip part of the planned route and hit the road from Princetown through Two Bridges and onwards to Postbridge. After putting a quick call with James he bought the missing tools out to fix Max's brake in the carpark before the three of us moved off together.
+It was 14:20 when we reached Princetown for lunch, so we made the decision to skip part of the planned route and hit the road from Princetown through Two Bridges and onwards to Postbridge. After putting a quick call with James he brought the missing tools out to fix Max's brake in the carpark before the three of us moved off together.
 
 The trail after Postbridge proved to be hard going, and was new to all of us. One minute we would be pushing, then next we'd be shouldering the bikes and then we'd get a few more minutes of in-the-saddle riding in before repeating. In the end it took us around 1 hour 30 minutes to cover the last 6.5km.
 
