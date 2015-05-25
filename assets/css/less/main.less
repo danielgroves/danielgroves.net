@@ -132,6 +132,10 @@ blockquote {
     font-style: italic;
 }
 
+iframe {
+  display: block;
+}
+
 .highlight {
     border-radius: 5px;
     .selection(@light-grey, #073642);
@@ -536,11 +540,30 @@ figure {
         position: relative;
         max-width: 100%;
         height: auto;
+        display: block;
+
+        &.small {
+          max-width: 24.625%;
+          margin: 0;
+          padding: .5% .25% 0 .25%;
+          display: block;
+          float: left;
+
+          &:nth-of-type(2) {
+            padding-left: 0;
+          }
+
+          &:last-of-type {
+            padding-right: 0;
+          }
+        }
     }
 
     figcaption {
         color: @med-grey;
         font-size: 120%;
+        clear: both;
+        padding-top: 1em !important;
     }
 }
 
