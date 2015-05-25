@@ -904,6 +904,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/camera-roll\/2015\/05\/DSC_7154-Edit-Thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.3138e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2015\/05\/DSC_7154-Edit-Thumb.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/camera-roll\/2015\/05\/DSC_7154-Edit-Thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/css\/less\/elements.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -914,6 +925,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/css\/less\/elements.less",
 		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/elements.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/_site\/assets\/css\/less\/main.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/less\/main.less",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -949,6 +980,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/css\/lightview.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/assets\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3226,6 +3266,17 @@
 		"initialSize": 216581,
 		"inputAbbreviatedPath": "\/assets\/camera-roll\/2015\/05\/20150524-DSC_7174.jpg",
 		"outputAbbreviatedPath": "\/assets\/camera-roll\/2015\/05\/20150524-DSC_7174.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/camera-roll\/2015\/05\/DSC_7154-Edit-Thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.3138e+06,
+		"inputAbbreviatedPath": "\/assets\/camera-roll\/2015\/05\/DSC_7154-Edit-Thumb.jpg",
+		"outputAbbreviatedPath": "\/assets\/camera-roll\/2015\/05\/DSC_7154-Edit-Thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
