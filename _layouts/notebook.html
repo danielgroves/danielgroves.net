@@ -11,33 +11,22 @@ footer_related_posts: false
     <p>{{ page.excerpt }}</p>
   </header>
 
-  {% for post in paginator.posts %}
-    {% assign mod = forloop.index0 | modulo: 2%}
-
-    {% if mod == 0 %}
-      <div class="columnset twoup articlelist">
-    {% endif %}
-
-    <article>
-      {% if post.thumb %}
-        <img src="{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" />
-      {% endif %}
-
-      <header>
-        <h1><a href="{{ post.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
-      </header>
-
-      <footer>
-        <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-      </footer>
-
-      <p>{{ post.excerpt }}</p>
-    </article>
-
-    {% if mod == 1 %}
-      </div>
-    {% endif %}
-  {% endfor %}
+  <section class="articlelist">
+    {% for post in paginator.posts %}
+      <article>
+        {% if post.thumb %}
+          <img src="{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" />
+        {% endif %}
+  
+        <header>
+          <h1><a href="{{ post.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+          <span><strong>Published:</strong> {{ post.date | date: "%d/%m/%Y" }}</span>
+        </header>
+  
+        <p>{{ post.excerpt }}</p>
+      </article>
+    {% endfor %}
+  </section>
 
   {% include pagination.html paginator=paginator %}
 </main>

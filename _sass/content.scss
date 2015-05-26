@@ -1,4 +1,6 @@
 article {
+  padding-top: 4em;
+  
   // Header Image.
   @include media($tablet) {
     &.image {
