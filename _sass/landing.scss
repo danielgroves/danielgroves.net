@@ -24,4 +24,23 @@
 			}
 		}
 	}
+	
+	#about {
+		@include row;
+		@include fill-parent;
+		
+		section {
+			@include span-columns(4);
+			@include rem-fallback(font-size, 1.4);
+			
+			h1 {
+				@include rem-fallback(font-size, 2);
+				@include rem-fallback(padding, 2, 0);
+			}
+			
+			p {
+				@include rem-fallback(padding, 0, 0, 1, 0);
+			}
+		}
+	}
 }
