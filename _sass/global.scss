@@ -40,8 +40,6 @@ ol, ul {
 // Main content area basic formatting
 main {
   @include row;
-  padding: 4em 0 0 0;
-  
   
   header, section, footer {
     @include outer-container;
@@ -49,6 +47,10 @@ main {
   
   
   // Page Header
+  & > header {
+    margin-top: 4em;
+  }
+  
   header {
     h1, p, span {
       font-weight: 100;
