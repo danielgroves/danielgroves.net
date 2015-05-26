@@ -7,4 +7,5 @@ $color-light-text: #797979;
 
 $max-width: 1300px !default;
 $tablet: min-width 720px;
+$tablet-only: min-width 720px max-width 1000px;
 $desktop: min-width 1000px;
