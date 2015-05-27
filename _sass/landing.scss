@@ -16,6 +16,7 @@
       
       text-align: center;
       color: #fff;
+      text-shadow: 0 0 4px #000;
       
       &:first-of-type {
         @include rem-fallback(font-size, 3);
