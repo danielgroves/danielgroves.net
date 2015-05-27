@@ -1,4 +1,6 @@
 #landing {
+  font-family: $font-serif;
+  
   #intro {
     @include rem-fallback(padding-top, 4);
     @include rem-fallback(font-size, 1.6);
@@ -14,31 +16,35 @@
       
       text-align: center;
       color: #fff;
-      font-family: $font-sans;
       
       &:first-of-type {
         @include rem-fallback(font-size, 3);
         @include rem-fallback(padding, 8, 0);
+        font-family: $font-sans;
       }
       
       &:last-of-type {
         @include rem-fallback(padding-bottom, 6);
-        font-family: $font-serif;
       }
     }
   }
   
   #about {
     @include row;
-    @include fill-parent;
+    @include shift(1);
+    @include span-columns(10);
     
     section {
-      @include span-columns(4);
       @include rem-fallback(font-size, 1.4);
+      
+      @include media($desktop) {
+        @include span-columns(4);
+      }
       
       h1 {
         @include rem-fallback(font-size, 2);
         @include rem-fallback(padding, 2, 0);
+        @include shift(0);
       }
       
       p {
