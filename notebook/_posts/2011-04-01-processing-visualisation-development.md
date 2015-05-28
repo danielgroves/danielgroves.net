@@ -1,5 +1,4 @@
 ---
-layout: default
 comments: true
 
 published: true

@@ -1,5 +1,4 @@
 ---
-layout: default
 published: true
 title: Double Waters
 date: 2014-05-11 16:45

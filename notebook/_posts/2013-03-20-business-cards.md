@@ -1,5 +1,4 @@
 ---
-layout: default
 comments: true
 
 published: true
@@ -13,10 +12,10 @@ After deciding I would like to do more freelance work I figured it was time I st
 As part of this I recently decided to get some business cards printed which have arrived with plenty of time to spare for [DigPen][1]. 
 
 <figure>
-	<img src="/assets/images/blog/2013-03-20-business-cards/cards.jpg" alt="Luxe business cards from Moo.com" />
-	<figcaption>
-		Luxe business cards from Moo.com
-	</figcaption>
+  <img src="/assets/images/blog/2013-03-20-business-cards/cards.jpg" alt="Luxe business cards from Moo.com" />
+  <figcaption>
+    Luxe business cards from Moo.com
+  </figcaption>
 </figure>
 
 These cards are the *Luxe* model from [Moo][2]. They provided great service and delivered before the predicted date, keeping me up–to–date with frequent emails from *"Little MOO"* — the *print robot*. 

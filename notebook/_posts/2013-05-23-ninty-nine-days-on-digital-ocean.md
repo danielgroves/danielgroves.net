@@ -1,5 +1,4 @@
 ---
-layout: default
 comments: true
 
 published: true
@@ -11,12 +10,12 @@ excerpt: "Some thoughts around the care and features behind Digital Ocean"
 Roughly three months ago I got fed-up with the slow speeds of my old VPS. I decided to make the move to a new company, and after some toing and froing I decided to give [Digital Ocean](https://www.digitalocean.com/?refcode=d0820e126448 “Digital Hosting Referral link”) a try; so far I've been thoroughly impressed. 
 
 <figure>
-	<a href="https://www.digitalocean.com/?refcode=d0820e126448" title="Digital Ocean Refferal Link">
-		<img src="/assets/images/blog/2013-05-23-ninty-nine-days-on-digital-ocean/digitalocean-logo.png" alt="Digital Ocean logo" />
-	</a>
-	<figcaption>
-		To-date, I've been very impressed with the speed and support offered by Digital Ocean
-	</figcaption>
+  <a href="https://www.digitalocean.com/?refcode=d0820e126448" title="Digital Ocean Refferal Link">
+    <img src="/assets/images/blog/2013-05-23-ninty-nine-days-on-digital-ocean/digitalocean-logo.png" alt="Digital Ocean logo" />
+  </a>
+  <figcaption>
+    To-date, I've been very impressed with the speed and support offered by Digital Ocean
+  </figcaption>
 </figure>
 
 Digital Ocean boast impressively low prices and SSD powered VPS' that can be created in just 55-seconds. This makes it quick for you to spin-up a new VPS as an experiment and just throw it away when you're done. With a starting price of $5/month they're cheap as well. 

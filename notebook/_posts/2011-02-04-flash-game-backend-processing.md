@@ -1,5 +1,4 @@
 ---
-layout: default
 comments: true
 
 published: true
@@ -18,40 +17,40 @@ I then used the following PHP script in order to write scores to the database (d
 
 {% highlight php %}
 <?php
-	////////////////// modify this information ///////////////////////
-	$host = "localhost"; //hostname is usually localhost by default
-	$user = ""; //insert the name of the user here
-	$pass = "";  //insert the password here
-	$database = "";  //insert name of database wherein table was exported
-	$table = "";  //insert the name of the table
-	///////////////////////////////////////////////////////////////////////
+  ////////////////// modify this information ///////////////////////
+  $host = "localhost"; //hostname is usually localhost by default
+  $user = ""; //insert the name of the user here
+  $pass = "";  //insert the password here
+  $database = "";  //insert name of database wherein table was exported
+  $table = "";  //insert the name of the table
+  ///////////////////////////////////////////////////////////////////////
  
-	//stores the URLvariables into variables that php can use
-	$one = $_POST['yourname']; 
-	$five = $_POST['yourscore'];
+  //stores the URLvariables into variables that php can use
+  $one = $_POST['yourname']; 
+  $five = $_POST['yourscore'];
 
-	echo($one);
-	echo($five);
+  echo($one);
+  echo($five);
  
-	  // Connects to the database server
-	  $dbcnx = @mysql_connect($host, $user, $pass);
-	  if (!$dbcnx) {
-	    echo( "<p>Unable to connect to the database server at this time.</p>" );
-	    exit();
-	  }
+    // Connects to the database server
+    $dbcnx = @mysql_connect($host, $user, $pass);
+    if (!$dbcnx) {
+      echo( "<p>Unable to connect to the database server at this time.</p>" );
+      exit();
+    }
  
-	  // Selects the database
-	  if (! @mysql_select_db($database) ) {
-	    echo( "<p>Unable to find database</p>");
-	    exit();
-	  }
+    // Selects the database
+    if (! @mysql_select_db($database) ) {
+      echo( "<p>Unable to find database</p>");
+      exit();
+    }
  
-	//this is the command used to write the record into the MySQL database
-	$query="INSERT into {$table} (name, score) VALUES ('{$one}',{$five})";   
+  //this is the command used to write the record into the MySQL database
+  $query="INSERT into {$table} (name, score) VALUES ('{$one}',{$five})";   
  
-	//executes the command
-	mysql_query($query) or die("Data not written.");
-	echo("The data has been written to the table!");
+  //executes the command
+  mysql_query($query) or die("Data not written.");
+  echo("The data has been written to the table!");
 {% endhighlight %}
 
 This script simply takes the score and username, which are passed to it via the <tt>POST</tt> method and writes them to the database.  

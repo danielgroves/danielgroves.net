@@ -1,5 +1,4 @@
 ---
-layout: default
 published: true
 title: "Jekyll Deployment"
 excerpt: Using GitLab CI to automate Jekyll Deployments.

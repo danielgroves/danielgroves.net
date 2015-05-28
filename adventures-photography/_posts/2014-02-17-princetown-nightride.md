@@ -1,5 +1,4 @@
 ---
-layout: default
 published: true
 title: Princetown Night Ride
 date: 2014-02-03 12:30

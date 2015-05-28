@@ -1,5 +1,4 @@
 ---
-layout: default
 published: true
 title: Cairngorms and Loch Leven
 excerpt: "A small selection of pictures from two weeks on Scotland"

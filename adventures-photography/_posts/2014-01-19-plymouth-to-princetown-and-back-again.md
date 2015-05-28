@@ -1,5 +1,4 @@
 ---
-layout: default
 published: true
 title: Plymouth to Princetown (and back again)
 excerpt: "A day on the moor: a series of pictures from Plymouth to Princetown and back."

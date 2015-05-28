@@ -1,5 +1,4 @@
 ---
-layout: default
 comments: true
 
 published: true
@@ -18,12 +17,12 @@ In the days of CSS2.1 this would have been achieved by the careful use of backgr
 
 {% highlight css %}
 #content .section .box, #content #photo .box img {
-	-webkit-border-radius: 3px;
-	-webkit-box-shadow: 0 0 7px #888;
-	-moz-border-radius: 3px;
-	-moz-box-shadow: 0 0 7px #888;
-	border-radius: 3px;
-	box-shadow: 0 0 7px #888;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: 0 0 7px #888;
+  -moz-border-radius: 3px;
+  -moz-box-shadow: 0 0 7px #888;
+  border-radius: 3px;
+  box-shadow: 0 0 7px #888;
 }
 {% endhighlight %}
 

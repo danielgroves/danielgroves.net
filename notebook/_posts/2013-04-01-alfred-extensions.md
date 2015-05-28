@@ -1,5 +1,4 @@
 ---
-layout: default
 comments: true
 
 published: true
@@ -13,10 +12,10 @@ With the release of Alfred v2 powerpack users have more flexibility than ever to
 ## Responsive Calucator
 
 <figure>
-	<a href="/assets/alfred_extensions/ResponsiveCalculator.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/responsiveCalc.png" alt="Responsive Calculator workflow for Alfred" /></a>
-	<figcaption>
-		Responsive Calculator workflow for Alfred
-	</figcaption>
+  <a href="/assets/alfred_extensions/ResponsiveCalculator.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/responsiveCalc.png" alt="Responsive Calculator workflow for Alfred" /></a>
+  <figcaption>
+    Responsive Calculator workflow for Alfred
+  </figcaption>
 </figure>
 
 The first extension is a responsive calulator. After getting tired of manually doing the maths for every box I was creating when converting a PSD to a web page I decided to make an extension to do this for me. 
@@ -30,10 +29,10 @@ For example, for a 300px wide div in a 900px wide container you would type `rc 3
 ## Search MDN
 
 <figure>
-	<a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/searchMdn.png" alt="Search MDN workflow for Alfred" /></a>
-	<figcaption>
-		Search MDN workflow for Alfred
-	</figcaption>
+  <a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/searchMdn.png" alt="Search MDN workflow for Alfred" /></a>
+  <figcaption>
+    Search MDN workflow for Alfred
+  </figcaption>
 </figure>
 
 This second extension is a quick custom search workflow. Simply type ```mdn``` followed by what you want to search the <a href="https://developer.mozilla.org/en-US/" title="Mozilla Developer Network">Mozilla Developer Network</a> for. I primarily use this one for looking up css attributes to see what parameters they can take. 
@@ -43,10 +42,10 @@ This second extension is a quick custom search workflow. Simply type ```mdn``` f
 ## Search PHP Documentation
 
 <figure>
-	<a href="/assets/alfred_extensions/SearchPHPDocumentation.alfredworkflow" title="Download the Search PHP Documentation workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/searchPHP.png" alt="Search PHP workflow for Alfred" /></a>
-	<figcaption>
-		Search PHP workflow for Alfred
-	</figcaption>
+  <a href="/assets/alfred_extensions/SearchPHPDocumentation.alfredworkflow" title="Download the Search PHP Documentation workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/searchPHP.png" alt="Search PHP workflow for Alfred" /></a>
+  <figcaption>
+    Search PHP workflow for Alfred
+  </figcaption>
 </figure>
 
 Searches the <a href="http://php.net/docs.php" title="PHP Documentation Website">PHP documentation</a> site for any provided input. If the input is a valid function name (e.g. ```str_replace```) it will take you directly to the documentation page for that function. An example search for the ```str_replace()``` function would be ```php str_replace```

@@ -1,5 +1,4 @@
 ---
-layout: default
 comments: true
 
 published: true
@@ -10,8 +9,8 @@ excerpt: "A quick rundown of where I going to Univeristy and what I will be stud
 
 
 <figure>
-	<img src="/wp-content/uploads/2010/09/Z43_459_UoP_colour_logo-300x300.jpg" alt="University of Plymouth Logo" title="University of Plymouth Logo" width="200" height="200" class="size-medium wp-image-319" />
-	<figcaption>University of Plymouth</figcaption>
+  <img src="/wp-content/uploads/2010/09/Z43_459_UoP_colour_logo-300x300.jpg" alt="University of Plymouth Logo" title="University of Plymouth Logo" width="200" height="200" class="size-medium wp-image-319" />
+  <figcaption>University of Plymouth</figcaption>
 </figure>
 
 Web Application Development isn't exactly what I am going to write about here today.  I'm actually going to look at something a little different.  What I'm actually going to write about is the course I am studying at university, which is called Web Applications Development.  
