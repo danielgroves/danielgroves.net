@@ -1,0 +1,20 @@
+.pageinate {
+  @include row;
+  @include rem-fallback('font-size', 1.3);
+  
+  text-align: center;
+  font-family: $font-sans;
+  color: $color-normal-text;
+  
+  strong, a {
+    @include rem-fallback('padding', 1);
+    @include rem-fallback('margin', 0, .1);
+    display: inline-block;
+  }
+  
+  strong, a:hover {
+    @include rem-fallback('border-radius', .3);
+    background: $color-normal-text;
+    color: $color-light-grey;
+  }
+}
