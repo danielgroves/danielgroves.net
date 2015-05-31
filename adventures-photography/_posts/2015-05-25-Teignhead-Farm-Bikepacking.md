@@ -2,6 +2,7 @@
 published: true
 title: Bikepacking at Teignhead Farm Ruin
 excerpt: A bikepacking trip across Dartmoor to wild camp and Teignhead Farm Ruin.
+tags: bike packing camping photography
 
 date: 2015-05-25 17:20
 thumb: /assets/camera-roll/2015/05/DSC_7154-Edit-Thumb.jpg

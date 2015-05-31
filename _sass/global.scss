@@ -55,6 +55,7 @@ main {
     h1, p, span {
       font-weight: 100;
       font-family: $font-sans;
+      color: $color-normal-text;
       
       // TODO: Consolidate duplicated styles (content -> Main content column settings.)
       @include span-columns(10);
@@ -64,7 +65,11 @@ main {
         width: auto;
         margin: 0;
       }
-  
+    }
+    
+    h1, p, span {
+      text-align: center;
+      
       @include media($tablet) {
         @include span-columns(8);
         @include shift(2);
@@ -72,24 +77,17 @@ main {
     }
 
     h1 {
-      @include rem-fallback(font-size, 2.5);
-      @include rem-fallback(padding-top, 4);
-      @include rem-fallback(padding-bottom, .8);
-      color: $color-normal-text;
+      @include rem-fallback(font-size, 2.8);
+      @include rem-fallback(padding-top, 5);
+      @include rem-fallback(padding-bottom, 4);
     }
-
+    
     span {
-      color: $color-light-text;
-      @include rem-fallback(font-size, 1);
-      display: block;
-
       @include media($tablet) {
-        display: inline-block;
-        @include rem-fallback(padding-right, 1);
-
-        &:last-of-type {
-          padding-right: 0;
-        }
+        @include row;
+        @include rem-fallback(font-size, 1);
+        @include rem-fallback(padding-bottom, 2);
+        text-align: center;
       }
     }
 
