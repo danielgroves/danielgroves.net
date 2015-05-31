@@ -39,10 +39,12 @@ This timing worked well; just as we were descending to the bridge over the river
 
 <figure>
   <img src="/assets/camera-roll/2015/05/20150523-DSC_7128.jpg" alt="Pete by the campfire. " />
-  <img src="/assets/camera-roll/2015/05/20150523-DSC_7144.jpg" alt="Pete by the campfire. " class="small" />
-  <img src="/assets/camera-roll/2015/05/20150523-DSC_7145.jpg" alt="Pete by the campfire. " class="small" />
-  <img src="/assets/camera-roll/2015/05/20150523-DSC_7147.jpg" alt="Pete by the campfire. " class="small" />
-  <img src="/assets/camera-roll/2015/05/20150523-DSC_7150.jpg" alt="Pete by the campfire. " class="small" />
+  <div class="row">
+    <img src="/assets/camera-roll/2015/05/20150523-DSC_7144.jpg" alt="Pete by the campfire. " />
+    <img src="/assets/camera-roll/2015/05/20150523-DSC_7145.jpg" alt="Pete by the campfire. " />
+    <img src="/assets/camera-roll/2015/05/20150523-DSC_7147.jpg" alt="Pete by the campfire. " />
+    <img src="/assets/camera-roll/2015/05/20150523-DSC_7150.jpg" alt="Pete by the campfire. " />
+  </div>
 
   <figcaption>
     Top: Pete by the campfire.<br />

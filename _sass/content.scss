@@ -67,6 +67,21 @@ article {
       height: auto;
       display: block;
     }
+    
+    .row {
+      @include row;
+      @include rem-fallback('padding-top', 1);
+      
+      img {
+        width: 23.875%;
+        float: left;
+        margin-right: 1.5%;
+        
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
 
     figcaption {
       @include span-columns(12);
