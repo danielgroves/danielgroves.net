@@ -12,11 +12,16 @@ a {
 }
 
 h2 {
-  font-family: $font-sans;
   @include outer-container();
+  @include rem-fallback('font-size', 1.6);
+  @include rem-fallback('padding', 1, 0, .5, 0);
+  font-family: $font-sans;
   font-weight: 100;
-  font-size: 1.6em;
-  padding: 1em 0 .5em 0;
+}
+
+h3 {
+  font-family: $font-sans;
+  font-weight: 100;
 }
 
 hr {
