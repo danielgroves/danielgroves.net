@@ -57,6 +57,8 @@ main {
   }
   
   header {
+    text-align: center;
+    
     h1, p, span {
       font-weight: 100;
       font-family: $font-sans;
@@ -70,10 +72,6 @@ main {
         width: auto;
         margin: 0;
       }
-    }
-    
-    h1, p, span {
-      text-align: center;
       
       @include media($tablet) {
         @include span-columns(8);
@@ -91,13 +89,17 @@ main {
       @include media($tablet) {
         @include row;
         @include rem-fallback(font-size, 1);
-        @include rem-fallback(padding-bottom, 2);
-        text-align: center;
+        @include rem-fallback(padding-bottom, 3);
       }
     }
 
     p {
       @include subtle-emphases;
+      @include rem-fallback(padding-bottom, 4);
     }
+  }
+  
+  .articlelist header {
+    text-align: left;
   }
 }

@@ -43,6 +43,8 @@ article {
   // Page Footer
   footer p {
     @include subtle-emphases;
+    @include rem-fallback(padding-top, 2);
+    @include rem-fallback(padding-bottom, 3);
   }
 
   // Content Styles

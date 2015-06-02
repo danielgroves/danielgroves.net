@@ -47,8 +47,6 @@
 @mixin subtle-emphases() {
   @include rem-fallback(font-size, 1.7);
   @include rem-fallback(line-height, 2);
-  @include rem-fallback(padding-top, 2);
-  @include rem-fallback(padding-bottom, 3);
   font-family: $font-sans;
   color: $color-light-text;
 }
