@@ -80,6 +80,10 @@ aside.elsewhere_on_the_web {
     }
   }
 
+  a {
+    display: block;
+    height: 100%;
+  }
 
   li {
     @include span-columns(6);
@@ -95,6 +99,7 @@ aside.elsewhere_on_the_web {
     display: block;
     float:left;
     margin: 0;
+    padding: 0;
 
     @include media($tablet) {
       @include span-columns(4);
