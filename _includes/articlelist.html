@@ -2,11 +2,11 @@
     {% for post in include.posts %}
       <article>
         {% if post.thumb %}
-          <img src="{{ site.static_path }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" />
+          <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}"><img src="{{ site.static_path }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" /></a>
         {% endif %}
   
         <header>
-          <h1><a href="{{ post.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+          <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
           <span><strong>Published:</strong> {{ post.date | date: "%d/%m/%Y" }}</span>
         </header>
   
