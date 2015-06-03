@@ -1,5 +1,6 @@
 ---
 ---
+$static_url: "{{ site.static_path }}";
 
 @import "mixins";
 @import "reset";

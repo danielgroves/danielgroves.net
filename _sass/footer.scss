@@ -112,34 +112,34 @@ aside.elsewhere_on_the_web {
   }
 
   .social__instagram {
-    background-image: url("/styles/images/instagram.png");
+    background-image: url("#{$static_url}/style_images/instagram.png");
     background-size: 100%;
   }
 
   .social__facebook {
-    background-image: url("/styles/images/facebook.png");
+    background-image: url("#{$static_url}/style_images/facebook.png");
     background-color: #3b5998;
     background-color: rgb(59,89,152);
   }
 
   .social__googleplus {
-    background-image: url("/styles/images/google+.png");
+    background-image: url("#{$static_url}/style_images/google+.png");
     background-color: #D34836;
     background-color: rgb(211,72,54)
   }
 
   .social__github {
-    background-image: url("/styles/images/github.png");
+    background-image: url("#{$static_url}/style_images/github.png");
     background-color: #3f3f3f;
   }
 
   .social__500px {
-    background-image: url("/styles/images/500px.png");
+    background-image: url("#{$static_url}/style_images/500px.png");
     background-color: #000;
   }
 
   .social__twitter {
-    background-image: url("/styles/images/twitter.png");
+    background-image: url("#{$static_url}/style_images/twitter.png");
     background-color: #55acee;
     background-color: rgb(85,172,238);
   }
