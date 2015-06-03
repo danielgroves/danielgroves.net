@@ -11,6 +11,7 @@ url: https://danielgroves.net
 name: Daniel Groves
 description: "Developer and photographer based in southwest england who is addicted to the mountains."
 email: "hello@danielgroves.net"
+static_path: '/assets'
 
 paginate: 12
 

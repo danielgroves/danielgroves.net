@@ -3,7 +3,7 @@ published: true
 title: Plymouth to Princetown (and back again)
 excerpt: "A day on the moor: a series of pictures from Plymouth to Princetown and back."
 date: 2014-01-19 21:30
-thumb: /assets/camera-roll/2014/01/DSC_8342_thumb.jpg
+thumb: /camera-roll/2014/01/DSC_8342_thumb.jpg
 comments: true
 ---
 

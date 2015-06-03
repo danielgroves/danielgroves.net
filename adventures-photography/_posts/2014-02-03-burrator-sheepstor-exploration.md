@@ -3,7 +3,7 @@ published: true
 title: Burrator and Sheepstor Exploration
 date: 2014-02-03 12:30
 excerpt: "Exploring new riding options around Burrator Reservoir and Sheepstor"
-thumb: /assets/camera-roll/2014/02/DSC_8550_thumb.jpg
+thumb: /camera-roll/2014/02/DSC_8550_thumb.jpg
 comments: true
 ---
 

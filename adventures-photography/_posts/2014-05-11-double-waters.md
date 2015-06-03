@@ -3,7 +3,7 @@ published: true
 title: Double Waters
 date: 2014-05-11 16:45
 excerpt: "A few pictures from a recent Double Waters loop"
-thumb: /assets/camera-roll/2014/05/DSC_9752_thumb.jpg
+thumb: /camera-roll/2014/05/DSC_9752_thumb.jpg
 comments: true
 ---
 

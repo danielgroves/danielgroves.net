@@ -2,7 +2,7 @@
     {% for post in include.posts %}
       <article>
         {% if post.thumb %}
-          <img src="{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" />
+          <img src="{{ site.static_path }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" />
         {% endif %}
   
         <header>

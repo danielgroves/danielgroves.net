@@ -5,8 +5,8 @@ excerpt: A bikepacking trip across Dartmoor to wild camp and Teignhead Farm Ruin
 tags: bike packing camping photography
 
 date: 2015-05-25 17:20
-thumb: /assets/camera-roll/2015/05/DSC_7154-Edit-Thumb.jpg
-banner: /assets/camera-roll/2015/05/20150523-DSC_7154-Edit.jpg
+thumb: /camera-roll/2015/05/DSC_7154-Edit-Thumb.jpg
+banner: /camera-roll/2015/05/20150523-DSC_7154-Edit.jpg
 ---
 
 The second bank holiday of may presented the chance to load-up the bike and head-out onto Dartmoor for some bike-packing. It had been a while since a chance to get some multi-day off-road miles in had presented itself, and with plans to have a crack at the [Highland Trail 550](http://highlandtrail.net "Highland Trail 550 – off road independent time trial") this summer forming this made for a good training opportunity.

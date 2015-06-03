@@ -3,7 +3,7 @@ published: true
 title: Princetown Night Ride
 date: 2014-02-03 12:30
 excerpt: "Princetown Night Ride"
-thumb: /assets/camera-roll/2014/02/DSC_9086_thumb.jpg
+thumb: /camera-roll/2014/02/DSC_9086_thumb.jpg
 comments: true
 ---
 

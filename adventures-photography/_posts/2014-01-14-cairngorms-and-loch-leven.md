@@ -3,7 +3,7 @@ published: true
 title: Cairngorms and Loch Leven
 excerpt: "A small selection of pictures from two weeks on Scotland"
 date: 2014-01-14 22:40
-thumb: /assets/camera-roll/2014/01/DSC_7803_thumb.jpg
+thumb: /camera-roll/2014/01/DSC_7803_thumb.jpg
 comments: true
 ---
 

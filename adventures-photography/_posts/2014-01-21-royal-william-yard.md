@@ -3,7 +3,7 @@ published: true
 title: Royal William Yard
 date: 2014-01-21 11:30
 excerpt: "Early morning sunrise in the Royal William Yard"
-thumb: /assets/camera-roll/2014/01/DSC_8371_thumb.jpg
+thumb: /camera-roll/2014/01/DSC_8371_thumb.jpg
 comments: true
 ---
 

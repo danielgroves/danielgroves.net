@@ -46,6 +46,8 @@ task :deploy => :build do
 end
 
 def jekyll(args)
+    ENV['JEKYLL_ENV'] = 'development' unless ENV['JEKYLL_ENV'] == 'production'
+    
     system "jekyll #{args}"
 end
 
