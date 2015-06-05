@@ -4,6 +4,7 @@ title: Princetown Night Ride
 date: 2014-02-03 12:30
 excerpt: "Princetown Night Ride"
 thumb: /camera-roll/2014/02/DSC_9086_thumb.jpg
+banner: /camera-roll/2014/02/20140216-DSC_9086.jpg
 comments: true
 ---
 

@@ -4,6 +4,7 @@ title: Double Waters
 date: 2014-05-11 16:45
 excerpt: "A few pictures from a recent Double Waters loop"
 thumb: /camera-roll/2014/05/DSC_9752_thumb.jpg
+banner: /camera-roll/2014/05/20140511-DSC_9752.jpg
 comments: true
 ---
 
