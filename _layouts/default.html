@@ -15,11 +15,11 @@ layout: stark
       
       <div class="meta">
         <span>
-          <strong>Published:</strong> 15 January 2015 &middot;
+          <strong>Published:</strong> {{ page.date | date: "%e %B %Y" }}
   
           {% for tag in page.tags %}
             {% if forloop.first %}
-              <strong>Tags:</strong>
+               &middot; <strong>Tags:</strong>
             {% endif %}
             <a href="{{ site.url }}/tag/{{ tag }}" title="Index for {{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
           {% endfor %}
