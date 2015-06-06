@@ -14,7 +14,29 @@ section.articlelist {
   
   img {
     max-width: 100%;
-    width: auto;
+    height: auto;
+  }
+  
+  a.loading-img {
+    display: block;
+    width: 100%;
+    padding-top: 56.888888889%;
+    background: $color-light-grey;
+    position: relative;
+    
+    img.thumbnail {
+      display: none;
+    }
+    
+    .spinner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 36px;
+      height: 36px;
+      padding: 0;
+      overflow: hidden;
+    }
   }
   
   h1 {

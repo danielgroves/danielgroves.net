@@ -55,7 +55,16 @@ article {
     font-family: $font-serif;
     color: $color-normal-text;
   }
-
+  
+  img {
+    max-width: 100%;
+    //width: auto;
+    //height: auto;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
+  
   figure {
     @include rem-fallback(padding, .4, 0);
 
@@ -63,15 +72,6 @@ article {
       @include rem-fallback(padding, 2, 0);
     }
 
-    img {
-      max-width: 100%;
-      width: auto;
-      height: auto;
-      display: block;
-      position: relative;
-      margin: 0 auto;
-    }
-    
     .row {
       @include row;
       @include rem-fallback('padding-top', 1);

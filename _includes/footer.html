@@ -45,18 +45,77 @@
     </footer>
     
     <script type="text/javascript">
-        var lazy = new Blazy({
-          selector: 'img',
-          error: function(ele, msg) {
-            var element = ele;
-            
-            while(element.tagName != "FIGURE") {
-              element = element.parentElement;
-            }
-            
-            element.parentElement.removeChild(element);
-          }
+        (function() {
+          var SpriteSpinner = function(el, options){
+              var self = this,
+                  img = el.children[0];
+              this.interval = options.interval || 10;
+              this.diameter = options.diameter || img.width;
+              this.count = 0;
+              this.el = el;
+              img.setAttribute("style", "position:absolute");
+              el.style.width = this.diameter+"px";
+              el.style.height = this.diameter+"px";
+              return this;
+          };
+          SpriteSpinner.prototype.start = function(){
+              var self = this,
+                  count = 0,
+                  img = this.el.children[0];
+              this.el.display = "block";
+              self.loop = setInterval(function(){
+                  if(count == 19){
+                      count = 0;
+                  }
+                  img.style.top = (-self.diameter*count)+"px";
+                  count++;
+              }, this.interval);
+          };
+          SpriteSpinner.prototype.stop = function(){
+              clearInterval(this.loop);
+              this.el.style.display = "none";
+          };
+          document.SpriteSpinner = SpriteSpinner;
+      })();
+      
+      var loaders = document.querySelectorAll('.loading-img');
+      var spriteSpinners = [];
+      
+      for (var i = 0; i < loaders.length; i++) {
+        var element = loaders[i];
+        
+        var spinner = document.createElement('span');
+        spinner.classList.add("spinner");
+        var img = document.createElement('img');
+        img.setAttribute('src', '{{ site.static_path }}/style_images/spinner.png');
+        img.setAttribute('width', 36);
+        img.setAttribute('height', 36);
+        spinner.appendChild(img);
+        
+        element.appendChild(spinner);
+        
+        var domSpinner = element.getElementsByClassName('spinner')[0];
+        var s = new SpriteSpinner(domSpinner, {
+          interval:50
         });
+
+        spriteSpinners.push(s);
+        spriteSpinners[spriteSpinners.length - 1].start();
+      }
+      
+      var lazy = new Blazy({
+        selector: 'img',
+        offset: 500,
+        error: function(ele, msg) {
+          var element = ele;
+          
+          while(element.tagName != "FIGURE") {
+            element = element.parentElement;
+          }
+          
+          element.parentElement.removeChild(element);
+        }
+      });
     </script>
 
     <script>
