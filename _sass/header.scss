@@ -7,6 +7,8 @@ body > header {
 
   position: fixed;
   top: 0;
+  
+  z-index: 1000;
 
   a {
     @include rem-fallback(padding, 1.24, 1);

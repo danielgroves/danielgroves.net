@@ -75,15 +75,19 @@
       
       var lazy = new Blazy({
         selector: 'img',
-        offset: 500,
-        error: function(ele, msg) {
-          var element = ele;
-          
+        offset: 250,
+        error: function(element, msg) {
           while(element.tagName != "FIGURE") {
             element = element.parentElement;
           }
           
           element.parentElement.removeChild(element);
+        },
+        success: function(element) {
+          var anchor = element.parentNode;
+          anchor.classList.remove('loading-img');
+          var spinner = anchor.querySelector('.spinner');
+          anchor.removeChild(spinner);
         }
       });
     </script>
