@@ -46,51 +46,20 @@
     
     <script type="text/javascript" src="{{ site.scripts_path }}/spritespinner.js"></script>
     <script type="text/javascript">
-      document.addEventListener('DOMContentLoaded', function() {
-        var loaders = document.querySelectorAll('.loading-img');
-        var spriteSpinners = [];
+      var Loader = (function() {
+        var spinner = function() {
+          var spinnerContainer = document.createElement('span');
+          spinnerContainer.classList.add("spinner");
+          var spinningImage = document.createElement('img');
+          spinningImage.setAttribute('src', '{{ site.static_path }}/style_images/spinner.png');
+          spinningImage.setAttribute('width', 36);
+          spinningImage.setAttribute('height', 36);
+          spinnerContainer.appendChild(spinningImage);
+          
+          return spinnerContainer;
+        };
         
-        for (var i = 0; i < loaders.length; i++) {
-          var element = loaders[i];
-          
-          var spinner = document.createElement('span');
-          spinner.classList.add("spinner");
-          var img = document.createElement('img');
-          img.setAttribute('src', '{{ site.static_path }}/style_images/spinner.png');
-          img.setAttribute('width', 36);
-          img.setAttribute('height', 36);
-          spinner.appendChild(img);
-          
-          element.appendChild(spinner);
-          
-          var domSpinner = element.getElementsByClassName('spinner')[0];
-          var s = new SpriteSpinner(domSpinner, {
-            interval:50
-          });
-  
-          spriteSpinners.push(s);
-          spriteSpinners[spriteSpinners.length - 1].start();
-        }
-      });
-      
-      var lazy = new Blazy({
-        selector: 'img',
-        offset: 250,
-        error: function(element, msg) {
-          try {
-            while(element.tagName != "FIGURE") {
-              element = element.parentElement;
-            }
-            
-            element.parentElement.removeChild(element);
-          } catch (ex) {
-            if (!(ex instanceof TypeError)) console.error && console.error(ex);
-             
-            console.info && console.info("Could not remove figure element.");
-            console.debug && console.debug(ex);
-          }
-        },
-        success: function(element) {
+        var remove = function(element) {
           try {
             var anchor = element.parentNode;
             anchor.classList.remove('loading-img');
@@ -102,6 +71,69 @@
             console.info && console.info('Could not remove loading indicator');
             console.debug && console.debug(ex);
           }
+        };
+        
+        var error = function(element) {
+          try {
+            while(element.tagName != "FIGURE") {
+              element = element.parentElement;
+            }
+            
+            element.parentElement.removeChild(element);
+          } catch (ex) {
+            if (!(ex instanceof TypeError)) console.error && console.error(ex);
+             
+            console.info && console.info("Could not remove figure element.");
+            console.debug && console.debug(ex);
+            console.debug && console.debug(msg);
+          }
+        };
+        
+        var install = function(loaders) {
+          var spriteSpinners = [];
+        
+          for (var i = 0; i < loaders.length; i++) {
+            var element = loaders[i];
+            var spinner = Loader.spinner();
+            
+            element.appendChild(spinner);
+            
+            var domSpinner = element.getElementsByClassName('spinner')[0];
+            var s = new SpriteSpinner(domSpinner, {
+              interval:50
+            });
+    
+            spriteSpinners.push(s);
+            spriteSpinners[spriteSpinners.length - 1].start();
+          }
+          
+          return spriteSpinners
+        };
+        
+        return {
+          spinner: spinner,
+          remove: remove,
+          error: error,
+          install: install
+        };
+      })();
+      
+      
+      document.addEventListener('DOMContentLoaded', function() {
+        var loaders = document.querySelectorAll('.loading-img, figure img');
+        var spriteSpinners = Loader.install(loaders);
+      });
+      
+      var lazy = new Blazy({
+        selector: 'img',
+        offset: 250,
+        error: function(element, msg) {
+          Loader.error(element);
+          console.debug && console.debug(element);
+          console.debug && console.debug(msg);
+        },
+        success: function(element) {
+          Loader.remove(element);
         }
       });
     </script>
