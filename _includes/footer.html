@@ -47,21 +47,23 @@
     <script type="text/javascript" src="{{ site.scripts_path }}/spritespinner.js"></script>
     <script type="text/javascript" src="{{ site.scripts_path }}/loader.js"></script>
     <script type="text/javascript">
+      var loader = new Loader({ loadingImage: '{{ site.static_path }}/style_images/spinner.png' });
+      
       document.addEventListener('DOMContentLoaded', function() {
         var loaders = document.querySelectorAll('.loading-img, figure img');
-        var spriteSpinners = Loader.install(loaders);
+        var spriteSpinners = loader.install(loaders);
       });
       
       var lazy = new Blazy({
         selector: 'img',
         offset: 250,
         error: function(element, msg) {
-          Loader.error(element);
+          loader.error(element);
           console.debug && console.debug(element);
           console.debug && console.debug(msg);
         },
         success: function(element) {
-          Loader.remove(element);
+          loader.remove(element);
         }
       });
     </script>

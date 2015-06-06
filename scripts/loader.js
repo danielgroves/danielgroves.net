@@ -1,9 +1,9 @@
-var Loader = (function() {
+var Loader = function(opts) {
   var spinner = function() {
     var spinnerContainer = document.createElement('span');
     spinnerContainer.classList.add("spinner");
     var spinningImage = document.createElement('img');
-    spinningImage.setAttribute('src', '{{ site.static_path }}/style_images/spinner.png');
+    spinningImage.setAttribute('src', opts.loadingImage);
     spinningImage.setAttribute('width', 36);
     spinningImage.setAttribute('height', 36);
     spinnerContainer.appendChild(spinningImage);
@@ -46,7 +46,7 @@ var Loader = (function() {
   
     for (var i = 0; i < loaders.length; i++) {
       var element = loaders[i];
-      var spinner = Loader.spinner();
+      var spinner = this.spinner();
       
       element.appendChild(spinner);
       
@@ -68,4 +68,4 @@ var Loader = (function() {
     error: error,
     install: install
   };
-})();
+};
