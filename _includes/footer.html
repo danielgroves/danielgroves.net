@@ -77,11 +77,18 @@
         selector: 'img',
         offset: 250,
         error: function(element, msg) {
-          while(element.tagName != "FIGURE") {
-            element = element.parentElement;
+          try {
+            while(element.tagName != "FIGURE") {
+              element = element.parentElement;
+            }
+            
+            element.parentElement.removeChild(element);
+          } catch (ex) {
+            if (!(ex instanceof TypeError)) console.error && console.error(ex);
+             
+            console.info && console.info("Could not remove figure element.");
+            console.debug && console.debug(ex);
           }
-          
-          element.parentElement.removeChild(element);
         },
         success: function(element) {
           var anchor = element.parentNode;
