@@ -91,10 +91,17 @@
           }
         },
         success: function(element) {
-          var anchor = element.parentNode;
-          anchor.classList.remove('loading-img');
-          var spinner = anchor.querySelector('.spinner');
-          anchor.removeChild(spinner);
+          try {
+            var anchor = element.parentNode;
+            anchor.classList.remove('loading-img');
+            var spinner = anchor.querySelector('.spinner');
+            anchor.removeChild(spinner);
+          } catch(ex) {
+            if (!(ex instanceof TypeError)) console.error && console.error(ex);
+            
+            console.info && console.info('Could not remove loading indicator');
+            console.debug && console.debug(ex);
+          }
         }
       });
     </script>
