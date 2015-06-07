@@ -43,12 +43,7 @@ sitemap:
     change_frequency_name: "change_frequency"
     priority_name: "priority"
 
-instagram:
-    user_id: 1358824988
-    min_timestamp: 2015-01-01T00:00:00+00:00
-    max_timestamp: 2015-12-31T11:59:59+00:00
-
-gems: ["bourbon", "neat"]
+gems: ["bourbon", "neat", "jekyll/minibundle"]
 
 sass:
   style: :expanded

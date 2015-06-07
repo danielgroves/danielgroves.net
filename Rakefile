@@ -16,8 +16,7 @@ end
 task :build => :version do
     clean
     puts $linebreak
-    puts "Building for production"
-    jekyll "build"
+    jekyll "build --config _config.yml,_config_prod.yml"
 end
 
 task :build_all => :version do
@@ -28,6 +27,8 @@ task :build_all => :version do
 end
 
 task :deploy => :build do
+    ENV['JEKYLL_ENV'] = 'production'
+  
     if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
         puts $linebreak
         puts "On master branch, will attempt to deploy"
@@ -48,6 +49,7 @@ end
 def jekyll(args)
     ENV['JEKYLL_ENV'] = 'development' unless ENV['JEKYLL_ENV'] == 'production'
     
+    puts "Running under #{ENV['JEKYLL_ENV']} environment"
     system "jekyll #{args}"
 end
 
