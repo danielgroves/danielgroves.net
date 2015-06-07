@@ -20,6 +20,7 @@ task :build => :version do
       jekyll "build --config _config.yml,_config_prod.yml"
     else
       jekyll "build --config _config.yml"
+    end
 end
 
 task :build_all => :version do
