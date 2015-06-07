@@ -70,7 +70,7 @@ Reappearing at a somewhat more acceptable hour we were all up and the camp was p
 
 Back at Postbridge James parted with us, but decided to meet us in Princetown for lunch, a short ride which took Max and I about 45-minutes on the road. After a small mountain of cheesy-curly-spicy-fries each in the [Fox Tor Cafe](http://www.foxtorcafe.com "Fox Tor Cafe, Princetown, Dartmoor") Max and I proceeded to head back home on the trails we know best and ride frequently.
 
-### Route Details
+## Route Details
 
 The route can easily be ridden from Plymouth, or picked up part way along from numerous car parks en–route. The last section involves some fairly technical mountain biking; off road experience is a necessity.
 

@@ -13,13 +13,15 @@ a {
 
 h2 {
   @include outer-container();
-  @include rem-fallback('font-size', 1.6);
-  @include rem-fallback('padding', 1, 0, .5, 0);
+  @include rem-fallback('font-size', 2);
+  @include rem-fallback('padding', 2, 0, 0, 0);
   font-family: $font-sans;
   font-weight: 100;
 }
 
 h3 {
+  @include rem-fallback('font-size', 1.5);
+  @include rem-fallback('padding', 1, 0, 0, 0);
   font-family: $font-sans;
   font-weight: 100;
 }
