@@ -44,14 +44,14 @@ sitemap:
     priority_name: "priority"
 
 gems: ["bourbon", "neat", "jekyll-assets"]
-
-sass:
-  style: :expanded
   
 assets:
   sources:
     - _scripts
     - _styles
+  js_compressor: uglifier
+  css_compressor: sass
+  debug: true
 
 defaults:
   - scope:

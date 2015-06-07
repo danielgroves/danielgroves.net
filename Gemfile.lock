@@ -63,6 +63,7 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+    json (1.8.3)
     kramdown (1.5.0)
     liquid (2.6.2)
     listen (2.8.5)
@@ -106,6 +107,9 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
+    uglifier (2.7.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -113,6 +117,7 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon
+  coffee-script
   execjs
   instagram
   jekyll
@@ -120,3 +125,5 @@ DEPENDENCIES
   neat
   rake
   redcarpet
+  sass
+  uglifier

@@ -44,16 +44,10 @@
       </section>
     </footer>
     
-    {% javascript scripts %}
+    {% javascript footer %}
     
     <script type="text/javascript">
       var loader = new Loader({ loadingImage: '{{ site.static_path }}/style_images/spinner.png' });
-      
-      document.addEventListener('DOMContentLoaded', function() {
-        var loaders = document.querySelectorAll('.loading-img, figure img');
-        var spriteSpinners = loader.install(loaders);
-      });
-      
       var lazy = new Blazy({
         selector: 'img',
         offset: 250,
