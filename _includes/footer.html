@@ -44,22 +44,10 @@
       </section>
     </footer>
     
-    {% javascript footer %}
+    {% javascript scripts %}
     
     <script type="text/javascript">
-      var loader = new Loader({ loadingImage: '{{ site.static_path }}/style_images/spinner.png' });
-      var lazy = new Blazy({
-        selector: 'img',
-        offset: 250,
-        error: function(element, msg) {
-          loader.error(element);
-          console.debug && console.debug(element);
-          console.debug && console.debug(msg);
-        },
-        success: function(element) {
-          loader.remove(element);
-        }
-      });
+      var pl = new Preloader.ImageLoader();
     </script>
 
     <script>

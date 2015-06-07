@@ -28,16 +28,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.static_path }}/images/brand/iOS/icon_72x72@2x.png">
 
     {% stylesheet main %}
-    {% javascript header %}
-    
-    <script type="text/javascript">
-      var loader = new Loader({ loadingImage: '{{ site.static_path }}/style_images/spinner.png' });
-      
-      document.addEventListener('DOMContentLoaded', function() {
-        var loaders = document.querySelectorAll('.loading-img, figure img');
-        var spriteSpinners = loader.install(loaders);
-      });
-    </script>
 
     <!-- BEGIN TYPEKIT SNIPPET -->
     <script type="text/javascript">

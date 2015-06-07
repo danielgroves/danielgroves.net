@@ -1,2 +1,0 @@
-//= require spritespinner
-//= require loader
