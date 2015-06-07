@@ -1,7 +1,3 @@
----
----
-
-
 class Navigation
   hiddenClass = 'hidden'
   showingClass = 'showing'

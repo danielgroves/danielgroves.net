@@ -44,8 +44,8 @@
       </section>
     </footer>
     
-    <script type="text/javascript" src="{{ site.scripts_path }}/spritespinner.js"></script>
-    <script type="text/javascript" src="{{ site.scripts_path }}/loader.js"></script>
+    {% javascript scripts %}
+    
     <script type="text/javascript">
       var loader = new Loader({ loadingImage: '{{ site.static_path }}/style_images/spinner.png' });
       

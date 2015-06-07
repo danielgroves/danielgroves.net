@@ -1,9 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll"#, :git => "https://github.com/jekyll/jekyll.git", :ref => 'ea8920'
+gem "jekyll"
 gem "redcarpet"
 gem "rake"
 gem "instagram"
 gem "bourbon"
 gem "neat"
-gem "jekyll-minibundle"
+gem "jekyll-assets"
+gem "execjs"

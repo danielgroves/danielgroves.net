@@ -43,10 +43,15 @@ sitemap:
     change_frequency_name: "change_frequency"
     priority_name: "priority"
 
-gems: ["bourbon", "neat", "jekyll/minibundle"]
+gems: ["bourbon", "neat", "jekyll-assets"]
 
 sass:
   style: :expanded
+  
+assets:
+  sources:
+    - _scripts
+    - _styles
 
 defaults:
   - scope:
