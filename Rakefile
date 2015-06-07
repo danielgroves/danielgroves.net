@@ -32,7 +32,7 @@ task :deploy => :build do
     if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
         puts $linebreak
         puts "On master branch, will attempt to deploy"
-        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['REMOTE']}"
+        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['PROD_REMOTE']}"
 
         puts $linebreak
         puts "Attempting to push open Git Repo"
@@ -40,6 +40,10 @@ task :deploy => :build do
         system "git reset HEAD --hard"
         system "git checkout master"
         system "git push github master"
+    elsif if "#{ENV['CI_BUILD_REF_NAME']}" == "new_design"
+        puts $linebreak
+        puts "On new_design branch, will attempt to deploy"
+        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['STAGE_REMOTE']}"
     else
         puts $linebreak
         puts "Cannot deploy non-master branch"

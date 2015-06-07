@@ -51,7 +51,7 @@ assets:
     - _styles
   js_compressor: uglifier
   css_compressor: sass
-  debug: true
+  debug: false
 
 defaults:
   - scope:
