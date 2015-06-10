@@ -1,0 +1,15 @@
+---
+layout: stark
+excerpt: Tagged posts from all blog categories
+footer_related_posts: false
+---
+
+<main>
+  <header>
+    <h1>Tagged: {{ page.title }}</h1>
+    <p>{{ page.excerpt }}</p>
+  </header>
+
+  {% include articlelist.html posts=page.posts %}
+  {% include pagination.html paginator=paginator %}
+</main>

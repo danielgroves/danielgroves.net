@@ -16,6 +16,14 @@ static_path: '/assets'
 styles_path: '/styles'
 scripts_path: '/scripts'
 
+jekyll-archives:
+  layouts: 
+    tag: tag
+  enabled:
+    - tags
+  permalinks:
+    tag: /tag/:name/
+
 paginate: 12
 
 # Disables the default paginator from working
@@ -43,7 +51,7 @@ sitemap:
     change_frequency_name: "change_frequency"
     priority_name: "priority"
 
-gems: ["bourbon", "neat", "jekyll-assets"]
+gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives"]
   
 assets:
   sources:
