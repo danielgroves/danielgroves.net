@@ -6,6 +6,8 @@ published: true
 title: "Server Security: Public Suggestions"
 date: 2013-08-29 13:00 +00:00
 excerpt: "A follow-up to my previous Server Security post, featuring public suggestions"
+
+tags: development server security
 ---
 
 A few weeks I published a blog post on [server security][security]. I promised to write a follow-up post the next week, which soon dwindled to today as various other things had to take priority. 

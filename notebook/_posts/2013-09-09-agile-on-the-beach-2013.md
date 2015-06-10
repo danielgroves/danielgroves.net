@@ -5,6 +5,8 @@ published: true
 title: Agile on the Beach 2013
 date: 2013-09-09 13:30:00.000000000 +00:00
 excerpt: "My experiences and lessons from Agile on the Beech 2013"
+
+tags: conference aob
 ---
 
 Around six months ago Kieron Marr and I were selected to attend the Agile on the Beach conference by our university course director. Having been to a few of the DigPen conferences in the past I was very keen to attend more conferences, meet more people, and learn more from the industry experts. Agile was the biggest conference I've attended and had a very different feel from the smaller grass-roots conferences I've previously attended. 

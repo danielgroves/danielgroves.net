@@ -5,6 +5,8 @@ published: true
 
 title: Placement - a year in review
 excerpt: "Thoughts about the experiences from my industrail placement during my degree at Plymouth University"
+
+tags: review
 ---
 
 Exactly one year ago today I started my industrial placement as part of my Web Applications Development degree at [Plymouth University][plym]. I've spent the placement year working for [ClubnetSEM][csm] as a web developer. 

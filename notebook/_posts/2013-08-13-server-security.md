@@ -6,6 +6,8 @@ published: true
 title: Server Security
 date: 2013-08-13 14:30 +00:00
 excerpt: "How I current go about securing a new server, with hope of helping and gaining feedback from others"
+
+tags: development server security
 ---
 
 The first time you get your own server, whether it be dedicated or virtual private, it is important to learn about security. This is one discussion that came up between myself and [Daniel Tomlinson][dt] ([@dantoml][dt_tw]) on Twitter a while back, during which I agreed to write a post on the basics of securing a linux server, although many of these practices can be transferred to just about any environment. 

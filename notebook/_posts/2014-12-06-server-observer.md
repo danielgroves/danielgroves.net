@@ -6,6 +6,8 @@ title: "Shutting Down Server Observer"
 excerpt: The reasoning behind why I am shutting down the Server Observer service, and what's coming next for it.
 
 date: 2014-12-06 10:10
+
+tags: university final-project server-observer
 ---
 
 When I started working on Server Observer I was excited at the prospect of a new project; it was by far the most complex I had embarked on to-date and bought with it an interesting set of challenges and a steep learning curve. It was fun, however time has come to turn it off and move on.

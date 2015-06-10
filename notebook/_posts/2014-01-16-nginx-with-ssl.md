@@ -5,6 +5,8 @@ published: true
 title: Configuring Nginx with SSL
 date: 2014-01-17 08:00
 excerpt: "How to configure Nginx to use SSL"
+
+tags: development web server
 ---
 
 Work on my [final year project](/notebook/2013/08/server-observer/ "Server Observer - Server Monitoring made Simple") recently I've had to configure SSL with Nginx, as the application will only be available on HTTPS. This is the first time I've had to carry out this task, and after finding the RadidSSL instructions for Nginx to be somewhat out-of-date I decided to publish this as a note to myself in the future of the correct configuration. 

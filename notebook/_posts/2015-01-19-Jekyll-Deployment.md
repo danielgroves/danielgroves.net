@@ -4,6 +4,8 @@ title: "Jekyll Deployment"
 excerpt: Using GitLab CI to automate Jekyll Deployments.
 
 date: 2015-01-19 08:30
+
+tags: jekyll development deployment
 ---
 
 A while back I wrote about how I deployed my Jekyll based site using a [small bash script triggered by cron](/notebook/2013/10/task-automation/ "Task Automation"). This was a fast solution to develop, but had plenty of room for improvement. During my final year at university I started to research continuous integration and setup my own [GitLab CI](https://about.gitlab.com/gitlab-ci/ "Open Source Continuous Integration") installation to go alongside my [GitLab](https://about.gitlab.com "Open Source Git Repository Management") installation. These integrate perfectly and for the last nine-months or so I've wanted to setup a real deployment system using GitLab CI at the heart.

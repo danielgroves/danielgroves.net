@@ -16,6 +16,8 @@ header: '<!-- Lightview -->
 		<script type="text/javascript" src="/assets/js/lightview/lightview.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="/assets/css/lightview.css" />'
+
+tags: scotland photography
 ---
 
 Those of you who know me in person are probably aware that I spent two weeks in Scotland over the summer. When I'm at home I never feel like I have a huge amount of time to get the big camera out, there are far too many other things going on to distract me. Going on holiday is great for this, it gives me a chance to blow the dust off the SLR and embark on something I always enjoy. 

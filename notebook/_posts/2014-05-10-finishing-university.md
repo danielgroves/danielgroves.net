@@ -5,6 +5,8 @@ published: true
 title: "Ending an era: finishing university"
 date: 2014-05-10 18:00
 excerpt: "Some thoughts on the last four years at university"
+
+tags: review university
 ---
 
 Yesterday afternoon I finally finished my final exam. That's four years at Plymouth University (including a placement year) coming to an end as I now play the waiting game until my results finally come through in July.

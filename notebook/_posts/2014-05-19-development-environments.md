@@ -5,6 +5,8 @@ published: true
 title: Development Environments with Vagrant and Ansible
 date: 2014-05-22 09:00
 excerpt: "How to use Vagrant and Ansible together to build a powerful, flexible and portable development environment"
+
+tags: development vagrant python
 ---
 
 [Vagrant](http://www.vagrantup.com "Configurable, cross-platform, development environments") is one of those technologies which I once didn't think I needed, but after giving it a go it quickly became an indispensable part of my daily workflow. Without it, working on [Server Observer](https://serverapp.io "Simple and Reliable Server Monitoring") would have been much more difficult. The same can easily be applied to many other projects I have worked on as part of my degree.

@@ -4,6 +4,7 @@ title: Colour Shift with 32-bit RAW files in Lightroom
 excerpt: When creating 32-bit RAW images in Photoshop, Lightroom will render the image with incorrect colour. This can be solved through the use of Photoshop Smart Objects.
 
 date: 2015-02-21 10:15
+tags: photography
 ---
 
 When producing HDR images with Photoshop HDR Pro there are three 'bit rate' options. The idea here is the higher the bit-rate the more data that can be stored per-pixel and thus the better the colour accuracy, range and manipulation abilities. The three options are 8-, 16-, and 32-bit. 8-bit is what most cameras shoot, and the end result from each bit rate is exactly double the size of the previous.
