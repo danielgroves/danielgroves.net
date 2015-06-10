@@ -7,7 +7,7 @@ lsi: false
 markdown: redcarpet
 
 permalink: /:categories/:year/:month/:title
-url: https://danielgroves.net
+url: http://localhost:4000
 name: Daniel Groves
 description: "Developer and photographer based in southwest england who is addicted to the mountains."
 email: "hello@danielgroves.net"

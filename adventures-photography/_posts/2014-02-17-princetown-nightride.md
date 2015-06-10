@@ -6,6 +6,7 @@ excerpt: "Princetown Night Ride"
 thumb: /camera-roll/2014/02/DSC_9086_thumb.jpg
 banner: /camera-roll/2014/02/20140216-DSC_9086.jpg
 comments: true
+tags: bike dartmoor
 ---
 
 One ride I have wanted to do a number of years now is up to Princetown for a night ride back again; stopping for a quick bit of dinner in the pub (the pie was pretty good). This finally happened on sunday gone when Joe and I decided to give it a shot. We took the [route I have previously documented][prev-route], up the Eylesbarrow climb and back down the Widowmaker descent.
