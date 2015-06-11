@@ -31,27 +31,12 @@ paginate: 12
 # Will find a better fix when time presents itself
 paginate_path: ""
 
-exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock']
+exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'readme.md']
 
 redcarpet:
   extensions: []
 
-sitemap:
-    file: /sitemap.xml
-    exclude:
-        - /feed/index.xml
-        - /404.html
-        - /page*
-        - /Gemfile
-        - /Gemfile.lock
-        - /Rakefile
-    include_posts:
-        - /index.html
-        - /notebook/index.html
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
-
-gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives"]
+gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap"]
   
 assets:
   sources:
