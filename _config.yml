@@ -79,3 +79,12 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+
+mapbox:
+  options:
+    zoompan: true
+    zoomwheel: false
+    geocoder: false
+    link: false
+  id_prefix: danielsgroves.
+  access_token: pk.eyJ1IjoiZGFuaWVsc2dyb3ZlcyIsImEiOiJwSlNBVXcwIn0._PdzYUw29IfgzxbOFul2kg

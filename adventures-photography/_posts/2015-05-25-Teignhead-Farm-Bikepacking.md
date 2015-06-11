@@ -77,6 +77,6 @@ Back at Postbridge James parted with us, but decided to meet us in Princetown fo
 The route can easily be ridden from Plymouth, or picked up part way along from numerous car parks en–route. The last section involves some fairly technical mountain biking; off road experience is a necessity.
 
 <figure>
-<iframe width='100%' height='800px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/danielsgroves.m9a0eo54/zoompan,zoomwheel.html?access_token=pk.eyJ1IjoiZGFuaWVsc2dyb3ZlcyIsImEiOiJwSlNBVXcwIn0._PdzYUw29IfgzxbOFul2kg'></iframe>
+  {% mapbox m9a0eo54 %}
   <figcaption>The full route for both days</figcaption>
 </figure>
