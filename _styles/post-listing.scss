@@ -32,7 +32,7 @@ section.articlelist {
   
   @include media($tablet-only) {
     article {
-      @include span-columns(5);
+      @include span-columns(6);
       @include omega(2n);
       
       &:nth-of-type(2n) {
