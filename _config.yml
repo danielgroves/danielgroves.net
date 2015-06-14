@@ -64,6 +64,7 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+      banner_position: "middle"
 
 mapbox:
   options:

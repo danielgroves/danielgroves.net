@@ -5,7 +5,7 @@ layout: stark
 <main>
     {% if page.banner %}
       <article class="image">
-      <div class="image" style="background-image: url({{ site.static_path }}/{{ page.banner }})"></div>
+      <div class="image image_{{ page.banner_position }}" style="background-image: url({{ site.static_path }}/{{ page.banner }})"></div>
     {% else %}
       <article>
     {% endif %}
