@@ -1,6 +1,11 @@
 #landing {
   font-family: $font-serif;
   
+  header {
+    @include fill-parent;
+    @include row;
+  }
+  
   #intro {
     @include rem-fallback(padding-top, 4);
     @include rem-fallback(font-size, 1.6);

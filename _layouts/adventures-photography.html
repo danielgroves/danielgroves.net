@@ -11,6 +11,8 @@ footer_related_posts: false
     <p>{{ page.excerpt }}</p>
   </header>
   
-  {% include articlelist.html posts=paginator.posts %}
-  {% include pagination.html paginator=paginator %}
+  <div class="post-list-container">
+    {% include articlelist.html posts=paginator.posts %}
+    {% include pagination.html paginator=paginator %}
+  </div>
 </main>

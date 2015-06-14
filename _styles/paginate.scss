@@ -1,5 +1,6 @@
 .pageinate {
-  @include row;
+  @include span-columns(10);
+  @include shift(1);
   @include rem-fallback('font-size', 1.3);
   
   text-align: center;

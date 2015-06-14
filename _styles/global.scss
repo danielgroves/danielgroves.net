@@ -51,7 +51,7 @@ iframe {
 main {
   @include row;
   
-  header, section, footer {
+  > header, > section, > footer {
     @include outer-container;
   }
   

@@ -1,9 +1,13 @@
-section.articlelist {
+.post-list-container {
   @include outer-container;
+}
+
+section.articlelist {
+  @include span-columns(10);
+  @include shift(1);
   
   article {
-    @include span-columns(10);
-    @include shift(1);
+    @include span-columns(12);
     @include rem-fallback(padding, 0, 0, 2, 0);
   }
   
@@ -40,7 +44,6 @@ section.articlelist {
   @include media($desktop) {
     article {
       @include span-columns(4);
-      @include shift(0);
       @include omega(3n);
     }
   }
