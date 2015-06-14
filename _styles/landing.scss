@@ -50,6 +50,7 @@
       
       p {
         @include rem-fallback(padding, 0, 0, 1, 0);
+        @include rem-fallback(line-height, 1.8);
       }
     }
   }
