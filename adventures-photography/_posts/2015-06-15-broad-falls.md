@@ -41,9 +41,9 @@ After packing up we moved quickly on to the 'volcano', the slag heap at Red Lake
   <img src="/assets/camera-roll/2015/06/20150614-DSC_7299.jpg" alt="Max, Pete and Mike walking back along the old miners track on Sunday. " class="small" />
   <img src="/assets/camera-roll/2015/06/20150614-DSC_7300.jpg" alt="Sam, or Candy? " class="small" />
   <figcaption>
-    The 'volcano', a slag heap left over from the Red Lake working (top). <br />
+    The 'volcano', a slag heap left over from the Red Lake workings (top). <br />
     Max (left); Mike (centre left); Sam, Mike and Max (center right); Candy (left).
   </figcaption>
 </figure>
 
-As we approached the station we realised we could make an earlier train, saving an 1:20 wait, if we ran the 100 meters or so (easier said than done with a 21kg pack, and stiff walking boots on). Arriving at the station we all hoped on the train back to Plymouth for the short journey home.
+As we approached the station we realised we could make an earlier train, saving an 1:20 wait, if we ran the 100 meters or so (easier said than done with a 21kg pack, and stiff walking boots on). Arriving at the station we all hopped on the train back to Plymouth for the short journey home.
