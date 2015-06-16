@@ -5,42 +5,42 @@
 section.articlelist {
   @include span-columns(10);
   @include shift(1);
-  
+
   article {
     @include span-columns(12);
     @include rem-fallback(padding, 0, 0, 2, 0);
   }
-  
+
   header, footer, p, h1, span {
     @include fill-parent;
     @include shift(0);
   }
-  
+
   img {
     max-width: 100%;
     height: auto;
   }
-  
+
   h1 {
     @include rem-fallback(font-size, 1.8);
     @include rem-fallback(padding, 1.5, 0, 1, 0);
   }
-  
+
   span {
     @include rem-fallback(padding, 0, 0, 1, 0);
   }
-  
+
   @include media($tablet-only) {
     article {
       @include span-columns(6);
       @include omega(2n);
-      
+
       &:nth-of-type(2n) {
         @include shift(0);
       }
     }
   }
-  
+
   @include media($desktop) {
     article {
       @include span-columns(4);

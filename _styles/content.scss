@@ -1,6 +1,6 @@
 article {
   padding-top: 4em;
-  
+
   // Header Image.
   @include media($tablet) {
     &.image {
@@ -12,11 +12,11 @@ article {
       height: 80vh;
       background-size: cover;
       background-position: middle;
-      
+
       &.image_top {
         background-position: top;
       }
-      
+
       &.image_bottom {
         background-position: bottom;
       }
@@ -25,11 +25,15 @@ article {
 
 
   // Main content column settings.
-  h1, h2, h3, h4, h5, h6, hr, 
+  > section, > footer {
+    @include outer-container;
+  }
+
+  h1, h2, h3, h4, h5, h6, hr,
   p, ol, ul, span, pre code {
     @include span-columns(10);
     @include shift(1);
-    
+
     span {
       width: auto;
       margin: 0;
@@ -63,7 +67,7 @@ article {
     font-family: $font-serif;
     color: $color-normal-text;
   }
-  
+
   img {
     max-width: 100%;
     display: block;
@@ -71,7 +75,7 @@ article {
     margin: 0 auto;
     z-index: 1;
   }
-  
+
   figure {
     @include rem-fallback(padding, .4, 0);
 
@@ -82,12 +86,12 @@ article {
     .row {
       @include row;
       @include rem-fallback('padding-top', 1);
-      
+
       img {
         width: 23.875%;
         float: left;
         margin-right: 1.5%;
-        
+
         &:last-of-type {
           margin-right: 0;
         }
@@ -106,17 +110,17 @@ article {
       color: $color-light-text;
     }
   }
-  
+
   pre {
     background-color: $color-light-grey;
     overflow: hidden;
     @include fill-parent;
-    
+
     code {
       overflow-x: scroll;
     }
   }
-  
+
   code {
     @include rem-fallback(font-size, 1.2);
     font-family: "Inconsolata", "Fixed";
