@@ -1,11 +1,13 @@
 ---
-layout: photo
 published: true
 title: Broad Falls Wild Camp
 excerpt: A trip out to Broad Falls, Dartmoor, to photograph the waterfalls with a dramatic backdrop
 
 date: 2015-06-15 22:45
-thumb: /assets/camera-roll/2015/06/20150614-DSC_7280-HDR.jpg
+thumb: /camera-roll/2015/06/20150614-DSC_7280-HDR.jpg
+
+banner: /camera-roll/2015/06/banner.jpg
+tags: photography dartmoor camping
 ---
 
 The last time I was near Red Lake on Dartmoor a bit of a personal vendetta was sparked off. The sunset and sunrise were both pretty incredible but having spent 6 hours walking into a 40mph+ headwind on the previous occasion, with several inches of water on the ground, I was keen to get back in better conditions.
@@ -36,10 +38,12 @@ After packing up we moved quickly on to the 'volcano', the slag heap at Red Lake
 
 <figure>
   <img src="/assets/camera-roll/2015/06/20150614-DSC_7288-HDR.jpg" alt="The 'volcano'; this is actually an old slag heap at the old Red Lake workings. " />
-  <img src="/assets/camera-roll/2015/06/20150613-DSC_7231.jpg" alt="Max. " class="small" />
-  <img src="/assets/camera-roll/2015/06/20150614-DSC_7296.jpg" alt="Mike observing the view. " class="small" />
-  <img src="/assets/camera-roll/2015/06/20150614-DSC_7299.jpg" alt="Max, Pete and Mike walking back along the old miners track on Sunday. " class="small" />
-  <img src="/assets/camera-roll/2015/06/20150614-DSC_7300.jpg" alt="Sam, or Candy? " class="small" />
+  <div class="row">
+    <img src="/assets/camera-roll/2015/06/20150613-DSC_7231.jpg" alt="Max. " />
+    <img src="/assets/camera-roll/2015/06/20150614-DSC_7296.jpg" alt="Mike observing the view. " />
+    <img src="/assets/camera-roll/2015/06/20150614-DSC_7299.jpg" alt="Max, Pete and Mike walking back along the old miners track on Sunday." />
+    <img src="/assets/camera-roll/2015/06/20150614-DSC_7300.jpg" alt="Sam, or Candy?" />
+  </div>
   <figcaption>
     The 'volcano', a slag heap left over from the Red Lake workings (top). <br />
     Max (left); Mike (centre left); Sam, Mike and Max (center right); Candy (right).
