@@ -1,8 +1,20 @@
 $static_url: "<%= site.config['static_path'] %>";
 
+$font-serif: "chaparral-pro", "georgia", serif;
+$font-sans: "source-sans-pro", "Helvetica", sans-serif;
+
+$color-light-grey: #ecebeb;
+$color-normal-text: #333333;
+$color-light-text: #797979;
+
+$max-width: 1300px !default;
+$tablet: min-width 720px;
+$tablet-only: min-width 720px max-width 1000px;
+$desktop: min-width 1000px;
+$retina: "screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+
 @import "mixins";
 @import "reset";
-@import "variables";
 @import "bourbon";
 @import "neat";
 @import "global";

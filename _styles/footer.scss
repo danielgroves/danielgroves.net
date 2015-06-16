@@ -40,10 +40,10 @@ aside.more_like_this {
       @include span-columns(8);
       @include shift(2);
     }
-    
+
     @include media($desktop) {
       @include span-columns(4);
-      
+
       &:last-of-type {
         @include shift(0);
       }
@@ -70,11 +70,11 @@ aside.more_like_this {
   }
 }
 
-aside.elsewhere_on_the_web {  
+aside.elsewhere_on_the_web {
   ul {
     @include row(table);
     @include span-columns(10);
-    
+
     @include media($tablet) {
       @include span-columns(8);
     }
@@ -91,11 +91,11 @@ aside.elsewhere_on_the_web {
     height: 70px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 32px;
+    background-size: auto 70px;
     list-style: none;
-    
+
     text-indent: 1000000%;
-    
+
     display: block;
     float:left;
     margin: 0;
@@ -112,36 +112,63 @@ aside.elsewhere_on_the_web {
   }
 
   .social__instagram {
-    background-image: url("#{$static_url}/style_images/instagram.png");
-    background-size: 100%;
+    background-image: url("#{$static_url}/style_images/Instagram.png");
+    background-color: #834e3d;
+    background-color: rgb(131,78,61);
+
+    @media #{$retina} {
+      background-image: url("#{$static_url}/style_images/Instagram@2x.png");
+    }
   }
 
   .social__facebook {
-    background-image: url("#{$static_url}/style_images/facebook.png");
+    background-image: url("#{$static_url}/style_images/Facebook.png");
     background-color: #3b5998;
     background-color: rgb(59,89,152);
+
+    @media #{$retina} {
+      background-image: url("#{$static_url}/style_images/Facebook@2x.png");
+    }
   }
 
   .social__googleplus {
-    background-image: url("#{$static_url}/style_images/google+.png");
+    background-image: url("#{$static_url}/style_images/Google+.png");
     background-color: #D34836;
-    background-color: rgb(211,72,54)
+    background-color: rgb(211,72,54);
+
+    @media #{$retina} {
+      background-image: url("#{$static_url}/style_images/Google+@2x.png");
+    }
   }
 
   .social__github {
-    background-image: url("#{$static_url}/style_images/github.png");
+    background-image: url("#{$static_url}/style_images/Github.png");
     background-color: #3f3f3f;
+    background-color: rgb(63,63,63);
+
+    @media #{$retina} {
+      background-image: url("#{$static_url}/style_images/Github@2x.png");
+    }
   }
 
   .social__500px {
     background-image: url("#{$static_url}/style_images/500px.png");
     background-color: #000;
+    background-color: rgb(0,0,0);
+
+    @media #{$retina} {
+      background-image: url("#{$static_url}/style_images/500px@2x.png");
+    }
   }
 
   .social__twitter {
-    background-image: url("#{$static_url}/style_images/twitter.png");
+    background-image: url("#{$static_url}/style_images/Twitter.png");
     background-color: #55acee;
     background-color: rgb(85,172,238);
+
+    @media #{$retina} {
+      background-image: url("#{$static_url}/style_images/Twitter@2x.png");
+    }
   }
 }
 
