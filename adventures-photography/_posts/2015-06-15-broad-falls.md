@@ -42,7 +42,7 @@ After packing up we moved quickly on to the 'volcano', the slag heap at Red Lake
   <img src="/assets/camera-roll/2015/06/20150614-DSC_7300.jpg" alt="Sam, or Candy? " class="small" />
   <figcaption>
     The 'volcano', a slag heap left over from the Red Lake workings (top). <br />
-    Max (left); Mike (centre left); Sam, Mike and Max (center right); Candy (left).
+    Max (left); Mike (centre left); Sam, Mike and Max (center right); Candy (right).
   </figcaption>
 </figure>
 
