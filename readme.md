@@ -6,27 +6,18 @@ My site has previously been a static site with no generator behind it and [WordP
 
 ## Usage
 
-Setting up and using the site is pretty easy. Make sure you have Ruby install, install the Jekyll gem and then run the server. Once you have Ruby installed:
+Setting up and using the site is pretty easy. Make sure you have Ruby installed, and the bundler gem, then install the required gems. 
 
 ```bash
 gem install bundler
 bundle install
 ```
 
-If you're going to use the Instagram support, specify the settings as environmental variables (`INST_CLIENT_ID="" INST_CLIENT_SECRET="" INST_USER_ID=""`) or append tot he configuration file:
-
-```yaml
-instagram:
-    client_id: ""
-    client_secret: ""
-    user_id:
-    min_timestamp: 2014-01-01T00:00:00+00:00
-    max_timestamp: 2014-12-31T11:59:59+00:00
-```
-
-Timestamps should comply with the ISO8601 standard. The user id should be your user's instagram id, mine is a 10-digit integer.
-
 Then run using rake : `bundle exec rake watch`
+
+Then simply go to [localhost:4000](http://localhost:4000) in your browser.
+
+### Rake Tasks
 
 Other rake tasks are:
 * `versions` - Jekyll version number
@@ -36,9 +27,26 @@ Other rake tasks are:
 * `build_all` - Do a build with all drafts and future posts
 * `deploy` - Run a production build and deploy to the remote server
 
-To use the rake deploy task the `REMOTE` environmental variable should be set. This is the remote passed to `rsync`, and should take the following format: `REMOTE='user@example.com:/path/to/www/'`
+The `build` and `deploy` tasks use different configurations dependant on the branch they are run on. 
+* The `master` branch uses `_config.yml` as a base, and overides settings with `_config_production.yml`. 
+* The `new_design` branch uses `_config.yml` as a base, and overides settings with `_config_staging.yml`.
+* All other branches use `_config.yml`.
 
-Then simply go to [localhost:4000](http://localhost:4000) in your browser.
+### Deployment
+
+I use rsync for deployment from a CI server. Full details can be found in the blog post about it, but ti's worth noting how you pass deployment information into rake. For this I use environmental variables, not having these commited keeps things secure and nobody else can see users, key pairs, or deployment locations. Secondly, it stops me from accidently deplying. 
+
+As a second safeguard, you can only deploy from certain branches:
+* `master` branch can be deployed, but only to production. 
+* `new_design` branch can be deployed, but only to staging. 
+
+Each of these servers has it's own environmental variable to pass deployment data to:
+* `production` uses `PROD_REMOTE`
+* `staging` uses `STAGE_REMOTE`
+
+Both of these are used in the same way and should take in the details of the remote server as if calling rsync directly, for example: `bundle exec rake deploy PROD_REMOTE='user@production.com:/path/to/live' STAGE_REMOTE='user@staging.com:/path/to/staging/'` 
+
+The output will inform you if you're on a non-deploy branch, otherwise it will output the rsync progress. 
 
 ## Licensing
 
