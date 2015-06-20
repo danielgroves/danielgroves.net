@@ -47,10 +47,6 @@ iframe {
   display: block;
 }
 
-.highlight pre code span {
-  margin-right: .5em;
-}
-
 // Main content area basic formatting
 main {
   @include row;
