@@ -24,13 +24,19 @@ article {
   }
 
 
+  // Wide content column settings.
+  figure {
+    @include span-columns(12);
+  }
+
+
   // Main content column settings.
   > section, > footer {
     @include outer-container;
   }
 
   h1, h2, h3, h4, h5, h6, hr,
-  p, ol, ul {
+  p, ol, ul, figure.narrow {
     @include span-columns(10);
     @include shift(1);
 
@@ -55,12 +61,6 @@ article {
         @include shift(2);
       }
     }
-  }
-
-
-  // Wide content column settings.
-  figure {
-    @include span-columns(12);
   }
 
 

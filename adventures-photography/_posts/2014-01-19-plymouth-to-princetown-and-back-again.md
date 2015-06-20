@@ -25,7 +25,7 @@ From Yelverton we proceeded up the road to Burrator Reservoir where we paused fo
 
 The Eylesbarrow Climb features a few shorter decents along the way which, although rather fun, are reasonably easy going.
 
-<figure>
+<figure class="narrow">
   <img data-src="/assets/camera-roll/2014/01/DSC_8315.jpg" />
   <figcaption>One of the Eylesbarrow Climbs shorter decents</figcaption>
 </figure>
