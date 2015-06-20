@@ -47,21 +47,25 @@ iframe {
   display: block;
 }
 
+.highlight pre code span {
+  margin-right: .5em;
+}
+
 // Main content area basic formatting
 main {
   @include row;
-  
+
   > header, > section, > footer {
     @include outer-container;
   }
-  
-  
+
+
   // Page Header
-  & > header, 
+  & > header,
   & > article header {
     margin-top: 4em;
     text-align: center;
-    
+
     h1, p, span {
       @include media($tablet) {
         @include span-columns(8);
@@ -69,17 +73,17 @@ main {
       }
     }
   }
-  
+
   header {
     h1, p, span {
       font-weight: 100;
       font-family: $font-sans;
       color: $color-normal-text;
-      
+
       // TODO: Consolidate duplicated styles (content -> Main content column settings.)
       @include span-columns(10);
       @include shift(1);
-      
+
       span {
         width: auto;
         margin: 0;
@@ -91,7 +95,7 @@ main {
       @include rem-fallback(padding-top, 5);
       @include rem-fallback(padding-bottom, 4);
     }
-    
+
     span {
       @include media($tablet) {
         @include row;

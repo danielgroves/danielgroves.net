@@ -30,7 +30,7 @@ article {
   }
 
   h1, h2, h3, h4, h5, h6, hr,
-  p, ol, ul, span, pre code {
+  p, ol, ul {
     @include span-columns(10);
     @include shift(1);
 
@@ -42,6 +42,18 @@ article {
     @include media($tablet) {
       @include span-columns(8);
       @include shift(2);
+    }
+  }
+
+  .highlight {
+    pre {
+      @include span-columns(10);
+      @include shift(1);
+
+      @include media($tablet) {
+        @include span-columns(8);
+        @include shift(2);
+      }
     }
   }
 
@@ -112,9 +124,9 @@ article {
   }
 
   pre {
-    background-color: $color-light-grey;
     overflow: hidden;
-    @include fill-parent;
+    background: $color-light-grey;
+    padding: .5em;
 
     code {
       overflow-x: scroll;

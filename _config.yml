@@ -1,6 +1,6 @@
 safe: false
 port: 4000
-highlighter: 'pygments'
+highlighter: rouge
 future: false
 timezone: Europe/London
 lsi: false
@@ -17,7 +17,7 @@ styles_path: '/styles'
 scripts_path: '/scripts'
 
 jekyll-archives:
-  layouts: 
+  layouts:
     tag: tag
   enabled:
     - tags
@@ -36,8 +36,8 @@ exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'readme.md']
 redcarpet:
   extensions: []
 
-gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap"]
-  
+gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap", "rouge"]
+
 assets:
   sources:
     - _scripts
