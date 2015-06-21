@@ -1,58 +1,58 @@
 #landing {
   font-family: $font-serif;
-  
+
   header {
     @include fill-parent;
     @include row;
   }
-  
+
   #intro {
     @include rem-fallback(padding-top, 4);
     @include rem-fallback(font-size, 1.6);
     @include fill-parent;
     @include row;
-    
-    background: #333 url("#{$static_url}/camera-roll/2015/04/20150411-DSC_5263-Edit.jpg") center center no-repeat;
+
+    background: #333 url("#{$static_url}/camera-roll/2015/04/header.jpg") center center no-repeat;
     background-size: cover;
-    
+
     span {
       @include span-columns(10);
       @include shift(1);
-      
+
       text-align: center;
       color: #fff;
       text-shadow: 0 0 4px #000;
-      
+
       &:first-of-type {
         @include rem-fallback(font-size, 3);
         @include rem-fallback(padding, 8, 0);
         font-family: $font-sans;
       }
-      
+
       &:last-of-type {
         @include rem-fallback(padding-bottom, 6);
       }
     }
   }
-  
+
   #about {
     @include row;
     @include shift(1);
     @include span-columns(10);
-    
+
     section {
       @include rem-fallback(font-size, 1.4);
-      
+
       @include media($desktop) {
         @include span-columns(4);
       }
-      
+
       h1 {
         @include rem-fallback(font-size, 2);
         @include rem-fallback(padding, 2, 0);
         @include shift(0);
       }
-      
+
       p {
         @include rem-fallback(padding, 0, 0, 1, 0);
         @include rem-fallback(line-height, 1.8);
