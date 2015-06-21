@@ -16,6 +16,10 @@ section.articlelist {
     @include shift(0);
   }
 
+  header span {
+    @include rem-fallback(font-size, 1);
+  }
+
   img {
     max-width: 100%;
     height: auto;

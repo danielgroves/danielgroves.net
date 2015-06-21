@@ -68,6 +68,10 @@ main {
         @include shift(2);
       }
     }
+
+    span {
+      @include rem-fallback(margin-bottom, 3);
+    }
   }
 
   header {
@@ -93,9 +97,10 @@ main {
     }
 
     span {
+      @include rem-fallback(font-size, 1);
+
       @include media($tablet) {
         @include row;
-        @include rem-fallback(font-size, 1);
         @include rem-fallback(padding-bottom, 3);
       }
     }
