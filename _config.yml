@@ -9,8 +9,13 @@ markdown: redcarpet
 permalink: /:categories/:year/:month/:title
 url: http://localhost:4000
 name: Daniel Groves
-description: "Developer and photographer based in southwest england who is addicted to the mountains."
+description: "Photographer, Adventurer, and Developer who is addicted to the mountains."
 email: "hello@danielgroves.net"
+
+opengraph:
+  page: https://www.facebook.com/danielgrovesphotography
+  personal: https://www.facebook.com/profile.php?id=1530170880
+  image: /assets/camera-roll/2015/04/20150411-DSC_5263-Edit.jpg
 
 static_path: '/assets'
 styles_path: '/styles'

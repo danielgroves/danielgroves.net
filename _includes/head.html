@@ -7,16 +7,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt }}" />
-    {% else %}
-    <meta name="description" content="{{ site.description }}" />
-    {% endif %}
-
+    <meta name="description" content="{% if page.excerpt.blank? %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="author" content="{{ site.name }}" />
 
-    {{ page.header}}
+    {% stylesheet main %}
 
     <link rel="alternate" type="application/rss+xml" title="Site Feed" href="{{ site.url }}/feed/">
     <link rel="alternate" type="application/rss+xml" title="Notebook Feed" href="{{ site.url }}/feed/notebook/">
@@ -27,7 +21,15 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.static_path }}/images/brand/iOS/icon_57x57@2x.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.static_path }}/images/brand/iOS/icon_72x72@2x.png">
 
-    {% stylesheet main %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:url" content="{{site.url}}{{ page.url }}" />
+    <meta property="og:description" content="{% if page.excerpt.blank? %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:locale" content="en_UK" />
+    <meta property="og:image" content="{{ site.static_path }}{% if page.banner.blank? %}{{ page.banner }}{% else %}{{ site.opengraph.image }}{% endif %}" />
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="{{ site.opengraph.personal }}" />
+    <meta property="article:publisher" content="{{ site.opengraph.page }}" />
 
     <!-- BEGIN TYPEKIT SNIPPET -->
     <script type="text/javascript">
@@ -59,6 +61,8 @@
       })();
     </script>
     <!-- END TYPEKIT SNIPPET -->
+
+    {{ page.header}}
   </head>
 
   <body>
