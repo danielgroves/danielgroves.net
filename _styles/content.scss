@@ -64,6 +64,28 @@ article {
   }
 
 
+  // Blockquote
+  blockquote {
+    @include rem-fallback(padding, 1);
+    @include rem-fallback(margin-top, .4);
+    @include rem-fallback(margin-bottom, .4);
+    border-left: 3px solid $color-normal-text;
+
+    @include span-columns(10);
+    @include shift(1);
+
+    @include media($tablet) {
+      @include span-columns(7);
+      @include shift(3);
+    }
+
+    * {
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+
   // Page Footer
   footer p {
     @include subtle-emphases;
