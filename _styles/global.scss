@@ -28,18 +28,19 @@ h3 {
 
 hr {
   @include outer-container();
-  padding: .5em 0 1em 0;
+  @include rem-fallback(padding, .5, 0, 1, 0);
 }
 
 ol, ul {
   @include outer-container();
+  @include rem-fallback(padding, 0, 0, 1, 0);
+  @include rem-fallback(font-size, 1.3);
+
   font-family: $font-serif;
-  padding: 0 0 1em 0;
-  font-size: 1.3rem;
 
   li {
-    padding: 0 0 .5em .2em;
-    margin-left: 1.2em;
+    @include rem-fallback(padding, 0, 0, .5, .2);
+    @include rem-fallback(margin-left, 1.2);
   }
 }
 
