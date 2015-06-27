@@ -4,7 +4,7 @@ title: Mind Games
 excerpt: At the end of 2014 I committed to making an attempt on a Photo365 challenge. It didn't go to plan, and here's why it wasn't a failure.
 
 date: 2015-03-12 09:00
-tags: photography
+tags: HT550 ITT bikepacking
 ---
 
 When my degree was at its peak I came across a race. To the masses it's completely unknown, but to those within a small backpacking community it carries a reputation as the hardest endurance mountain bike event in the UK. The [Highland Trail 550][HT550] is a self-supported independent time trail through some of the toughest terrain in Scotland.
