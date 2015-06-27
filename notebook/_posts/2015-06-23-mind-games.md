@@ -1,7 +1,7 @@
 ---
 published: true
 title: Mind Games
-excerpt: At the end of 2014 I committed to making an attempt on a Photo365 challenge. It didn't go to plan, and here's why it wasn't a failure.
+excerpt: A look at the phycological games attached to endurance racing in preparation for the Highland Trail 550 in 2016.
 
 date: 2015-03-12 09:00
 tags: HT550 ITT bikepacking
