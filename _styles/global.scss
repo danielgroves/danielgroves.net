@@ -46,6 +46,11 @@ ol, ul {
 
 iframe {
   display: block;
+
+  &.twitter-tweet-rendered {
+    margin: 1.5em auto 1em auto !important;
+    margin: 1.5rem auto 1rem auto !important;
+  }
 }
 
 // Main content area basic formatting

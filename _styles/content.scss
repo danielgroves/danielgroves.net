@@ -66,7 +66,6 @@ article {
 
   // Blockquote
   blockquote {
-    border-left: 3px solid $color-normal-text;
     @include rem-fallback(padding, 1);
     @include rem-fallback(margin-top, .4);
     @include rem-fallback(margin-bottom, .4);
@@ -75,13 +74,23 @@ article {
     @include shift(1);
 
     @include media($tablet) {
-      @include span-columns(7);
-      @include shift(3);
+      @include span-columns(8);
+      @include shift(2);
     }
 
-    * {
-      margin: 0;
-      width: 100%;
+    > *, p {
+      @include rem-fallback(margin-left, 2);
+      @include rem-fallback(padding-left, 1);
+      width: auto;
+      border-left: 3px solid $color-normal-text;
+    }
+
+    :first-child {
+      @include rem-fallback(padding-top, 1);
+    }
+
+    :last-child {
+      @include rem-fallback(padding-bottom, 1);
     }
 
     ol, ul {
@@ -98,15 +107,13 @@ article {
     @include shift(1);
 
     @include media($tablet) {
-      @include span-columns(7);
-      @include shift(3);
+      @include span-columns(8);
+      @include shift(2);
     }
 
     blockquote {
-      border-left: 3px solid $color-normal-text;
       @include fill-parent;
       @include shift(0);
-      @include span-columns(12);
     }
 
     figcaption {

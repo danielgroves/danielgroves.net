@@ -58,7 +58,9 @@ The end result of this event may not even be within my own hands. The weather ma
 
 ---
 
-Despite these odds, if I'm going to place myself on the start line next may, now is the time to start getting ready. I was given some brief training advice by one of the contenders, ****.
+Despite these odds, if I'm going to place myself on the start line next may, now is the time to start getting ready. I was given some brief training advice by one of the contenders, Rickie Cotter.
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/danielsgroves">@danielsgroves</a> ride ,ride and lots of upper body work I had to carrying my bike ,fully loaded for quite some time.&#10;Work hard and go for it!</p>&mdash; Rickie Cotter (@RickieSolo24hr) <a href="https://twitter.com/RickieSolo24hr/status/604318781062668288">May 29, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 If all goes to plan I'll be able to spend the next year preparing myself by researching the route, getting as physically fit as possible, and getting myself in the correct mental place to be able to suffer on very little sleep for days on end.
 
