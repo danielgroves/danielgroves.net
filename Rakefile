@@ -18,10 +18,8 @@ task :build => :version do
     puts $linebreak
     if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
       jekyll "build --config _config.yml,_config_production.yml"
-    elsif "#{ENV['CI_BUILD_REF_NAME']}" == "new_design"
-      jekyll "build --config _config.yml,_config_staging.yml"
     else
-      jekyll "build --config _config.yml"
+      jekyll "build --config _config.yml,_config_staging.yml"
     end
 end
 
