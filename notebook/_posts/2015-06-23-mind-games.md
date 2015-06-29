@@ -1,7 +1,7 @@
 ---
 published: true
 title: Mind Games
-excerpt: A look at the phycological games attached to endurance racing in preparation for the Highland Trail 550 in 2016.
+excerpt: A look at the psychological games attached to endurance racing in preparation for the Highland Trail 550 in 2016.
 
 date: 2015-03-12 09:00
 tags: HT550 ITT bikepacking
@@ -50,7 +50,7 @@ Despite these odds, if I'm going to place myself on the start line next may, now
 
 If all goes to plan I'll be able to spend the next year preparing myself by researching the route, getting as physically fit as possible, and getting myself in the correct mental place to be able to suffer on very little sleep for days on end.
 
-Now, I'm off for a ride. 
+Now, I'm off for a ride.
 
 [HT550]: http://highlandtrail.net "Highland Trail 550 Event Details"
 [WCGT]: https://twitter.com/wildcatgear "Wild Cat Gear on Twitter"
