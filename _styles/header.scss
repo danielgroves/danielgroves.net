@@ -11,15 +11,16 @@ body > header {
   z-index: 1000;
 
   a {
-    @include rem-fallback(padding, 1.24, 1);
+    @include rem-fallback(padding, 1.24, 1, 1, 1);
 
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     font-family: $font-sans;
-    display: block;
+    display: inline-block;
     position: relative;
+    width: 100%;
 
     &:hover {
       text-decoration: none;
@@ -45,6 +46,7 @@ body > header {
     clear: left;
     height: auto;
     overflow: hidden;
+    display: inline-block;
 
     &.hidden {
       height: 0;
@@ -75,6 +77,7 @@ body > header {
   @include media($tablet) {
     a {
       display: inline-block;
+      width: auto;
     }
 
     .toggle {
@@ -84,7 +87,6 @@ body > header {
     nav {
       float: right;
       clear: none;
-      display: inline-block;
 
       &.hidden {
         height: auto;
