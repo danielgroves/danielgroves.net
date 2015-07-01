@@ -25,7 +25,7 @@ article {
 
 
   // Wide content column settings.
-  figure {
+  figure, .imagePreview {
     @include span-columns(12);
   }
 
@@ -88,7 +88,7 @@ article {
     z-index: 1;
   }
 
-  figure {
+  figure, .imagePreview {
     @include rem-fallback(padding, .4, 0);
 
     @include media($tablet) {
