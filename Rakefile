@@ -18,10 +18,8 @@ task :build => :version do
     puts $linebreak
     if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
       jekyll "build --config _config.yml,_config_production.yml"
-    elsif "#{ENV['CI_BUILD_REF_NAME']}" == "new_design"
-      jekyll "build --config _config.yml,_config_staging.yml"
     else
-      jekyll "build --config _config.yml"
+      jekyll "build --config _config.yml,_config_staging.yml"
     end
 end
 
@@ -44,13 +42,10 @@ task :deploy => :build do
         system "git reset HEAD --hard"
         system "git checkout master"
         system "git push github master"
-    elsif "#{ENV['CI_BUILD_REF_NAME']}" == "new_design"
-        puts $linebreak
-        puts "On new_design branch, will attempt to deploy"
-        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['STAGE_REMOTE']}"
     else
         puts $linebreak
-        puts "Cannot deploy non-master branch"
+        puts "On #{CI_BUILD_REF_NAME} branch, will attempt to deploy to staging"
+        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['STAGE_REMOTE']}"
     end
 end
 
