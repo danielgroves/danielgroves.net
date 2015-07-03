@@ -3,9 +3,11 @@ published: true
 title: Mind Games
 excerpt: A look at the psychological games attached to endurance racing in preparation for the Highland Trail 550 in 2016.
 
-date: 2015-03-12 09:00
+date: 2015-06-29 09:00
 tags: HT550 ITT bikepacking
 banner: /images/blog/2015-06-mind-games/header.jpg
+
+redirect_from: /notebook/2015/03/mind-games
 ---
 
 When my degree was at its peak I came across a race. To the masses it's completely unknown, but to those within a small backpacking community it carries a reputation as the hardest endurance mountain bike event in the UK. The [Highland Trail 550][HT550] is a self-supported independent time trail through some of the toughest terrain in Scotland.

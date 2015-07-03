@@ -41,7 +41,7 @@ exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'readme.md']
 redcarpet:
   extensions: []
 
-gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap", "rouge"]
+gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap", "rouge", "jekyll-redirect-from"]
 
 assets:
   sources:
