@@ -20,9 +20,11 @@ The first and most important thing while backpacking is your shelter and sleepin
 
 Starting with your tent, you should be looking for a stable tent with a good hydrostatic head (this is how we measure how waterproof they are). There is loads of advice online about different tents, but don't be afraid to ask for help if you're not sure. I minimal hydrostatic head for UK conditions should be around 3000, with a floor of around 8000 to ensure nothing will seep in if the ground is saturated.
 
- * Terra-nova Laser
- * Wild Country Zepheses or whatever its called
- * Vango 250
+### Tent Suggestions
+
+* [Terra Nova Laser (£300)][terra_nova_laser]
+* [Wild Country Zephyros][wild_country_zephyros]
+* [Vango Banshee 200][vango_banshee_200]
 
 You should choose your sleeping bag based on the time of year you intend to go camping, and weather or not you're a cold sleeper. If in doubt, buy something warmer. You can always undo the zip to vent some heat, but it's hard to stay warm if you buy too cold a sleeping bag.
 
@@ -69,3 +71,7 @@ This is a good place to skimp. You can pickup an inflatable pillow for as little
 * spare socks
 * knife
 * wipes
+
+[terra_nova_laser]: http://amzn.to/1eDFpwE "Buy a Terra Nova Laser on Amazon"
+[wild_country_zephyros]: http://amzn.to/1JMYCKj "Buy a Wild Country Zephyros on Amazon"
+[vango_banshee_200]: http://amzn.to/1eDGLaS "Buy a Vango Banshee 200 on Amazon"
