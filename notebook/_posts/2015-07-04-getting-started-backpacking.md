@@ -20,29 +20,27 @@ The first and most important thing while backpacking is your shelter and sleepin
 
 Starting with your tent, you should be looking for a stable tent with a good hydrostatic head (this is how we measure how waterproof they are). There is loads of advice online about different tents, but don't be afraid to ask for help if you're not sure. I minimal hydrostatic head for UK conditions should be around 3000, with a floor of around 8000 to ensure nothing will seep in if the ground is saturated.
 
-### Tent Suggestions
-
-* [Terra Nova Laser (£300)][terra_nova_laser]
-* [Wild Country Zephyros][wild_country_zephyros]
-* [Vango Banshee 200][vango_banshee_200]
+* [Terra Nova Laser][tent_terra_nova_laser]
+* [Wild Country Zephyros][tent_wild_country_zephyros]
+* [Vango Banshee 200][tent_vango_banshee_200]
 
 You should choose your sleeping bag based on the time of year you intend to go camping, and weather or not you're a cold sleeper. If in doubt, buy something warmer. You can always undo the zip to vent some heat, but it's hard to stay warm if you buy too cold a sleeping bag.
 
 With sleeping bags you should also consider the material. A down bag will be warmer, lighter and pack smaller but once wet will not keep you warm at all. A Synthetic bag is the opposite to this; not quite as warm, bigger and heavier but will keep you warm even when wet through. Personally I use a down bag, and keep it in a dry bag. It only ever comes out of the dry-bag once it's in my tent so I know it will stay dry.
 
- * Rab ascent 700
- * Vango
- * Something inbetween?
+* [Rab Ascent 700][sleeping_bag_rab_ascent]
+* [AlpKit Pipedream 250][sleeping_bag_alpkit_pipedream]
+* [Vango Latitude 400][sleeping_bag_vango_latitude]
 
 Once you have a sleeping bag you need something to sleep on. Some people choose to go without, however if you're new to this you're probably going to want to do everything you can to ensure you're comfortable and maximise enjoyment. A good comfortable nights sleep is key to this. You could use an old foam roll matt, these are cheap but only provide minimal insulation benefits and take up a lot of room. A modern inflatable mat is a much better choice which can be picked up surprisingly cheaply.
 
-* Thermarest neoair
-* thermarest my-one
-* couple of cheap ones
+* [Therm-a-rest Trail Light][mat_thermarest_trail_light]
+* [Thermarest NeoAir][mat_thermarest_neoair]
+* [AlpKit Numo][mat_alpkit_numo]
 
 This is a good place to skimp. You can pickup an inflatable pillow for as little as £10. However, many people go cheaper still! You could stuff a dry-bag with spare clothing such as a down jacket or your day clothes and use this instead.
 
-* inflatable link
+* [Inflatable Pillow][pillow_inflatable]
 
 ## Eating and Cooking
 
@@ -50,10 +48,10 @@ None of us want to go hungry. You could take cold food with you to help cut-down
 
 Once you've chosen some food, you'll be in need of a cooker on which to cook it. There are numerous options available from homemade jobs all the way through to full-blown expedition stoves. You probably want something in the middle so you can be sure of its reliability, efficiency and that it'll have enough power to cook your dinner if the weather turns bad. Thankfully, there are plenty of options depending on your budget and weight targets.
 
-* MSR Whisperlight
-* AlpKit BruKit
-* Jetboil
-* Pocket Rocket
+* [MSR WhisperLite][stove_msr_whisperlite]
+* [AlpKit BruKit][stove_alpkit_brukit]
+* [Jetboil Flash][stove_jetboil_flash]
+* [MSR Pocket Rocket][stove_msr_poket_rocket]
 
 Make sure you've got enough of the correct fuel for your cooker. You'll easily get a few trips out of a small 150g gas canister, or the smallest available bottle if you've chosen a multi-fuel stove.
 
@@ -94,7 +92,25 @@ That should cover the basics, but ensure you take any personal medication that y
 
 Other items I include are:
 
-* Anker Battery
-* Leatherman
+* [Anker Battery][anker_battery]
+* [Leatherman][leatherman_wave]
 * Headphones
 * Book
+
+
+[tent_terra_nova_laser]: http://amzn.to/1CMWLlY "Buy a Terra Nova Laser lightweight tent on Amazon"
+[tent_wild_country_zephyros]: http://amzn.to/1JMYCKj "Buy a Wild Country Zephyros backpacking tent on Amazon"
+[tent_vango_banshee_200]: http://amzn.to/1eDGLaS "Buy a Vango Banshee 200 tent on Amazon"
+[sleeping_bag_rab_ascent]: http://amzn.to/1CHqE7D "Buy a Rab Ascent 700 sleeping bag on Amazon"
+[sleeping_bag_vango_latitude]: http://amzn.to/1Mz4vrU "Buy a Vango Latitude sleeping bag on Amazon"
+[sleeping_bag_alpkit_pipedream]: https://www.alpkit.com/products/pipedream-250 "Buy a AlpKit Pipedream sleeping bag direct from AlpKit themsleves"
+[mat_thermarest_trail_light]: http://amzn.to/1Mz4X9G "Buy a Therm-a-rest Trail Light on Amazon"
+[mat_thermarest_neoair]: http://amzn.to/1SsyJ1I "Buy a Therm-a-rest NeoAir Xlite on Amazon"
+[mat_alpkit_numo]: https://www.alpkit.com/products/numo "Buy a AlpKit Numo sleeping mat direct from AlpKit themsleves"
+[pillow_inflatable]: http://amzn.to/1Ssznfp "Buy a cheap inflatable pillow from Amazon"
+[stove_msr_whisperlite]: http://amzn.to/1SsAiMR "Buy an MSR WhisperLite International on Amazon"
+[stove_jetboil_flash]: http://amzn.to/1CHsghJ "Buy a JetBoil Flash on Amazon"
+[stove_alpkit_brukit]: https://www.alpkit.com/products/brukit "Buy an AlpKit BruKit direct from Alpkit"
+[stove_msr_poket_rocket]: http://amzn.to/1CHsu8u "Buy a MSR Pocket Rocket on Amazon"
+[anker_battery]: http://amzn.to/1SsB1xz "One of the large range on Anker batteries available on Amazon"
+[leatherman_wave]: http://amzn.to/1CHsQvX "One of the large Leatherman range availabe on Amazon"
