@@ -97,6 +97,14 @@ Other items I include are:
 * Headphones
 * Book
 
+## Summary
+
+Buying the initial kit may be expensive, but there is a fair chance you;ve already got a lot of what you need at home, especially if you;ve been doing day walks or camping casually for a while. If you already have gear, re-use it; there is little point in spending money on new gear unless you know you'll enjoy using it regularly. It is worth considering if your tent will keep your dry and sheltered above all else, this is the last place I would ever choose to cut corners.
+
+With sensible gear choices you're pack should be manageable and you should be able to stay warm and dry throughout the trip - this is essential to enjoying it. Now, once you ahve your kit, drop your sleeping bag and spare clothes into a couple of dry bags, throw it all in your rucksack, and get out there.
+
+Lookout for more ideas on routes, gear choices, planning trips in future. If you need some trip ideas in the mean time checkout my recent [Broad Falls][blog_broad_falls] and [Fur Tor][blog_fur_tor], and [Teignhead Farm][blog_teignhead_farm] wild camps on Dartmoor.
+
 
 [tent_terra_nova_laser]: http://amzn.to/1CMWLlY "Buy a Terra Nova Laser lightweight tent on Amazon"
 [tent_wild_country_zephyros]: http://amzn.to/1JMYCKj "Buy a Wild Country Zephyros backpacking tent on Amazon"
@@ -114,3 +122,7 @@ Other items I include are:
 [stove_msr_poket_rocket]: http://amzn.to/1CHsu8u "Buy a MSR Pocket Rocket on Amazon"
 [anker_battery]: http://amzn.to/1SsB1xz "One of the large range on Anker batteries available on Amazon"
 [leatherman_wave]: http://amzn.to/1CHsQvX "One of the large Leatherman range availabe on Amazon"
+
+[blog_broad_falls]: /adventures-photography/2015/06/broad-falls/ "Wild camping at Broad Falls, Dartmoor"
+[blog_fur_tor]: /adventures-photography/2015/04/peter-tavy-fur-tor/ "Wild camping at Fur Tor, Dartmoor"
+[blog_teignhead_farm]: /adventures-photography/2015/05/Teignhead-Farm-Bikepacking/ "Wild camping at Teignhead Farm, Dartmoor"
