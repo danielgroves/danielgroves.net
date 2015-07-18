@@ -24,6 +24,11 @@ Starting with your tent, you should be looking for a stable tent with a good hyd
 * [Wild Country Zephyros][tent_wild_country_zephyros]
 * [Vango Banshee 200][tent_vango_banshee_200]
 
+{% figure %}
+  {% img src: /assets/images/blog/2015-07-backpacking/20140728-DSC_1283-2.jpg, alt: Tents pitched on the edge of the Yorkshire Dales during my John O' Groats to Lands End tour %}
+  {% figcaption %}Tents pitched on the edge of the Yorkshire Dales during my [John O' Groats to Lands End tour](/adventures-photography/2014/11/JOGLE/ "John O' Groats to Lands End tour, Part One").{% endfigcaption %}
+{% endfigure %}
+
 You should choose your sleeping bag based on the time of year you intend to go camping, and weather or not you're a cold sleeper. If in doubt, buy something warmer. You can always undo the zip to vent some heat, but it's hard to stay warm if you buy too cold a sleeping bag.
 
 With sleeping bags you should also consider the material. A down bag will be warmer, lighter and pack smaller but once wet will not keep you warm at all. A Synthetic bag is the opposite to this; not quite as warm, bigger and heavier but will keep you warm even when wet through. Personally I use a down bag, and keep it in a dry bag. It only ever comes out of the dry-bag once it's in my tent so I know it will stay dry.
@@ -45,6 +50,11 @@ This is a good place to skimp. You can pickup an inflatable pillow for as little
 ## Eating and Cooking
 
 None of us want to go hungry. You could take cold food with you to help cut-down on pack size and pack-weight, but nothing beats a hot meal and drink at the end of the day. You want to keep food simple… dehydrated or easily reheat-able food is best as it takes minimal cooking times and packs down small. Wayfarers boil-in-the-bag meals are ideal for a starter, but similar meals can be made for much less by raiding your local supermarket and thinking outside of the box.
+
+{% figure %}
+  {% img src: /assets/images/blog/2015-07-backpacking/20150613-DSC_7220.jpg, alt: Cooling cooking equipment after dinner while camping at Broad Falls %}
+  {% figcaption %}Cooling cooking equipment after dinner while camping at [Broad Falls](/adventures-photography/2015/06/broad-falls/ "Wild camping at Broad Falls, Dartmoor").{% endfigcaption %}
+{% endfigure %}
 
 Once you've chosen some food, you'll be in need of a cooker on which to cook it. There are numerous options available from homemade jobs all the way through to full-blown expedition stoves. You probably want something in the middle so you can be sure of its reliability, efficiency and that it'll have enough power to cook your dinner if the weather turns bad. Thankfully, there are plenty of options depending on your budget and weight targets.
 
