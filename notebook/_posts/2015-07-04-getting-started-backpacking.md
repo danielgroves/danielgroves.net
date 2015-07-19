@@ -74,16 +74,16 @@ Throughout the day you're going to need snacks. Cliff bars are perfect, but expe
 
 ## Clothing
 
-The first thing to think about is boots. If you're reading this you've probably been enjoying day-walks for long enough to already have a set, but if not go down to your local outdoor shop and talk to someone. You want something that's not too heavy, is waterproof, and well made. Over all of that they *must* fit properly. Any movement will turn into friction burns which is how you get blisters, and thats going to be the last thing you want. Try on as many pairs as you can within your budget (£100 is a good amount to put towards boots) and choose the pair that fits best. If they are eVent or GoreTex that's even better, having something which breaths and is waterproof will make your feet much more comfortable.
+The first thing to think about is boots. If you're reading this you've probably been enjoying day-walks for long enough to already have a set, but if not go down to your local outdoor shop and talk to someone. You want something that's not too heavy, is waterproof, and well made. Over all of this they *must* fit properly; any movement will turn into friction burns which is how you get blisters, and thats going to be the last thing you want. Try on as many pairs as you can within your budget (£100 is a good amount to put towards boots) and choose the pair that fits best. If they are eVent or GoreTex that's even better - having something which breaths and is waterproof will make your feet much more comfortable.
 
-Secondly, socks make a big difference. I use a mix of the Bridgedale Trail and Summit series depending on where I'm walking and what time of year it is. Socks support your feet and help to fill excess volume in the boot, reducing the risk of blisters further. They also help wick sweat away from your feet and keep the both cool and dry as a result. There are other brands available, ask the sales assistant while you're buying your boots. While you're there, it's worth getting a second pair to take as spares. If you manage to submerge your foot in a bog or to the bottom of a river you'll be grateful for a change of socks.
+Secondly, socks make a big difference. I use a mix of the Bridgedale Trail and Summit series depending on where I'm walking and what time of year it is. Socks support your feet and help to fill excess volume in the boot, reducing the risk of blisters further. They also help wick sweat away from your feet and keep the both cool and dry as a result. There are other brands available, ask the sales assistant while you're buying your boots. While you're there, it's worth getting a second pair to take as spares. If you manage to submerge your foot in a bog or to the bottom of a river you'll be grateful for a dry pair of socks.
 
 {% figure %}
   {% img src: /assets/images/blog/2015-07-backpacking/20150412-DSC_5380.jpg, alt: Mike walking past White Tor on the return leg of our Fur Tor wild camp %}
   {% figcaption %}Mike walking past White Tor on the return leg of our [Fur Tor wild camp](/adventures-photography/2015/04/peter-tavy-fur-tor/ "Wild camping at Fur Tor, Dartmoor"){% endfigcaption %}
 {% endfigure %}
 
-Think about what spare layers you take carefully, but don't over-do it. So many people pack way more layers than they'll actually need. Remember, when you're out in the mountains for a day walk you have to take into account what happens if you hurt yourself. While backpacking you do have a sleeping bag and tent with you, worst case you can get in your sleeping bag and wrap your tent around yourself. It's not ideal, but you do have that as an emergency option, so only take what you think you'll actually need.
+Think about what spare layers you take carefully, but don't over-do it; so many people pack way more layers than they'll actually need. Remember, when you're out in the mountains for a day walk you have to take into account what happens if you hurt yourself. While backpacking you do have a sleeping bag and tent with you, worst case you can get in your sleeping bag and wrap your tent around yourself. It's not ideal, but you do have that as an emergency option, so only take what you think you'll actually need.
 
 Never leave your waterproofs behind, both jacket and trousers should be considered mandatory as you never know how the weather will change over the hours, let alone over a whole night. On top of this, remember it can get cold at night even in the summer. Always pack a hat and gloves, even if they're lightweight options.
 
@@ -91,7 +91,7 @@ Your tshirt, fleeces, and trousers should all be lightweight breathable options.
 
 ## Safety, Hygiene and Personal
 
-The most important thing here is a map and a [good quality compass][map_compass]. Keep your map in something waterproof (the [Ortlieb map bags][map_ortlieb] are perfect) and get a good-quality compass with a clear backing.
+The most important thing here is a map and a [good quality compass][map_compass]. Keep your map in something waterproof (the [Ortlieb map bags][map_ortlieb] are perfect) and get a good-quality compass with a clear backing. It's worth spending some time [learning how to use them together][guide_navigation], too.
 
 As you're going to be out overnight it's more important than ever that you take a torch, and a set of spare batteries. You never know when you're going to need the torch, so I would thoroughly recommend making your choice a headtorch - life becomes a lot easier when your hands are both free.
 
@@ -116,13 +116,15 @@ Other items I include are:
 * Headphones
 * Book
 
+The final thing you're going to need it a suitable backpack. If you're buying a lot of lightweight gear you can probably get away with a 45l bag, but you want to be sure everything will fit first. If you're buying lower-end budget gear you're going to need a slightly larger backpack to fit everything in. A bag around 60l is normally suitable, and tends to be where most people start. There is more than meets the eye to choosing a rucksack, particularly when choosing a high-capacity bag that you're going to be wearing for ong period of time. It's worth going to your local outdoor shop and asking them to measure you for fit and make some recommendations. 
+
 ## Summary
 
-Buying the initial kit may be expensive, but there is a fair chance you;ve already got a lot of what you need at home, especially if you;ve been doing day walks or camping casually for a while. If you already have gear, re-use it; there is little point in spending money on new gear unless you know you'll enjoy using it regularly. It is worth considering if your tent will keep your dry and sheltered above all else, this is the last place I would ever choose to cut corners.
+Buying the initial kit may be expensive, but there is a fair chance you've already got a lot of what you need at home, especially if you've been doing day walks or camping casually for a while. If you already have gear, re-use it; there is little point in spending money on new gear unless you know you'll enjoy using it regularly. It is worth considering if your tent will keep your dry and sheltered above all else, this is the last place I would ever choose to cut corners.
 
 With sensible gear choices you're pack should be manageable and you should be able to stay warm and dry throughout the trip - this is essential to enjoying it. Now, once you have your kit, drop your sleeping bag and spare clothes into a couple of dry bags, throw it all in your rucksack, and get out there.
 
-Remember to be responserble when you're camping. Only go where it is legal to do so, and leave it exactly as you found it. That means no fires (unless permitted by the land-owner), and taking all your rubbish away with you. 
+Remember to be responsible when you're camping. Only go where it is legal to do so, and leave it exactly as you found it. That means no fires (unless permitted by the land-owner), and taking all your rubbish away with you.
 
 Lookout for more ideas on routes, gear choices, planning trips in future. If you need some trip ideas in the mean time checkout my recent [Broad Falls][blog_broad_falls] and [Fur Tor][blog_fur_tor], and [Teignhead Farm][blog_teignhead_farm] wild camps on Dartmoor.
 
@@ -159,5 +161,6 @@ Lookout for more ideas on routes, gear choices, planning trips in future. If you
 
 [guide_tick_removal]: http://www.lymediseaseaction.org.uk/about-ticks/tick-removal/ "Tick removal guide"
 [guide_hydrostatic_head]: http://www.getoutwiththekids.co.uk/family-tents/hydrostatic-head/ "Learn about what a Hydrostatic Head is"
+[guide_navigation]: https://www.ordnancesurvey.co.uk/resources/map-reading/ "Learn how to read a standard UK Ordnance Surbey map"
 
 [review_vango_banshee]: http://www.forasimaging.com/new-2014-vango-banshee-200-review/ "Mike French's thoughts on the Vango Banshee"
