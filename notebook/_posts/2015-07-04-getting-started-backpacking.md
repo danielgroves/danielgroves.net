@@ -116,7 +116,20 @@ Other items I include are:
 * Headphones
 * Book
 
-The final thing you're going to need it a suitable backpack. If you're buying a lot of lightweight gear you can probably get away with a 45l bag, but you want to be sure everything will fit first. If you're buying lower-end budget gear you're going to need a slightly larger backpack to fit everything in. A bag around 60l is normally suitable, and tends to be where most people start. There is more than meets the eye to choosing a rucksack, particularly when choosing a high-capacity bag that you're going to be wearing for ong period of time. It's worth going to your local outdoor shop and asking them to measure you for fit and make some recommendations. 
+The final thing you're going to need it a suitable backpack. If you're buying a lot of lightweight gear you can probably get away with a 45l bag, but you want to be sure everything will fit first. If you're buying lower-end budget gear you're going to need a slightly larger backpack to fit everything in. A bag around 60l is normally suitable, and tends to be where most people start. There is more than meets the eye to choosing a rucksack, particularly when choosing a high-capacity bag that you're going to be wearing for long periods of time. It's worth going to your local outdoor shop and asking them to measure you for fit and make some recommendations.
+
+{% figure %}
+  {% img src: /assets/images/blog/2015-07-backpacking/20150613-DSC_7212.jpg, alt: Pack loaded for the Broad Falls trip %}
+
+  <div class="row">
+    {% img src: /assets/images/blog/2015-07-backpacking/20150613-DSC_7206.jpg, alt: Sleeping equipment as used for Broad Falls trip %}
+    {% img src: /assets/images/blog/2015-07-backpacking/20150613-DSC_7208.jpg, alt: Food Provisions as used on the Broad Falls trip %}
+    {% img src: /assets/images/blog/2015-07-backpacking/20150613-DSC_7209.jpg, alt: Clothing and personal items, as used for Broad Falls trip %}
+    {% img src: /assets/images/blog/2015-07-backpacking/20150613-DSC_7210.jpg, alt: Tent and further personal items for broad falls trip %}
+  </div>
+
+  {% figcaption %}Eqipment taken for the recent [Broad Falls](/adventures-photography/2015/06/broad-falls/ "Wild camping at Broad Falls, Dartmoor") backpacking trip. Not pictured is the photography equipment, which I will cover in a future post. {% endfigcaption %}
+{% endfigure %}
 
 ## Summary
 
