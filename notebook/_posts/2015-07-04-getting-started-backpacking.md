@@ -21,7 +21,7 @@ The first and most important thing while backpacking is your shelter and sleepin
 
 Starting with your tent, you should be looking for a stable tent with a good [hydrostatic head][guide_hydrostatic_head] (this is how we measure how waterproof a tent is). There is loads of advice online about different tents, but don't be afraid to ask for help if you're not sure. A hydrostatic head is expressed as the number millimeters of water that can sit on a fabric before it will leak, the larger the number the more waterproof the tent. A minimal hydrostatic head for UK conditions should be around 3000mm, with a floor of around 5000mm to ensure nothing will seep in if the ground is saturated.
 
-There are plenty of options on the market for good quality backpacking tents. Gernally the more you spend the lighter the tent will be, as reflected in my recommendations below where the Vango Banshee is by far the heaviest, and my personal choice of the Terra Nova Laser is one of the lightest on the market. That aside, all three of these tents will make for very good choices in the majority of the UKs conditions.
+There are plenty of options on the market for good quality backpacking tents. Generally the more you spend the lighter the tent will be, as reflected in my recommendations below where the Vango Banshee is by far the heaviest, and my personal choice of the Terra Nova Laser is one of the lightest on the market. That aside, all three of these tents will make for very good choices in the majority of the UK's conditions.
 
 * **[Terra Nova Laser][tent_terra_nova_laser]:** This is my personal choice. The tent is features a sub-kilogram weight making is one of the lightest options on the market, and weight can be shed further by removing the inner tent during the summer months (taking it down to around 600g). Despite it's simple tension-based design I have successfully used mine in gale-force winds without issues. If you're a light sleeper it's worth bearing in mind that this type of tent design is prone to some flapping and general movement in high winds which does generate some noise, however if you're a heavy sleeper like myself it shouldn't cause any issues.
 * **[Wild Country Zephyros][tent_wild_country_zephyros]:** Wild Country tents are owned by Terra Nova. This tent is very similar in design to the Laser mentioned above, with an almost identical design. It's made from slightly heavier and cheaper fabrics adding to the weight in order to bring the cost down. Unlike the laser you cannot remove the inner, but this does cost around a quarter of the price and still comes in at a respectable 1.6kg.
@@ -32,25 +32,25 @@ There are plenty of options on the market for good quality backpacking tents. Ge
   {% figcaption %}Tents pitched on the edge of the Yorkshire Dales during my [John O' Groats to Lands End tour](/adventures-photography/2014/11/JOGLE/ "John O' Groats to Lands End tour, Part One").{% endfigcaption %}
 {% endfigure %}
 
-You should choose your sleeping bag based on the time of year you intend to go camping, and weather or not you're a cold sleeper. If in doubt, buy something warmer. You can always undo the zip to vent some heat, but it's hard to stay warm if your bag doesn't have enough insulation
+You should choose your sleeping bag based on the time of year you intend to go camping, and whether or not you're a cold sleeper. If in doubt, buy something warmer. You can always undo the zip to vent some heat, but it's hard to stay warm if your bag doesn't have enough insulation
 
 With sleeping bags you should also consider the material. A down bag will be warmer, lighter and pack smaller but once wet will not keep you warm at all. A Synthetic bag is the opposite to this; not quite as warm, bigger and heavier but will keep you warm even when wet through. Personally I use a down bag, and keep it in a dry bag. It only ever comes out of the dry-bag once it's in my tent so I know it will stay dry in any conditions.
 
-* **[Rab Ascent 700][sleeping_bag_rab_ascent]:** This is my bag of choice. This is a four-season bag suitable for winter conditions, and if I had the budget I would get a lighter summer bag. Despite it's -12 comfort rating is still weights in at an impressive 1.3kg and packs down small in it's stuff-sack.
-* **[AlpKit Pipedream 250][sleeping_bag_alpkit_pipedream]:** This bag from AlpKit is incredible value of money. It weights in at 666g making it the lightest sleeping bag here, and packs down incredibly small. With a comfort rating of -1.5 it is only suitable for the summer months of the year, but if you don't foresee yourself heading out in winter conditions this could be the perfect choice.
-* **[Vango Latitude 400][sleeping_bag_vango_latitude]:** This is the only synthetic bag making it the cheapest bag here. With a comfort rating of -3 it should allow you to camp through the majority of the year. These bags have very good reviews from major publishers for the price-point, but they do have a down side. They neither pack down small, and nor are they particularly light at just a tad over 2kg. Despite this it does make for a perfect starters bag.
+* **[Rab Ascent 700][sleeping_bag_rab_ascent]:** This is my bag of choice. This is a four-season bag suitable for winter conditions, and if I had the budget I would get a lighter summer bag. Despite it's -12 comfort rating is still weighs in at an impressive 1.3kg and packs down small in it's stuff-sack.
+* **[AlpKit Pipedream 250][sleeping_bag_alpkit_pipedream]:** This bag from AlpKit is incredible value of money. It weighs in at 666g making it the lightest sleeping bag here, and packs down incredibly small. With a comfort rating of -1.5 it is only suitable for the summer months of the year, but if you don't foresee yourself heading out in winter conditions this could be the perfect choice.
+* **[Vango Latitude 400][sleeping_bag_vango_latitude]:** This is the only synthetic bag making it the cheapest bag here. With a comfort rating of -3 it should allow you to camp through the majority of the year. These bags have very good reviews from major publishers for the price-point, but they do have a downside. They neither pack down small, and nor are they particularly light at just a tad over 2kg. Despite this it does make for a perfect starters bag.
 
 Once you have a sleeping bag you need something to sleep on. Some people choose to go without, however if you're new to this you're probably going to want to do everything you can to ensure you're comfortable and maximise enjoyment. A good comfortable nights sleep is key to this. You could use a [foam roll matt][mat_foam], these are cheap but only provide minimal insulation benefits and take up a lot of room. A modern inflatable mat is a much better choice which can be picked up surprisingly cheaply.
 
 * **[Therm-a-rest Trail Light][mat_thermarest_trail_light]:** This is my mat of choice, and also the heaviest here. If I was buying solely for backpacking duties I probably wouldn't buy one of these now, but options were much more limited when I bought this bag. It is, however, the warmest mat and brings additional insulation benefits over the other during the winter months.
-* **[Therm-a-rest NeoAir][mat_thermarest_neoair]:** As far as backpacking mats go this is the bee's knee's. These pack down around twice the size of a coke-can, making it by far the smallest mat here, and at a mere 300g the lightest too. If I was buying a new mat now, this would be my choice without batting an eyelid.
-* **[AlpKit Numo][mat_alpkit_numo]:** This is the cheapest mat here, and yet another piece of bargin kit from AlpKit. This was designed directly to take on the Therm-a-rest NeoAir, and thus comes in at a similar 375g. Although it doesn't pack down quite as small, it's a bargin for the price.
+* **[Therm-a-rest NeoAir][mat_thermarest_neoair]:** As far as backpacking mats go this is the bee's knees. These pack down around twice the size of a coke-can, making it by far the smallest mat here, and at a mere 300g the lightest too. If I was buying a new mat now, this would be my choice without batting an eyelid.
+* **[AlpKit Numo][mat_alpkit_numo]:** This is the cheapest mat here, and yet another piece of bargain kit from AlpKit. This was designed directly to take on the Therm-a-rest NeoAir, and thus comes in at a similar 375g. Although it doesn't pack down quite as small, it's a bargain for the price.
 
-Not everyone takes one, but I prefer to take a pillow while backpacking. Plenty of people just use a dry-bag stuffed with some of their clothes or a jacket to forma  pillow, but I find this too hard and that results in bad sleep. For a couple of pounds it's easy enough to pickup a [cheap inflatable pillow][pillow_inflatable] to keep your head comfortable.
+Not everyone takes one, but I prefer to take a pillow while backpacking. Plenty of people just use a dry-bag stuffed with some of their clothes or a jacket to form a pillow, but I find this too hard and that results in bad sleep. For a couple of pounds it's easy enough to pickup a [cheap inflatable pillow][pillow_inflatable] to keep your head comfortable.
 
 ## Eating and Cooking
 
-None of us want to go hungry. You could take cold food with you to help cut-down on pack size and pack-weight, but nothing beats a hot meal and drink at the end of the day. You want to keep food simple… dehydrated or easily reheat-able food is best as it takes minimal cooking times and packs down small. [Wayfarers boil-in-the-bag meals][food_boil_in_bag] are ideal for a starter, but similar meals can be made for much less by raiding your local supermarket and thinking outside of the box.
+None of us want to go hungry. You could take cold food with you to help cut-down on pack size and pack-weight, but nothing beats a hot meal and drink at the end of the day. You want to keep food simple… dehydrated or easily reheatable food is best as it takes minimal cooking times and packs down small. [Wayfarers boil-in-the-bag meals][food_boil_in_bag] are ideal for a starter, but similar meals can be made for much less by raiding your local supermarket and thinking outside of the box.
 
 {% figure %}
   {% img src: /assets/images/blog/2015-07-backpacking/20150411-DSC_5167.jpg, alt: Mike and I cooking while wild camping at Fur Tor %}
@@ -59,10 +59,10 @@ None of us want to go hungry. You could take cold food with you to help cut-down
 
 Once you've chosen some food, you'll be in need of a cooker on which to cook it. There are numerous options available from homemade jobs all the way through to full-blown expedition stoves. You probably want something in the middle so you can be sure of its reliability, efficiency and that it'll have enough power to cook your dinner if the weather turns bad. Thankfully, there are plenty of options depending on your budget and weight targets.
 
-* **[MSR WhisperLite][stove_msr_whisperlite]:** This is the stove I use, but reluctantly for backpacking duties. These are incredible stoves, but designed for touring and expedition duties, not for traveling light. It's a multi-fuel liquid stove, meaning it will burn almost any combustable liquid. These are powerful cookers, and light for what they are, but heavy for backpacking. It is, however, probably the most robust and reliable stove you'll find. If you go down this route you'll need to get yourself a pan to cook in as well.
-* **[Jetboil Flash][stove_jetboil_flash]:** This is what I intend to get when money allows. Jetboil invented the idea of a stove system; these are incredibly efficient gas-pwoered stoves which make use of a proprietary pot to cooker interface with a heat exchanger in order to make for incredibly efficient heat exchange and fast boil times. At 400g these are seriously light given they include everything you need.
-* **[AlpKit BruKit][stove_alpkit_brukit]:** This is AlpKits version of the Jetboil. The build quality isn't quite as good, it's a tad heavier, and the boil time are marginally slower. However, it is significantly cheaper and the perfect option for those on a budget.
-* **[Primus Mimer][stove_primus_mimer]:** The main thing going for this is it's cheap. It takes a standard screw-one gas cartridge the same as those the AlpKit and Jetboil options use. It's farly small, but nowhere near as powerful as any of the other options. You're going to need to get a pot for one of these.
+* **[MSR WhisperLite][stove_msr_whisperlite]:** This is the stove I use, but reluctantly for backpacking duties. These are incredible stoves, but designed for touring and expedition duties, not for traveling light. It's a multi-fuel liquid stove, meaning it will burn almost any combustible liquid. These are powerful cookers, and light for what they are, but heavy for backpacking. It is, however, probably the most robust and reliable stove you'll find. If you go down this route you'll need to get yourself a pan to cook in as well.
+* **[Jetboil Flash][stove_jetboil_flash]:** This is what I intend to get when money allows. Jetboil invented the idea of a stove system; these are incredibly efficient gas-powered stoves which make use of a proprietary pot to cooker interface with a heat exchanger in order to make for incredibly efficient heat exchange and fast boil times. At 400g these are seriously light given they include everything you need.
+* **[AlpKit BruKit][stove_alpkit_brukit]:** This is the AlpKit version of the Jetboil. The build quality isn't quite as good, it's a tad heavier, and the boil time are marginally slower. However, it is significantly cheaper and the perfect option for those on a budget.
+* **[Primus Mimer][stove_primus_mimer]:** The main thing going for this is it's cheap. It takes a standard screw-one gas cartridge the same as those the AlpKit and Jetboil options use. It's fairly small, but nowhere near as powerful as any of the other options. You're going to need to get a pot for one of these.
 
 Make sure you've got enough of the correct fuel for your cooker. You'll easily get a few trips out of a small 100g gas canister, or the smallest available bottle if you've chosen a multi-fuel stove.
 
@@ -70,7 +70,7 @@ If you've chosen to buy into a cooker, not a stove system (an all-inclusive unit
 
 Don't forget a [mug][mug_lifeventure_ti], [spork][spork], and the drinks of your choice either. I often take fruit-tea with me as it weighs nothing, packs down small, and the bags can easily be thrown in with the rest of your rubbish when you're done with them.
 
-Throughout the day you're going to need snacks. Cliff bars are perfect, but expensive. I tend to take trail mix made of up a cheap bag of assorted nuts from the supermarket, with some dried fruit and chocolate pieces thrown in (if I don't eat it while packing). This gives you a good mix of instant-energy while providing some good long-lasting energy at the same time.
+Throughout the day you're going to need snacks. Clif bars are perfect, but expensive. I tend to take trail mix made of up a cheap bag of assorted nuts from the supermarket, with some dried fruit and chocolate pieces thrown in (if I don't eat it while packing). This gives you a good mix of instant-energy while providing some good long-lasting energy at the same time.
 
 ## Clothing
 
@@ -87,7 +87,7 @@ Think about what spare layers you take carefully, but don't over-do it; so many 
 
 Never leave your waterproofs behind, both jacket and trousers should be considered mandatory as you never know how the weather will change over the hours, let alone over a whole night. On top of this, remember it can get cold at night even in the summer. Always pack a hat and gloves, even if they're lightweight options.
 
-Your tshirt, fleeces, and trousers should all be lightweight breathable options. You don't want anything that won't retain warmth if it gets wet, and doesn't let sweat out properly.
+Your t-shirt, fleeces, and trousers should all be lightweight breathable options. You don't want anything that won't retain warmth if it gets wet, and doesn't let sweat out properly.
 
 ## Safety, Hygiene and Personal
 
@@ -106,7 +106,7 @@ A small first-aid kit is wise, too. I always ensure mine has the following:
 * [Water purification tablets][water_purification]
 * Spare contact lenses
 
-That should cover the basics, but ensure you take any personal medication that you know you're likely to need (things like inhalers are easily forgotten). It can be worth taking hand-sanitising gel (especiually if you use contact lenses) or hand-wipes for general hygiene around toilet use and cooking while out. If you are building one from scratch there is a [large range available][first_aid] which keep everything together and are often cheaper than buying everything individually.
+That should cover the basics, but ensure you take any personal medication that you know you're likely to need (things like inhalers are easily forgotten). It can be worth taking hand-sanitising gel (especially if you use contact lenses) or hand-wipes for general hygiene around toilet use and cooking while out. If you are building one from scratch there is a [large range available][first_aid] which keep everything together and are often cheaper than buying everything individually.
 
 Other items I include are:
 
@@ -128,18 +128,18 @@ The final thing you're going to need it a suitable backpack. If you're buying a 
     {% img src: /assets/images/blog/2015-07-backpacking/20150613-DSC_7210.jpg, alt: Tent and further personal items for broad falls trip %}
   </div>
 
-  {% figcaption %}Eqipment taken for the recent [Broad Falls](/adventures-photography/2015/06/broad-falls/ "Wild camping at Broad Falls, Dartmoor") backpacking trip. Not pictured is the photography equipment, which I will cover in a future post. {% endfigcaption %}
+  {% figcaption %}Equipment taken for the recent [Broad Falls](/adventures-photography/2015/06/broad-falls/ "Wild camping at Broad Falls, Dartmoor") backpacking trip. Not pictured is the photography equipment, which I will cover in a future post. {% endfigcaption %}
 {% endfigure %}
 
 ## Summary
 
 Buying the initial kit may be expensive, but there is a fair chance you've already got a lot of what you need at home, especially if you've been doing day walks or camping casually for a while. If you already have gear, re-use it; there is little point in spending money on new gear unless you know you'll enjoy using it regularly. It is worth considering if your tent will keep your dry and sheltered above all else, this is the last place I would ever choose to cut corners.
 
-With sensible gear choices you're pack should be manageable and you should be able to stay warm and dry throughout the trip - this is essential to enjoying it. Now, once you have your kit, drop your sleeping bag and spare clothes into a couple of dry bags, throw it all in your rucksack, and get out there.
+With sensible gear choices your pack should be manageable and you should be able to stay warm and dry throughout the trip - this is essential to enjoying it. Now, once you have your kit, drop your sleeping bag and spare clothes into a couple of dry bags, throw it all in your rucksack, and get out there.
 
 Remember to be responsible when you're camping. Only go where it is legal to do so, and leave it exactly as you found it. That means no fires (unless permitted by the land-owner), and taking all your rubbish away with you.
 
-Lookout for more ideas on routes, gear choices, planning trips in future. If you need some trip ideas in the mean time checkout my recent [Broad Falls][blog_broad_falls] and [Fur Tor][blog_fur_tor], and [Teignhead Farm][blog_teignhead_farm] wild camps on Dartmoor.
+Lookout for more ideas on routes, gear choices, planning trips in future. If you need some trip ideas in the mean time check out my recent [Broad Falls][blog_broad_falls] and [Fur Tor][blog_fur_tor], and [Teignhead Farm][blog_teignhead_farm] wild camps on Dartmoor.
 
 
 [tent_terra_nova_laser]: http://amzn.to/1CMWLlY "Buy a Terra Nova Laser lightweight tent on Amazon"
