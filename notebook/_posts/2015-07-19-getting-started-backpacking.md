@@ -3,7 +3,7 @@ published: true
 title: Getting Started Backpacking
 excerpt: A look at the gear required to get started and go backpacking for the first time
 
-date: 2015-07-04 09:00
+date: 2015-07-19 15:00
 tags: backpacking gear
 banner: /images/blog/2015-07-backpacking/header.jpg
 banner_position: bottom
