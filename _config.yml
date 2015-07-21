@@ -4,7 +4,7 @@ highlighter: rouge
 future: false
 timezone: Europe/London
 lsi: false
-markdown: redcarpet
+markdown: kramdown
 
 permalink: /:categories/:year/:month/:title
 url: http://localhost:4000
@@ -38,8 +38,9 @@ paginate_path: ""
 
 exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'readme.md']
 
-redcarpet:
-  extensions: []
+kramdown:
+  parse_span_html: false
+  parse_block_html: false
 
 gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap", "rouge", "jekyll-redirect-from"]
 
