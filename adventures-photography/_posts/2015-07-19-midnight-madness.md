@@ -6,7 +6,8 @@ excerpt: Tom and I take part in the Dartmoor Search and Rescue annual midnight m
 date: 2015-07-19 14:00
 thumb: /camera-roll/2015/06/20150614-DSC_7280-HDR.jpg
 
-banner: /camera-roll/2015/06/banner.jpg
+banner: /camera-roll/2015/07/20150718-DSC_7922.jpg
+banner_position: bottom
 tags: photography dartmoor hiking
 ---
 
@@ -28,8 +29,8 @@ Leaving the road and proceeding down the bridleway south made things a little mo
 From here the route turned left taking us back towards open moorland. The road quickly turned into a bridleway which we followed until is swung to the right. At this point we left it, straight-lining it across the open moorland until we hit the bridleway.
 
 {% figure %}
-  {% img src: /assets/camera-roll/2015/07/20150718-DSC_7922.jpg, alt: Other event participants making their way past out food stop %}
-  {% figcaption %}Other event participants making their way past out food stop{% endfigcaption %}
+  {% img src: /assets/camera-roll/2015/07/20150718-DSC_7922.jpg, alt: Ghost-like participants making their way past out food stop %}
+  {% figcaption %}Ghost-like participants making their way past out food stop{% endfigcaption %}
 {% endfigure %}
 
 It was when we hit this bridleway again that we made the decision to pause. We'd decided to take a couple of tins of beans and sausage with us, so we heated them up much to the envy of many of the others walking on past. Once we'd consumed these we pushed on, now following ground familiar to the both of us as a regular mountain bike trail.
