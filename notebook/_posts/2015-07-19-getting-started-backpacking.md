@@ -1,7 +1,7 @@
 ---
 published: true
 title: Getting Started Backpacking
-excerpt: A look at the gear required to get started and go backpacking for the first time
+excerpt: A look at the gear required to get started and go backpacking for the first time.
 
 date: 2015-07-19 15:00
 tags: backpacking gear
@@ -151,7 +151,7 @@ Lookout for more ideas on routes, gear choices, planning trips in future. If you
 [mat_thermarest_trail_light]: http://amzn.to/1Mz4X9G "Buy a Therm-a-rest Trail Light on Amazon"
 [mat_thermarest_neoair]: http://amzn.to/1SsyJ1I "Buy a Therm-a-rest NeoAir Xlite on Amazon"
 [mat_alpkit_numo]: https://www.alpkit.com/products/numo "Buy a AlpKit Numo sleeping mat direct from AlpKit themsleves"
-[mar_foam]: http://amzn.to/1RGRyD4 "Cheap foam roll mat on Amazon"
+[mat_foam]: http://amzn.to/1RGRyD4 "Cheap foam roll mat on Amazon"
 [pillow_inflatable]: http://amzn.to/1Ssznfp "Buy a cheap inflatable pillow from Amazon"
 [stove_msr_whisperlite]: http://amzn.to/1SsAiMR "Buy an MSR WhisperLite International on Amazon"
 [stove_jetboil_flash]: http://amzn.to/1CHsghJ "Buy a JetBoil Flash on Amazon"
