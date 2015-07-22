@@ -3,7 +3,7 @@ published: true
 title: Midnight Madness
 excerpt: Tom and I take part in the Dartmoor Search and Rescue annual midnight madness fundraising walk.
 
-date: 2015-07-19 14:00
+date: 2015-07-23 08:00
 thumb: /camera-roll/2015/07/thumb.jpg
 
 banner: /camera-roll/2015/07/header.jpg
