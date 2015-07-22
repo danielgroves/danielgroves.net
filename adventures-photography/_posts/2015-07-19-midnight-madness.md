@@ -4,14 +4,14 @@ title: Midnight Madness
 excerpt: Tom and I take part in the Dartmoor Search and Rescue annual midnight madness fundraising walk.
 
 date: 2015-07-19 14:00
-thumb: /camera-roll/2015/06/20150614-DSC_7280-HDR.jpg
+thumb: /camera-roll/2015/07/thumb.jpg
 
-banner: /camera-roll/2015/07/20150718-DSC_7922.jpg
+banner: /camera-roll/2015/07/header.jpg
 banner_position: bottom
 tags: photography dartmoor hiking
 ---
 
-Every year the [Plymouth branch][dsrt_wb] of the [Dartmoor Search and Rescue team][dsrt_main] run their annual *Mightnight Madness* fundraising walk. As a life-long mountain rescue supporter I mentioned this to Tom, so we headed up to Princetown to take part in the annual event. The walk is around 10-miles and takes in four checkpoints en-route as well as North Hessary Tor, Little Miss Tor, Hucken Tor, and Ingra Tor. The route took Tom and I around 3 hours 15 minutes, including a food stop and a couple of photo stops.
+Every year the [Plymouth branch][dsrt_wb] of the [Dartmoor Search and Rescue team][dsrt_main] run their annual *Midnight Madness* fundraising walk. As a life-long mountain rescue supporter I mentioned this to Tom, so we headed up to Princetown to take part in the annual event. The walk is around 10-miles and takes in four checkpoints en-route as well as North Hessary Tor, Little Miss Tor, Hucken Tor, and Ingra Tor. The route took Tom and I around 3 hours 15 minutes, including a food stop and a couple of photo stops.
 
 Everyone gathered at Princetown primary school from sign-on at 8:00 until we all departed together at 9:00. Initially it was a dense pack of people all moving together, but as soon as the ascent towards the mast started everyone started to spread out as the ground steepened. We moved fairly fast while chatting our way up the ascent to North Hessary Tor, where we paused at the top briefly to snap a few pictures before pushing on. We'd agreed beforehand we'd see how far we could get before the sun set.
 
@@ -20,7 +20,7 @@ Everyone gathered at Princetown primary school from sign-on at 8:00 until we all
   {% figcaption %}Sunset from North Hessary Tor{% endfigcaption %}
 {% endfigure %}
 
-It wasn't long before we'd dropped down to the road crossing, and then back on the incline we started pushing ahead of the main group of people aiming for the first checkpoint at Little Mis Tor. It was here that, once the time sheet was signed, we broke out some head torches to help with the rapidly diminishing light, although we never actually turned them on until we reached the road again and needed them for safety.
+It wasn't long before we'd dropped down to the road crossing, and then back on the incline we started pushing ahead of the main group of people aiming for the first checkpoint at Little Mis Tor. It was here that, once the timesheet was signed, we broke out some head torches to help with the rapidly diminishing light, although we never actually turned them on until we reached the road again and needed them for safety.
 
 It was only a few more minutes until we hit checkpoint two.
 
@@ -38,8 +38,8 @@ It was when we hit this that we made the decision to pause; we'd decided to take
 We soon hit the checkpoint four, the final one before the finish back at the primary school. We stopped again here to have a chat with the team member holding the checkpoint (sorry, I should've asked your name!) while I pulled the tripod and camera out to capture the chain of lights making their way up behind us.
 
 {% figure %}
-  {% img src: /assets/camera-roll/2015/07/20150718-DSC_7922.jpg, alt: Other event participants making their way past out food stop %}
-  {% figcaption %}Other event participants making their way past out food stop{% endfigcaption %}
+  {% img src: /assets/camera-roll/2015/07/20150718-DSC_7925.jpg, alt: Looking back at the long chain of people making their way along the dismantled railway %}
+  {% figcaption %}Looking back at the long chain of people making their way along the dismantled railway{% endfigcaption %}
 {% endfigure %}
 
 From the final checkpoint it was simple work following the old railway into Princetown and back through the village to the primary school where we received our route time, certificate, coffee and a pasty.
