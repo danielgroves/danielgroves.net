@@ -96,6 +96,10 @@ main {
     }
   }
 
+  & > article .image + header {
+    margin-top: 0;
+  }
+
   header {
     h1, p, span {
       font-weight: 100;
