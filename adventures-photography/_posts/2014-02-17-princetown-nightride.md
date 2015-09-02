@@ -5,7 +5,7 @@ date: 2014-02-03 12:30
 excerpt: "Princetown Night Ride"
 thumb: /camera-roll/2014/02/DSC_9086_thumb.jpg
 banner: /camera-roll/2014/02/20140216-DSC_9086.jpg
-banner_position: bottom
+banner_position: 0 40%
 comments: true
 tags: bike dartmoor
 ---

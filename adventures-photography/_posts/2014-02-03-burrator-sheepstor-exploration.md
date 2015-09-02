@@ -5,6 +5,7 @@ date: 2014-02-03 12:30
 excerpt: "Exploring new riding options around Burrator Reservoir and Sheepstor"
 thumb: /camera-roll/2014/02/DSC_8550_thumb.jpg
 banner: /camera-roll/2014/02/20140202-DSC_8550.jpg
+banner_position: 0 20%
 comments: true
 tags: bike dartmoor exploration
 ---

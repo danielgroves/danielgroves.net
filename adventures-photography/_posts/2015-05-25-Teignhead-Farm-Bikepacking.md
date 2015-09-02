@@ -7,7 +7,7 @@ tags: bike packing camping photography
 date: 2015-05-25 17:20
 thumb: /camera-roll/2015/05/DSC_7154-Edit-Thumb.jpg
 banner: /camera-roll/2015/05/header.jpg
-banner_position: bottom
+banner_position: 0 50%
 
 tags: bike bikepacking exploration dartmoor photography
 ---

@@ -7,6 +7,7 @@ date: 2015-06-15 22:45
 thumb: /camera-roll/2015/06/20150614-DSC_7280-HDR.jpg
 
 banner: /camera-roll/2015/06/banner.jpg
+banner_position: 0 30%
 tags: photography dartmoor camping
 ---
 

@@ -6,6 +6,7 @@ excerpt: Backpacking to Fur Tor on Dartmoor for the Photography.
 date: 2015-04-17 20:40
 thumb: /camera-roll/2015/04/20150411-DSC_5364_Thumb.jpg
 banner: /camera-roll/2015/04/header.jpg
+banner_position: 0 60%
 
 tags: backpacking exploration dartmoor photography
 ---

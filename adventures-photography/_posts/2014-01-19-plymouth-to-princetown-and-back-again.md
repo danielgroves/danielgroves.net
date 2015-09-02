@@ -5,6 +5,7 @@ excerpt: "A day on the moor: a series of pictures from Plymouth to Princetown an
 date: 2014-01-19 21:30
 thumb: /camera-roll/2014/01/DSC_8342_thumb.jpg
 banner: /camera-roll/2014/01/20140119-DSC_8339.jpg
+banner_position: 0 20%
 comments: true
 tags: bike dartmoor
 ---

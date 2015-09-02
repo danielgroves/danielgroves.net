@@ -12,14 +12,6 @@ article {
       height: 75vh;
       background-size: cover;
       background-position: middle;
-
-      &.image_top {
-        background-position: top;
-      }
-
-      &.image_bottom {
-        background-position: bottom;
-      }
     }
   }
 

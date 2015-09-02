@@ -6,7 +6,7 @@ excerpt: A look at the gear required to get started and go backpacking for the f
 date: 2015-07-19 15:00
 tags: backpacking gear
 banner: /images/blog/2015-07-backpacking/header.jpg
-banner_position: bottom
+banner_position: 0 60%
 ---
 
 Much of the photography work I do is in the more remote regions of Dartmoor. Although, as a relatively small area, it is possible to walk in, do a shoot, and walk out, it's normally impractical. This is the case even more so when shooting at sunrise and/or sunset.
