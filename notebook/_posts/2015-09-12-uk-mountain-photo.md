@@ -14,7 +14,7 @@ It was much to my surprise this week when it was pointed out to me that I had on
 <figure>
   <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150523-DSC_7154-Edit-2.jpg" alt="The 'volcano'; this is actually an old slag heap at the old Red Lake workings. " />
   <div class="row pair">
-    <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150614-DSC_7280-HDR.jpg" alt="Max. " />
+    <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150614-DSC_7280-HDR-2.jpg" alt="Max. " />
     <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150502-DSC_6789-Edit.jpg" alt="Mike observing the view. " />
   </div>
   <figcaption>
