@@ -1,0 +1,37 @@
+---
+published: true
+title: Mountain Photo of the Year Competition
+excerpt: A look at the gear required to get started and go backpacking for the first time.
+
+date: 2015-07-19 15:00
+tags: photography competition
+---
+
+Back in July I entered the Mountain Photo of the Year competition on a whim. I didn't expect to get anywhere, expecting my three entries to simply by discarded as *"[not worthy][not_worthy]"*.
+
+It was much to my surprise this week when it was pointed out to me that I had one of my entries featured in Trail Magazine. On further investigation, it seems I've managed to make it as on of the twenty-two finalists in the competition.
+
+<figure>
+  <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150523-DSC_7154-Edit-2.jpg" alt="The 'volcano'; this is actually an old slag heap at the old Red Lake workings. " />
+  <div class="row pair">
+    <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150614-DSC_7280-HDR.jpg" alt="Max. " />
+    <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150502-DSC_6789-Edit.jpg" alt="Mike observing the view. " />
+  </div>
+  <figcaption>
+    The 'volcano', a slag heap left over from the Red Lake workings (top). <br />
+    Max (left); Mike (centre left); Sam, Mike and Max (center right); Candy (right).
+  </figcaption>
+</figure>
+
+Each of the images featured here have their own story behind them; the finalist entry was from [a bikepacking trip with a group of mates on Dartmoor][blog_teignhead], and the Broad Falls shot is from [a backpacking trip with another set of friends][blog_broadfalls]. The final image taken on Rannoch Moor, Scotland, was from a rather eventful day trip.
+
+If you've got ten-seconds to [cast a vote][competition], you're vote would be very helpful. It will aid me in bringing you more stories with better-yet imagery in the future.
+
+If you've got another second, sharing this tweet is another good way to help improve my chances.
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://buff.ly/1MeY9lf" data-text="Vote for @danielsgroves in UK Mountain Photo Competition with &quot;#Dartmoor wild camp&quot;" data-size="large" data-related="danielsgroves" data-count="none" data-hashtags="UKMountainPhoto">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+[not_worthy]: https://www.youtube.com/watch?v=c3sOuEv0E2I "Waynes World – we're not worthy!"
+[competition]: http://www.livefortheoutdoors.com/Latest/Search-Results/Competitions-and-offers/UK-Mountain-Photo-of-the-Year-2015-choose-the-winner/ "UK Mountain Photo of the Year Competition"
+[blog_teignhead]: https://danielgroves.net/adventures-photography/2015/05/Teignhead-Farm-Bikepacking "Bikepacking at Teignhead Farm Ruin"
+[blog_broadfalls]: https://danielgroves.net/adventures-photography/2015/06/broad-falls "Broad Falls Wild Camp"
