@@ -3,7 +3,7 @@ published: true
 title: Mountain Photo of the Year Competition
 excerpt: How you can support me in the UK Mountain Photo of the Year competition
 
-date: 2015-07-19 15:00
+date: 2015-09-12 09:25
 tags: photography competition
 ---
 
