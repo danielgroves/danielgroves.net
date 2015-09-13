@@ -5,13 +5,13 @@ stages:
   - build
   - deploy
 
-job1:
+build:
   stage: build
   script: bundle exec rake build
   tags:
     - jekyll
 
-job2:
+deply:
   stage: deploy
   script: bundle exec rake deploy
   only:
