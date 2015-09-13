@@ -30,7 +30,7 @@ task :build_all => :version do
     jekyll "build --future --drafts"
 end
 
-task :deploy => :build do
+task :deploy do
     if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
         puts $linebreak
         puts "On master branch, will attempt to deploy"
