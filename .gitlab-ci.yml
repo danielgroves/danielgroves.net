@@ -1,5 +1,5 @@
 before_script:
-  - bundle install
+  - bundle install --path vendor/bundle
 
 stages:
   - build
