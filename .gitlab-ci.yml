@@ -1,7 +1,3 @@
-variables:
-  PROD_REMOTE: danielgroves.net:/home/www-data/danielgroves.net
-  STAGE_REMOTE: danielgroves.net:/home/www-data/staging.danielgroves.net
-
 before_script:
   - bundle install --path vendor/bundle
 
