@@ -36,7 +36,7 @@ paginate: 12
 # Will find a better fix when time presents itself
 paginate_path: ""
 
-exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'readme.md', '.gitlab-ci.yml']
+exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'readme.md', '.gitlab-ci.yml', 'vendor']
 
 kramdown:
   parse_span_html: false
