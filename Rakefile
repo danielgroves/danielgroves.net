@@ -34,27 +34,27 @@ task :deploy do
     if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
         puts $linebreak
         puts "On master branch, will attempt to deploy"
-        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['PROD_REMOTE']}"
+        system("rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['PROD_REMOTE']}") or exit!(1)
 
         puts $linebreak
         puts "Attempting to push open Git Repo"
-        system "git remote add github git@github.com:danielgroves/danielgroves.net.git"
-        system "git reset HEAD --hard"
-        system "git checkout master"
-        system "git push github master"
+        system("git remote add github git@github.com:danielgroves/danielgroves.net.git") or exit!(1)
+        system("git reset HEAD --hard") or exit!(1)
+        system("git checkout master") or exit!(1)
+        system("git push github master") or exit!(1)
     else
         puts $linebreak
         puts "On #{ENV['CI_BUILD_REF_NAME']} branch, will attempt to deploy to staging"
-        system "rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['STAGE_REMOTE']}"
+        system("rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['STAGE_REMOTE']}") or exit!(1)
     end
 end
 
 def jekyll(args)
-    system "jekyll #{args}"
+    system("jekyll #{args}") or exit!(1)
 end
 
 def clean
     puts $linebreak
     puts "Cleaning previous builds"
-    system "rm -Rf _site/"
+    system("rm -Rf _site/") or exit!(1)
 end
