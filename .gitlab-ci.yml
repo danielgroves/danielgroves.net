@@ -1,3 +1,7 @@
+variables:
+  PROD_REMOTE: danielgroves.net:/home/www-data/danielgroves.net
+  STAGE_REMOTE: danielgroves.net:/home/www-data/staging.danielgroves.net
+
 before_script:
   - bundle install --path vendor/bundle
 
@@ -13,7 +17,9 @@ build:
 
 deply:
   stage: deploy
-  script: bundle exec rake deploy
+  script:
+    - bundle exec rake build
+    - bundle exec rake deploy
   only:
     - master
   tags:
