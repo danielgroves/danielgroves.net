@@ -38,7 +38,7 @@ task :deploy do
 
         puts $linebreak
         puts "Attempting to push open Git Repo"
-        system("git remote add github git@github.com:danielgroves/danielgroves.net.git") or exit!(1)
+        system("git remote add github git@github.com:danielgroves/danielgroves.net.git")
         system("git reset HEAD --hard") or exit!(1)
         system("git checkout master") or exit!(1)
         system("git push github master") or exit!(1)
