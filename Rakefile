@@ -39,9 +39,9 @@ task :deploy do
         puts $linebreak
         puts "Attempting to push open Git Repo"
         system("git remote add github git@github.com:danielgroves/danielgroves.net.git")
-        system("git reset HEAD --hard") or exit!(1)
-        system("git checkout master") or exit!(1)
-        system("git push github master") or exit!(1)
+        system("git reset HEAD --hard")
+        system("git checkout master")
+        system("git push github master")
     else
         puts $linebreak
         puts "On #{ENV['CI_BUILD_REF_NAME']} branch, will attempt to deploy to staging"
