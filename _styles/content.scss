@@ -208,6 +208,6 @@ article {
 
   code {
     @include rem-fallback(font-size, 1.2);
-    font-family: "Inconsolata", "Fixed";
+    font-family: inconsolata, monospace;
   }
 }

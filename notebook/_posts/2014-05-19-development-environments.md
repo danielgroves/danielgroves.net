@@ -27,7 +27,7 @@ Make sure you've [installed the latest version of Vagrant for your platform](htt
 
 Vagrant is designed to be committed directly into your projects source control, along with any provisioners used. This is certainly something that is advised, as it makes the use of the environment as simple as possible, and also helps to document what the system dependencies are and when they change. Vagrant will create some files which you do not want to commit though, just as the use of virtualenv later in this tutorial will. The following `.gitignore` file will stop any of these files from being committed by accident.
 
-```
+{% highlight gitignore %}
 # Vagrant
 .vagrant/
 
@@ -38,7 +38,7 @@ include/
 lib/
 local/
 .pyc
-```
+{% endhighlight %}
 
 ## Getting Started
 
@@ -93,15 +93,15 @@ On the command line, run `vagrant up`. At this point Vagrant will download the U
 
 At this point we have a development virtual machine, but it lacks the dependencies of our project; this is where the provisioner comes in. In order to get started we need to set-out a basic directory structure contains the files and folders required by Ansible. Initially, this may appear to be overkill but getting everything organised now makes life easier at a later date. We can use the terminal to take a few shortcuts and quickly build the required directory structure.
 
-```
+{% highlight bash %}
 mkdir -p provision/{setup,deploy}/{tasks,vars,handlers}
 touch provision/{setup,deploy}/{tasks,vars,handlers}/main.yml
 touch provision/vagrant.yml
-```
+{% endhighlight %}
 
 The resulting file-structure should be as follows:
 
-```
+{% highlight bash %}
 app/
 provision/
     setup/
@@ -121,7 +121,7 @@ provision/
     vagrant.yml
 Vagrantfile
 .gitignore
-```
+{% endhighlight %}
 
 The idea here is to spilt the Ansible configuration up into multiple playbooks to help keep everything organised and as reusable as possible. The setup directory will have the configuration for the operating system, while the deploy will contain everything required for the virtualenv.
 
@@ -137,12 +137,12 @@ end
 
 Then, add the following to `provision/vagrant.yml`:
 
-```
+{% highlight yaml %}
 - hosts: all
   roles:
       - setup
       - deploy
-```
+{% endhighlight %}
 
 Now, when a new virtual machine is started with Vagrant it will automatically run the `vagrant.yml` with Ansible, which will run each of the playbooks in turn.
 
@@ -173,10 +173,10 @@ This will update the package cache with `apt`, and then ensure each of the progr
 
 Earlier on we booted our virtual machine, but it was not provisioned as this hadn't been developed at the time. Rather than throwing away and rebuilding the virtual machine we can force vagrant to provision the virtual machine by running `vagrant provision`. The final lines of the output should look like this:
 
-```
+{% highlight bash %}
 PLAY RECAP ********************************************************************
 default                    : ok=2    changed=1    unreachable=0    failed=0
-```
+{% endhighlight %}
 
 ### Configuring PostgreSQL
 
@@ -239,11 +239,11 @@ With this section complete we have now successfully provisioned a virtual machin
 
 Now we're making good progress, but it's time to move onto provisioning the software deployment dependencies. From here on we'll be working with the `deploy` playbook. The first thing to consider is we'll be using pip to install a series of python modules within a playbook. To do this we need a requirements file which will be passed to pip. Let's install the latest versions of Django and South, as well as psycopg2 so that Django can talk to the PostgreSQL database. Create a file called `requirements.txt` within the app directory, and add the following:
 
-```
+{% highlight pipfile %}
 Django
 South
 psycopg2
-```
+{% endhighlight %}
 
 Now, we'll tell Ansible to create a virtualenv, and then to install the required modules. Add the following to `provision/deploy/tasks/main.yml`:
 
@@ -266,12 +266,12 @@ Now run `vagrant provision` again to setup the python virtual environment, then 
 
 Once the provisioner has finished running that's pretty much it for the initial setup, however we could take this further. Let's setup a basic Django application with South and then use ansible to setup the database on the virtual machine creation. Run the following to SSH into the virtual machine, activate the virtual environment and create a new Django application.
 
-```
+{% highlight bash %}
 vagrant ssh
 cd /var/www/django-app
 source bin/activate
 django-admin.py startproject vagranttest
-```
+{% endhighlight %}
 
 This will have created the initial app, but now we need to update the `settings.py` file so Django can talk to PostgreSQL. Find the following lines in `app/vagranttest/vagranttest/settings.py`:
 
@@ -337,13 +337,13 @@ Now provision the virtual machine one final time to ensure that it runs through 
 
 That's all there is to it. Now any developers working on the project simply clone the repository and run:
 
-```
+{% highlight bash %}
 vagrant up
 vagrant ssh
 cd /var/www/django-app
 source bin/activate
 python vagranttest/manage.py runserver 0.0.0.0:8080
-```
+{% endhighlight %}
 
 Once they've done this they'll have an identical environment to everyone else, will be able to continue working in their favourite editor, and will be able to access the project by simply accessing `http://localhost:8080` in a browser on their local machine.
 
