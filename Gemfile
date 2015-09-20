@@ -14,3 +14,7 @@ gem "jekyll-archives"
 gem "jekyll-sitemap"
 gem "rouge"
 gem "jekyll-redirect-from"
+
+# Used for image optimisation
+gem 'image_optim'
+gem 'image_optim_pack'

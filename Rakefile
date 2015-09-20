@@ -1,3 +1,5 @@
+require 'image_optim'
+
 task default: %w[build]
 $linebreak = "\n\n =========================\n"
 
@@ -47,6 +49,41 @@ task :deploy do
         puts "On #{ENV['CI_BUILD_REF_NAME']} branch, will attempt to deploy to staging"
         system("rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['STAGE_REMOTE']}") or exit!(1)
     end
+end
+
+namespace :optimisation do
+  desc "Loops through the Jekyll assets directory and compresses every image it finds"
+  task :compress_images do
+    puts $linebreak
+    puts "Compressing Images"
+
+    optim = ImageOptim.new({
+      pngout: false,
+      svgo: false,
+      threads: 8,
+      jpegoptim: {
+        strip: [],
+        max_quality: 85
+      },
+      jpegtran: {
+        progressive: true
+      },
+      optipng: {
+        interlace: true
+      },
+      pngcrush: {
+        blacken: false
+      }
+    })
+
+    optim.optimize_images!(Dir["_site/assets/**/*.{jpeg,jpg,png}"]) do |f, s|
+      if s
+        puts "#{s} => succeeded"
+      else
+        puts "#{f} => failed"
+      end
+    end
+  end
 end
 
 def jekyll(args)
