@@ -15,6 +15,7 @@ deply:
   stage: deploy
   script:
     - bundle exec rake build
+    - bundle exec rake optimisation:compress_images
     - bundle exec rake deploy
   only:
     - master
