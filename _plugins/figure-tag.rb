@@ -3,11 +3,12 @@ class FigureBlock < Liquid::Block
 
 	def initialize(tag, text, tokens)
     super
+		@text = text
 	end
 
 	def render(context)
     contents = super.strip
-		"<figure>#{contents}</figure>"
+		"<figure class=\"#{@text}\">#{contents}</figure>"
 	end
 end
 
