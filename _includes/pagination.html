@@ -4,9 +4,9 @@
       {% if page == include.paginator.page %}
         <strong>{{ page }}</strong>
       {% elsif page == 1 %}
-        <a href="/notebook/">{{ page }}</a>
+        <a href="{{ include.prefix }}/">{{ page }}</a>
       {% else %}
-        <a href="/notebook/{{ page }}">{{ page }}</a>
+        <a href="{{ include.prefix }}/{{ page }}">{{ page }}</a>
       {% endif %}
     {% endfor %}
   </nav>

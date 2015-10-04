@@ -10,9 +10,9 @@ footer_related_posts: false
     <h1>{{ page.title }}</h1>
     <p>{{ page.excerpt }}</p>
   </header>
-  
+
   <div class="post-list-container">
     {% include articlelist.html posts=paginator.posts %}
-    {% include pagination.html paginator=paginator %}
+    {% include pagination.html paginator=paginator prefix="/adventures-photography" %}
   </div>
 </main>
