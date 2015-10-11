@@ -1,5 +1,26 @@
-<ul>
-  <li><a {% if "/index.html" == page.url %} class="current_page_item" {% endif %} href="/">Home</a></li>
-  <li><a {% if "/adventures-photography/index.html" == page.url %} class="current_page_item" {% endif %} href="/adventures-photography">Adventures <span class="ampersand">&amp;</span> Photography</a></li>
-  <li><a {% if "/notebook/index.html" == page.url %} class="current_page_item" {% endif %} href="/notebook">Notebook</a></li>
+<ul><!--
+--><li>
+    <a {% if "/index.html" == page.url %} class="current_page_item" {% endif %} href="/">
+      Home
+      <span>Who &amp; What</span>
+    </a>
+  </li><!--
+--><li>
+    <a {% if "/adventures-photography/index.html" == page.url %} class="current_page_item" {% endif %} href="/adventures-photography">
+      Adventures &amp; Photography
+      <span>Photostories from the front-lines</span>
+    </a>
+  </li><!--
+--><li>
+    <a {% if "/notebook/index.html" == page.url %} class="current_page_item" {% endif %} href="/notebook">
+      Notebook
+      <span>Gear, Ideas, Advice &amp; Photography</span>
+    </a>
+  </li><!--
+--><li>
+    <a {% if "/development/index.html" == page.url %} class="current_page_item" {% endif %} href="/development">
+      Development
+      <span>Systems, Code &amp; Infrastructure</span>
+    </a>
+  </li>
 </ul>

@@ -47,6 +47,7 @@ body > header {
     height: auto;
     overflow: hidden;
     display: inline-block;
+    width: 100%;
 
     &.hidden {
       height: 0;
@@ -60,11 +61,25 @@ body > header {
       margin: 0;
       padding: 0;
 
+      span {
+        display: block;
+        clear: left;
+        text-transform: none;
+        color: #ccc;
+        font-size: 95%;
+        font-weight: normal;
+        @include rem-fallback(padding-top, .5);
+      }
+
       a {
         &:hover, &.current_page_item {
-          @include rem-fallback(padding-left, .9);
+          @include rem-fallback(padding-left, .8);
           text-decoration: none;
-          border-left: .1em solid #fff;
+          border-left: .2em solid #fff;
+        }
+
+        &:hover span {
+          color: #fff;
         }
       }
     }
@@ -74,22 +89,27 @@ body > header {
     padding: 0;
   }
 
-  @include media($tablet) {
-    a {
-      display: inline-block;
-      width: auto;
-    }
-
+  @include media($navigation-full-width) {
     .toggle {
       display: none;
     }
 
     nav {
-      float: right;
-      clear: none;
+      clear: both;
+      width: 100%;
+      text-align: center;
+
+      a {
+        display: inline-block;
+        width: auto;
+      }
 
       &.hidden {
         height: auto;
+      }
+
+      ul {
+        list-style: none;
       }
 
       li {
@@ -106,6 +126,29 @@ body > header {
             border-left: none;
           }
         }
+      }
+    }
+  }
+
+  @include media($navigation-wingle-row) {
+    a {
+      display: inline-block;
+      width: auto;
+    }
+
+    h1 {
+      @include rem-fallback(padding, .8, 1);
+    }
+
+    nav {
+      float: right;
+      clear: none;
+      width: auto;
+
+      text-align: right;
+
+      li {
+        text-align: left;
       }
     }
   }

@@ -13,6 +13,9 @@ $tablet-only: min-width 720px max-width 1000px;
 $desktop: min-width 1000px;
 $retina: "screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
+$navigation-full-width: 815px;
+$navigation-wingle-row: 1000px;
+
 @import "mixins";
 @import "reset";
 @import "bourbon";
@@ -27,4 +30,4 @@ $retina: "screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dp
 @import "loading-indicator";
 
 
-<%= Rouge::Themes::Github.render(scope: '.highlight') %> 
+<%= Rouge::Themes::Github.render(scope: '.highlight') %>
