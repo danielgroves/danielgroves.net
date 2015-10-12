@@ -130,7 +130,7 @@ body > header {
     }
   }
 
-  @include media($navigation-wingle-row) {
+  @include media($navigation-single-row) {
     a {
       display: inline-block;
       width: auto;
@@ -149,6 +149,30 @@ body > header {
 
       li {
         text-align: left;
+      }
+    }
+  }
+
+  @include media($navigation-with-picture) {
+    h1 {
+      @include rem-fallback(margin-left, 4);
+
+      &:before {
+        content: " ";
+        display: inline-block;
+        background: #333 url("#{$static_url}/images/me.jpg") center center no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid #666;
+
+        @include rem-fallback(width, 3);
+        @include rem-fallback(height, 3);
+        @include rem-fallback(border-radius, 3);
+        @include rem-fallback(margin-top, -1.5);
+        @include rem-fallback(margin-left, 1);
+
+        position: absolute;
+        top: 50%;
+        left: 0;
       }
     }
   }
