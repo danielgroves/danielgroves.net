@@ -4,7 +4,7 @@ published: true
 
 title: The first real road ride
 excerpt: "What I've learnt and discovered during my first real road ride, a 64km loop on Dartmoor"
-thumb: /images/blog/2013-06-02-first-road-ride/dartmoor_view.jpg
+thumb: /images/blog/2013-06-02-first-road-ride/thumb.jpg
 ---
 
 The first thing I will make clear is that I am no roadie. I'm a mountain biker; always have been, always will be. I like big fat knobbly tyres, bouncy forks at the front and ideally some more of the bouncy magic at the back. Right, thats the important bit done.

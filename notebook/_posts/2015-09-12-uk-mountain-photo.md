@@ -5,6 +5,9 @@ excerpt: How you can support me in the UK Mountain Photo of the Year Competition
 
 date: 2015-09-12 09:25
 tags: photography competition
+
+thumb: /images/blog/2015-09-uk-mountain-photo/thumb.jpg
+header: /images/blog/2015-09-uk-mountain-photo/header.jpg
 ---
 
 Back in July I entered the Mountain Photo of the Year competition on a whim. I didn't expect to get anywhere, expecting my three entries to simply be discarded as *"[not worthy][not_worthy]"*.

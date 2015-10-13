@@ -5,17 +5,7 @@ published: true
 title: Scotland Photography
 date: 2013-09-01 21:00:00.000000000 +00:00
 excerpt: "A small selection of photographs from my summer holiday to Scotland"
-
-header: '<!-- Lightview -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-		<!--[if lt IE 9]>
-		  <script type="text/javascript" src="/assets/js/excanvas/excanvas.js"></script>
-		<![endif]-->
-		<script type="text/javascript" src="/assets/js/spinners/spinners.min.js"></script>
-		<script type="text/javascript" src="/assets/js/lightview/lightview.js"></script>
-
-		<link rel="stylesheet" type="text/css" href="/assets/css/lightview.css" />'
+thumb: /images/blog/2013-09-01-scotland-photography/thumb.jpg
 
 tags: scotland photography
 ---
