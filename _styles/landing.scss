@@ -7,7 +7,7 @@
   }
 
   #intro {
-    @include rem-fallback(padding-top, 4);
+    @include rem-fallback(padding-top, 8);
     @include rem-fallback(font-size, 1.6);
     @include fill-parent;
     @include row;
@@ -30,7 +30,7 @@
       }
 
       &:last-of-type {
-        @include rem-fallback(padding-bottom, 6);
+        @include rem-fallback(padding-bottom, 10);
       }
     }
   }

@@ -1,5 +1,5 @@
 article {
-  padding-top: 4em;
+  @include rem-fallback(padding-top, 5);
 
   // Header Image.
   @include media($tablet) {
