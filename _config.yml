@@ -9,8 +9,8 @@ markdown: kramdown
 permalink: /:categories/:year/:month/:title
 url: http://localhost:4000
 name: Daniel Groves
-description: "Photographer, Adventurer, and Developer who is addicted to the mountains."
-email: "hello@danielgroves.net"
+description: 'Photographer, Adventurer, and Developer who is addicted to the mountains.'
+email: 'hello@danielgroves.net'
 
 opengraph:
   page: https://www.facebook.com/danielgrovesphotography
@@ -34,13 +34,27 @@ pagination:
   per_page: 12
   permalink: /:num/index.html
 
-exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'readme.md', '.gitlab-ci.yml', 'vendor']
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - readme.md
+  - .gitlab-ci.yml
+  - vendor
 
 kramdown:
   parse_span_html: false
   parse_block_html: false
 
-gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap", "rouge", "jekyll-redirect-from", "octopress-paginate"]
+gems:
+  - bourbon
+  - neat
+  - jekyll-assets
+  - jekyll-archives
+  - jekyll-sitemap
+  - rouge
+  - jekyll-redirect-from
+  - octopress-paginate
 
 assets:
   sources:
@@ -52,23 +66,23 @@ assets:
 
 defaults:
   - scope:
-      path: ""
+      path: ''
     values:
       footer_related_posts: true
       comments: false
 
   - scope:
-      path: ""
-      type: "pages"
+      path: ''
+      type: 'pages'
     values:
-      layout: "stark"
+      layout: 'stark'
 
   - scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: 'posts'
     values:
-      layout: "default"
-      banner_position: "middle"
+      layout: 'default'
+      banner_position: 'middle'
 
 mapbox:
   options:
