@@ -12,7 +12,7 @@
     @include fill-parent;
     @include row;
 
-    background: #333 url("#{$static_url}/camera-roll/2015/04/header.jpg") center center no-repeat;
+    background: #333 url("#{$static_url}/camera-roll/2015/09/soar/header.jpg") bottom center no-repeat;
     background-size: cover;
 
     span {
@@ -21,7 +21,7 @@
 
       text-align: center;
       color: #fff;
-      text-shadow: 0 0 4px #000;
+      text-shadow: 0 0 3px #000;
 
       &:first-of-type {
         @include rem-fallback(font-size, 3);
