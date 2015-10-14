@@ -14,6 +14,7 @@ gem "jekyll-archives"
 gem "jekyll-sitemap"
 gem "rouge"
 gem "jekyll-redirect-from"
+gem 'octopress-paginate'
 
 # Used for image optimisation
 gem 'image_optim'

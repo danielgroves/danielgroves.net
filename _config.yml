@@ -29,12 +29,10 @@ jekyll-archives:
   permalinks:
     tag: /tag/:name/
 
-paginate: 12
-
-# Disables the default paginator from working
-# Otherwise it generates /page2, /page3, etc
-# Will find a better fix when time presents itself
-paginate_path: ""
+pagination:
+  limit: false
+  per_page: 12
+  permalink: /:num/index.html
 
 exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'readme.md', '.gitlab-ci.yml', 'vendor']
 
@@ -42,7 +40,7 @@ kramdown:
   parse_span_html: false
   parse_block_html: false
 
-gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap", "rouge", "jekyll-redirect-from"]
+gems: ["bourbon", "neat", "jekyll-assets", "jekyll-archives", "jekyll-sitemap", "rouge", "jekyll-redirect-from", "octopress-paginate"]
 
 assets:
   sources:

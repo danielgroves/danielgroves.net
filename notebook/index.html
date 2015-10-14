@@ -3,6 +3,10 @@ layout: stark
 title: Notebook
 excerpt: The World Through the Lens of a Photographer
 footer_related_posts: false
+
+paginate:
+  collection: posts
+  category: 'notebook'
 ---
 
 <main>
@@ -13,6 +17,6 @@ footer_related_posts: false
 
   <div class="post-list-container">
     {% include articlelist.html posts=paginator.posts %}
-    {% include pagination.html paginator=paginator prefix="/adventures-photography" %}
+    {% include pagination.html paginator=paginator prefix=page.paginate.category %}
   </div>
 </main>

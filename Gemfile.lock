@@ -84,6 +84,10 @@ GEM
     neat (1.7.1)
       bourbon (>= 4.0)
       sass (>= 3.3)
+    octopress-hooks (2.6.1)
+      jekyll (>= 2.0)
+    octopress-paginate (1.1.2)
+      octopress-hooks
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
@@ -137,10 +141,11 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown
   neat
+  octopress-paginate
   rake
   rouge
   sass
   uglifier
 
 BUNDLED WITH
-   1.10.5
+   1.10.6

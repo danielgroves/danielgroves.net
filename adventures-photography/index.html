@@ -1,8 +1,12 @@
 ---
 layout: stark
-title: Development
-excerpt: The Thoughts, Problems and Solutions of a Web Developer
+title: Adventures and Photography
+excerpt: The World Through the Lens of a Photographer
 footer_related_posts: false
+
+paginate:
+  collection: posts
+  category: 'adventures-photography'
 ---
 
 <main>
@@ -13,6 +17,6 @@ footer_related_posts: false
 
   <div class="post-list-container">
     {% include articlelist.html posts=paginator.posts %}
-    {% include pagination.html paginator=paginator prefix="/notebook"  %}
+    {% include pagination.html paginator=paginator prefix=page.paginate.category %}
   </div>
 </main>
