@@ -1,0 +1,12 @@
+<section class="articlelist list">
+    {% for post in include.posts %}
+      <article>
+        <header>
+          <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
+          <span><strong>Published:</strong> {{ post.date | date: "%e %B %Y" }}</span>
+        </header>
+
+        <p>{{ post.excerpt }}</p>
+      </article>
+    {% endfor %}
+  </section>

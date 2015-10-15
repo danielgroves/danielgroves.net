@@ -1,4 +1,4 @@
-<section class="articlelist">
+<section class="articlelist thumbs">
     {% for post in include.posts %}
       <article>
         {% if post.thumb %}
@@ -6,12 +6,12 @@
             <img data-src="{{ site.static_path }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" width="900px" height="512px" />
           </a>
         {% endif %}
-  
+
         <header>
           <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
           <span><strong>Published:</strong> {{ post.date | date: "%e %B %Y" }}</span>
         </header>
-  
+
         <p>{{ post.excerpt }}</p>
       </article>
     {% endfor %}
