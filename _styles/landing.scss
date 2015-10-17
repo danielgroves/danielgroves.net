@@ -64,4 +64,8 @@
       }
     }
   }
+
+  #posts {
+    @include rem-fallback(margin-top, 3);
+  }
 }
