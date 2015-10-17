@@ -35,7 +35,7 @@
     }
   }
 
-  #about {
+  #about, #posts {
     @include row;
     @include shift(1);
     @include span-columns(10);
@@ -45,6 +45,11 @@
 
       @include media($desktop) {
         @include span-columns(4);
+      }
+
+      img {
+        @include fill-parent;
+        height: auto;
       }
 
       h1 {

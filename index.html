@@ -34,4 +34,35 @@ footer_related_posts: false
       <p>I regularly share what I am working on through my GitHub profile to help others learn and contribute towards projects. For example, you can find the source-code for this website in it's <a href="http://github.com/danielgroves/danielgroves.net" title="Source code for danielgroves.net">open–source repository</a>. </p>
     </section>
   </div>
+
+  <div id="posts">
+    {% for post in site.categories.adventures-photography limit:2 %}
+    <section>
+      {% if post.thumb %}
+        <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
+          <img data-src="{{ site.static_path }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" width="900px" height="512px" />
+        </a>
+      {% endif %}
+
+      <header>
+        <h1>{{ post.title }}</h1>
+      </header>
+      <p>{{ post.excerpt }}</p>
+    </section>
+    {% endfor %}
+
+    {% assign post = site.categories.notebook.first %}
+    <section>
+      {% if post.thumb %}
+        <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
+          <img data-src="{{ site.static_path }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" width="900px" height="512px" />
+        </a>
+      {% endif %}
+
+      <header>
+        <h1>{{ post.title }}</h1>
+      </header>
+      <p>{{ post.excerpt }}</p>
+    </section>
+  </div>
 </main>
