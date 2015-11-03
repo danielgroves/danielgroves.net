@@ -15,7 +15,11 @@ layout: stark
 
       <div class="meta">
         <span>
-          <strong>Published:</strong> {{ page.date | date: "%e %B %Y" }}
+          {% if page.is_post %}
+            <strong>Published:</strong> {{ page.date | date: "%e %B %Y" }}
+          {% else %}
+            <strong>Last Updated:</strong> {{ page.date | date: "%e %B %Y" }}
+          {% endif %}
 
           {% for tag in page.tags %}
             {% if forloop.first %}
