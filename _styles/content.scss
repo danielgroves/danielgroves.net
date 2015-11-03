@@ -162,24 +162,35 @@ article {
 
     @include media($tablet) {
       @include rem-fallback(padding, 2, 0);
-    }
 
-    .row {
-      @include row;
-      @include rem-fallback('padding-top', 1);
-
-      img {
-        width: 23.875%;
+      &.row_2 img {
+        width: 49.5%;
+        margin-right: 1%;
         float: left;
-        margin-right: 1.5%;
 
         &:last-of-type {
           margin-right: 0;
         }
       }
+    }
+
+    .row {
+      @include row;
+      @include rem-fallback('padding-top', .75);
+
+      img {
+        width: 23.875%;
+        float: left;
+        margin-right: 1.5%;
+      }
 
       &.pair img {
-        width: 49.25%;
+        width: 49.5%;
+        margin-right: 1%;
+      }
+
+      img:last-of-type {
+        margin-right: 0;
       }
     }
 
