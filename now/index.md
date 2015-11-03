@@ -2,7 +2,7 @@
 title: "Now"
 excerpt: "What I'm working on, right now"
 layout: default
-date: 2015-10-03 23:00
+date: 2015-11-03 23:00
 footer_related_posts: false
 ---
 
