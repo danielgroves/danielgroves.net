@@ -6,7 +6,7 @@ date: 2015-11-05 15:00
 footer_related_posts: false
 ---
 
-This page was inspired by the [/now][now_movement]. The idea here is to maintain a /now page which explains what you're working on right now.
+This page was inspired by the [/now][now_movement] movement. The idea here is to maintain a /now page which explains what you're working on right now.
 
 ## Primary Focuses
 
