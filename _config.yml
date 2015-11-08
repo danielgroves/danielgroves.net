@@ -75,7 +75,10 @@ defaults:
       path: ''
       type: 'pages'
     values:
+
       layout: 'stark'
+      is_page: true
+      is_post: false
 
   - scope:
       path: ''
@@ -83,6 +86,8 @@ defaults:
     values:
       layout: 'default'
       banner_position: 'middle'
+      is_page: false
+      is_post: true
 
 mapbox:
   options:

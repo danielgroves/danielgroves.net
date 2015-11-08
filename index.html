@@ -45,7 +45,7 @@ footer_related_posts: false
       {% endif %}
 
       <header>
-        <h1>{{ post.title }}</h1>
+        <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
       </header>
       <p>{{ post.excerpt }}</p>
     </section>
@@ -60,7 +60,7 @@ footer_related_posts: false
       {% endif %}
 
       <header>
-        <h1>{{ post.title }}</h1>
+        <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
       </header>
       <p>{{ post.excerpt }}</p>
     </section>
