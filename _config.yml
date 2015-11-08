@@ -60,8 +60,8 @@ assets:
   sources:
     - _scripts
     - _styles
-  js_compressor: uglifier
-  css_compressor: sass
+  js_compressor: yui
+  css_compressor: yui
   debug: false
 
 defaults:
@@ -75,7 +75,6 @@ defaults:
       path: ''
       type: 'pages'
     values:
-
       layout: 'stark'
       is_page: true
       is_post: false

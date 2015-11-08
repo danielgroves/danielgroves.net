@@ -1,5 +1,3 @@
-require 'image_optim'
-
 task default: %w[build]
 $linebreak = "\n\n =========================\n"
 
