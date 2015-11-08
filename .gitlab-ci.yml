@@ -11,12 +11,22 @@ build:
   tags:
     - jekyll
 
-deply:
+deploy_live:
   stage: deploy
   script:
     - bundle exec rake build
     - bundle exec rake deploy
   only:
+    - master
+  tags:
+    - jekyll
+
+deploy_staging:
+  stage: deploy
+  script:
+    - bundle exec rake build
+    - bundle exec rake deploy_staging
+  except:
     - master
   tags:
     - jekyll
