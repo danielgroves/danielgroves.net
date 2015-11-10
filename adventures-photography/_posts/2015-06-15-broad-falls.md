@@ -4,9 +4,9 @@ title: Broad Falls Wild Camp
 excerpt: A trip out to Broad Falls, Dartmoor, to photograph the waterfalls with a dramatic backdrop
 
 date: 2015-06-15 22:45
-thumb: /camera-roll/2015/06/20150614-DSC_7280-HDR.jpg
+thumb: /adventures_photography/2015-06-15-broad-falls/20150614-DSC_7280-HDR.jpg
 
-banner: /camera-roll/2015/06/banner.jpg
+banner: /adventures_photography/2015-06-15-broad-falls/banner.jpg
 banner_position: 0 30%
 tags: photography dartmoor camping
 ---
@@ -18,7 +18,7 @@ After a morning of throwing kit into a pile and attempting to shoe-horn it all i
 We quickly proceeded to start the march up the old miners track towards Red Lake, making much shorter work of it than previously thanks to the much dryer and wind-free conditions. From here we peeled off along the Two Moors Way until we crossed the River Avon. Turning left we followed the bank up to Broad Falls where we found a suitable area big enough to fit our four small tents.
 
 <figure>
-  <img src="/assets/camera-roll/2015/06/20150613-DSC_7220.jpg" alt="Cooking in the evening, with my tent in the background. " />
+  <img src="/assets/adventures_photography/2015-06-15-broad-falls/20150613-DSC_7220.jpg" alt="Cooking in the evening, with my tent in the background. " />
   <figcaption>
     Cooking in the evening, with my tent in the background.
   </figcaption>
@@ -29,7 +29,7 @@ Before setting up camp, we crossed the river to check for any better spots on th
 Waking up the next morning presented some far better conditions than the previous night. The fog had cleared and the textures had developed nicely in the sky. We all got some breakfast and morning coffee on before proceeding to photograph the waterfalls in the morning light.
 
 <figure>
-  <img src="/assets/camera-roll/2015/06/20150614-DSC_7257-HDR.jpg" alt="Broad Falls on the Sunday morning once the fog had cleared. " />
+  <img src="/assets/adventures_photography/2015-06-15-broad-falls/20150614-DSC_7257-HDR.jpg" alt="Broad Falls on the Sunday morning once the fog had cleared. " />
   <figcaption>
     Broad Falls on the Sunday morning once the fog had cleared.
   </figcaption>
@@ -38,12 +38,12 @@ Waking up the next morning presented some far better conditions than the previou
 After packing up we moved quickly on to the 'volcano', the slag heap at Red Lake China Clay Works. We spent a few minutes exploring here, identifying a potential new spot for a future wild-camp before moving on to take the long trudge back down the miners track into Ivybridge,  briefly stopping at our previous camping spot, Leftlake Mires, for a cake stop.
 
 <figure>
-  <img src="/assets/camera-roll/2015/06/20150614-DSC_7288-HDR.jpg" alt="The 'volcano'; this is actually an old slag heap at the old Red Lake workings. " />
+  <img src="/assets/adventures_photography/2015-06-15-broad-falls/20150614-DSC_7288-HDR.jpg" alt="The 'volcano'; this is actually an old slag heap at the old Red Lake workings. " />
   <div class="row">
-    <img src="/assets/camera-roll/2015/06/20150613-DSC_7231.jpg" alt="Max. " />
-    <img src="/assets/camera-roll/2015/06/20150614-DSC_7296.jpg" alt="Mike observing the view. " />
-    <img src="/assets/camera-roll/2015/06/20150614-DSC_7299.jpg" alt="Max, Pete and Mike walking back along the old miners track on Sunday." />
-    <img src="/assets/camera-roll/2015/06/20150614-DSC_7300.jpg" alt="Sam, or Candy?" />
+    <img src="/assets/adventures_photography/2015-06-15-broad-falls/20150613-DSC_7231.jpg" alt="Max. " />
+    <img src="/assets/adventures_photography/2015-06-15-broad-falls/20150614-DSC_7296.jpg" alt="Mike observing the view. " />
+    <img src="/assets/adventures_photography/2015-06-15-broad-falls/20150614-DSC_7299.jpg" alt="Max, Pete and Mike walking back along the old miners track on Sunday." />
+    <img src="/assets/adventures_photography/2015-06-15-broad-falls/20150614-DSC_7300.jpg" alt="Sam, or Candy?" />
   </div>
   <figcaption>
     The 'volcano', a slag heap left over from the Red Lake workings (top). <br />

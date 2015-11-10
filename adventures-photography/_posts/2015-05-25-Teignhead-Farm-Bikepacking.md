@@ -5,8 +5,8 @@ excerpt: A bikepacking trip across Dartmoor to wild camp and Teignhead Farm Ruin
 tags: bike packing camping photography
 
 date: 2015-05-25 17:20
-thumb: /camera-roll/2015/05/DSC_7154-Edit-Thumb.jpg
-banner: /camera-roll/2015/05/header.jpg
+thumb: /adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/DSC_7154-Edit-Thumb.jpg
+banner: /adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/header.jpg
 banner_position: 0 50%
 
 tags: bike bikepacking exploration dartmoor photography
@@ -17,7 +17,7 @@ The second bank holiday of may presented the chance to load-up the bike and head
 This was by no means a lightweight trip; the bike weighed in around 25kg loaded up, with an additional 6kg of camera gear in a rucksack. The plan was simple, Max (the same one as I did [John O' Groats](https://danielgroves.net/adventures-photography/2014/11/JOGLE "John O' Groats to Lands End Part One") to [Lands End](https://danielgroves.net/adventures-photography/2014/12/JOGLE-2 "John O' Groats to Lands End Part Two") with last summer) and I would ride out to Postbridge where an additional friend, James, would join us for the last bit of the ride up to Teignhead Farm. On arrival another two friends, Luke and Pete, would join us on-foot.
 
 <figure>
-  <img data-src="/assets/camera-roll/2015/05/20150523-DSC_7073.jpg" alt="Fully loaded On One Inbred using AlpKit luggage. This weighed in at 25kg." />
+  <img data-src="/assets/adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/20150523-DSC_7073.jpg" alt="Fully loaded On One Inbred using AlpKit luggage. This weighed in at 25kg." />
   <figcaption>
     Fully loaded On One Inbred using AlpKit luggage. This weighed in at 25kg.
   </figcaption>
@@ -33,7 +33,7 @@ It was 14:20 when we reached Princetown for lunch, so we made the decision to sk
 The trail after Postbridge proved to be hard going, and was new to all of us. One minute we would be pushing, then next we'd be shouldering the bikes and then we'd get a few more minutes of in-the-saddle riding in before repeating. In the end it took us around 1 hour 30 minutes to cover the last 6.5km.
 
 <figure>
-  <img data-src="/assets/camera-roll/2015/05/20150524-DSC_7174.jpg" alt="James and I killing a little time while we waited for Max. " />
+  <img data-src="/assets/adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/20150524-DSC_7174.jpg" alt="James and I killing a little time while we waited for Max. " />
   <figcaption>
     James and I killing a little time while we waited for Max.
   </figcaption>
@@ -44,12 +44,12 @@ This timing worked well; just as we were descending to the bridge over the river
 45-minutes later we were all set-up, dinner was on, and Pete pulled a BBQ and a heap of chicken out of his pack. After dinner Luke and I wandered off for a few hours with the cameras to photograph the sunset. We chose the direction to head in badly, and with no foregrounds had little success.
 
 <figure>
-  <img data-src="/assets/camera-roll/2015/05/20150523-DSC_7128.jpg" alt="Pete by the campfire. " />
+  <img data-src="/assets/adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/20150523-DSC_7128.jpg" alt="Pete by the campfire. " />
   <div class="row">
-    <img data-src="/assets/camera-roll/2015/05/20150523-DSC_7144.jpg" alt="Pete by the campfire. " />
-    <img data-src="/assets/camera-roll/2015/05/20150523-DSC_7145.jpg" alt="Pete by the campfire. " />
-    <img data-src="/assets/camera-roll/2015/05/20150523-DSC_7147.jpg" alt="Pete by the campfire. " />
-    <img data-src="/assets/camera-roll/2015/05/20150523-DSC_7150.jpg" alt="Pete by the campfire. " />
+    <img data-src="/assets/adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/20150523-DSC_7144.jpg" alt="Pete by the campfire. " />
+    <img data-src="/assets/adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/20150523-DSC_7145.jpg" alt="Pete by the campfire. " />
+    <img data-src="/assets/adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/20150523-DSC_7147.jpg" alt="Pete by the campfire. " />
+    <img data-src="/assets/adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/20150523-DSC_7150.jpg" alt="Pete by the campfire. " />
   </div>
 
   <figcaption>
@@ -63,7 +63,7 @@ Back at the tents we sat by the fire for a short while before setting up the cam
 The next day Luke and I were up earlier than should be humanly possible, and walked to a set of stone-circles to shoot the sunrise. Unfortunately as soon as the cameras hit the tripods, the fog dropped on us both writing off the shoot and sending us back to the tents for some much needed sleep.
 
 <figure>
-  <img data-src="/assets/camera-roll/2015/05/20150523-DSC_7154-Edit.jpg" alt="Our camp after dark. It was a completely clear night, which made for a pretty amazing sky. " />
+  <img data-src="/assets/adventures_photography/2015-05-25-Teignhead-Farm-Bikepacking/20150523-DSC_7154-Edit.jpg" alt="Our camp after dark. It was a completely clear night, which made for a pretty amazing sky. " />
   <figcaption>
   Our camp after dark. It was a completely clear night, which made for a pretty amazing sky.
   </figcaption>
