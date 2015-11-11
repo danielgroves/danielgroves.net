@@ -6,8 +6,8 @@ excerpt: How you can support me in the UK Mountain Photo of the Year Competition
 date: 2015-09-12 09:25
 tags: photography competition
 
-thumb: /images/blog/2015-09-uk-mountain-photo/thumb.jpg
-header: /images/blog/2015-09-uk-mountain-photo/header.jpg
+thumb: /notebook/2015-09-uk-mountain-photo/thumb.jpg
+header: /notebook/2015-09-uk-mountain-photo/header.jpg
 ---
 
 Back in July I entered the Mountain Photo of the Year competition on a whim. I didn't expect to get anywhere, expecting my three entries to simply be discarded as *"[not worthy][not_worthy]"*.
@@ -21,10 +21,10 @@ Proof that mountains don't have to be tall and pointy to create a great outdoor 
 {% endquote %}
 
 <figure>
-  <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150523-DSC_7154-Edit-2.jpg" alt="Dartmoor wild camp – UK Mountain Photo of the Year runner up entry" />
+  <img src="/assets/notebook/2015-09-uk-mountain-photo/20150523-DSC_7154-Edit-2.jpg" alt="Dartmoor wild camp – UK Mountain Photo of the Year runner up entry" />
   <div class="row pair">
-    <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150614-DSC_7280-HDR-2.jpg" alt="Max. " />
-    <img src="/assets/images/blog/2015-09-uk-mountain-photo/20150502-DSC_6789-Edit.jpg" alt="Mike observing the view. " />
+    <img src="/assets/notebook/2015-09-uk-mountain-photo/20150614-DSC_7280-HDR-2.jpg" alt="Max. " />
+    <img src="/assets/notebook/2015-09-uk-mountain-photo/20150502-DSC_6789-Edit.jpg" alt="Mike observing the view. " />
   </div>
   <figcaption>
     Dartmoor wild camp – UK Mountain Photo of the Year runner up entry<br />

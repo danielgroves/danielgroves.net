@@ -2,7 +2,7 @@
 published: true
 title: Colour Shift with 32-bit RAW files in Lightroom
 excerpt: When creating 32-bit RAW images in Photoshop, Lightroom will render the image with incorrect colour. This can be solved through the use of Photoshop Smart Objects.
-thumb: /images/blog/2015-02-21-colour-shift-lightroom/thumb.jpg
+thumb: /notebook/2015-02-21-colour-shift-lightroom/thumb.jpg
 
 date: 2015-02-21 10:15
 tags: photography
@@ -17,7 +17,7 @@ Not only do 32-bit images hold a greater range of colour and more accurate colou
 The problem with 32-bit images is Photoshop CC doesn't allow images to be directly exported from Photoshop itself, and thus Lightroom is required. This in itself isn't a problem, but Lightroom will treat any 32-bit raw files (such as a TIFF or DNG) [as an un-toned image][32bittoning] and attempt to apply its own base-toning on top of this image.
 
 <figure>
-    <img src="/assets/images/blog/2015-02-21-colour-shift-lightroom/colourshift.jpg" alt="" />
+    <img src="/assets/notebook/2015-02-21-colour-shift-lightroom/colourshift.jpg" alt="" />
 
     <figcaption>
         Colour shift between Lightroom and Photoshop, with the incorrect image on the left and the correct image on the right.
