@@ -15,7 +15,7 @@ Recently I registered a new domain name, [serverapp.io][so]. This has been regis
 The idea for the service is to provide up–to–date information about one or more servers, and allow the user to trigger alerts when certain thresholds are met by the server resources. So, for example, you could say when the RAM hits 90% or more capacity then send an email to the account holder to let them know. 
 
 <figure>
-	<img src="/assets/images/blog/2013-08-05-server-observer/so-banner.png" alt="Server Observer Banner" />
+	<img src="/assets/development/2013-08-05-server-observer/so-banner.png" alt="Server Observer Banner" />
 	<figcaption>
 		<em>Server Observer</em> — Simple and Reliable Server Monitoring
 	</figcaption>

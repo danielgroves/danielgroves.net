@@ -12,7 +12,7 @@ With the release of Alfred v2 powerpack users have more flexibility than ever to
 ## Responsive Calucator
 
 <figure>
-  <a href="/assets/alfred_extensions/ResponsiveCalculator.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/responsiveCalc.png" alt="Responsive Calculator workflow for Alfred" /></a>
+  <a href="/assets/alfred_extensions/ResponsiveCalculator.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/development/2013-04-01-alfred-externsions/responsiveCalc.png" alt="Responsive Calculator workflow for Alfred" /></a>
   <figcaption>
     Responsive Calculator workflow for Alfred
   </figcaption>
@@ -29,7 +29,7 @@ For example, for a 300px wide div in a 900px wide container you would type `rc 3
 ## Search MDN
 
 <figure>
-  <a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/searchMdn.png" alt="Search MDN workflow for Alfred" /></a>
+  <a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Responsive Calculator workflow for Alfred"><img src="/assets/development/2013-04-01-alfred-externsions/searchMdn.png" alt="Search MDN workflow for Alfred" /></a>
   <figcaption>
     Search MDN workflow for Alfred
   </figcaption>
@@ -42,7 +42,7 @@ This second extension is a quick custom search workflow. Simply type ```mdn``` f
 ## Search PHP Documentation
 
 <figure>
-  <a href="/assets/alfred_extensions/SearchPHPDocumentation.alfredworkflow" title="Download the Search PHP Documentation workflow for Alfred"><img src="/assets/images/blog/2013-04-01-alfred-externsions/searchPHP.png" alt="Search PHP workflow for Alfred" /></a>
+  <a href="/assets/alfred_extensions/SearchPHPDocumentation.alfredworkflow" title="Download the Search PHP Documentation workflow for Alfred"><img src="/assets/development/2013-04-01-alfred-externsions/searchPHP.png" alt="Search PHP workflow for Alfred" /></a>
   <figcaption>
     Search PHP workflow for Alfred
   </figcaption>

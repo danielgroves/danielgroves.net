@@ -64,7 +64,7 @@ Testing is very easily done. I used [SSL Labs](https://www.ssllabs.com/ssltest/ 
 It's very easy to use. Simply type your domain name into the input and hit enter. Their service will begin to analyse your SSL security, it can take a few minutes to complete but keeps you informed of the progress as it checks various encryption types and configuration settings. Once completed it will rate your certificate so that you can assess how good the protection is, and then make adjustments as required. 
 
 <figure>
-    <img src="/assets/images/blog/2014-01-16-nginx-with-ssl/ssllabs-approval.png" alt="'A' rated SSL encryption from the SSL Labs tester" />
+    <img src="/assets/development/2014-01-16-nginx-with-ssl/ssllabs-approval.png" alt="'A' rated SSL encryption from the SSL Labs tester" />
     <figcaption>'A' rated SSL encryption from the SSL Labs tester</figcaption>
 </figure>
 

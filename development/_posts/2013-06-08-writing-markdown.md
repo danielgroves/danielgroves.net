@@ -48,7 +48,7 @@ I'm sorry, but for such as basic feature as converting markdown to HTML, I'd exp
 My experiment so far shows Byword 2 to be a much more stable, reliable, editor; it doesn't seem to suffer from the same issues as iA Writer.  Unlike iA Writer, Byword comes with a very basic preferences panel. This has all the customisations you may want, without adding any feature bloat. 
 
 <figure>
-	<img src="/assets/images/blog/2013-06-08-writing-markdown/BywordPreferences.png" alt="Byword 2 Preferences" />
+	<img src="/assets/development/2013-06-08-writing-markdown/BywordPreferences.png" alt="Byword 2 Preferences" />
 	<figcaption>
 		Byword 2 Preferences
 	</figcaption>
@@ -59,7 +59,7 @@ As the screenshot shows Byword makes it easy to change the font (not that you'll
 Focus mode can also be fine-tuned to your personal taste in Byword. It allows two options, both of which can be activated using simple keyboard shortcuts. The first is *line focus* which highlights the current line (my personal preference) and the other is *paragraph focus*, which highlights the whole paragraph. Unlike iA Writer, as you turn these on and off in Byword the text highlighting is set properly without any bugs leaving you with weird patterns of highlighting. 
 
 <figure>
-	<img src="/assets/images/blog/2013-06-08-writing-markdown/BywordFocus.png" alt="Byword 2 Focus Modes" />
+	<img src="/assets/development/2013-06-08-writing-markdown/BywordFocus.png" alt="Byword 2 Focus Modes" />
 	<figcaption>
 		Byword 2 Focus Modes
 	</figcaption>
@@ -74,7 +74,7 @@ Both iA Writer and Byword have iOS counterparts, each of them integrates with Dr
 Byword features a clean interface which is easily of the same quality of it's desktop application. It features a shortcut bar above the iOS keyboard, which can be swiped across as access a well thought-out selection of characters and shortcuts to help you write Markdown more productively. 
 
 <figure>
-	<img src="/assets/images/blog/2013-06-08-writing-markdown/BywordIpad.png" alt="Byword for iOS is about as slick as they come" />
+	<img src="/assets/development/2013-06-08-writing-markdown/BywordIpad.png" alt="Byword for iOS is about as slick as they come" />
 	<figcaption>
 		Byword for iOS is about as slick as they come
 	</figcaption>
@@ -83,7 +83,7 @@ Byword features a clean interface which is easily of the same quality of it's de
 iA Writer on iPad is pretty much identical to it's Mac version. It suffers from the same fallbacks, and the same interface-woes. It also features a shortcut toolbar, but for me it was always missing the two or three characters I used the most. 
 
 <figure>
-	<img src="/assets/images/blog/2013-06-08-writing-markdown/IaWriterIpad.png" alt="iA Writer on iPad, much like on Mac, could be a lot slicker" />
+	<img src="/assets/development/2013-06-08-writing-markdown/IaWriterIpad.png" alt="iA Writer on iPad, much like on Mac, could be a lot slicker" />
 	<figcaption>
 		iA Writer on iPad, much like on Mac, could be a lot slicker
 	</figcaption>

@@ -38,7 +38,7 @@ All of this was completed on version OS 10.7.2 "Lion" with no problems, although
 TRIM will most likely not be activated on any Mac that does not have an apple supplied SSD under the hood, but it is easy to enable. To check if it is enabled or not go to " -> About This Mac -> More Info...". From here press system report and then select "Serial-ATA" in the sidebar. If it is enabled it should look something like the image below.
 
 <figure>
-    <img src="/assets/images/blog/2012-01-18-going-solid-state/check-trim-enabled.png" alt="How to check if TRIM is enabled on a Mac" />
+    <img src="/assets/development/2012-01-18-going-solid-state/check-trim-enabled.png" alt="How to check if TRIM is enabled on a Mac" />
     <figcaption>How to check if TRIM is enabled on a Mac</figcaption>
 </figure>
 

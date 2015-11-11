@@ -14,7 +14,7 @@ Around six months ago Kieron Marr and I were selected to attend the Agile on the
 The conference proved to be an interesting and exhausting few days, but I learnt a lot about where the industry stands in regards to agile development and how industry professionals are currently working. After attending ten sessions over two days I have found myself reviewing my personal workflows to see how I can incorporate what I have learnt in order to make more workflow easier and more efficient. 
 
 <figure>
-	<img src="/assets/images/blog/2013-09-09-agile-on-the-beach-2013/conference.jpeg" alt="A full auditorium during the day two keynote" />
+	<img src="/assets/development/2013-09-09-agile-on-the-beach-2013/conference.jpeg" alt="A full auditorium during the day two keynote" />
 	<figcaption>
 		A full auditorium during the day two keynote
 	</figcaption>

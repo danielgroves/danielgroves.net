@@ -11,7 +11,7 @@ Roughly three months ago I got fed-up with the slow speeds of my old VPS. I deci
 
 <figure>
   <a href="https://www.digitalocean.com/?refcode=d0820e126448" title="Digital Ocean Refferal Link">
-    <img src="/assets/images/blog/2013-05-23-ninty-nine-days-on-digital-ocean/digitalocean-logo.png" alt="Digital Ocean logo" />
+    <img src="/assets/development/2013-05-23-ninty-nine-days-on-digital-ocean/digitalocean-logo.png" alt="Digital Ocean logo" />
   </a>
   <figcaption>
     To-date, I've been very impressed with the speed and support offered by Digital Ocean

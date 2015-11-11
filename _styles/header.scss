@@ -160,7 +160,7 @@ body > header {
       &:before {
         content: " ";
         display: inline-block;
-        background: #333 url("#{$static_url}/images/me.jpg") center center no-repeat;
+        background: #333 url("#{$static_url}/me.jpg") center center no-repeat;
         background-size: cover;
         border-bottom: 1px solid #666;
 
