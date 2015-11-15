@@ -3,11 +3,11 @@ published: true
 title: Going Off Grid
 excerpt: We all spend too much time online.
 
-date: 2015-11-14 21:00
+date: 2015-11-15 21:00
 tags:
 
-thumb: /notebook/2015-11-going-off-grid/thumb.jpg
-banner: /notebook/2015-11-going-off-grid/header.jpg
+thumb: /notebook/2015-11-15-going-off-grid/thumb.jpg
+banner: /notebook/2015-11-15-going-off-grid/header.jpg
 ---
 
 I’ve been trying to write this single post for the best part of a year now. I’ve been saying this for a while now, and over this last 18-months since I've finished university I’ve begun to notice this more and more: we all spend too much time online.
@@ -25,7 +25,7 @@ This new-fangled always-online world that has grown in the last decade stops us 
 We need to go off-grid.
 
 {% figure %}
-  {% img src: /assets/notebook/2015-11-going-off-grid/20140723-DSC_0999.jpg, alt: Tents pitched on Barra, Outer Hebrides, Scotland %}
+  {% img src: /assets/notebook/2015-11-15-going-off-grid/20140723-DSC_0999.jpg, alt: Tents pitched on Barra, Outer Hebrides, Scotland %}
   {% figcaption %}Tents pitched on Barra in the Outer Hebrides during my [John O' Groats to Lands End tour](/adventures-photography/2014/11/JOGLE/ "John O' Groats to Lands End tour, Part One"). Truly off-grid. {% endfigcaption %}
 {% endfigure %}
 
