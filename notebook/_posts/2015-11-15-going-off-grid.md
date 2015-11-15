@@ -4,7 +4,7 @@ title: Going Off Grid
 excerpt: We all spend too much time online.
 
 date: 2015-11-15 21:00
-tags:
+tags: thought technology lifestyle
 
 thumb: /notebook/2015-11-15-going-off-grid/thumb.jpg
 banner: /notebook/2015-11-15-going-off-grid/header.jpg
