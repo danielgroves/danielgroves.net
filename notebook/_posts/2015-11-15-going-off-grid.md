@@ -1,7 +1,7 @@
 ---
 published: true
 title: Going Off Grid
-excerpt: We all spend too much time online.
+excerpt: "Why you should schedule more downtime."
 
 date: 2015-11-15 21:00
 tags: thought technology lifestyle
