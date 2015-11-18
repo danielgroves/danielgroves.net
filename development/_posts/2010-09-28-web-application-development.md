@@ -5,6 +5,7 @@ published: true
 title: Web Applications Development
 date: 2010-09-28 10:54:09.000000000 +01:00
 excerpt: "A quick rundown of where I going to Univeristy and what I will be studying"
+permalink: /notebook/2010/09/web-application-development
 ---
 
 

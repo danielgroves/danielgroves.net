@@ -4,8 +4,9 @@ comments: true
 published: true
 title: Behind the Scenes AppFlow 2.0
 date: 2012-12-15 08:00:41.000000000 +00:00
+permalink: /notebook/2012/12/behind-the-scenes-appflow-2-0
 
-excerpt: An insight into the technologies behind the recently re-released AppFlow, from the building of the site all the way up to staging and production servers. 
+excerpt: An insight into the technologies behind the recently re-released AppFlow, from the building of the site all the way up to staging and production servers.
 ---
 <p><a title="AppFlow - Working with your Mac, simplified" href="http://appflow.co.uk">AppFlow</a> is a project that I started back in 2010 with <a title="Luke Barnes on Twitter" href="http://twitter.com/lbarnes2">Luke Barnes</a>. AppFlow has always been about trying to improve your workflow with your Mac, taking advantage of both the system default applications and third party ones that help you work faster with your Mac.</p>
 
@@ -69,18 +70,18 @@ excerpt: An insight into the technologies behind the recently re-released AppFlo
 
 {% highlight php %}
 <?php
-	if (getenv('SERVER_ENVIRONMENT') == 'production') : 
-	    // Database settings, Uniuqe Keys, Salts. 
-	    // And, make sure debug-mode is off in this environment 
-	    define('WP_DEBUG', false); 
-	elseif (getenv('SERVER_ENVIRONMENT') == 'staging') : 
-	    // Database settings, Uniuqe Keys, Salts. 
-	    // Also, I have debug mode on in this environment 
-	    define('WP_DEBUG', true); 
-	elseif (getenv('SERVER_ENVIRONMENT') == 'development') : 
-	    // Database settings, Uniuqe Keys, Salts. 
-	    // Also, I have debug mode on in this environment 
-	    define('WP_DEBUG', true); 
+	if (getenv('SERVER_ENVIRONMENT') == 'production') :
+	    // Database settings, Uniuqe Keys, Salts.
+	    // And, make sure debug-mode is off in this environment
+	    define('WP_DEBUG', false);
+	elseif (getenv('SERVER_ENVIRONMENT') == 'staging') :
+	    // Database settings, Uniuqe Keys, Salts.
+	    // Also, I have debug mode on in this environment
+	    define('WP_DEBUG', true);
+	elseif (getenv('SERVER_ENVIRONMENT') == 'development') :
+	    // Database settings, Uniuqe Keys, Salts.
+	    // Also, I have debug mode on in this environment
+	    define('WP_DEBUG', true);
 	endif;
 {% endhighlight %}
 

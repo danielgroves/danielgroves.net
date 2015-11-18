@@ -4,6 +4,7 @@ comments: true
 published: true
 title: "Bluetooth: Not Available"
 excerpt: 'The solution to OS X reporting "Bluetooth: Not Availiable" and refuse to recognise your Macs bluetooth chip'
+permalink: /notebook/2012/01/bluetooth-not-available
 
 date: 2012-01-06 20:52:28.000000000 +00:00
 ---

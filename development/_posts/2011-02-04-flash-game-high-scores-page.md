@@ -4,6 +4,7 @@ comments: true
 published: true
 title: "Flash Game: High Scores Page"
 excerpt: How the high-scores were laoded by combining ActionScript with a server-side PHP script.
+permalink: /notebook/2011/02/flash-game-high-scores-page
 
 date: 2011-02-04 21:07:44.000000000 +00:00
 ---
@@ -52,9 +53,9 @@ This is the section of action script that fetches the PHP files that fetches the
 {% highlight actionscript %}
 function menuLoad(event:Event):void
 {
-	
+
 	gotoAndStop(1);
-	
+
 }
 {% endhighlight %}
 

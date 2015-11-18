@@ -4,6 +4,7 @@ comments: true
 published: true
 title: "Shutting Down Server Observer"
 excerpt: The reasoning behind why I am shutting down the Server Observer service, and what's coming next for it.
+permalink: /notebook/2014/12/server-observer/
 
 date: 2014-12-06 10:10
 

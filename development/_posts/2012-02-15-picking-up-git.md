@@ -3,7 +3,8 @@ comments: true
 
 published: true
 title: Picking Up GIT
-excerpt: An introduction of using the Git version control system, aimed at those who are just starting out. 
+excerpt: An introduction of using the Git version control system, aimed at those who are just starting out.
+permalink: /notebook/2012/02/picking-up-git
 
 date: 2012-02-15 00:28:23.000000000 +00:00
 ---
@@ -196,7 +197,7 @@ Fast-forward
  main.css |    4 ++++
  1 files changed, 4 insertions(+), 0 deletions(-)
 {% endhighlight %}
- 
+
 ## Final Note
 
 When working in groups it is common for suchoccurrencesas two different people editing the same file, resulting in a merge beingnecessary. In this event I would suggest starting by looking through the official [GitHub guide to git](http://help.github.com/remotes/ "Managing remotes on GitHub help") before searching Google if the information doesn't help in your situation.

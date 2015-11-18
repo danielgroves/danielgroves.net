@@ -3,7 +3,8 @@ comments: true
 
 published: true
 title: Pushing the Bounderies
-excerpt: An argument for not living in the past, but pushing the current technologies of the web instead. 
+excerpt: An argument for not living in the past, but pushing the current technologies of the web instead.
+permalink: /notebook/2010/11/pushing-the-bounderies
 
 date: 2010-11-13 18:29:22.000000000 +00:00
 ---

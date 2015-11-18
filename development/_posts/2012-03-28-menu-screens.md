@@ -4,6 +4,7 @@ comments: true
 published: true
 title: "Design Process: Menu Screens"
 date: 2012-03-28 00:48:03.000000000 +01:00
+permalink: /notebook/2012/03/menu-screens
 
 excerpt: How the menu screens were developed for the game.
 ---

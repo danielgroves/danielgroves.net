@@ -5,6 +5,7 @@ published: true
 title: "Ending an era: finishing university"
 date: 2014-05-10 18:00
 excerpt: "Some thoughts on the last four years at university"
+permalink: /notebook/2014/05/finishing-university
 
 tags: review university
 ---

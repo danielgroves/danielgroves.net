@@ -5,6 +5,7 @@ published: true
 title: Development Environments with Vagrant and Ansible
 date: 2014-05-22 09:00
 excerpt: "How to use Vagrant and Ansible together to build a powerful, flexible and portable development environment"
+permalink: /notebook/2014/05/development-environments/
 
 tags: development vagrant python
 ---

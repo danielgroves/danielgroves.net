@@ -5,6 +5,7 @@ published: true
 title: All new Daniel Groves Web Design
 date: 2010-07-11 11:14:00.000000000 +01:00
 excerpt: "The very first post to be published on this site, concentrating on the new design"
+permalink: /notebook/2010/07/all-new-daniel-groves-web-design
 ---
 I have been working on this new design for some-time.  Since... April, I believe.  I have spent hours going over this design time and time again, refining it further and further, until today, launch day.  
 

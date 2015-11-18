@@ -4,8 +4,9 @@ comments: true
 published: true
 title: "Design Process: Project Completion"
 date: 2012-03-28 18:15:43.000000000 +01:00
+permalink: /notebook/2012/03/project-completion
 
-excerpt: Post development testing, debugging, and final thoughts. 
+excerpt: Post development testing, debugging, and final thoughts.
 ---
 With all of the previously detailed work completed the initial development of the game was then complete. The game was then tried by ten other people studying the same module in the search of improvements that could be made.
 

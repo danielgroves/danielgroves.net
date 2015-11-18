@@ -3,7 +3,8 @@ comments: true
 
 published: true
 title: "Flash Game: Backend Processing"
-excerpt: How the PHP script worked in able to allow the flash game to communicate with an external high-scores database. 
+excerpt: How the PHP script worked in able to allow the flash game to communicate with an external high-scores database.
+permalink: /notebook/2011/02/flash-game-backend-processing
 
 date: 2011-02-04 21:49:34.000000000 +00:00
 ---
@@ -24,30 +25,30 @@ I then used the following PHP script in order to write scores to the database (d
   $database = "";  //insert name of database wherein table was exported
   $table = "";  //insert the name of the table
   ///////////////////////////////////////////////////////////////////////
- 
+
   //stores the URLvariables into variables that php can use
-  $one = $_POST['yourname']; 
+  $one = $_POST['yourname'];
   $five = $_POST['yourscore'];
 
   echo($one);
   echo($five);
- 
+
     // Connects to the database server
     $dbcnx = @mysql_connect($host, $user, $pass);
     if (!$dbcnx) {
       echo( "<p>Unable to connect to the database server at this time.</p>" );
       exit();
     }
- 
+
     // Selects the database
     if (! @mysql_select_db($database) ) {
       echo( "<p>Unable to find database</p>");
       exit();
     }
- 
+
   //this is the command used to write the record into the MySQL database
   $query="INSERT into {$table} (name, score) VALUES ('{$one}',{$five})";   
- 
+
   //executes the command
   mysql_query($query) or die("Data not written.");
   echo("The data has been written to the table!");

@@ -4,7 +4,8 @@ comments: true
 published: true
 title: "Design Process: Stitching Levels Together"
 date: 2012-03-28 00:11:51.000000000 +01:00
-excerpt: How the levels were all integrated, allowing the user to advance in the game and for the score to carry-over between levels. 
+excerpt: How the levels were all integrated, allowing the user to advance in the game and for the score to carry-over between levels.
+permalink: /notebook/2012/03/stitching-levels-together
 ---
 This blog post was designed as a follow up to the [Level Creation](http://danielgroves.net/2012/03/level-creation/ "Level Creation") post.
 

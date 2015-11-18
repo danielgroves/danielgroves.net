@@ -3,7 +3,8 @@ comments: true
 
 published: true
 title: OS X Dock Spaces
-excerpt: A quick video which explains how to add a blank space into your OS X dock. 
+excerpt: A quick video which explains how to add a blank space into your OS X dock.
+permalink: /notebook/2011/01/osx-dock-spaces
 
 date: 2011-01-07 00:42:12.000000000 +00:00
 ---
@@ -16,4 +17,3 @@ A few people recently have been asking how I achieved the spaces in my dock, see
 Do this once for every space you want: <tt>defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'</tt>
 
 Followed by this to make them appear: <tt>killall Dock</tt>
-

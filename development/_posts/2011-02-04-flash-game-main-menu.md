@@ -4,10 +4,11 @@ comments: true
 published: true
 title: "Flash Game: Main Menu"
 excerpt: A breakdown of the ActionScript that was used for the games menu.
+permalink: /notebook/2011/02/flash-game-main-menu
 
 date: 2011-02-04 16:12:17.000000000 +00:00
 ---
-The main menu is one of the more important parts of a game.  It gives you a method through which you can navigate the game and provide the user with instructions. 
+The main menu is one of the more important parts of a game.  It gives you a method through which you can navigate the game and provide the user with instructions.
 
 Below I have worked through the AS3 from the first frame, explaining it line by line
 
@@ -33,7 +34,7 @@ highScores.addEventListener(MouseEvent.CLICK, highScoresLink);
 This block of code simply add event listeners which listen to each of the buttons and activates their corresponding function.  This provides click listeners in order to change onto the right frame for other parts of the game and mouse over/out listeners for sound.
 
 {% highlight actionscript %}
-var carStart:Sound = new Sound(); 
+var carStart:Sound = new Sound();
 carStart.load(new URLRequest("carStart.mp3"));
 var carStartChannel:SoundChannel = new SoundChannel();
 
@@ -51,7 +52,7 @@ function playGameOut(event:MouseEvent):void
 This block of code actives the sound.  When the user hovers the mouse of the "play" button it will activate a sound effect to make them aware that they are about to enter the game.  When the mouse is no longer over this button the sound is stopped.  
 
 {% highlight actionscript %}
-function playGameLink(event:MouseEvent):void 
+function playGameLink(event:MouseEvent):void
 {
 	gotoAndStop(2); // go to frame 2 where the game is
 }

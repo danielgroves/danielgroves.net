@@ -5,9 +5,10 @@ published: true
 
 title: Alfred Extensions
 excerpt: A selection of Alfred extensions made to aid developers
+permalink: /notebook/2013/04/alfred-extensions
 ---
 
-With the release of Alfred v2 powerpack users have more flexibility than ever to create custom worlkflows. I have put together three quick extensions to make my own life easier, although others are more than welcome to take an use, or modify, these for any purpose. 
+With the release of Alfred v2 powerpack users have more flexibility than ever to create custom worlkflows. I have put together three quick extensions to make my own life easier, although others are more than welcome to take an use, or modify, these for any purpose.
 
 ## Responsive Calucator
 
@@ -18,7 +19,7 @@ With the release of Alfred v2 powerpack users have more flexibility than ever to
   </figcaption>
 </figure>
 
-The first extension is a responsive calulator. After getting tired of manually doing the maths for every box I was creating when converting a PSD to a web page I decided to make an extension to do this for me. 
+The first extension is a responsive calulator. After getting tired of manually doing the maths for every box I was creating when converting a PSD to a web page I decided to make an extension to do this for me.
 
 The script is triggered using ```rc``` and requires two parameters. The first should be the with of the item you want to calculate the percentage width for and the other should be the width of the container. The default container width is 980px.  
 
@@ -35,7 +36,7 @@ For example, for a 300px wide div in a 900px wide container you would type `rc 3
   </figcaption>
 </figure>
 
-This second extension is a quick custom search workflow. Simply type ```mdn``` followed by what you want to search the <a href="https://developer.mozilla.org/en-US/" title="Mozilla Developer Network">Mozilla Developer Network</a> for. I primarily use this one for looking up css attributes to see what parameters they can take. 
+This second extension is a quick custom search workflow. Simply type ```mdn``` followed by what you want to search the <a href="https://developer.mozilla.org/en-US/" title="Mozilla Developer Network">Mozilla Developer Network</a> for. I primarily use this one for looking up css attributes to see what parameters they can take.
 
 <a href="/assets/alfred_extensions/SearchMDN.alfredworkflow" title="Download the Search Mozilla Developer Network workflow for Alfred">Download Search MDN</a>
 
@@ -54,4 +55,4 @@ Searches the <a href="http://php.net/docs.php" title="PHP Documentation Website"
 
 ---
 
-If anyone has any suggestions for more extensions, improvments to my existing ones or finds any bugs please <a href="/contact/" title="Contact Daniel Groves">drop me an email</a> or comment below. 
+If anyone has any suggestions for more extensions, improvments to my existing ones or finds any bugs please <a href="/contact/" title="Contact Daniel Groves">drop me an email</a> or comment below.

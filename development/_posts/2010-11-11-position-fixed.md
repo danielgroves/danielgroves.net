@@ -5,6 +5,7 @@ published: true
 title: "position: fixed;"
 date: 2010-11-11 18:57:33.000000000 +00:00
 excerpt: "Focusing on the application of the rarely used `postition: fixed` CSS attribute. "
+permalink: /notebook/2010/11/position-fixed
 ---
 ```position: fixed``` is one of the CSS attributes that is rarely used, it is one of those properties that few designers truly realise the power of.  For my IDAT102 website I have come up for a use for this particular property that was inspired by the store on the Apple website.  
 
@@ -32,9 +33,9 @@ Below is the HTML taken directly from my project site that creates this sidebar.
 <div id="sidebar">
 
     <div id="header">
-    
+
         <h1>Daniel Groves</h1>
-    
+
     </div><!-- #header -->
 
     <div id="navigation">
@@ -57,7 +58,7 @@ This on it's own obviously won't create a sidebar on it's own, we need a bit of 
 The first thing I had to do with the sidebar was to position it within the wrap ```div``` so that it sits in the correct position. In order to do this I had to set the width, taking into account the size of the background image I had to apply, and position it on the left hand side.  The width I choose was 186px and the I decided to control my layout using float so i have floated the sidebar ```div``` onto the left side of the page.  
 
 {% highlight css %}
-#sidebar {	
+#sidebar {
 	width: 186px;
 	float: left;
 }
@@ -67,7 +68,7 @@ Now the sidebar is positioned I can start to worry about how I am going to make 
 
 {% highlight css %}
 #header {
-	width: 183px;	
+	width: 183px;
 	position: fixed;
 }
 {% endhighlight %}
@@ -105,7 +106,7 @@ In order to make it as easy as possible I have set the font-size to 62.5% in the
 }
 {% endhighlight %}
 
-The next item in the sidebar is the "Other Sites" title part way down that creates a division between the main navigation area that the links to other websites that I have built.  I used standard CSS in order to format this so it sites subtly in the sidebar while still being noticeable enough that people will see the divider between the links. 
+The next item in the sidebar is the "Other Sites" title part way down that creates a division between the main navigation area that the links to other websites that I have built.  I used standard CSS in order to format this so it sites subtly in the sidebar while still being noticeable enough that people will see the divider between the links.
 
 I have used methods that have been discussed above in order to do this, but with a few new CSS attributes.  Firstly I have applied ```text-transform: uppercase``` to this line.  This simply forces the text to be uppercase.  I also used ```letter-spacing: 1px``` to add an extra pixel of space between each letter.  
 

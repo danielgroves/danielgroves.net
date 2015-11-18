@@ -4,8 +4,9 @@ comments: true
 published: true
 title: "Design Process: Level Design"
 date: 2012-03-27 22:25:39.000000000 +01:00
+permalink: /notebook/2012/03/level-design
 
-excerpt: Initial sketches and thoughts that were later developed into full levels for the game. 
+excerpt: Initial sketches and thoughts that were later developed into full levels for the game.
 ---
 The blog post was designed as a follow up to the [Game Concept](http://danielgroves.net/2012/03/game-concept/ "Game Concept") post.
 

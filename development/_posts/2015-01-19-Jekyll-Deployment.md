@@ -2,6 +2,7 @@
 published: true
 title: "Jekyll Deployment"
 excerpt: Using GitLab CI to automate Jekyll Deployments.
+permalink: /notebook/2015/01/Jekyll-Deployment/
 
 date: 2015-01-19 08:30
 

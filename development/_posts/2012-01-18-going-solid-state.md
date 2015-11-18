@@ -4,6 +4,7 @@ comments: true
 published: true
 title: Going Solid State
 excerpt: I share how I went about upgrading to an SSD whilst maintaining the volume of storage that I require on a dialy basis.
+permalink: /notebook/2012/01/going-solid-state
 
 date: 2012-01-18 10:23:31.000000000 +00:00
 ---

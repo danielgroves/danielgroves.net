@@ -4,6 +4,7 @@ comments: true
 published: true
 title: "Flash Game: Genre and Inspiration"
 excerpt: How I came to choose the genre for the game, and what inspired it.
+permalink: /notebook/2011/02/flash-game-genre-and-inspiration
 
 date: 2011-02-03 01:35:33.000000000 +00:00
 ---

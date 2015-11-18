@@ -6,6 +6,7 @@ published: true
 title: Server Security
 date: 2013-08-13 14:30 +00:00
 excerpt: "How I current go about securing a new server, with hope of helping and gaining feedback from others"
+permalink: /notebook/2013/08/server-security
 
 tags: development server security
 ---

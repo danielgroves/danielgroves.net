@@ -4,6 +4,7 @@ comments: true
 published: true
 title: Processing Visulisation Development
 excerpt: A walkthrough for how I created a weather feed visulisation in Processing for University.
+permalink: /notebook/2011/04/processing-visualisation-development
 
 date: 2011-04-01 12:44:35.000000000 +01:00
 ---
@@ -13,7 +14,7 @@ The concept for the data visualisation that I have produced came from the idea o
 
 The development of the data visualisation took shape in several steps, the first of these was to develop a class file for the bars.  These objects are all pretty much the same, a rectangle.  The only ways they differentiate are in colour, height and the horizontal position.  
 
-In order to minimise the amount of data having to be passed around, and so the amount of memory being used in turn I decided to access the data array directly from the class where needed. 
+In order to minimise the amount of data having to be passed around, and so the amount of memory being used in turn I decided to access the data array directly from the class where needed.
 
 I have added additional comments into the source code below to show exactly what is going on.  
 
@@ -40,12 +41,12 @@ class Bar
   // Method that actually creates and animates the bar
   void display()
   {
-    
+
     // What the rectangle will look like
     rectMode(CORNER);
     fill(barColor);
     stroke(0);
-    
+
     // Work out if the bar is the right height, and shrink it if it's not.  
     if (from == barHeight)
       rect(barHorizPos, (400 - barHeight), barWidth, barHeight);
@@ -59,17 +60,17 @@ class Bar
       from = from + growSpeed;
       rect(barHorizPos, (400 - from), barWidth, from);
     }
-    
-    // Detect is sideways movement is on or off and either move of leave accordingly 
+
+    // Detect is sideways movement is on or off and either move of leave accordingly
     if ( barMove)
     {
-      
+
       barHorizPos = barHorizPos + int(xmlData[0][0]);
       if ( barHorizPos >= 300 )
         barHorizPos = -15;
-        
+
     }
-    
+
   }
 }
 {% endhighlight %}
@@ -83,16 +84,16 @@ In order to map the bars correctly I need to establish the highest value from ea
 int highestValue( int index )
 {
   int number = 0;
-  
+
   if ( int(xmlData[index][0]) > int(xmlData[index][1]) && int(xmlData[index][0]) > int(xmlData[index][2]) )
     number = int(xmlData[index][0]);
-      
+
   else if ( int(xmlData[index][1]) > int(xmlData[index][0]) && int(xmlData[index][1]) > int(xmlData[index][2]))
     number = int(xmlData[index][1]);
-      
+
   else if ( int(xmlData[index][2]) > int(xmlData[index][0]) && int(xmlData[index][2]) > int(xmlData[index][1]))
     number = int(xmlData[index][2]);
-  
+
   return number;
 }
 {% endhighlight %}
@@ -104,19 +105,19 @@ I decided that the colour of each bar should change based on the current outside
 {% highlight java %}
 color barColor( int index)
 {
-  
+
   int redValue;
   int blueValue;
-  
+
   int sumComponent = int(map( xmlData[2][0], 0, highestValue(2),0, 255));
-  
+
   if (index == 1)
     return color(sumComponent, random(0,255), sumComponent, 200);
   else if(index == 2)
     return color(sumComponent, random(0,255), sumComponent, 255);
   else
     return color(sumComponent, random(0,255), sumComponent, 155);
-  
+
 }
 {% endhighlight %}
 
@@ -128,9 +129,9 @@ Finally, the main block of code contains the click event, XML processing, object
 import processing.xml.*;
 
 // The array contains all of the feeds that I decided to use
-String[] feedLocations = { 
-  "http://x2.i-dat.org/archos/archive.rss?source=.WindSpeed", 
-  "http://x2.i-dat.org/archos/archive.rss?source=.OutAirHum", 
+String[] feedLocations = {
+  "http://x2.i-dat.org/archos/archive.rss?source=.WindSpeed",
+  "http://x2.i-dat.org/archos/archive.rss?source=.OutAirHum",
   "http://x2.i-dat.org/archos/archive.rss?source=.OutAirTemp",
   "http://x2.i-dat.org/archos/archive.rss?source=.WindVane",
   "http://x2.i-dat.org/archos/archive.rss?source=.Elec_A_YDay",
@@ -151,7 +152,7 @@ void setup()
   // Canvas setup
   size(300,400);
   frameRate(25);
-  
+
   // For loop for processing the feeds and populating the xmlData array with floats
   for (int f = 0; f < 6; f++)
   {
@@ -161,26 +162,26 @@ void setup()
     for ( int g = 0; g < 3; g++)
       xmlData[f][g] = float(xmlValue[g].getContent());
   }
-  
+
   // Variables used in order to help generate the bars
   int arrayLocation = 0;
   int position = 10;
-    
+
   // Two-tier for loop for generating the bars, works through both levels of the array methodically creating the bars
   for (int i = 1; i < 6; i++)
   {
-    
+
     for (int j = 0; j < 3; j++)
     {
       bars[arrayLocation] = new Bar( int(map(xmlData[i][j], 0, highestValue(i), 0, 350)), barColor(j), position );
       arrayLocation++;
       position = position + 15;
     }
-    
+
     position = position + 15;
-    
+
   }
-  
+
 }
 
 // Function for drawing the bars
@@ -194,7 +195,7 @@ void draw()
       bars[i].display();
 }
 
-// Click event for stopping sideways animation 
+// Click event for stopping sideways animation
 void mousePressed(MouseEvent e)
 {
   if ( barMove )

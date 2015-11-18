@@ -3,7 +3,8 @@ comments: true
 
 published: true
 title: "Flash Game: The Game"
-excerpt: An explanation about the ActionScript that powered the Flash Game. 
+excerpt: An explanation about the ActionScript that powered the Flash Game.
+permalink: /notebook/2011/02/flash-game-evaluation
 
 date: 2011-02-04 20:19:22.000000000 +00:00
 ---
@@ -29,7 +30,7 @@ stage.addEventListener(KeyboardEvent.KEY_UP, keyUpHandler);
 stage.addEventListener(Event.ENTER_FRAME, userCarControler);
 stage.addEventListener(Event.ENTER_FRAME, computerCarControler);
 stage.addEventListener(Event.ENTER_FRAME, userWins);
-submitScore.addEventListener(MouseEvent.CLICK, scoreSubmited); 
+submitScore.addEventListener(MouseEvent.CLICK, scoreSubmited);
 mainMenuLink.addEventListener(MouseEvent.CLICK, mainMneu);
 {% endhighlight %}
 
@@ -94,19 +95,19 @@ function keyDownHandler(e:KeyboardEvent):void
 	{
 		userCar_up = true;
 	}
-	
+
 	// Detect if "down" arrow is held down
 	if(e.keyCode == 40)
 	{
 		userCar_down = true;
 	}
-	
+
 	// Detect if "right" arrow is held down
 	if(e.keyCode == 39)
 	{
 		userCar_right = true;
 	}
-	
+
 	// Detect if "left" arrow is held down
 	if(e.keyCode == 37)
 	{
@@ -120,31 +121,31 @@ This section of called via any key being pressed on the keyboard. When the key i
 {% highlight actionscript %}
 function keyUpHandler (e:KeyboardEvent):void
 {
-	
+
 	// Detect if "up" arrow has been released
 	if(e.keyCode == 38)
 	{
 		userCar_up = false;
 	}
-	
+
 	// Detect if "down" arrow has been released
 	if(e.keyCode == 40)
 	{
 		userCar_down = false;
 	}
-	
+
 	// Detect if "right" arrow has been released
 	if(e.keyCode == 39)
 	{
 		userCar_right = false;
 	}
-	
+
 	// Detect if "left" arrow has been released
 	if(e.keyCode == 37)
 	{
 		userCar_left = false;
 	}
-	
+
 }
 {% endhighlight %}
 
@@ -158,55 +159,55 @@ function userCarControler(event:Event)
 	{
 		userCarHits = userCarHits + 1;
 	}
-	
+
     if (grass1.hitTestObject(userCar) || grass2.hitTestObject(userCar))
 	{
 		userCar.x = 171.2;
 		userCar.y = 365.55;
-		
+
 		trace("hit grass");
-		
+
 	}
-	
+
 	var carSpeed:Number = 7;
-	
+
 	if(userCar_up)
 	{
 		userCar.rotation = 270;
 		userCar.y -= carSpeed;
 	}
-	
+
 	if(userCar_down)
 	{
 		userCar.rotation = 90;
 		userCar.y += carSpeed;
 	}
-	
+
 	if(userCar_right)
 	{
 		userCar.rotation = 0;
 		userCar.x += carSpeed;
 	}
-	
+
 	if(userCar_left)
 	{
 		userCar.rotation = 180;
 		userCar.x -= carSpeed;
 	}
-	
+
 	if (mcMk5.hitTestObject(userCar))
 	{
 		userNoCheat++;
 	}
-	
+
 	if (userNoCheat > 0 && userCar.hitTestObject(mcStartLine))
 	{
-		
+
 		userCompleteLaps++;
 		userNoCheat = 0;
-		
+
 	}
-	
+
 	txtLap.text = String(userCompleteLaps) + "/5 Laps";
 }
 {% endhighlight %}
@@ -228,13 +229,13 @@ The final <tt>if</tt> statement will then detect if the user has gone all the wa
 {% highlight actionscript %}
 function computerCarControler(event:Event)
 {
-	
+
 	var direction:String = "";
-	
+
 	if (mcMk1.hitTestObject(computerCar))
 	{
 		direction = "right";
-	} 
+	}
 	else if (mcMk2.hitTestObject(computerCar))
 	{
 		direction = "up";
@@ -255,40 +256,40 @@ function computerCarControler(event:Event)
 	{
 		direction = "down";
 	}
-	
+
 	if (direction == "right")
 	{
-		
+
 		computerCar.x += computerCarSpeed;
 		computerCar.y += 0;
 		computerCar.rotation = 0;
-		
+
 	}
 	else if (direction == "up")
 	{
-		
+
 		computerCar.x += 0;
 		computerCar.y -= computerCarSpeed;
 		computerCar.rotation = 270;
-		
+
 	}
 	else if (direction == "left")
 	{
-		
+
 		computerCar.x -= computerCarSpeed;
 		computerCar.y += 0;
 		computerCar.rotation = 180;
-		
+
 	}
 	else if (direction == "down")
 	{
-		
+
 		computerCar.x += 0;
 		computerCar.y += computerCarSpeed;
 		computerCar.rotation = 90;
-		
+
 	}
-	
+
 }
 {% endhighlight %}
 
@@ -299,15 +300,15 @@ Once this has been established the varible <tt>direction</tt> is set and then th
 {% highlight actionscript %}
 function userWins(event:Event):void
 {
-	
+
 	if (userCompleteLaps == 5)
 	{
 		raceTimer.stop();
-		
+
 		finalScore = raceTimerValue + (userCarHits * 5);
-		
+
 		yourScore.text = "You Scored: " + finalScore;
-		
+
 		userName.visible = true;
 		nameBackground.visible = true;
 		nameLabel.visible = true;
@@ -316,9 +317,9 @@ function userWins(event:Event):void
 		mainMenuLink.visible = true;
 		gameTitle.visible = true;
 		mcGameEndBg.visible = true;
-		
+
 	}
-	
+
 }
 {% endhighlight %}
 
@@ -333,13 +334,13 @@ function scoreSubmited(event:Event):void
 	var phpFileRequest:URLRequest = new URLRequest("http://files.danielgroves.net/circuitRacerWrite.php");
 	phpFileRequest.method = URLRequestMethod.POST
 	phpFileRequest.data = phpVars;
-	
+
 	var phpLoader:URLLoader = new URLLoader();
 	phpLoader.dataFormat = URLLoaderDataFormat.TEXT;
-	
+
 	phpVars.yourname = userName.text;
 	phpVars.yourscore = finalScore;
-	
+
 	phpLoader.load(phpFileRequest);
 }
 {% endhighlight %}
@@ -350,7 +351,7 @@ This function is called when the user clicks the button to submit their score.  
 function mainMneu(event:Event):void
 {
 	trace("gotoframe1");
-	
+
 	userName.visible = false;
 	nameBackground.visible = false;
 	nameLabel.visible = false;
@@ -359,16 +360,16 @@ function mainMneu(event:Event):void
 	mainMenuLink.visible = false;
 	gameTitle.visible = false;
 	mcGameEndBg.visible = false;
-	
+
 	// Reset car locations
 	userCar.x = 171.2;
 	userCar.y = 364.55;
 	computerCar.x = 171.2;
 	computerCar.y = 338.55;
 	computerCarSpeed = 0;
-	
+
 	gotoAndStop(1);
-	
+
 }
 {% endhighlight %}
 

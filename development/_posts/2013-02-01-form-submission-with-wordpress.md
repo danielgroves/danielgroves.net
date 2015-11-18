@@ -4,7 +4,8 @@ comments: true
 published: true
 
 title: Form Submission with WordPress
-excerpt: How I dealt with a form $_POST issue at work. 
+excerpt: How I dealt with a form $_POST issue at work.
+permalink: /notebook/2013/02/form-submission-with-wordpress
 ---
 
 Those of you who work with WordPress frequently may or may not have experienced this "bug". Mind, I'm calling this a bug without being too sure if I'm just doing something stupid, or if this really is a bug.

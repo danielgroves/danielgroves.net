@@ -6,6 +6,7 @@ published: true
 title: "Server Security: Public Suggestions"
 date: 2013-08-29 13:00 +00:00
 excerpt: "A follow-up to my previous Server Security post, featuring public suggestions"
+permalink: /notebook/2013/08/server-security-public-suggestions
 
 tags: development server security
 ---
