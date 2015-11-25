@@ -35,7 +35,7 @@ The warmth from a down jacket is immediate; something I was thankful for as I wa
   {% figcaption %}Soft morning light, with fast clouds overhead.{% endfigcaption %}
 {% endfigure %}
 
-The next morning I slept through all three alarms. In the end it was pure luck that I woke up just as the sunrise began, resulting in a need to move fast in order to get setup. Walking up the last few meters to the top of Longaford Tor quickly exposed us to the biting wind. Ignoring this we split to find our own angles to shoot in order to make the most of the low morning light.
+The next morning I slept through all three alarms. In the end it was pure luck that I woke up just as the sunrise began, resulting in a need to move fast in order to get setup. Walking up the last few metres to the top of Longaford Tor quickly exposed us to the biting wind. Ignoring this we split to find our own angles to shoot in order to make the most of the low morning light.
 
 The soft pink-orange colours didn't last long as the sun quickly rose above the low and fast-moving clouds. I moved quickly through a series of locations, first making use of the colours in the clouds, before moving on to take advantage of Mikes silhouette on the Tor above, and then the low but now direct sunlight on the moorland around. It was while changing filters during this next shoot that I discovered the second gear failure of the trip: the mount for my lens hood had broken off the lens, making the hood now completely useless as it now obstructed the view.
 
