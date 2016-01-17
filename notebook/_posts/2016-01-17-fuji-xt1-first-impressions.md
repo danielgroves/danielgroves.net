@@ -101,4 +101,4 @@ It's a loverly piece of kit; it feels nice to hold, and it's a pleasure to use. 
 
 Time will tell over the next year or so as I really start to put the camera through its paces, but it looks like I may have found my perfect travel, adventure and landscape photography camera.
 
-[xt2] http://www.fujirumors.com/fujifilm-x-t2-will-be-announced-in-june-available-in-summer-and-here-are-the-first-rumored-specs/ "Fujifilm X-T2 rumour source"
+[xt2]: http://www.fujirumors.com/fujifilm-x-t2-will-be-announced-in-june-available-in-summer-and-here-are-the-first-rumored-specs/ "Fujifilm X-T2 rumour source"
