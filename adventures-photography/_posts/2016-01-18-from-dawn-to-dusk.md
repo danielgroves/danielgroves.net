@@ -3,7 +3,7 @@ published: true
 title: From Dawn to Dusk
 excerpt: Shooting from sunrise to sunset in the snows on Dartmoor.
 
-date: 2016-01-18 23:00
+date: 2016-01-18 21:48
 thumb: /adventures_photography/2016-01-18-from-dawn-to-dusk/thumb.jpg
 
 banner: /adventures_photography/2016-01-18-from-dawn-to-dusk/header.jpg
