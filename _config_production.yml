@@ -5,5 +5,5 @@ styles_path: https://d1238u3jnb0njy.cloudfront.net
 scripts_path: https://d1238u3jnb0njy.cloudfront.net
 
 assets:
-  debug: true
+  debug: false
   baseurl: https://d1238u3jnb0njy.cloudfront.net
