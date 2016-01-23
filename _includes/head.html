@@ -12,6 +12,10 @@
 
     {% stylesheet main %}
 
+    {% if page.categories.first == 'development' %}
+      {% stylesheet code %}
+    {% endif %}
+
     <link rel="alternate" type="application/rss+xml" title="Site Feed" href="{{ site.url }}/feed/">
     <link rel="alternate" type="application/rss+xml" title="Notebook Feed" href="{{ site.url }}/feed/notebook/">
     <link rel="alternate" type="application/rss+xml" title="Adventures and Photography Feed" href="{{ site.url }}/feed/adventures-photography">
