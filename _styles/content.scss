@@ -157,6 +157,36 @@ article {
     z-index: 1;
   }
 
+  a.footnote {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+    font-size: .6em;
+  }
+
+  .footnotes ol {
+    border-top: 1px solid $color-light-grey;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+
+    li {
+      display: block;
+    }
+
+    li, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      width: 100%;
+      display: list-item;
+      font-size: .85rem;
+      line-height: 1.3rem
+    }
+  }
+
   figure, .imagePreview {
     @include rem-fallback(padding, .4, 0);
 
