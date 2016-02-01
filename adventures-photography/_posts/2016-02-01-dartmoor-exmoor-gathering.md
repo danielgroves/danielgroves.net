@@ -102,6 +102,14 @@ With the tent safely strapped to my rucksack, I proceeded to help a few of the o
 
 Once everyone was packed down, we moved off as a group into the heavy fog. These conditions do not allow for easy navigation, but led by Robin with careful use of the gradient and bearings to navigate off we soon made it down with only a few people falling into the classic Dartmoor holes en-route. It's trips like this one which really make you appreciate how lucky we are to have modern gear such as lightweight GoreTex waterproofs.
 
+## The route
+
+## The Route
+
+The usual precautions apply here — you will need OS Map OL28, and good navigation skills as the route does require walking through some fairly featureless areas on a bearing. It worth bearing in mind that much of the ground is extremely wet, and not all of the route may be passable all year round. 
+
+{% mapbox p1hje10n %}
+
 [^1]: I haven't been able to find any evidence of a rescue happening. There was nothing on any of the four _Dartmoor Search and Rescue_ team websites, or on _Grough_, which leads me to think it must have been a training exercise.
 
 [^2]: OS Grid: SX559871
