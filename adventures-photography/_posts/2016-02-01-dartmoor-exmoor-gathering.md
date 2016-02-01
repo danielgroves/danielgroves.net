@@ -39,7 +39,7 @@ Just as I was about to shoulder my bag I looked up to the sound of rotor blades.
 
 I continued upwards walking around the impressive tops of Great Links Tor before taking shelter at the far end, out of the wind. Here I took another look at the map, having decided to skip heading to _Green Tor_ as I had originally intended; from what I could see it didn't look like it would have much to offer photographically.
 
-I headed for the [disused railway line][disused_railway_line] which used to run between _Bridestowe_ railway station and the _[Rattlebrook Peatworks][dartefacts_rattlebrook]_[^2]. This railway line was used to transport the peat bricks from the peatworks, using horse-drawn carts, only upgrading to a converted petrol truck in it's last days. Dartmoor is littered with such features, and the access tracks generally provide easy and fast access the the grounds of the old industrial works. The ruins offered some form of shelter, and with a fast-flowing stream nearby where I could get some water, I decided to use this spot for a lunch stop.
+I headed for the [disused railway line][disused_railway_line] which used to run between _Bridestowe_ railway station and the _[Rattlebrook Peatworks][dartefacts_rattlebrook]_[^2]. This railway line was used to transport the peat bricks from the peatworks, using horse-drawn carts, only upgrading to a converted petrol truck in its last days. Dartmoor is littered with such features, and the access tracks generally provide easy and fast access to the grounds of the old industrial works. The ruins offered some form of shelter, and with a fast-flowing stream nearby where I could get some water, I decided to use this spot for a lunch stop.
 
 Things get a little harder after the old peatworks as the ground become saturated once again. The area is clearly well trafficked through with a mixture of old wooden planks and stepping stones at the worst areas which makes crossing the majority of the bogs relatively trivial, even with a full backpacking load. I can only imagine this area is where they used to cut the peat from, and the stones were used to allow the workers to move around while the planks are clearly newer additions.
 
@@ -66,9 +66,9 @@ Heading up the track back towards the nature reserve I was now carrying a full t
 
 I kept my pace fast, estimating another 90-minutes of guaranteed light with the fog higher up, and set myself a target of reaching High Willhays within an hour. It didn't take long for the track to run out, where I had to head off piste. I picked a sensible looking line up to _Black Tor_ which got the climbing out of the way quickly, before turning to my final destination which, although somewhere above me and less than 1400 meters away, could not be seen. I took a bearing for the top of the tor and proceeded to walk on it.
 
-Sixty minutes after leaving the wier I arrived on top of High Willhays.
+Sixty minutes after leaving the weir I arrived on top of High Willhays.
 
-I was surrounded by fog, on top of a large tor, and I ahd no idea where exactly the others would be camping, and quickly realised, especially in the high winds, I was only going to find them by trail and error. I pulled out the map again and started thinking about where I'd camp in these condtions; it would have to be on the east side to get some shelter from the wind, probably behind one of the three clumps of rock that make-up the summit. There's a group camping, so the biggest would be a sensible place to start — a clearing in the fog moved over. I turned and there was a tent with two people stood next to it; I grabbed my bag, stuffing the map back in, and made for it.
+I was surrounded by fog, on top of a large tor, and I had no idea where exactly the others would be camping, and quickly realised, especially in the high winds, I was only going to find them by trail and error. I pulled out the map again and started thinking about where I'd camp in these conditions; it would have to be on the East side to get some shelter from the wind, probably behind one of the three clumps of rock that make-up the summit. There's a group camping, so the biggest would be a sensible place to start — a clearing in the fog moved over. I turned and there was a tent with two people stood next to it; I grabbed my bag, stuffing the map back in, and made for it.
 
 {% figure %}
   {% img src: /assets/adventures_photography/2016-02-01-dartmoor-exmoor-gathering/20160130-DSCF5635.jpg, alt: The main group of tents on High Willhays %}
@@ -102,7 +102,7 @@ With the tent safely strapped to my rucksack, I proceeded to help a few of the o
 
 Once everyone was packed down, we moved off as a group into the heavy fog. These conditions do not allow for easy navigation, but led by Robin with careful use of the gradient and bearings to navigate off we soon made it down with only a few people falling into the classic Dartmoor holes en-route. It's trips like this one which really make you appreciate how lucky we are to have modern gear such as lightweight GoreTex waterproofs.
 
-[^1]: I haven't been able to find any evidence of a rescue happening. There was nothing on any of the four _Dartmoor Search and Rescue_ team websites, or on _Grough_, which leads me to think it must have been a training excerise.
+[^1]: I haven't been able to find any evidence of a rescue happening. There was nothing on any of the four _Dartmoor Search and Rescue_ team websites, or on _Grough_, which leads me to think it must have been a training exercise.
 
 [^2]: OS Grid: SX559871
 
