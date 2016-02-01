@@ -3,7 +3,7 @@ published: true
 title: Dartmoor and Exmoor Gathering
 excerpt: Taking the hard route to the first Dartmoor and Exmoor Wild Camping gathering.
 
-date: 2016-01-18 21:48
+date: 2016-02-01 21:57
 thumb: /adventures_photography/2016-02-01-dartmoor-exmoor-gathering/thumb.jpg
 
 banner: /adventures_photography/2016-02-01-dartmoor-exmoor-gathering/header.jpg
