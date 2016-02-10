@@ -131,13 +131,13 @@ aside.elsewhere_on_the_web {
     }
   }
 
-  .social__googleplus {
-    background-image: url("#{$static_url}/style_images/google+.png");
-    background-color: #D34836;
-    background-color: rgb(211,72,54);
+  .social__flickr {
+    background-image: url("#{$static_url}/style_images/flickr.png");
+    background-color: #fff;
+    background-color: rgb(238,238,238);
 
     @media #{$retina} {
-      background-image: url("#{$static_url}/style_images/Google+@2x.png");
+      background-image: url("#{$static_url}/style_images/flickr@2x.png");
     }
   }
 
