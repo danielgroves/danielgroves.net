@@ -15,7 +15,7 @@ This page was inspired by the [/now][now_movement] movement. The idea here is to
 * **Big Adventure**: I'm actively planning a big [adventure][adventures_photography] for next summer.
 * **Reading**: I love books, so I'm reading as many as I can.
 * **Writing**: I'm trying to write new and fresh content for this website. It's grown a little too stale for my liking in certain areas, so I'd like to get more frequent content rolling forward.
-* **Code**: I'm working on two project, both of which will be open-sourced in the near future. More details commencing soon.
+* **Code**: I'm working on a project, which will be open-sourced in the near future. More details coming soon.
 
 ## Location
 
