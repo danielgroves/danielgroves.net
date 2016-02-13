@@ -251,4 +251,12 @@ article {
     @include rem-fallback(font-size, 1.2);
     font-family: inconsolata, monospace;
   }
+
+  ol, ul {
+    ol, ul {
+      @include shift(0);
+      width: 100%;
+      float: none;
+    }
+  }
 }
