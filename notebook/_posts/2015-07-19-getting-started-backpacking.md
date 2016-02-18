@@ -129,7 +129,7 @@ The final thing you're going to need it a suitable backpack. If you're buying a 
     {% img src: /assets/notebook/2015-07-getting-started-backpacking/20150613-DSC_7210.jpg, alt: Tent and further personal items for broad falls trip %}
   </div>
 
-  {% figcaption %}Equipment taken for the recent [Broad Falls](/adventures-photography/2015/06/broad-falls/ "Wild camping at Broad Falls, Dartmoor") backpacking trip. Not pictured is the photography equipment, which I will cover in a future post. {% endfigcaption %}
+  {% figcaption %}Equipment taken for the recent [Broad Falls](/adventures-photography/2015/06/broad-falls/ "Wild camping at Broad Falls, Dartmoor") backpacking trip. Not pictured is the photography equipment, which I have cover in _[Gear for a Landscape and Adventure Photographer](/notebook/2016/02/gear/ "Gear for a Landscape and Adventure Photographer")_. {% endfigcaption %}
 {% endfigure %}
 
 ## Summary
