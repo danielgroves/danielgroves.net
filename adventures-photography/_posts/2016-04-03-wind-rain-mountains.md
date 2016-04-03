@@ -77,6 +77,8 @@ We turned up about 90 minutes before the sunset and so had plenty of time to fin
 
 This is only a small subset of the images captured during the trip. Keep an eye on my [Facebook][facebook], [Twitter][twitter] and [Instagram][instagram] accounts for more over the coming weeks.
 
+If you're interested in the gear I use for shoots like this, checkout my recent post [_Gear for a Landscape and Adventure Photographer_][gear].
+
 ## Locations
 
 Most of the locations I shot during this trip are easily accessible. Those featured in this article are presented on the map below.
@@ -88,3 +90,4 @@ Most of the locations I shot during this trip are easily accessible. Those featu
 [facebook]: https://www.facebook.com/danielgrovesphotography/ "Daniel Groves Photography on Facebook"
 [instagram]: http://instagram.com/danielsgroves "Daniel Groves on Instagram"
 [twitter]: https://twitter.com/danielsgroves "Daniel Groves on Twitter"
+[gear]: /notebook/2016/02/gear/ "Gear used during the trip"
