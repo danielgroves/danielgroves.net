@@ -3,7 +3,7 @@ published: true
 title: Wind, Rain and Mountains
 excerpt: A short photo-story from a recent trip to the Lake District National Park in Cumbria.
 
-date: 2016-04-03 21:57
+date: 2016-04-03 16:30
 thumb: /adventures_photography/2016-04-03-wind-rain-mountains/thumb.jpg
 
 banner: /adventures_photography/2016-04-03-wind-rain-mountains/header.jpg
