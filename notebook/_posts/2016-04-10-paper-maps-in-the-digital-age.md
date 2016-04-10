@@ -3,7 +3,7 @@ published: true
 title: Paper Maps in the Digital Age
 excerpt: "Are we becoming too reliant on digital mapping in the wilderness?"
 
-date: 2016-02-13 10:20
+date: 2016-04-10 16:33
 tags: technology opinion navigation
 
 thumb: /notebook/2016-04-10-paper-maps-in-the-digital-age/thumb.jpg
