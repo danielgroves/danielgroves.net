@@ -64,10 +64,6 @@ aside.more_like_this {
       @include rem-fallback(line-height, 1.3);
     }
   }
-
-  dl + dl {
-    @include rem-fallback(padding-top, 1.1);
-  }
 }
 
 aside.elsewhere_on_the_web {
