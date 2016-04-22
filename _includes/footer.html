@@ -79,8 +79,36 @@
 
     {% javascript scripts %}
 
-    <script type="text/javascript">
-      var pl = new Preloader.ImageLoader();
+    <script>
+      imgix.onready(function() {
+        imgix.fluid({
+          lazyLoad: true,
+          lazyLoadOffsetVertical: 500,
+          pixelStep: 100,
+          debounce: 200,
+          updateOnResize: true,
+          updateOnResizeDown: false,
+          updateOnPinchZoom: false,
+          onChangeParamOverride: function(width, height, options, element) {
+            var optionsHeight = element.attributes.height === undefined ? null : element.attributes.height.value;
+
+            if (optionsHeight !== null)
+              options.h = parseInt(optionsHeight)
+
+            return options;
+          }
+        });
+      });
+
+      imgix.onready(function() {
+        imgix.fluid({
+          fluidClass: 'imgix-fluid-bg',
+          updateOnResizeDown: true,
+          updateOnPinchZoom: true,
+          pixelStep: 100,
+          autoInsertCSSBestPractices: true
+        });
+      });
     </script>
 
     <script>

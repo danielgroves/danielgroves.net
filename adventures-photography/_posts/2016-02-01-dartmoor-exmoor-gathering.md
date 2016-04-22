@@ -4,9 +4,9 @@ title: Dartmoor and Exmoor Gathering
 excerpt: Taking the hard route to the first Dartmoor and Exmoor Wild Camping gathering.
 
 date: 2016-02-01 21:57
-thumb: /adventures_photography/2016-02-01-dartmoor-exmoor-gathering/thumb.jpg
+thumb: 2016-01-web-DSCF5630-2.jpg
 
-banner: /adventures_photography/2016-02-01-dartmoor-exmoor-gathering/header.jpg
+banner: 2016-01-web-DSCF5630.jpg
 banner_position: middle
 tags: dartmoor backpacking
 ---
@@ -26,14 +26,14 @@ I took a quick bearing to make sure I took the right track out of the carpark, a
 My next target, _Widgery Cross_ situated on top of _Brat Tor_, was easy to spot as it stood above me. The ground moving up to it was steep, and soon led me above the level of the surrounding hills and into the full-force of the wind — the nearest obstacle being significantly further west on _Bodmin Moor_. I stopped for a few minutes to take some photos before packing everything back down and getting ready to move on to my next objective.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2016-02-01-dartmoor-exmoor-gathering/20160130-DSCF5570.jpg, alt: From Brat Tor looking across to Doe Tor and Sharp Tor. %}
+  {% img src: 2016-01-web-DSCF5570.jpg, alt: From Brat Tor looking across to Doe Tor and Sharp Tor. %}
   {% figcaption %}From Brat Tor looking across to Doe Tor and Sharp Tor. {% endfigcaption %}
 {% endfigure %}
 
 Just as I was about to shoulder my bag I looked up to the sound of rotor blades. A few seconds later a Sikorsky S-92 search and rescue helicopter appeared above my next objective, _Great Links Tor_. It circled the tor a few times before proceeding to hover for several minutes, and eventually — slowly — land just out of sight from where I was. I headed off walking towards at Great Links, wondering as I walked if it was a real rescue or a training exercise[^1]. As I moved up the side of Great Links, following a small and unmarked footpath, I noticed the sound of the rotor blades intensify once again, looking up as the helicopter now flew straight over the top of me heading towards _Plymouth_.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2016-02-01-dartmoor-exmoor-gathering/20160130-DSCF5612.jpg, alt: Great Links Tor %}
+  {% img src: 2016-01-web-DSCF5612.jpg, alt: Great Links Tor %}
   {% figcaption %}Great Links Tor. {% endfigcaption %}
 {% endfigure %}
 
@@ -46,7 +46,7 @@ Things get a little harder after the old peatworks as the ground become saturate
 On arrival at _Kitty Tor_ I took shelter behind the military huts which occupy every tor with a firing-range danger flag. This made for a break from the winds which had begun to take on a bitter chill, lowering the temperature. Right on queue the snow started to fall, just as I was setting up the camera. This only lasted for a few seconds, but gave a promising sign that we would get good coverage from the incoming storm during the night.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2016-02-01-dartmoor-exmoor-gathering/20160130-DSCF5623.jpg, alt: Looking from Kitty Tor towards my final destination, High Willhays %}
+  {% img src: 2016-01-web-DSCF5623.jpg, alt: Looking from Kitty Tor towards my final destination, High Willhays %}
   {% figcaption %}Looking from Kitty Tor towards my final destination, High Willhays. {% endfigcaption %}
 {% endfigure %}
 
@@ -71,7 +71,7 @@ Sixty minutes after leaving the weir I arrived on top of High Willhays.
 I was surrounded by fog, on top of a large tor, and I had no idea where exactly the others would be camping, and quickly realised, especially in the high winds, I was only going to find them by trail and error. I pulled out the map again and started thinking about where I'd camp in these conditions; it would have to be on the East side to get some shelter from the wind, probably behind one of the three clumps of rock that make-up the summit. There's a group camping, so the biggest would be a sensible place to start — a clearing in the fog moved over. I turned and there was a tent with two people stood next to it; I grabbed my bag, stuffing the map back in, and made for it.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2016-02-01-dartmoor-exmoor-gathering/20160130-DSCF5635.jpg, alt: The main group of tents on High Willhays %}
+  {% img src: 2016-01-web-DSCF5635.jpg, alt: The main group of tents on High Willhays %}
   {% figcaption %}The main group of tents on High Willhays. {% endfigcaption %}
 {% endfigure %}
 
@@ -92,7 +92,7 @@ I spent a couple of minutes wrestling with unseen pull-cords and zips until I co
 The wind was pounding the side of my tent, making everything that little bit harder as the material frequently tried to push me down as the pole bent under the strain of the wind; it's much better suited to being pitched with one end pointing into the wind, but sometimes this isn't possible. Jamming all of my gear back into the various dry sacks now littering the inside of my tent I quickly packed everything away — breakfast would have to wait. I went to open the tent door, but the second I released the storm clip on the door it was pulled out of my hand, the wind opening the zip for me. I threw my rucksack and poles out, before following them out into the wind and fog, where most people were wrestling their tents into the stuff sacks.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2016-02-01-dartmoor-exmoor-gathering/20160130-DSCF5630.jpg, alt: Mikes tent being buffeted by the winds while I wait for dinner to cook. %}
+  {% img src: 2016-01-web-DSCF5630.jpg, alt: Mikes tent being buffeted by the winds while I wait for dinner to cook. %}
   {% figcaption %}Mikes tent being buffeted by the winds while I wait for dinner to cook. {% endfigcaption %}
 {% endfigure %}
 

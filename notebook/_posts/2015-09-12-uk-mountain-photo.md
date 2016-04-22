@@ -6,8 +6,8 @@ excerpt: How you can support me in the UK Mountain Photo of the Year Competition
 date: 2015-09-12 09:25
 tags: photography competition
 
-thumb: /notebook/2015-09-uk-mountain-photo/thumb.jpg
-banner: /notebook/2015-09-uk-mountain-photo/header.jpg
+thumb: 2015-05-web-DSC_7154-Edit-3.jpg
+banner: 2015-05-web-DSC_7154-Edit-2.jpg
 ---
 
 Back in July I entered the Mountain Photo of the Year competition on a whim. I didn't expect to get anywhere, expecting my three entries to simply be discarded as *"[not worthy][not_worthy]"*.
@@ -20,17 +20,17 @@ My entry was fairly and sensibly describes by Trail Magazine, especially as few 
 Proof that mountains don't have to be tall and pointy to create a great outdoor image: a Dartmoor wild camp
 {% endquote %}
 
-<figure>
-  <img src="/assets/notebook/2015-09-uk-mountain-photo/20150523-DSC_7154-Edit-2.jpg" alt="Dartmoor wild camp – UK Mountain Photo of the Year runner up entry" />
+{% figure %}
+  {% img src: 2015-05-web-DSC_7154-Edit-2.jpg, alt: Dartmoor wild camp – UK Mountain Photo of the Year runner up entry %}
+
   <div class="row pair">
-    <img src="/assets/notebook/2015-09-uk-mountain-photo/20150614-DSC_7280-HDR-2.jpg" alt="Max. " />
-    <img src="/assets/notebook/2015-09-uk-mountain-photo/20150502-DSC_6789-Edit.jpg" alt="Mike observing the view. " />
+    {% img src: 2015-06-web-DSC_7280-HDR-2.jpg, alt: Broad falls %}
+    {% img src: 2015-05-web-DSC_6789-Edit.jpg, alt: Rannoch Moor Deer %}
   </div>
-  <figcaption>
-    Dartmoor wild camp – UK Mountain Photo of the Year runner up entry<br />
-    Broad Falls, second entry | Rannoch Moor Deer, third entry
-  </figcaption>
-</figure>
+
+  {% figcaption %}Dartmoor wild camp – UK Mountain Photo of the Year runner up entry<br />
+  Broad Falls, second entry — Rannoch Moor Deer, third entry{% endfigcaption %}
+{% endfigure %}
 
 Each of the images featured here have their own story behind them; the finalist entry was from [a bikepacking trip with a group of mates on Dartmoor][blog_teignhead], and the Broad Falls shot is from [a backpacking trip with another set of friends][blog_broadfalls]. The final image taken on Rannoch Moor, Scotland, was from a rather eventful day trip.
 

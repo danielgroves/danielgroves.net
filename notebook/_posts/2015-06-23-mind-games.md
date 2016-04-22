@@ -5,8 +5,8 @@ excerpt: A look at the psychological games attached to endurance racing in prepa
 
 date: 2015-06-29 09:00
 tags: HT550 ITT bikepacking
-banner: /notebook/2015-06-mind-games/header.jpg
-thumb: /notebook/2015-06-mind-games/thumb.jpg
+banner: 2015-08-web-DSC_9115-2.jpg
+thumb: 2015-08-web-DSC_9115.jpg
 
 redirect_from: /notebook/2015/03/mind-games/index.html
 ---

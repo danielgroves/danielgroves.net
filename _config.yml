@@ -21,6 +21,10 @@ static_path: '/assets'
 styles_path: '/styles'
 scripts_path: '/scripts'
 
+imgix:
+  main_images: https://danielgroves-net.imgix.net/
+  metadata_images: https://danielgroves-net-2.imgix.net/
+
 jekyll-archives:
   layouts:
     tag: tag
