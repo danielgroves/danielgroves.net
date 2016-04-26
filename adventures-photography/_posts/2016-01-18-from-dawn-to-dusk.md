@@ -4,9 +4,9 @@ title: From Dawn to Dusk
 excerpt: Shooting from sunrise to sunset in the snows on Dartmoor.
 
 date: 2016-01-18 21:48
-thumb: /adventures_photography/2016-01-18-from-dawn-to-dusk/thumb.jpg
+thumb: 2016-01-web-DSCF5321-2.jpg
 
-banner: /adventures_photography/2016-01-18-from-dawn-to-dusk/header.jpg
+banner: 2016-01-web-DSCF5321.jpg
 banner_position: middle
 tags: photography dartmoor hiking
 ---
@@ -16,14 +16,14 @@ Saturday started at 5:30 to the sound of my alarm clock shouting at me. It was t
 We weren't expecting much from the sunrise, but as a low cloud bank moved over we were soon surprised as the colours quickly developed. Once the sun was up we had to move quickly to meet Mike in 40-minutes time.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2016-01-18-from-dawn-to-dusk/20160116-DSCF5321.jpg, alt: Sunrise over Sharpitor %}
+  {% img src: 2016-01-web-DSCF5321.jpg, alt: Sunrise over Sharpitor %}
   {% figcaption %}Sunrise over Sharpitor. {% endfigcaption %}
 {% endfigure %}
 
 We arrived at Postbridge at 8:50, and were walking by 9:00. The first location we had in mind was a waterfall on the east dart river – to be exact, [the waterfall I visited during *Solo*][solo] over the summer months. The setting was drastically different the last time I had been there and offers a huge range of angles thanks to the unique rock formations and the non-uniform setting of the waterfall. We stopped there for a good 20 minutes, but could happily have spent a few hours shooting a huge range of different angles.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2016-01-18-from-dawn-to-dusk/20160116-DSCF5336.jpg, alt: Waterfall on the East Dart River %}
+  {% img src: 2016-01-web-DSCF5336.jpg, alt: Waterfall on the East Dart River %}
   {% figcaption %}Waterfall on the East Dart River. {% endfigcaption %}
 {% endfigure %}
 
@@ -32,8 +32,8 @@ We proceeded north after this towards Winney's Down. This is a large and not ove
 Continuing north we soon reached Quintin's Man Cairn, tucked just inside the firing range. This marked the start of being able to follow paths again which made the going easier until we reached Whitehorse Hill and proceeded to follow the peat pass. This was easily the best conditions I've ever faced the pass in, which normally channels water effectively making it hard and messy work.
 
 {% figure row_2 %}
-  {% img src: /assets/adventures_photography/2016-01-18-from-dawn-to-dusk/20160116-DSCF5344.jpg, alt: James and Mike in the peat pass of Whitehorse Hill. %}
-  {% img src: /assets/adventures_photography/2016-01-18-from-dawn-to-dusk/20160116-DSCF5355.jpg, alt: Mike setting his glove on fire on top of Watern Hill. %}
+  {% img src: 2016-01-web-DSCF5344.jpg, alt: James and Mike in the peat pass of Whitehorse Hill. %}
+  {% img src: 2016-01-web-DSCF5355.jpg, alt: Mike setting his glove on fire on top of Watern Hill. %}
   {% figcaption %}
     Left: James and Mike in the peat pass of Whitehorse Hill.<br />
     Right: Mike setting his glove on fire on top of Watern Hill.
@@ -47,7 +47,7 @@ Out next stop was Teignhead Farm, where [James and I bikepacked to back in sprin
 We headed south again as a group but split soon after as James and I made for the top of Sittaford Tor, and Mike made for the Grey Wethers stone circle. We all had out own successes at our locations as the three of us came back with completely unique images.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2016-01-18-from-dawn-to-dusk/20160116-DSCF5377.jpg, alt: Sunset from the top of Sittaford Tor. %}
+  {% img src: 2016-01-web-DSCF5377.jpg, alt: Sunset from the top of Sittaford Tor. %}
   {% figcaption %}Sunset from the top of Sittaford Tor. {% endfigcaption %}
 {% endfigure %}
 

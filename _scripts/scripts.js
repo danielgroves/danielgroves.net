@@ -1,2 +1,2 @@
 //= require navigation
-//= require preloader
+//= require imgix

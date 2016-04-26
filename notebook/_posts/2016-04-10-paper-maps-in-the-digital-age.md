@@ -6,8 +6,8 @@ excerpt: "Are we becoming too reliant on digital mapping in the wilderness?"
 date: 2016-04-10 16:33
 tags: technology opinion navigation
 
-thumb: /notebook/2016-04-10-paper-maps-in-the-digital-age/thumb.jpg
-banner: /notebook/2016-04-10-paper-maps-in-the-digital-age/header.jpg
+thumb: 2016-04-web-DSCF6397-2.jpg
+banner: 2016-04-web-DSCF6397.jpg
 ---
 
 Anyone who spends a significant amount of time out in the UK's wild places will probably have observed the smartphone take over. This is, I guess, to be expected in the digital age where most people are [permanently online][going_off_grid]; but it's not the presence of these devices that's the problem, it's the way they're used. The presence in itself could be considered a good thing is it improves individuals safety and reduces the workload of our Mountain Rescue teams and our NHS staff. The problem is more to do with people's _reliance_ on these devices.

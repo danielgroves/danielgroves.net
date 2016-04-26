@@ -4,9 +4,9 @@ title: Midnight Madness
 excerpt: Tom and I take part in the Dartmoor Search and Rescue annual midnight madness fundraising walk.
 
 date: 2015-07-23 08:00
-thumb: /adventures_photography/2015-07-23-midnight-madness/thumb.jpg
+thumb: 2015-07-web-DSC_7922-2.jpg
 
-banner: /adventures_photography/2015-07-23-midnight-madness/header.jpg
+banner: 2015-07-web-DSC_7922.jpg
 banner_position: bottom
 tags: photography dartmoor hiking
 ---
@@ -16,7 +16,7 @@ Every year the [Plymouth branch][dsrt_wb] of the [Dartmoor Search and Rescue tea
 Everyone gathered at Princetown primary school from sign-on at 8:00 until we all departed together at 9:00. Initially it was a dense pack of people all moving together, but as soon as the ascent towards the mast started everyone started to spread out as the ground steepened. We moved fairly fast while chatting our way up the ascent to North Hessary Tor, where we paused at the top briefly to snap a few pictures before pushing on. We'd agreed beforehand we'd see how far we could get before the sun set.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2015-07-23-midnight-madness/20150718-DSC_7903-HDR.jpg, alt: Sunset from North Hessary Tor %}
+  {% img src: 2015-07-web-DSC_7903-HDR.jpg, alt: Sunset from North Hessary Tor %}
   {% figcaption %}Sunset from North Hessary Tor{% endfigcaption %}
 {% endfigure %}
 
@@ -29,7 +29,7 @@ Leaving the road and proceeding down the bridleway south made things a little mo
 From here the route turned left taking us back towards open moorland. The road quickly turned into a bridleway which we followed until is swung to the right. At this point we left it, straight-lining it across the open moorland until we hit the dismantled railway.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2015-07-23-midnight-madness/20150718-DSC_7922.jpg, alt: Ghost-like participants making their way past out food stop %}
+  {% img src: 2015-07-web-DSC_7922.jpg, alt: Ghost-like participants making their way past out food stop %}
   {% figcaption %}Ghost-like participants making their way past out food stop{% endfigcaption %}
 {% endfigure %}
 
@@ -38,7 +38,7 @@ It was when we hit this that we made the decision to pause; we'd decided to take
 We soon hit the checkpoint four, the final one before the finish back at the primary school. We stopped again here to have a chat with the team member holding the checkpoint (sorry, I should've asked your name!) while I pulled the tripod and camera out to capture the chain of lights making their way up behind us.
 
 {% figure %}
-  {% img src: /assets/adventures_photography/2015-07-23-midnight-madness/20150718-DSC_7925.jpg, alt: Looking back at the long chain of people making their way along the dismantled railway %}
+  {% img src: 2015-07-web-DSC_7925.jpg, alt: Looking back at the long chain of people making their way along the dismantled railway %}
   {% figcaption %}Looking back at the long chain of people making their way along the dismantled railway{% endfigcaption %}
 {% endfigure %}
 

@@ -5,8 +5,8 @@ excerpt: A look at the gear required to get started and go backpacking for the f
 
 date: 2015-07-19 15:00
 tags: backpacking gear
-thumb: /notebook/2015-07-getting-started-backpacking/thumb.jpg
-banner: /notebook/2015-07-getting-started-backpacking/header.jpg
+thumb: 2014-07-web-DSC_0743-2.jpg
+banner: 2014-07-web-DSC_0743.jpg
 banner_position: 0 60%
 ---
 
@@ -29,7 +29,7 @@ There are plenty of options on the market for good quality backpacking tents. Ge
 * **[Vango Banshee 200][tent_vango_banshee_200]:** This is the cheapest and heaviest tent here, but still a good backpacking choice. This is actually the tent-of-choice by my regular backpacking partner, who has written about [his thoughts on the tent][review_vango_banshee] over on his website. None of the tents here lack in space, but this is by far the biggest. It handles high winds well, having frequently been pitched next to my own tents in high winds. This biggest disadvantages to this tent is the 2.14kg pack weight and the slightly longer time it takes to pitch the tent.
 
 {% figure %}
-  {% img src: /assets/notebook/2015-07-getting-started-backpacking/20140728-DSC_1283-2.jpg, alt: Tents pitched on the edge of the Yorkshire Dales during my John O' Groats to Lands End tour %}
+  {% img src: 2014-07-web-DSC_1283-2.jpg, alt: Tents pitched on the edge of the Yorkshire Dales during my John O' Groats to Lands End tour %}
   {% figcaption %}Tents pitched on the edge of the Yorkshire Dales during my [John O' Groats to Lands End tour](/adventures-photography/2014/11/JOGLE/ "John O' Groats to Lands End tour, Part One").{% endfigcaption %}
 {% endfigure %}
 
@@ -54,7 +54,7 @@ Not everyone takes one, but I prefer to take a pillow while backpacking. Plenty 
 None of us want to go hungry. You could take cold food with you to help cut-down on pack size and pack-weight, but nothing beats a hot meal and drink at the end of the day. You want to keep food simple… dehydrated or easily reheatable food is best as it takes minimal cooking times and packs down small. [Wayfarers boil-in-the-bag meals][food_boil_in_bag] are ideal for a starter, but similar meals can be made for much less by raiding your local supermarket and thinking outside of the box.
 
 {% figure %}
-  {% img src: /assets/notebook/2015-07-getting-started-backpacking/20150411-DSC_5167.jpg, alt: Mike and I cooking while wild camping at Fur Tor %}
+  {% img src: 2015-04-web-DSC_5167.jpg, alt: Mike and I cooking while wild camping at Fur Tor %}
   {% figcaption %}Mike and I cooking while wild camping at [Fur Tor](/adventures-photography/2015/04/peter-tavy-fur-tor/ "Wild camping at Fur Tor, Dartmoor").{% endfigcaption %}
 {% endfigure %}
 
@@ -80,7 +80,7 @@ The first thing to think about is boots. If you're reading this you've probably 
 Secondly, socks make a big difference. I use a mix of the Bridgedale Trail and Summit series depending on where I'm walking and what time of year it is. Socks support your feet and help to fill excess volume in the boot, reducing the risk of blisters further. They also help wick sweat away from your feet and keep the both cool and dry as a result. There are other brands available, ask the sales assistant while you're buying your boots. While you're there, it's worth getting a second pair to take as spares. If you manage to submerge your foot in a bog or to the bottom of a river you'll be grateful for a dry pair of socks.
 
 {% figure %}
-  {% img src: /assets/notebook/2015-07-getting-started-backpacking/20150412-DSC_5380.jpg, alt: Mike walking past White Tor on the return leg of our Fur Tor wild camp %}
+  {% img src: 2015-04-web-DSC_5380.jpg, alt: Mike walking past White Tor on the return leg of our Fur Tor wild camp %}
   {% figcaption %}Mike walking past White Tor on the return leg of our [Fur Tor wild camp](/adventures-photography/2015/04/peter-tavy-fur-tor/ "Wild camping at Fur Tor, Dartmoor"){% endfigcaption %}
 {% endfigure %}
 
@@ -120,13 +120,13 @@ Other items I include are:
 The final thing you're going to need it a suitable backpack. If you're buying a lot of lightweight gear you can probably get away with a 45l bag, but you want to be sure everything will fit first. If you're buying lower-end budget gear you're going to need a slightly larger backpack to fit everything in. A bag around 60l is normally suitable, and tends to be where most people start. There is more than meets the eye to choosing a rucksack, particularly when choosing a high-capacity bag that you're going to be wearing for long periods of time. It's worth going to your local outdoor shop and asking them to measure you for fit and make some recommendations.
 
 {% figure %}
-  {% img src: /assets/notebook/2015-07-getting-started-backpacking/20150613-DSC_7212.jpg, alt: Pack loaded for the Broad Falls trip %}
+  {% img src: 2015-06-web-DSC_7212.jpg, alt: Pack loaded for the Broad Falls trip %}
 
   <div class="row">
-    {% img src: /assets/notebook/2015-07-getting-started-backpacking/20150613-DSC_7206.jpg, alt: Sleeping equipment as used for Broad Falls trip %}
-    {% img src: /assets/notebook/2015-07-getting-started-backpacking/20150613-DSC_7208.jpg, alt: Food Provisions as used on the Broad Falls trip %}
-    {% img src: /assets/notebook/2015-07-getting-started-backpacking/20150613-DSC_7209.jpg, alt: Clothing and personal items, as used for Broad Falls trip %}
-    {% img src: /assets/notebook/2015-07-getting-started-backpacking/20150613-DSC_7210.jpg, alt: Tent and further personal items for broad falls trip %}
+    {% img src: 2015-06-web-DSC_7206.jpg, alt: Sleeping equipment as used for Broad Falls trip %}
+    {% img src: 2015-06-web-DSC_7208.jpg, alt: Food Provisions as used on the Broad Falls trip %}
+    {% img src: 2015-06-web-DSC_7209.jpg, alt: Clothing and personal items, as used for Broad Falls trip %}
+    {% img src: 2015-06-web-DSC_7210.jpg, alt: Tent and further personal items for broad falls trip %}
   </div>
 
   {% figcaption %}Equipment taken for the recent [Broad Falls](/adventures-photography/2015/06/broad-falls/ "Wild camping at Broad Falls, Dartmoor") backpacking trip. Not pictured is the photography equipment, which I have cover in _[Gear for a Landscape and Adventure Photographer](/notebook/2016/02/gear/ "Gear for a Landscape and Adventure Photographer")_. {% endfigcaption %}

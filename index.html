@@ -40,7 +40,7 @@ footer_related_posts: false
     <section>
       {% if post.thumb %}
         <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
-          <img data-src="{{ site.static_path }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" width="900px" height="512px" />
+          <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
         </a>
       {% endif %}
 
@@ -55,7 +55,7 @@ footer_related_posts: false
     <section>
       {% if post.thumb %}
         <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
-          <img data-src="{{ site.static_path }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail" width="900px" height="512px" />
+          <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
         </a>
       {% endif %}
 

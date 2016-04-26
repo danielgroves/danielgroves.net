@@ -4,7 +4,7 @@ published: true
 
 title: The first real road ride
 excerpt: "What I've learnt and discovered during my first real road ride, a 64km loop on Dartmoor"
-thumb: /notebook/2013-06-02-first-road-ride/thumb.jpg
+thumb: 2016-04-web-thumb.jpg
 ---
 
 The first thing I will make clear is that I am no roadie. I'm a mountain biker; always have been, always will be. I like big fat knobbly tyres, bouncy forks at the front and ideally some more of the bouncy magic at the back. Right, thats the important bit done.
@@ -36,7 +36,7 @@ At Princetown the energy gel had all but worn off, so I stopped for another brea
 The road from Princetown to Yelverton turned out to be the best of the ride. This road is mostly decent, it keeps you in the big ring all the way home. Descending on this road I actually spun-out several times and found myself being able to do all of the small accents without slowing down too much due to the momentum of the road. Coming down here I hit my top speed of 70.2kmh (43.62mph). That feels pretty awesome on two human-powered wheels.
 
 {% figure narrow %}
-  {% img src: /assets/notebook/2013-06-02-first-road-ride/dartmoor_view.jpg, alt: My phone camera just doesn't do the view justice. %}
+  {% img src: 2016-04-web-dartmoor_view.jpg, alt: My phone camera just doesn't do the view justice. %}
   {% figcaption %}My phone camera just doesn't do the view justice.{% endfigcaption %}
 {% endfigure %}
 
