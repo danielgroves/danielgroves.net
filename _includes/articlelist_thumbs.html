@@ -3,7 +3,7 @@
       <article>
         {% if post.thumb %}
           <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
-            <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
+            <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}.pjpg" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
           </a>
         {% endif %}
 
