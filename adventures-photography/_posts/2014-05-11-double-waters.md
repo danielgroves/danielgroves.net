@@ -3,8 +3,8 @@ published: true
 title: Double Waters
 date: 2014-05-11 16:45
 excerpt: "A few pictures from a recent Double Waters loop"
-thumb: 2014-05-web-DSC_9752.jpg
-banner: 2014-05-web-DSC_9752.jpg
+thumb: 2014-05-web-DSC_9752
+banner: 2014-05-web-DSC_9752
 comments: true
 tags: bike dartmoor
 ---

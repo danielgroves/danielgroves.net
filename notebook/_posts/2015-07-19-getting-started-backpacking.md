@@ -5,8 +5,8 @@ excerpt: A look at the gear required to get started and go backpacking for the f
 
 date: 2015-07-19 15:00
 tags: backpacking gear
-thumb: 2014-07-web-DSC_0743-2.jpg
-banner: 2014-07-web-DSC_0743.jpg
+thumb: 2014-07-web-DSC_0743-2
+banner: 2014-07-web-DSC_0743
 banner_position: 0 60%
 ---
 

@@ -4,9 +4,9 @@ title: Nightwalk
 excerpt: Walking through darkness and snow to camp on Dartmoor.
 
 date: 2015-11-24 23:00
-thumb: 2015-11-web-DSC_2052-2.jpg
+thumb: 2015-11-web-DSC_2052-2
 
-banner: 2015-11-web-DSC_2052.jpg
+banner: 2015-11-web-DSC_2052
 banner_position: bottom
 tags: photography dartmoor backpacking
 ---

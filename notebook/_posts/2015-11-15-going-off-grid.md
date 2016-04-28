@@ -6,8 +6,8 @@ excerpt: "Why you should schedule more downtime."
 date: 2015-11-15 21:00
 tags: thought technology lifestyle
 
-thumb: 2015-06-web-DSC_7366-2.jpg
-banner: 2015-06-web-DSC_7366.jpg
+thumb: 2015-06-web-DSC_7366-2
+banner: 2015-06-web-DSC_7366
 ---
 
 I’ve been trying to write this single post for the best part of a year now. I’ve been saying this for a while now, and over this last 18-months since I've finished university I’ve begun to notice this more and more: we all spend too much time online.

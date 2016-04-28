@@ -4,9 +4,9 @@ title: Wind, Rain and Mountains
 excerpt: A short photo-story from a recent trip to the Lake District National Park in Cumbria.
 
 date: 2016-04-03 16:30
-thumb: 2016-03-web-DSCF6107-2.jpg
+thumb: 2016-03-web-DSCF6107-2
 
-banner: 2016-03-web-DSCF6107.jpg
+banner: 2016-03-web-DSCF6107
 banner_position: middle
 tags: cumbria walking photography
 ---

@@ -4,9 +4,9 @@ title: Broad Falls Wild Camp
 excerpt: A trip out to Broad Falls, Dartmoor, to photograph the waterfalls with a dramatic backdrop
 
 date: 2015-06-15 22:45
-thumb: 2015-06-web-DSC_7280-HDR.jpg
+thumb: 2015-06-web-DSC_7280-HDR
 
-banner: 2015-06-web-DSC_7280-HDR.jpg
+banner: 2015-06-web-DSC_7280-HDR
 banner_position: 0 30%
 tags: photography dartmoor camping
 ---

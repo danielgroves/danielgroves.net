@@ -2,7 +2,7 @@
 published: true
 title: Colour Shift with 32-bit RAW files in Lightroom
 excerpt: When creating 32-bit RAW images in Photoshop, Lightroom will render the image with incorrect colour. This can be solved through the use of Photoshop Smart Objects.
-thumb: 2015-02-colourshift.jpg
+thumb: 2015-02-colourshift
 
 date: 2015-02-21 10:15
 tags: photography

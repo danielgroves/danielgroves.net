@@ -5,7 +5,7 @@ published: true
 title: Scotland Photography
 date: 2013-09-01 21:00:00.000000000 +00:00
 excerpt: "A small selection of photographs from my summer holiday to Scotland"
-thumb: 2013-07-web-DSC_7803.jpg
+thumb: 2013-07-web-DSC_7803
 
 tags: scotland photography
 ---

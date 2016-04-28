@@ -4,9 +4,9 @@ title: Dartmoor and Exmoor Gathering
 excerpt: Taking the hard route to the first Dartmoor and Exmoor Wild Camping gathering.
 
 date: 2016-02-01 21:57
-thumb: 2016-01-web-DSCF5630-2.jpg
+thumb: 2016-01-web-DSCF5630-2
 
-banner: 2016-01-web-DSCF5630.jpg
+banner: 2016-01-web-DSCF5630
 banner_position: middle
 tags: dartmoor backpacking
 ---

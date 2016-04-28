@@ -4,9 +4,9 @@ title: Midnight Madness
 excerpt: Tom and I take part in the Dartmoor Search and Rescue annual midnight madness fundraising walk.
 
 date: 2015-07-23 08:00
-thumb: 2015-07-web-DSC_7922-2.jpg
+thumb: 2015-07-web-DSC_7922-2
 
-banner: 2015-07-web-DSC_7922.jpg
+banner: 2015-07-web-DSC_7922
 banner_position: bottom
 tags: photography dartmoor hiking
 ---

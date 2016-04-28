@@ -4,8 +4,8 @@ title: Peter Tavy and Fur Tor
 excerpt: Backpacking to Fur Tor on Dartmoor for the Photography.
 
 date: 2015-04-17 20:40
-thumb: 2015-04-web-DSC_5263-Edit.jpg
-banner: 2015-04-web-DSC_5263-Edit.jpg
+thumb: 2015-04-web-DSC_5263-Edit
+banner: 2015-04-web-DSC_5263-Edit
 banner_position: 0 60%
 
 tags: backpacking exploration dartmoor photography

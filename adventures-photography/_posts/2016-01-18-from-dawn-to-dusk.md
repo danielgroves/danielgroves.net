@@ -4,9 +4,9 @@ title: From Dawn to Dusk
 excerpt: Shooting from sunrise to sunset in the snows on Dartmoor.
 
 date: 2016-01-18 21:48
-thumb: 2016-01-web-DSCF5321-2.jpg
+thumb: 2016-01-web-DSCF5321-2
 
-banner: 2016-01-web-DSCF5321.jpg
+banner: 2016-01-web-DSCF5321
 banner_position: middle
 tags: photography dartmoor hiking
 ---

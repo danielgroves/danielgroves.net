@@ -6,8 +6,8 @@ excerpt: "A first look at the Fuji X-T1 as a adventure and landscape photographe
 date: 2016-01-17 18:07
 tags: technology camera gear
 
-thumb: 2016-01-web-DSC_2603-2.jpg
-banner: 2016-01-web-DSC_2603.jpg
+thumb: 2016-01-web-DSC_2603-2
+banner: 2016-01-web-DSC_2603
 ---
 
 I started the year by switching away from my faithful Nikon D7100 for something much smaller and lighter. There was nothing wrong with the Nikon, but it was big and heavy compared to other cameras of comparable performance. With this in mind I made the decision to switch to a mirrorless system, the Fuji X-T1 in particular.

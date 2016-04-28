@@ -5,8 +5,8 @@ excerpt: A bikepacking trip across Dartmoor to wild camp and Teignhead Farm Ruin
 tags: bike packing camping photography
 
 date: 2015-05-25 17:20
-thumb: 2015-05-web-DSC_7154-Edit.jpg
-banner: 2015-05-web-DSC_7154-Edit-2.jpg
+thumb: 2015-05-web-DSC_7154-Edit
+banner: 2015-05-web-DSC_7154-Edit-2
 banner_position: 0 50%
 
 tags: bike bikepacking exploration dartmoor photography
