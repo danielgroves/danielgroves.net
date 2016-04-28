@@ -30,8 +30,8 @@ class ImageTag < Liquid::Tag
   end
 
   def render(context)
-    img = "<img data-src=\"#{@url}.pjpg\" alt=\"#{@alt}\" class=\"imgix-fluid\"/>"
-    img+= "<noscript><img src=\"#{@url}.pjpg\" alt=\"#{@alt}\" /></noscript>"
+    img = "<img data-src=\"#{@url}.jpg\" alt=\"#{@alt}\" class=\"imgix-fluid\"/>"
+    img+= "<noscript><img src=\"#{@url}.jpg\" alt=\"#{@alt}\" /></noscript>"
   end
 end
 
