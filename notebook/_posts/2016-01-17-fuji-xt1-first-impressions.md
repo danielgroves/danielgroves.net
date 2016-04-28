@@ -25,7 +25,7 @@ Unlike most manufacturers Fuji still do a few things the old way; this isn't a b
 The aperture is controlled by physically turning a dial on the lens just like in the days of film SLRs, albeit updated with the modern electronics to allow for features like auto aperture. Initially I wasn't sure about this, having always shot Nikon cameras before, I was used to having this sat under my forefinger on the camera body itself. It makes sense though – it lets me keep the shutter release covered while adjusting settings as I need to on the fly, and while stabilising the lens. Ergonomically, it just works.
 
 {% figure %}
-  {% img src: 2016-01-web-DSC_2614.jpg, alt: Closeup of the perfectly engineered exposure dials on the Fujifilm X-T1. %}
+  {% img src: 2016-01-web-DSC_2614, alt: Closeup of the perfectly engineered exposure dials on the Fujifilm X-T1. %}
   {% figcaption %}Closeup of the perfectly engineered exposure dials on the Fujifilm X-T1.{% endfigcaption %}
 {% endfigure %}
 
@@ -40,7 +40,7 @@ One of the things that's put me off switching to a mirror less system for the la
 The viewfinder is packed with features which are not traditionally available. You get live histograms, an in-view spirit level, and for those who like to manually focus you get dual-view mode with a 100% crop preview on the right, and the full-frame on the left. You can focus-peek as well, to dedicate the entire viewfinder to 100% crop for checking those really fine details. It provides everything you need, meaning you can shoot fewer frames for exposure checking, and have to throw less away at the end of the day.
 
 {% figure %}
-  {% img src: 2016-01-web-DSCF5300-Pano.jpg, alt: Even manually focused images are easy to get razer-sharp, as seen in this 4-image panorama shot on the Samyang 12mm manual prime. %}
+  {% img src: 2016-01-web-DSCF5300-Pano, alt: Even manually focused images are easy to get razer-sharp, as seen in this 4-image panorama shot on the Samyang 12mm manual prime. %}
   {% figcaption %}Even manually focused images are easy to get razor-sharp, as seen in this 4-image panorama shot on the Samyang 12mm manual prime.{% endfigcaption %}
 {% endfigure %}
 
@@ -57,8 +57,8 @@ This was one of my main motivations for switching *away* from Nikon, and over to
 Let's just reiterate on that; my entire setup now weighs less than my old body and a single lens.
 
 {% figure row_2 %}
-  {% img src: 2016-01-web-DSC_2613.jpg, alt: Fujifilm X-T1 with the 18-55 ƒ/2.8-4 kit lens. %}
-  {% img src: 2016-01-web-DSC_2612.jpg, alt: Fujifilm X-T1 with the Samyang 12mm ƒ/2 manual prime lens. %}
+  {% img src: 2016-01-web-DSC_2613, alt: Fujifilm X-T1 with the 18-55 ƒ/2.8-4 kit lens. %}
+  {% img src: 2016-01-web-DSC_2612, alt: Fujifilm X-T1 with the Samyang 12mm ƒ/2 manual prime lens. %}
   {% figcaption %}
     Fujifilm X-T1 with the 18-55 ƒ/2.8-4 kit lens (left) and the Samyang 12mm ƒ/2 prime (right)
   {% endfigcaption %}
@@ -73,7 +73,7 @@ Everybody says these are not camera bodies for pixel-peepers; they're not wrong 
 The result from these lenses and this camera body are spot-on, they are sharp and the colour range is fantastic; they capture green tones better than anything I've seen before.
 
 {% figure %}
-  {% img src: 2016-01-web-DSCF5402.jpg, alt: Sunset from Sittaford Tor on Saturday after a day walked through some more remote Dartmoor snow. %}
+  {% img src: 2016-01-web-DSCF5402, alt: Sunset from Sittaford Tor on Saturday after a day walked through some more remote Dartmoor snow. %}
   {% figcaption %}Sunset from Sittaford Tor on Saturday after a day walked through some more remote Dartmoor snow.{% endfigcaption %}
 {% endfigure %}
 

@@ -12,17 +12,17 @@ tags: bike dartmoor
 I've not posted anything new recently due to working on [finishing my degree](/notebook/2014/05/finishing-university/ "Thoughts on the last four years at University"), resulting in having very little time to play bikes and cameras. Having finished last Friday afternoon, however, I spent today with two friends (Luke Shackleton and James Mandall) riding bikes and playing with cameras on a *Double Waters* loop. Unfortunately due to the rather foul weather the camera had to spend most of the day hidden away in my bag, but for a brief moment on the main descent the sun did appear.
 
 {% figure %}
-  {% img src: 2014-05-web-DSC_9752.jpg, alt: Luke Shackleton on the main descent. %}
+  {% img src: 2014-05-web-DSC_9752, alt: Luke Shackleton on the main descent. %}
   {% figcaption %}Luke Shackleton on the main descent.{% endfigcaption %}
 {% endfigure %}
 
 {% figure %}
-  {% img src: 2014-05-web-DSC_9757.jpg, alt: James Mandall on the main descent. %}
+  {% img src: 2014-05-web-DSC_9757, alt: James Mandall on the main descent. %}
   {% figcaption %}James Mandall on the main descent.{% endfigcaption %}
 {% endfigure %}
 
 {% figure %}
-  {% img src: 2014-05-web-DSC_9764.jpg, alt: Luke Shackleton taking the steep line. %}
+  {% img src: 2014-05-web-DSC_9764, alt: Luke Shackleton taking the steep line. %}
   {% figcaption %}Luke Shackleton taking the steep line.{% endfigcaption %}
 {% endfigure %}
 

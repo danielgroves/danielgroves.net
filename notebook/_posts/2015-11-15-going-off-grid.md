@@ -25,7 +25,7 @@ This new-fangled always-online world that has grown in the last decade stops us 
 We need to go off-grid.
 
 {% figure %}
-  {% img src: 2014-07-web-DSC_0999.jpg, alt: Tents pitched on Barra, Outer Hebrides, Scotland %}
+  {% img src: 2014-07-web-DSC_0999, alt: Tents pitched on Barra, Outer Hebrides, Scotland %}
   {% figcaption %}Tents pitched on Barra in the Outer Hebrides during my [John O' Groats to Lands End tour](/adventures-photography/2014/11/JOGLE/ "John O' Groats to Lands End tour, Part One"). Truly off-grid. {% endfigcaption %}
 {% endfigure %}
 
