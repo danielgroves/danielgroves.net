@@ -4,7 +4,7 @@ footer_related_posts: false
 ---
 
 <main id="landing">
-  <div id="intro">
+  <div id="intro" class="image imgix-fluid-bg" data-src="{{ site.imgix.metadata_images }}/2015-09-web-DSC_0827.jpg">
       <span>Hi there, I'm Daniel Groves.</span>
       <span>I'm a photographer, adventurer, and developer who is addicted to the mountains.</span>
   </div>
@@ -40,7 +40,7 @@ footer_related_posts: false
     <section>
       {% if post.thumb %}
         <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
-          <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
+          <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}.jpg" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
         </a>
       {% endif %}
 
@@ -55,7 +55,7 @@ footer_related_posts: false
     <section>
       {% if post.thumb %}
         <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
-          <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
+          <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}.jpg" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
         </a>
       {% endif %}
 
