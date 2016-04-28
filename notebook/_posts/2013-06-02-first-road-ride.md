@@ -36,7 +36,7 @@ At Princetown the energy gel had all but worn off, so I stopped for another brea
 The road from Princetown to Yelverton turned out to be the best of the ride. This road is mostly decent, it keeps you in the big ring all the way home. Descending on this road I actually spun-out several times and found myself being able to do all of the small accents without slowing down too much due to the momentum of the road. Coming down here I hit my top speed of 70.2kmh (43.62mph). That feels pretty awesome on two human-powered wheels.
 
 {% figure narrow %}
-  {% img src: 2016-04-web-dartmoor_view.jpg, alt: My phone camera just doesn't do the view justice. %}
+  {% img src: 2016-04-web-dartmoor_view, alt: My phone camera just doesn't do the view justice. %}
   {% figcaption %}My phone camera just doesn't do the view justice.{% endfigcaption %}
 {% endfigure %}
 

@@ -21,11 +21,11 @@ Proof that mountains don't have to be tall and pointy to create a great outdoor 
 {% endquote %}
 
 {% figure %}
-  {% img src: 2015-05-web-DSC_7154-Edit-2.jpg, alt: Dartmoor wild camp – UK Mountain Photo of the Year runner up entry %}
+  {% img src: 2015-05-web-DSC_7154-Edit-2, alt: Dartmoor wild camp – UK Mountain Photo of the Year runner up entry %}
 
   <div class="row pair">
-    {% img src: 2015-06-web-DSC_7280-HDR-2.jpg, alt: Broad falls %}
-    {% img src: 2015-05-web-DSC_6789-Edit.jpg, alt: Rannoch Moor Deer %}
+    {% img src: 2015-06-web-DSC_7280-HDR-2, alt: Broad falls %}
+    {% img src: 2015-05-web-DSC_6789-Edit, alt: Rannoch Moor Deer %}
   </div>
 
   {% figcaption %}Dartmoor wild camp – UK Mountain Photo of the Year runner up entry<br />
