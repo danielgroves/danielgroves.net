@@ -107,7 +107,11 @@
           updateOnResizeDown: true,
           updateOnPinchZoom: true,
           pixelStep: 100,
-          autoInsertCSSBestPractices: true
+          autoInsertCSSBestPractices: true,
+          onChangeParamOverride: function(width, height, options, element) {
+            options.auto = 'format';
+            return options;
+          }
         });
       });
     </script>
