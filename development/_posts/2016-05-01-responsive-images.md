@@ -23,7 +23,7 @@ There's currently three different primary methods to serve responsive images, ea
 
 ### srcset
 
-Use of the `srcset` attribute allows you, the developer, to provide additional images for a browser to choose from. The idea here is that you provide a range of images of different resolution and the browser will pick the best one to display. Being an extra attribute on the normal `img` tag probably means this would be the easiest to integrate into a legacy site.
+Use of the [`srcset`][mdn_srcset] attribute allows you, the developer, to provide additional images for a browser to choose from. The idea here is that you provide a range of images of different resolution and the browser will pick the best one to display. Being an extra attribute on the normal `img` tag probably means this would be the easiest to integrate into a legacy site.
 
 The HTML in the page would look something like this:
 
@@ -35,13 +35,13 @@ You can add as many different `srcset` options as you like, however each of thes
 
 ### picture/source
 
-Using `picture` and `source` together is slightly more complex than `srcset`, however it is far more flexible. As shown in the example below is allows you to add media queries into the mix, and still allows you to provide a standard fallback image which will always display in a worst case scenario.
+Using [`picture`][mdn_picture] and [`source`][mdn_source] together is slightly more complex than `srcset`, however it is far more flexible. As shown in the example below is allows you to add media queries into the mix, and still allows you to provide a standard fallback image which will always display in a worst case scenario.
 
 {% highlight html %}
 <picture>
-  <source media="(min-width: 40em)" srcset="big.jpg 1x, big-hd.jpg 2x">
-  <source srcset="small.jpg 1x, small-hd.jpg 2x">
-  <img src="fallback.jpg" alt="">
+  <source media="(min-width: 400px)" srcset="image1-medium.jpg 1x, image1-big.jpg 2x">
+  <source srcset="image1-small.jpg 1x, image1-medium.jpg 2x">
+  <img src="image1.jpg" alt="">
 </picture>
 {% endhighlight %}
 
@@ -74,7 +74,7 @@ I've already mentioned that I didn't want to generate all of the possible image 
 
 Having ruled out pre-generated images entirely I decided to look into dynamically rendering images on-the-fly. The idea here would be to have a "bucket" of master images which would be used as the source, and for image requests to have a width and height appended. I'd then be able to resize the image to these dimensions, cache the rendered image on my Cloudfront CDN and serve this to future clients with the same screen properties.
 
-I wrote a Rack application called _Optimus_ to generate these images. As I suspected at the start the performance simply wasn't there, and the best way to speed this up was going to be doing the renders on a GPU, however cloud GPU instances are _expensive_. Unfortunately, this site does not pay the bills (it doesn't actually pay me _anything_ right now) so spending $100+ on a GPU instance is not realistic.
+I wrote [a Rack application called _Optimus_][optimus] to generate these images. As I suspected at the start the performance simply wasn't there, and the best way to speed this up was going to be doing the renders on a GPU, however cloud GPU instances are _expensive_. Unfortunately, this site does not pay the bills (it doesn't actually pay me _anything_ right now) so spending $100+ on a GPU instance is not realistic.
 
 ## Introducing Imgix
 
@@ -189,7 +189,7 @@ All of these didn't take as long as you might think to do, I spent maybe an hour
 
 ## Testing the results
 
-Let's take a couple of different pages and look at wheat difference it's made in the most popular browser for this website: Google Chrome. This first post has been picked because it has a large range of images and no map embedded – something which would mask some of the benefits gained. This test is using Soar as an example.
+Let's take a couple of different pages and look at wheat difference it's made in the most popular browser for this website: Google Chrome. This first post has been picked because it has a large range of images and no map embedded – something which would mask some of the benefits gained. This test [is using Soar][soar] as an example.
 
 First I loaded the page using the old code. This was done with a clean cache in Chrome. The results show a clear improvement — before the DOM content loaded in 474ms, finished  loading in 6.79s and 4.2MB transferred. Now with responsive images we're looking at DOM load of 359ms, finished loading in 1.3s and a mere 785kb of transfer. That's a pretty significant improvement.
 
@@ -199,7 +199,7 @@ First I loaded the page using the old code. This was done with a clean cache in 
   {% figcaption %}Before then after introducing responsive images for Soar.{% endfigcaption %}
 {% endfigure %}
 
-Next I tested the Adventures and Photography post listing. This page has a series of small thumbnails. Before introducing Imgix I was manually generating these at roughly the right size, now they're done dynamically. Once again we've seen a significant improvement: just shy of 50% less data.
+Next I tested the [Adventures and Photography][adventures_photography] post listing. This page has a series of small thumbnails. Before introducing Imgix I was manually generating these at roughly the right size, now they're done dynamically. Once again we've seen a significant improvement: just shy of 50% less data.
 
 {% figure %}
   {% img src: 2016-04-responsive-images/before_adventures_photography, wm: false, alt: Before responsive images result for Adventures and Photography %}
@@ -207,7 +207,7 @@ Next I tested the Adventures and Photography post listing. This page has a serie
   {% figcaption %}Before then after introducing responsive images for Adventures and Photography.{% endfigcaption %}
 {% endfigure %}
 
-The final page was Wind, Rain and Mountains. In this case we've also got an embedded map to contest with that loads a lot of images that are outside of my control. In this case we saw a total of 5.1MB reduced to 1.5MB. This could be reduced further in the future by lazy loading the mapping iframe as and when it is required.
+The final page was [Wind, Rain and Mountains][wind_rain_mountains]. In this case we've also got an embedded map to contest with that loads a lot of images that are outside of my control. In this case we saw a total of 5.1MB reduced to 1.5MB. This could be reduced further in the future by lazy loading the mapping iframe as and when it is required.
 
 {% figure %}
   {% img src: 2016-04-responsive-images/before_wind_rain_mountains, wm: false, alt: Before responsive images result for Wind, Rain and Mountains %}
@@ -225,5 +225,11 @@ If you're serving responsive images on your website please do let me know what s
 
 
 [optimus]: https://github.com/danielgroves/Optimus
-[adventures_photography]: /adventures-photography/
 [webp_images]: https://developers.google.com/speed/webp/
+[mdn_picture]: https://developer.mozilla.org/en/docs/Web/HTML/Element/picture
+[mdn_source]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
+[mdn_srcset]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Example_3_Using_the_srcset_attribute
+
+[adventures_photography]: /adventures-photography/
+[wind_rain_mountains]: /adventures-photography/2016/04/wind-rain-mountains/
+[soar]: /adventures-photography/2015/09/soar/
