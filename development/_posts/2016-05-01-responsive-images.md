@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Serving Images Dynamically with on-the-fly Rendering"
+title: "Serving Responsive Images with on-the-fly Rendering"
 excerpt: Using Imgix to dynamically render responsive images on the fly.
 
 date: 2016-05-01 08:30
