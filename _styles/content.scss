@@ -238,17 +238,13 @@ article {
   }
 
   pre {
-    overflow: hidden;
+    overflow-x: scroll;
     background: $color-light-grey;
     padding: .5em;
-
-    code {
-      overflow-x: scroll;
-    }
   }
 
   code {
-    @include rem-fallback(font-size, 1.2);
+    @include rem-fallback(font-size, 1);
     font-family: inconsolata, monospace;
   }
 
