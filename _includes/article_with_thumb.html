@@ -1,0 +1,14 @@
+<article>
+  {% if include.post.thumb %}
+    <a href="{{ include.post.base_url }}{{ include.post.url }}" title="View {{ include.post.title }}" class="loading-img">
+      <img data-src="{{ site.imgix.metadata_images }}{{ include.post.thumb }}.jpg" alt="Thumbnail for {{ include.post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
+    </a>
+  {% endif %}
+
+  <header>
+    <h1><a href="{{ include.post.base_url }}{{ include.post.url }}" title="View {{ include.post.title }}">{{ include.post.title }}</a></h1>
+    <span><strong>Published:</strong> {{ include.post.date | date: "%e %B %Y" }}</span>
+  </header>
+
+  <p>{{ include.post.excerpt }}</p>
+</article>

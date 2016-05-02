@@ -1,18 +1,5 @@
 <section class="articlelist thumbs">
-    {% for post in include.posts %}
-      <article>
-        {% if post.thumb %}
-          <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
-            <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}.jpg" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
-          </a>
-        {% endif %}
-
-        <header>
-          <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
-          <span><strong>Published:</strong> {{ post.date | date: "%e %B %Y" }}</span>
-        </header>
-
-        <p>{{ post.excerpt }}</p>
-      </article>
-    {% endfor %}
-  </section>
+  {% for post in include.posts %}
+    {% include article_with_thumb.html post=post %}
+  {% endfor %}
+</section>

@@ -35,34 +35,11 @@ footer_related_posts: false
     </section>
   </div>
 
-  <div id="posts">
+  <section id="posts" class="articlelist thumbs">
     {% for post in site.categories.adventures-photography limit:2 %}
-    <section>
-      {% if post.thumb %}
-        <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
-          <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}.jpg" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
-        </a>
-      {% endif %}
-
-      <header>
-        <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
-      </header>
-      <p>{{ post.excerpt }}</p>
-    </section>
+      {% include article_with_thumb.html post=post %}
     {% endfor %}
 
-    {% assign post = site.categories.notebook.first %}
-    <section>
-      {% if post.thumb %}
-        <a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}" class="loading-img">
-          <img data-src="{{ site.imgix.metadata_images }}{{ post.thumb }}.jpg" alt="Thumbnail for {{ post.title }}" class="thumbnail imgix-fluid" width="395px" height="221px" />
-        </a>
-      {% endif %}
-
-      <header>
-        <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
-      </header>
-      <p>{{ post.excerpt }}</p>
-    </section>
+    {% include article_with_thumb.html post=site.categories.notebook.first %}
   </div>
 </main>
