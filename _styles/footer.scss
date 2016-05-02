@@ -85,9 +85,14 @@ aside.elsewhere_on_the_web {
     @include span-columns(6);
 
     height: 70px;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 70px;
+    background-size: 140px auto;
+    background-image: url("#{$static_url}/style_images/social-icons-sprite.png");
+
+    @media #{$retina} {
+      background-image: url("#{$static_url}/style_images/social-icons-sprite@2x.png");
+    }
+
     list-style: none;
 
     text-indent: 1000000%;
@@ -108,63 +113,39 @@ aside.elsewhere_on_the_web {
   }
 
   .social__instagram {
-    background-image: url("#{$static_url}/style_images/instagram.png");
+    background-position: 50% -70px;
     background-color: #834e3d;
     background-color: rgb(131,78,61);
-
-    @media #{$retina} {
-      background-image: url("#{$static_url}/style_images/Instagram@2x.png");
-    }
   }
 
   .social__facebook {
-    background-image: url("#{$static_url}/style_images/facebook.png");
+    background-position: 50% -280px;
     background-color: #3b5998;
     background-color: rgb(59,89,152);
-
-    @media #{$retina} {
-      background-image: url("#{$static_url}/style_images/Facebook@2x.png");
-    }
   }
 
   .social__flickr {
-    background-image: url("#{$static_url}/style_images/flickr.png");
+    background-position: 50% -210px;
     background-color: #fff;
     background-color: rgb(238,238,238);
-
-    @media #{$retina} {
-      background-image: url("#{$static_url}/style_images/flickr@2x.png");
-    }
   }
 
   .social__github {
-    background-image: url("#{$static_url}/style_images/github.png");
+    background-position: 50% -140px;
     background-color: #3f3f3f;
     background-color: rgb(63,63,63);
-
-    @media #{$retina} {
-      background-image: url("#{$static_url}/style_images/Github@2x.png");
-    }
   }
 
   .social__500px {
-    background-image: url("#{$static_url}/style_images/500px.png");
+    background-position: 50% -350px;
     background-color: #000;
     background-color: rgb(0,0,0);
-
-    @media #{$retina} {
-      background-image: url("#{$static_url}/style_images/500px@2x.png");
-    }
   }
 
   .social__twitter {
-    background-image: url("#{$static_url}/style_images/twitter.png");
+    background-position: 50% 0;
     background-color: #55acee;
     background-color: rgb(85,172,238);
-
-    @media #{$retina} {
-      background-image: url("#{$static_url}/style_images/Twitter@2x.png");
-    }
   }
 }
 
