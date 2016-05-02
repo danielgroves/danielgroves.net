@@ -90,10 +90,8 @@
           updateOnResizeDown: false,
           updateOnPinchZoom: false,
           onChangeParamOverride: function(width, height, options, element) {
-            var optionsHeight = element.attributes.height === undefined ? null : element.attributes.height.value;
-
-            if (optionsHeight !== null)
-              options.h = parseInt(optionsHeight)
+            if (element.attributes.height !== undefined)
+              options.h = parseInt(element.attributes.height.value)
 
             options.auto = 'format';
             return options;
