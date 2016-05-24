@@ -1,5 +1,6 @@
 task default: %w[build]
 $linebreak = "\n\n =========================\n"
+$build_dir = "build/"
 
 task :version do
     jekyll "--version"
@@ -33,7 +34,7 @@ end
 task :deploy do
   puts $linebreak
   puts "On master branch, will attempt to deploy"
-  system("rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['PROD_REMOTE']}") or exit!(1)
+  system("rsync -avz --omit-dir-times --no-perms --delete #{$build_dir} #{ENV['PROD_REMOTE']}") or exit!(1)
 
   puts $linebreak
   puts "Attempting to push open Git Repo"
@@ -46,7 +47,7 @@ end
 task :deploy_staging do
   puts $linebreak
   puts "On #{ENV['CI_BUILD_REF_NAME']} branch, will attempt to deploy to staging"
-  system("rsync -avz --omit-dir-times --no-perms --delete _site/ #{ENV['STAGE_REMOTE']}") or exit!(1)
+  system("rsync -avz --omit-dir-times --no-perms --delete #{$build_dir} #{ENV['STAGE_REMOTE']}") or exit!(1)
 end
 
 def jekyll(args)
@@ -56,5 +57,5 @@ end
 def clean
     puts $linebreak
     puts "Cleaning previous builds"
-    system("rm -Rf _site/") or exit!(1)
+    system("rm -Rf #{$build_dir}") or exit!(1)
 end
