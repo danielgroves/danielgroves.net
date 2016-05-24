@@ -6,6 +6,9 @@ timezone: Europe/London
 lsi: false
 markdown: kramdown
 
+source: src
+destination: build
+
 permalink: /:categories/:year/:month/:title
 url: http://localhost:4000
 name: Daniel Groves
