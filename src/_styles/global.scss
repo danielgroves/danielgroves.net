@@ -40,7 +40,7 @@ ol, ul {
 
   li {
     @include rem-fallback(padding, 0, 0, .5, .2);
-    @include rem-fallback(margin-left, 1.2);
+    @include rem-fallback(margin-left, 2.5);
   }
 }
 

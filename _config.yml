@@ -103,3 +103,15 @@ mapbox:
     link: false
   id_prefix: danielsgroves.
   access_token: pk.eyJ1IjoiZGFuaWVsc2dyb3ZlcyIsImEiOiJwSlNBVXcwIn0._PdzYUw29IfgzxbOFul2kg
+
+series:
+  jogle:
+    title: "John O' Groats to Lands End"
+    description: "A tale from cycling the length of Britain - the long way"
+    footer: false
+    complete: true
+  eurovelo:
+    title: "Eurovelo"
+    description: "A charity cycle expedition across Europe"
+    footer: true
+    complete: false
