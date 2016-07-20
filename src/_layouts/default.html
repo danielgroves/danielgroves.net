@@ -37,7 +37,7 @@ layout: stark
       {% assign series_posts = site.posts | where:"series",page.series %}
       {% if page.series %}
         <section id="series-introduction">
-          <p>This post is part of the {{ series_posts | size }} part series <em>{{ site.series[page.series].title }}</em>. To see more from this series <a href="#series-information">check the series index</a>. </p>
+          <p>This post is part of the {{ series_posts | size | apnumber }} part series <em>{{ site.series[page.series].title }}</em>. To see more from this series <a href="#series-information">check the series index</a>. </p>
         </section>
       {% endif %}
 
@@ -47,7 +47,7 @@ layout: stark
         <section id="series-summary">
           <h2 id="series-information">More from the <em>{{ site.series[page.series].title }}</em> series</h2>
 
-          <p>This post is part of the {{ series_posts | size }} part series <em>{{ site.series[page.series].title }}</em>. {% if site.series[page.series].complete == false %}This series is not yet complete; the published parts are:{% endif %}</p>
+          <p>This post is part of the {{ series_posts | size| apnumber }} part series <em>{{ site.series[page.series].title }}</em>. {% if site.series[page.series].complete == false %}This series is not yet complete; the published parts are:{% endif %}</p>
 
           <ol>
             {% for post in series_posts reversed %}
