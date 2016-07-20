@@ -5,7 +5,7 @@ layout: stark
 <main>
     {% if page.banner %}
       <article class="image">
-      <div class="image imgix-fluid-bg" data-src="{{ site.imgix.metadata_images }}/{{ page.banner }}.jpg"></div>
+      <div class="image imgix-fluid-bg" data-src="{{ site.imgix.metadata_images }}{{ page.banner }}.jpg"></div>
     {% else %}
       <article>
     {% endif %}
