@@ -5,3 +5,4 @@ vendor/
 .idea/
 .jekyll-metadata
 .sass-cache/
+_site/
