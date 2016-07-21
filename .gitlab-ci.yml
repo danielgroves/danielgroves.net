@@ -20,6 +20,7 @@ deploy_live:
     - master
   tags:
     - jekyll
+  environment: production
 
 deploy_staging:
   stage: deploy
@@ -30,3 +31,4 @@ deploy_staging:
     - master
   tags:
     - jekyll
+  environment: staging
