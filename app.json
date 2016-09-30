@@ -1,0 +1,40 @@
+{
+  "name": "danielgroves.net",
+  "description": "The jekyll site that powers daneilgroves.net",
+  "website": "https://danielgroves.net",
+  "repository": "https://github.com/danielgroves/danielgroves.net",
+  "scripts": {
+    "postdeploy": "bundle exec rake typekit:add_domain",
+    "pr-predestroy": "bundle exec rake typekit:remove_domain",
+  },
+  "env": {
+    "LANG": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "TYPEKIT_API_AUTH": {
+      "required": true
+    },
+    "TYPEKIT_KIT_ID": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}

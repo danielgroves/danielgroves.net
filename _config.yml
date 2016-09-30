@@ -10,7 +10,6 @@ source: src
 destination: build
 
 permalink: /:categories/:year/:month/:title
-url: http://localhost:4000
 name: Daniel Groves
 description: 'Photographer, Adventurer, and Developer who is addicted to the mountains.'
 email: 'hello@danielgroves.net'
@@ -20,9 +19,9 @@ opengraph:
   personal: https://www.facebook.com/profile.php?id=1530170880
   image: /assets/camera-roll/2015/04/20150411-DSC_5263-Edit.jpg
 
-static_path: '/assets'
-styles_path: '/styles'
-scripts_path: '/scripts'
+static_path: https://d1238u3jnb0njy.cloudfront.net
+styles_path: https://d1238u3jnb0njy.cloudfront.net
+scripts_path: https://d1238u3jnb0njy.cloudfront.net
 
 imgix:
   main_images: https://danielgroves-net.imgix.net/
@@ -47,7 +46,10 @@ exclude:
   - Gemfile.lock
   - readme.md
   - .gitlab-ci.yml
+  - .gitignore
   - vendor
+  - Procile
+  - config.ru
 
 kramdown:
   parse_span_html: false
@@ -70,6 +72,7 @@ assets:
   js_compressor: yui
   css_compressor: yui
   debug: false
+  baseurl: https://d1238u3jnb0njy.cloudfront.net
 
 defaults:
   - scope:

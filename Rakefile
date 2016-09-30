@@ -1,61 +1,47 @@
-task default: %w[build]
-$linebreak = "\n\n =========================\n"
-$build_dir = "build/"
+require_relative 'lib/TypekitDomain'
 
+task default: %w[dev:watch]
+
+desc "Print the version of Jekyll being used."
 task :version do
     jekyll "--version"
 end
 
-task :watch do
-    jekyll "serve --watch --future --drafts"
-end
-
-task :serve do
-    jekyll "serve"
-end
-
-task :build => :version do
+namespace :dev do
+  desc "Run Jekyll with future posts and drafts, then automatically reload when saved."
+  task :watch do
     clean
-    puts $linebreak
-    if "#{ENV['CI_BUILD_REF_NAME']}" == "master"
-      jekyll "build --config _config.yml,_config_production.yml"
-    else
-      jekyll "build --config _config.yml,_config_staging.yml"
-    end
+    jekyll "serve --config _config.yml,_config_dev.yml --watch --future --drafts"
+  end
 end
 
-task :build_all => :version do
-    clean
-    puts $linebreak
-    puts "Building with all future and draft posts"
-    jekyll "build --future --drafts"
-end
-
+desc "Build the site with the production configuration."
 task :deploy do
-  puts $linebreak
-  puts "On master branch, will attempt to deploy"
-  system("rsync -avz --omit-dir-times --no-perms --delete #{$build_dir} #{ENV['PROD_REMOTE']}") or exit!(1)
-
-  puts $linebreak
-  puts "Attempting to push open Git Repo"
-  system("git remote add github git@github.com:danielgroves/danielgroves.net.git")
-  system("git reset HEAD --hard")
-  system("git checkout master")
-  system("git push github master")
+    jekyll "build"
 end
 
-task :deploy_staging do
-  puts $linebreak
-  puts "On #{ENV['CI_BUILD_REF_NAME']} branch, will attempt to deploy to staging"
-  system("rsync -avz --omit-dir-times --no-perms --delete #{$build_dir} #{ENV['STAGE_REMOTE']}") or exit!(1)
+namespace :assets do
+  desc "Rake task that Heroku runs to build static assets by defauly. "
+  task :precompile => :deploy
+end
+
+namespace :typekit do
+  task :add_domain do
+    typekit = TypekitDomain.new
+    typekit.add
+  end
+
+  task :remove_domain do
+    typekit = TypekitDomain.new
+    typekit.remove
+  end
 end
 
 def jekyll(args)
-    system("jekyll #{args}") or exit!(1)
+    system("bundle exec jekyll #{args}") or exit!(1)
 end
 
 def clean
-    puts $linebreak
     puts "Cleaning previous builds"
     system("rm -Rf #{$build_dir}") or exit!(1)
 end
