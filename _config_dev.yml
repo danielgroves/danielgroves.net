@@ -1,0 +1,7 @@
+static_path: '/assets'
+styles_path: '/styles'
+scripts_path: '/scripts'
+
+assets:
+  debug: false
+  baseurl:

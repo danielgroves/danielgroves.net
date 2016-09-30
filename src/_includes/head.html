@@ -16,9 +16,9 @@
       {% stylesheet code %}
     {% endif %}
 
-    <link rel="alternate" type="application/rss+xml" title="Site Feed" href="{{ site.url }}/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Notebook Feed" href="{{ site.url }}/feed/notebook/">
-    <link rel="alternate" type="application/rss+xml" title="Adventures and Photography Feed" href="{{ site.url }}/feed/adventures-photography">
+    <link rel="alternate" type="application/rss+xml" title="Site Feed" href="/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Notebook Feed" href="/feed/notebook/">
+    <link rel="alternate" type="application/rss+xml" title="Adventures and Photography Feed" href="/feed/adventures-photography">
 
     <link rel="apple-touch-icon-precomposed" href="{{ site.static_path }}/images/brand/iOS/icon_57x57.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.static_path }}/images/brand/iOS/icon_72x72.png">
@@ -27,7 +27,6 @@
 
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:site_name" content="{{ site.name }}" />
-    <meta property="og:url" content="{{site.url}}{{ page.url }}" />
     <meta property="og:description" content="{% if page.excerpt != nil %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:locale" content="en_UK" />
     <meta property="og:image" content="{{ site.static_path }}{% if page.banner != nil %}{{ page.banner }}{% else %}{{ site.opengraph.image }}{% endif %}" />
