@@ -5,7 +5,7 @@
   "repository": "https://github.com/danielgroves/danielgroves.net",
   "scripts": {
     "postdeploy": "bundle exec rake typekit:add_domain",
-    "pr-predestroy": "bundle exec rake typekit:remove_domain",
+    "pr-predestroy": "bundle exec rake typekit:remove_domain"
   },
   "env": {
     "LANG": {
