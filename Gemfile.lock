@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    acme_challenge (0.1.0)
     addressable (2.3.8)
     apitizer (0.0.3)
       json (~> 1.8)
@@ -63,7 +64,6 @@ GEM
       listen (~> 2.7)
     json (1.8.3)
     kramdown (1.5.0)
-    letsencrypt_rack (0.1.1)
     liquid (2.6.2)
     listen (2.8.5)
       celluloid (>= 0.15.2)
@@ -126,6 +126,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acme_challenge
   bourbon
   coffee-script
   execjs
@@ -135,7 +136,6 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   kramdown
-  letsencrypt_rack
   neat
   octopress-paginate
   puma
