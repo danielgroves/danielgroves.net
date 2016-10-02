@@ -1,6 +1,6 @@
 # danielgroves.net Source
 
-This is the source code for my personal website, [danielgroves.net](https://danielgroves.net)
+This is the source code for my personal website, [danielgroves.net][]
 
 ## Usage
 
@@ -13,7 +13,7 @@ bundle install
 
 Then run using rake : `bundle exec rake dev:watch`
 
-Then simply go to [localhost:4000](http://localhost:4000) in your browser.
+Then simply go to [localhost:4000][localhost] in your browser.
 
 ### Rake Tasks
 
@@ -27,9 +27,9 @@ Other rake tasks are:
 
 #### Typekit Tasks
 
-The Rake tasks in the `typekit` namespace are used by Heroku as [postdeploy]("Post Deploy Documentation" https://devcenter.heroku.com/articles/github-integration-review-apps#the-postdeploy-script) and [pr-predestroy]("Predestroy Documentation" https://devcenter.heroku.com/articles/github-integration-review-apps#pr-predestroy-script) scripts. This allows Heroku to automatically add and review Review App domains from the Typekit kit whitelist. This is achieved by calling into the Typekit API to add and remove the domains. Three environmental variables are required:
+The Rake tasks in the `typekit` namespace are used by Heroku as [postdeploy][heroku_postdeploy] and [pr-predestroy][heroku_predestroy] scripts. This allows Heroku to automatically add and remove [Review App][heroku_review] domains from the Typekit kit whitelist. This is achieved by calling into the Typekit API to add and remove the domains. Three environmental variables are required:
 
-* `TYPEKIT_API_AUTH` - This should be a valid [Typekit API Key]("Create a Typekit API Key" https://typekit.com/account/tokens).
+* `TYPEKIT_API_AUTH` - This should be a valid [Typekit API Key][typekit_api_key].
 * `TYPEKIT_KIT_ID` - The ID of the kit you want to update (this is supplied on the settings page for the kit).
 * `HEROKU_APP_NAME` - This is automatically supplied by Heroku, and is used to build the app domain.
 
@@ -37,9 +37,9 @@ When these three variables are present the Rake tasks can be invoked.
 
 ### Deployment
 
-Deployment is completely automated, and happens via a [Heroku pipeline]("Heroku Pipelines Documentation" https://devcenter.heroku.com/articles/pipelines). Anything that goes to the `master` branch is automatically deployed to production. I use [Heroku Review Apps]("Heroku Review App Documentation") to automatically stage branches to help with gaining feedback from friends, family, and colleagues.
+Deployment is completely automated, and happens via a [Heroku pipeline][heroku_pipeline]. Anything that goes to the `master` branch is automatically deployed to staging. I use [Heroku Review Apps][heroku_review] to automatically stage branches to help with gaining feedback from friends, family, and colleagues.
 
-The [Heroku Ruby Buildpack]("Heroku Ruby Buildpack repository" https://github.com/heroku/heroku-buildpack-ruby) automatically runs the Rake task `assets:precompile`, so to minimise my personal technical debt I utilise this default behaviour to build the site.
+The [Heroku Ruby Buildpack][heroku_buildpack] automatically runs the Rake task `assets:precompile`, so to minimise my personal technical debt I utilise this default behaviour to build the site.
 
 ## Licensing
 
@@ -64,3 +64,12 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[danielgroves.net]: https://danielgroves.net
+[localhost]: http://localhost:4000
+[heroku_review]:  https://devcenter.heroku.com/articles/github-integration-review-apps
+[heroku_buildpack]: https://github.com/heroku/heroku-buildpack-ruby
+[heroku_postdeploy]: https://devcenter.heroku.com/articles/github-integration-review-apps#the-postdeploy-script
+[heroku_predestroy]: https://devcenter.heroku.com/articles/github-integration-review-apps#pr-predestroy-script
+[heroku_pipeline]: https://devcenter.heroku.com/articles/pipelines
+[typekit_api_key]: https://typekit.com/account/tokens
