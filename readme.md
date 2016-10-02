@@ -21,7 +21,19 @@ Other rake tasks are:
 * `version` - Jekyll version number.
 * `dev:watch` - Start the Jekyll server in watch mode with future and draft posts. Loads the `_config_dev.yml` file to override production values with development values.
 * `deploy` - Do a production build.
+* `typekit:add_domain` - Adds a domain to a typekit kit whitelist based on your environment.
+* `typekit:remove_domain` - Removes a domain from a typekit kit whitelist based on your environment.
 * `assets:precompile` - Default task called by the build pipeline. See below for details.
+
+#### Typekit Tasks
+
+The Rake tasks in the `typekit` namespace are used by Heroku as [postdeploy]("Post Deploy Documentation" https://devcenter.heroku.com/articles/github-integration-review-apps#the-postdeploy-script) and [pr-predestroy]("Predestroy Documentation" https://devcenter.heroku.com/articles/github-integration-review-apps#pr-predestroy-script) scripts. This allows Heroku to automatically add and review Review App domains from the Typekit kit whitelist. This is achieved by calling into the Typekit API to add and remove the domains. Three environmental variables are required:
+
+* `TYPEKIT_API_AUTH` - This should be a valid [Typekit API Key]("Create a Typekit API Key" https://typekit.com/account/tokens).
+* `TYPEKIT_KIT_ID` - The ID of the kit you want to update (this is supplied on the settings page for the kit).
+* `HEROKU_APP_NAME` - This is automatically supplied by Heroku, and is used to build the app domain.
+
+When these three variables are present the Rake tasks can be invoked.
 
 ### Deployment
 
