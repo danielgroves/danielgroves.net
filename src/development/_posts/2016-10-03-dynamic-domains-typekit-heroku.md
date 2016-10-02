@@ -50,7 +50,7 @@ To do the grunt-work of the calls into TypeKit and to verify they were successfu
 - Republish the kit so the changes take effect
 - Read the kit in and check the domain is (or isn't, as required) in the list
 
-This simple class relies on the [`typekit-client` gem][], and looks like this:
+This simple class relies on the [`typekit-client` gem][ruby_typekit_sdk], and looks like this:
 
 {% highlight ruby %}
 require 'typekit'
