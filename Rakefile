@@ -26,7 +26,7 @@ namespace :assets do
 end
 
 namespace :typekit do
-  app_domain "#{ENV['HEROKU_APP_NAME']}.herokuapp.com"
+  app_domain = "#{ENV['HEROKU_APP_NAME']}.herokuapp.com"
 
   task :add_domain do
     typekit_domain_manager = get_domain_manager
