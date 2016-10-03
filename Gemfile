@@ -20,5 +20,5 @@ gem 'octopress-paginate'
 # Deployment
 gem 'rack-jekyll'
 gem 'puma'
-gem 'typekit-client'
+gem 'typekit_domain_manager', '~> 0.1.0'
 gem 'acme_challenge'

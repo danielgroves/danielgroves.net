@@ -1,4 +1,4 @@
-require_relative 'lib/TypekitDomain'
+require 'typekit_domain_manager'
 
 task default: %w[dev:watch]
 
@@ -26,14 +26,16 @@ namespace :assets do
 end
 
 namespace :typekit do
+  app_domain "#{ENV['HEROKU_APP_NAME']}.herokuapp.com"
+
   task :add_domain do
-    typekit = TypekitDomain.new
-    typekit.add
+    typekit_domain_manager = get_domain_manager
+    typekit_domain_manager.add_domain app_domain
   end
 
   task :remove_domain do
-    typekit = TypekitDomain.new
-    typekit.remove
+    typekit_domain_manager = get_domain_manager
+    typekit_domain_manager.remove_domain app_domain
   end
 end
 
@@ -44,4 +46,11 @@ end
 def clean
     puts "Cleaning previous builds"
     system("rm -Rf #{$build_dir}") or exit!(1)
+end
+
+def get_domain_manager
+  api_key = ENV['TYPEKIT_API_AUTH']
+  kit_id = ENV['TYPEKIT_KIT_ID']
+
+  TypekitDomainManager::Kit.new api_key, kit_id
 end
