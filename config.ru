@@ -40,7 +40,8 @@ use Rack::TryStatic,
     [['png'], { 'Content-Type' => 'image/png' }],
     [['gif'], { 'Content-Type' => 'image/gif' }],
     [['jpeg'], { 'Content-Type' => 'image/jpeg' }],
-    [['jpg'], { 'Content-Type' => 'image/jpeg' }]
+    [['jpg'], { 'Content-Type' => 'image/jpeg' }],
+    [['/assets'], { 'Cache-Control' => 'public', 'Vary' => 'Accept-Encoding' }]
   ]
 
   run lambda { |env|
