@@ -91,6 +91,7 @@ GEM
       jekyll (>= 1.3)
       listen (>= 1.3)
       rack (~> 1.5)
+    rack-rewrite (1.5.1)
     rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
@@ -142,6 +143,7 @@ DEPENDENCIES
   octopress-paginate
   puma
   rack-jekyll
+  rack-rewrite (~> 1.5.0)
   rake
   rouge
   sass

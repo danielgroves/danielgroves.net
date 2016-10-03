@@ -17,6 +17,9 @@ gem 'rouge'
 gem 'jekyll-redirect-from'
 gem 'octopress-paginate'
 
+# Routing Layer
+gem 'rack-rewrite', '~> 1.5.0'
+
 # Deployment
 gem 'rack-jekyll'
 gem 'puma'
