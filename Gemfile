@@ -19,9 +19,9 @@ gem 'octopress-paginate'
 
 # Routing Layer
 gem 'rack-rewrite', '~> 1.5.0'
+gem 'rack-contrib', '~> 1.4'
+gem 'acme_challenge', '~> 0.1'
 
 # Deployment
-gem 'rack-jekyll'
-gem 'puma'
+gem 'puma', '~> 3.6'
 gem 'typekit_domain_manager', '~> 0.1.0'
-gem 'acme_challenge'
