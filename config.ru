@@ -42,6 +42,7 @@ use Rack::TryStatic,
     [['jpeg'], { 'Content-Type' => 'image/jpeg' }],
     [['jpg'], { 'Content-Type' => 'image/jpeg' }],
     [['zip'], { 'Content-Type' => 'application/zip' }],
+    [['pdf'], { 'Content-Type' => 'application/pdf' }],
     [['/assets'], { 'Cache-Control' => 'public', 'Vary' => 'Accept-Encoding' }]
   ]
 
