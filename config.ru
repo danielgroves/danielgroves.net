@@ -1,5 +1,6 @@
 require 'acme_challenge'
 require 'rack/rewrite'
+require 'rack/deflater'
 require 'rack/contrib/try_static'
 
 use AcmeChallenge, ENV['ACME_CHALLENGE'] if ENV['ACME_CHALLENGE']
@@ -22,6 +23,7 @@ use Rack::Rewrite do
   r301 '/feed/camera-roll', '/feed/adventures-photography/'
 end
 
+use Rack::Deflater
 use Rack::TryStatic,
   urls: %w[/],
   root: 'build',
