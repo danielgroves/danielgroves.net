@@ -24,6 +24,7 @@ GEM
     fastimage (1.7.0)
       addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.6)
+    git-version-bump (0.15.1)
     hike (1.2.3)
     hitimes (1.2.2)
     jekyll (2.5.3)
@@ -87,10 +88,10 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
     rack (1.6.1)
-    rack-jekyll (0.5.0)
-      jekyll (>= 1.3)
-      listen (>= 1.3)
-      rack (~> 1.5)
+    rack-contrib (1.4.0)
+      git-version-bump (~> 0.15)
+      rack (~> 1.4)
+    rack-rewrite (1.5.1)
     rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
@@ -128,7 +129,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  acme_challenge
+  acme_challenge (~> 0.1)
   bourbon
   coffee-script
   execjs
@@ -140,8 +141,9 @@ DEPENDENCIES
   kramdown
   neat
   octopress-paginate
-  puma
-  rack-jekyll
+  puma (~> 3.6)
+  rack-contrib (~> 1.4)
+  rack-rewrite (~> 1.5.0)
   rake
   rouge
   sass
