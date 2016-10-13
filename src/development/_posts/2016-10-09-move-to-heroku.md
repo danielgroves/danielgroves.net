@@ -89,7 +89,7 @@ Reviews Apps are a powerful feature from Heroku which will deploy a new version 
 
 In order to enable review apps you need to have a `app.json` file committed to the _master_ branch of your project. The `app.json` tells Heroku what dynos will be required, and what build-packs will be required in order to deploy your application.
 
-The JSON is pretty self-explanatory so far, but you can [review the schema documentation][] if you want to know more about a particular field.
+The JSON is pretty self-explanatory so far, but you can [review the schema documentation][app_json_schema] if you want to know more about a particular field.
 
 ```
 {
@@ -191,7 +191,7 @@ Finally, if it doesn't find a file we’re serving the `404.html` to ensure the 
 
 ## SSL in Production
 
-Cost was a concern to me when switching to Heroku, and so I decided not to pay for an SSL certificate, but to use a Let’s Encrypt certificate instead. Whereas most certificate authorities will send an email to `admin@domain.com` to validate that the requester is the domain owner Let’s Encrypt works slightly differently. Instead of sending an email is uses [Automatic Certificate Management Environment (ACME)][] checks instead. This is actually a good thing as the validation process is as simple as serving a file at a given URL.
+Cost was a concern to me when switching to Heroku, and so I decided not to pay for an SSL certificate, but to use a Let’s Encrypt certificate instead. Whereas most certificate authorities will send an email to `admin@domain.com` to validate that the requester is the domain owner Let’s Encrypt works slightly differently. Instead of sending an email is uses [Automatic Certificate Management Environment (ACME)][acme] checks instead. This is actually a good thing as the validation process is as simple as serving a file at a given URL.
 
 To generate our certificate we will need to make DNS changes, run Certbot, and modify our Heroku router to serve the file given to us by Certbot at the correct URL. To make this process as easy as possible we’re going to serve the ACME validation based on an environmental variable so that we can change the code for renewing the certificate in the future _without_ having to do a deployment.
 
@@ -235,7 +235,7 @@ Make sure to update the domain before you commit, and once you’ve deployed the
 
 ## Conclusions
 
-Although this process sounds quite complicated on the surface, it’s really not hard to understand. If your app follows the principles of a [12-factor application][] then you’re already most of the way there. So far I’ve been enjoying not having to worry about what’ll happen if there’s a big spike in traffic, or something breaks on a server – scaling is easy, and infrastructure management isn't my problem anymore.
+Although this process sounds quite complicated on the surface, it’s really not hard to understand. If your app follows the principles of a [12-factor application][12_factor] then you’re already most of the way there. So far I’ve been enjoying not having to worry about what’ll happen if there’s a big spike in traffic, or something breaks on a server – scaling is easy, and infrastructure management isn't my problem anymore.
 
 There’s a few things I’d like to improve and write about later on: currently TypeKit does not work with review apps as you can’t whitelist `*.heroku.com`, I have to manually update my certificates with Let’s Encrypt every three months, and I’d like to have some automated testing for the web server configuration.
 
@@ -245,3 +245,11 @@ So far I really can’t complain, this works really quite well.
 
 [^1]: You can do this by running `brew install heroku` on Mac OS. Instructions are available on the Heroku website for other operating systems: [https://devcenter.heroku.com/articles/heroku-command-line#download-and-install]
 [^2]: On Mac you can run `brew install certbot` if you have Homebrew installed, otherwise refer to the documentation: https://certbot.eff.org. Select "None of the Above" as your webserver and then the relevant operating system.
+
+[Review Apps]: https://devcenter.heroku.com/articles/github-integration-review-apps "Heroku Review Apps"
+[GitHub integration]: https://devcenter.heroku.com/articles/github-integration "Heroku GitHub Integration"
+[Buildpacks]: https://devcenter.heroku.com/articles/buildpacks "Heroku Buildpacks"
+[pipeline]: https://devcenter.heroku.com/articles/pipelines "Heroku Pipelines"
+[app_json_schema]: https://devcenter.heroku.com/articles/app-json-schema "Heroku app.json schema"
+[acme]: https://github.com/letsencrypt/acme-spec/ "ACME Spec on GitHub"
+[12_factor]: https://12factor.net "The Twelve-Factor App"
