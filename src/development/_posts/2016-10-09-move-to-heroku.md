@@ -34,30 +34,30 @@ One of the things the build pack does as part of it’s process is call the comm
 
 If you haven’t already, create a file at the root of your project called `Rakefile`. Now add the `assets:precompile` and `build` tasks, and have it run `jekyll build`.
 
-```
+{% highlight ruby %}
 desc "Build the site with the production configuration."
 task :build do
      system ("bundle exec jekyll build")
 end
-''
+
 namespace :assets do
     desc "Rake task that Heroku runs to build static assets by default. "
     task :precompile => :build
 end
-```
+{% endhighlight %}
 
 The other vital task is to configure a web server. We’ll use Puma here, which easily installed via bundler. Just add `gem 'puma'` to your Gemfile and then create a new file at the root of your repository called `Procfile` with the following.
 
-```
+{% highlight proc %}
 web: bundle exec puma -t 8:32 -w 3 -p $PORT
-```
+{% endhighlight %}
 
 We also need to configure Puma so it knows what to serve, we do this with a Rack configuration file which should also be at the root of your repository and named `config.ru`. It will use the `rack/jekyll` gem to serve your project, so be sure to add `gem 'rack/jekyll'` to your Gemfile and to run `bundle install`.
 
-```
+{% highlight ruby %}
 require 'rack/jekyll'
 run Rack::Jekyll.new
-```
+{% endhighlight %}
 
 Now we can do the first deploy of our Jekyll site. To do this go back to Heroku and select the _Deploy_ tab. Part way down this page is a _Connect to GitHub_ button. Click this and follow the instructions to let Heroku enable the GitHub integrations. Once you have done this at the bottom of the _Deploy_ screen is a _Manual Deploy_ option. Select the appropriate branch and then press deploy and Heroku will build and deploy the website.
 
@@ -75,7 +75,9 @@ We will create a pipeline via the web interface — adding our staging app at th
 
 Start by loading your staging app and heading to the _Deploy_ tab. Right at the top there’s a button labelled _New Pipeline_, press this button and then press the new _Create Pipeline_ button. A new screen will load showing your existing app in the _Staging_ column. Now we’ll use our working staging application to create a production application via the command line interface.
 
-`heroku fork --from [your-app-name]-staging --to [your-app-name]-production --region eu`
+{% highlight bash %}
+heroku fork --from [your-app-name]-staging --to [your-app-name]-production --region eu
+{% endhighlight %}
 
 Heroku is intelligent enough to work out that this is a new production app based on the name ending with “production”.
 
@@ -91,7 +93,7 @@ In order to enable review apps you need to have a `app.json` file committed to t
 
 The JSON is pretty self-explanatory so far, but you can [review the schema documentation][app_json_schema] if you want to know more about a particular field.
 
-```
+{% highlight json %}
 {
   "name": "danielgroves.net",
   "description": "The Jekyll site that powers danielgroves.net",
@@ -110,7 +112,7 @@ The JSON is pretty self-explanatory so far, but you can [review the schema docum
     }
   ]
 }
-```
+{% endhighlight %}
 
 Once you’ve committed a `app.json` file, make sure you merge it into your master branch – if you didn’t just commit it there to start with – and then head back over to Heroku and press the _Enable Review Apps_ button on the far left. I just left the default options selected.
 
@@ -122,7 +124,7 @@ We’ll now create a router to handle URL redirects, and we’ll use a review ap
 
 To make use of review apps for testing our new functionality we need to work on a branch, such as `heroku-router`. Once you’ve created your branch we’ll need to pull in a few more Gems to save reinventing the wheel with our router. Add `gem rack-rewrite', '~> 1.5.0'` to your Gemfile, and run `bundle install` like normal. Now we can define rules using a mixture of string matches and regular expressions, for example I added the following to the top of my `config.ru` file.
 
-```
+{% highlight ruby %}
 require 'rack/rewrite'
 use Rack::Rewrite do
   r301 '/adventures-photography/2014/11/JOGLE-2/', '/adventures-photography/2014/12/JOGLE-2/$&'
@@ -137,7 +139,7 @@ use Rack::Rewrite do
   r301 %r{^/feed/camera-roll/(.*)}, '/feed/adventures-photography/$1'
   r301 '/feed/camera-roll', '/feed/adventures-photography/'
 end
-```
+{% endhighlight %}
 
 These rules are ported from my old NGINX configuration, and redirect old application URLs from past versions of this website. You can test your rules locally by running `rackup` in the same directory as your `config.ru` file – just be sure to build your site first.
 
@@ -153,7 +155,7 @@ Now we’ve got our workflow dialled, but we do need to change some headers that
 
 Unfortunately the `Rack-Jekyll` gem does _not_ support adding custom headers, so we’re going to swap it out for `Rack-Contrib` which has a module for serving static files and does allow us to set our own headers. Add `gem 'rack-contrib', '~> 1.4'` to your Gemfile, and then replace `require 'rack/jekyll'` and `run Rack::Jekyll.new` with `require 'rack/contrib/try_static'` and the following respectively.
 
-```
+{% highlight ruby %}
 use Rack::TryStatic,
   urls: %w[/],
   root: 'build',
@@ -181,7 +183,7 @@ use Rack::TryStatic,
   run lambda { |env|
     [404, { 'Content-Type' => 'text/html' }, File.open('build/404.html', File::RDONLY)]
   }
-```
+{% endhighlight %}
 
 You may not want _all_ of these headers in your project depending on what the project is, what it’s requirements are or even how lazy you’re feeling. At the very least you will have to remove or update the `Content-Security-Policy` to match your environment and ensure that the `root` points to your build–output directory.
 
@@ -197,11 +199,11 @@ To generate our certificate we will need to make DNS changes, run Certbot, and m
 
 Start by adding `gem 'acme_challenge'` to your Gemfile, running `bundle install` and then adding the following to the **top** of your `configu.ru`.  It’s important this goes first so no other routing options available in the `config.ru` get an opportunity to respond with a 404 error.
 
-```
+{% highlight ruby %}
 require 'acme_challenge'
-''
+
 use AcmeChallenge, ENV['ACME_CHALLENGE'] if ENV['ACME_CHALLENGE']
-```
+{% endhighlight %}
 
 Now the web server will pass the local environment variable `ACME_CHALLENGE` to the ACME module when each request comes in, but _only_ if it’s set so this won’t cause any staging, review or development issues. Before we can continue this will need to be deployed to your **production** app.
 
@@ -211,11 +213,11 @@ To continue setting up SSL you will need to follow the Heroic instructions on se
 
 Download and install Certbot[^2], and then run `sudo certbot certonly --manual` to start the SSL Certificate generation process. Follow the wizard answering the questions as you’re prompted. Once you’ve answered the questions you’ll get a prompt like this:
 
-' ```
+{% highlight bash %}
 Make sure your web server displays the following content at                                                      
 http://your-domain-name/.well-known/acme-challenge/DR3HsHaR7ddga8StA4GghBGkIf02JDI5Nad3H_PdR3 before continuing:
 DR3HsHaR7ddga8StA4GghBGkIf02JDI5Nad3H_PdR3.pR84GiE5MNgksEKLD34dXoPLw-jglei40m2HKt9D3-1
-```
+{% endhighlight %}
 
 Take the key from the bottom and set it as an environment variable in Heroku by navigation to your production app then _Settings_ and clicking the _Reveal Config Vars_ button. Then in the last row set `ACME_CHALLENGE` followed by your key, and then press _Add_. Hit enter in the terminal window and it will verify your your ACME key, and save the certificates to your local disk.
 
@@ -225,11 +227,11 @@ Remember to replace `your-domain-name` with, well, your domain name and `your-pr
 
 Heroku does not enforce SSL, but we can easily do this by adding a few lines to our `config.ru` file to redirect http to https in production. Add the following just after `use Rack::Rewrite do`:
 
-```  
+{% highlight ruby %}
 if ENV['RACK_ENV'] == 'production'
  r301 %r{.*}, 'https://danielgroves.net$&', :scheme => 'http'
 end
-```
+{% endhighlight %}
 
 Make sure to update the domain before you commit, and once you’ve deployed the change to production you should find yourself being redirected to https every-time you attempt to access the site over http.
 
