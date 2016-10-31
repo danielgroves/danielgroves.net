@@ -24,11 +24,17 @@ Most of this can be completed from the command-line by installing the Heroku cli
 
 The first thing to do is login to the Heroku dashboard and create a new app. This will be the staging application, and you should name it appropriately and choose the region closest to you, Europe in my case. As an example I named mine `danielgroves-net-staging`, and you should replace all occurrences of this within this article with _your_ app name.
 
-** Screenshot showing how to setup a new app here **
+<figure>
+    <img src="/assets/development/2016-10-09-move-to-heroku/create-app.png" alt="Create a new Heroku App" />
+    <figcaption>Create a new Heroku App</figcaption>
+</figure>
 
 Once setup navigate to Settings, then [Buildpacks][] and add the _Ruby_ buildpack. This is a set of common build patterns for Ruby applications, and will tell Heroku what to do to build our application.
 
-** Add the Ruby build pack image here **
+<figure>
+    <img src="/assets/development/2016-10-09-move-to-heroku/add-buildpack.png" alt="Add the Ruby Buildpack to your App" />
+    <figcaption>Add the Ruby Buildpack to your App</figcaption>
+</figure>
 
 One of the things the build pack does as part of it’s process is call the command `bundle exec rake assets:precompile`. We’re going to hook into the build process and run the appropriate commands to built the website by implementing this Rake task. This is very simple to do.
 
@@ -61,7 +67,10 @@ run Rack::Jekyll.new
 
 Now we can do the first deploy of our Jekyll site. To do this go back to Heroku and select the _Deploy_ tab. Part way down this page is a _Connect to GitHub_ button. Click this and follow the instructions to let Heroku enable the GitHub integrations. Once you have done this at the bottom of the _Deploy_ screen is a _Manual Deploy_ option. Select the appropriate branch and then press deploy and Heroku will build and deploy the website.
 
-** screenshot to show website building here **
+<figure>
+    <img src="/assets/development/2016-10-09-move-to-heroku/heroku-deploying.png" alt="Website build deploying" />
+    <figcaption>Website build deploying</figcaption>
+</figure>
 
 Once that is complete you can select the _Open app_ button at the top of your screen to view the site on the heroku staging domain. Assuming everything goes to plan here we’re ready to create our _pipeline_ which will contain the end–to–end process for your repository.
 
@@ -81,7 +90,10 @@ heroku fork --from [your-app-name]-staging --to [your-app-name]-production --reg
 
 Heroku is intelligent enough to work out that this is a new production app based on the name ending with “production”.
 
-** screenshot of set-up pipeline here**
+<figure>
+    <img src="/assets/development/2016-10-09-move-to-heroku/setup-pipeline.png" alt="Setup a new Heroku Pipeline" />
+    <figcaption>Setup a new Heroku Pipeline</figcaption>
+</figure>
 
 The next step is to setup the review apps, which will automatically deploy when a pull-request is created or updated.
 
@@ -116,7 +128,10 @@ The JSON is pretty self-explanatory so far, but you can [review the schema docum
 
 Once you’ve committed a `app.json` file, make sure you merge it into your master branch – if you didn’t just commit it there to start with – and then head back over to Heroku and press the _Enable Review Apps_ button on the far left. I just left the default options selected.
 
-**screenshot of setup review apps here**
+<figure>
+    <img src="/assets/development/2016-10-09-move-to-heroku/enable-review-apps.png" alt="Enable Review Apps" />
+    <figcaption>Enable Review Apps</figcaption>
+</figure>
 
 We’ll now create a router to handle URL redirects, and we’ll use a review application to test the new functionality.
 
@@ -143,11 +158,17 @@ end
 
 These rules are ported from my old NGINX configuration, and redirect old application URLs from past versions of this website. You can test your rules locally by running `rackup` in the same directory as your `config.ru` file – just be sure to build your site first.
 
-**screenshot of backup running here**
+<figure>
+    <img src="/assets/development/2016-10-09-move-to-heroku/rackup.png" alt="Rackup running the config.ru locally" />
+    <figcaption>Rackup running the config.ru locally</figcaption>
+</figure>
 
 Once you’re happy with your rules commit and push them to GitHub, then open a PR for the branch. You’ll notice Heroku immediately updates the PR to tell you a deploy is pending, and a few minutes later this gets replaced with a _View deployment_ button. Get your friends or colleagues to review your pull request, and once you’re all in agreement that the rules are right merge the PR and watch as Heroku automatically deletes the Review App. When you’re ready deploy it to staging for any final testing before you hit the Promote button in the Heroku admin and it’ll copy the application to production.
 
-**screenshot showing Heroku integration here**
+<figure>
+    <img src="/assets/development/2016-10-09-move-to-heroku/github-pr-integration.png" alt="Heroku-GitHub integration in action" />
+    <figcaption>Heroku-GitHub integration in action</figcaption>
+</figure>
 
 Now we’ve got our workflow dialled, but we do need to change some headers that are being used as currently we cannot add any caching or security headers.
 
