@@ -18,11 +18,11 @@ I chose to make this website the first one I’d move because it is so simple. T
 
 The process is fairly easy – I completed it in just a few hours, some of which was waiting for DNS changes. We’ll start by creating a staging ‘app’ in Heroku and getting a working deployment. Once this is done we’ll use it as a template for our production ‘app’ before configuring the ‘review’ apps. We’ll then use a pull-request driven workflow to finish the setup by adding a routing layer, setting custom headers, and configuring SSL.
 
-Most of this can be completed from the command-line by installing the Heroku client, however of the sake of simplicity I’ll be using the web interface except where the command line makes something significantly easier, or cannot be avoided. You should make sure you have the Heroku client installed[^1] and then running `heroku login` to get everything set-up and ready to go.
+Most of this can be completed from the command-line by installing the Heroku client, however for the sake of simplicity I’ll be using the web interface except where the command line makes something significantly easier, or cannot be avoided. You should make sure you have the Heroku client installed[^1] and then run `heroku login` to get everything set-up and ready to go.
 
 ## Setup Staging
 
-The first thing to do is login to the Heroku dashboard and create a new app. This will be the staging application, and you should name it appropriately and choose the region closest to you, Europe in my case. As an example I named mine `danielgroves-net-staging`, and you should replace all occurrences of this within this article with _your_ app name.
+The first thing to do is login to the Heroku dashboard and create a new app. This will be the staging application, and you should name it appropriately and choose the region closest to you, Europe in my case. As an example I named mine `danielgroves-tutorial-staging`, and you should replace all occurrences of this within this article with _your_ app name.
 
 <figure>
     <img src="/assets/development/2016-10-09-move-to-heroku/create-app.png" alt="Create a new Heroku App" />
@@ -244,7 +244,7 @@ Take the key from the bottom and set it as an environment variable in Heroku by 
 
 The easiest way to add the new certificates to your website is to use the command line utility to upload them, which only takes a single command. It will activate SSL at the same time, and respond by giving you the DNS entries you need to set for your application to use SSL.  `sudo heroku certs:add /etc/letsencrypt/live/your-domain-name/fullchain.pem /etc/letsencrypt/live/your-domain-name/privkey.pem --app your-production-app-name`
 
-Remember to replace `your-domain-name` with, well, your domain name and `your-production-app-name` with your production app name. Now you’re almost there.
+Remember to replace `your-domain-name` with your domain name and `your-production-app-name` with your production app name. Now you’re almost there.
 
 Heroku does not enforce SSL, but we can easily do this by adding a few lines to our `config.ru` file to redirect http to https in production. Add the following just after `use Rack::Rewrite do`:
 
