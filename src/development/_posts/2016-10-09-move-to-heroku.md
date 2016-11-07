@@ -3,7 +3,7 @@ published: true
 title: Moving to Heroku
 excerpt: Moving a Jekyll website from a VPS to Heroku
 
-date: 2016-10-09 17:45
+date: 2016-11-07 22:30
 
 tags: development heroku vps
 ---
