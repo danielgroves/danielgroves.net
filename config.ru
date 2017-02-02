@@ -29,7 +29,7 @@ use Rack::Deflater
 use Rack::TryStatic,
   urls: %w[/],
   root: 'build',
-  try: ['.html', 'index.html', '/index.html'],
+  try: ['.html', 'index.html', '/index.html', 'index.xml', '/index.xml'],
   header_rules: [
     [:all, {
       'Strict-Transport-Security' => 'max-age=31536000; preload',
@@ -47,6 +47,7 @@ use Rack::TryStatic,
     [['jpg'], { 'Content-Type' => 'image/jpeg' }],
     [['zip'], { 'Content-Type' => 'application/zip' }],
     [['pdf'], { 'Content-Type' => 'application/pdf' }],
+    [['xml'], { 'Content-Type' => 'application/rss+xml' }],
     [['/assets'], { 'Cache-Control' => 'public', 'Vary' => 'Accept-Encoding' }]
   ]
 
