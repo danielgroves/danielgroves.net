@@ -13,6 +13,12 @@ namespace :dev do
     clean
     jekyll "serve --config _config.yml,_config_dev.yml --watch --future --drafts"
   end
+
+  desc "Build the Jekyll site using the development configuration."
+  task :build do
+    clean
+    jekyll "build --config _config.yml,_config_dev.yml"
+  end
 end
 
 desc "Build the site with the production configuration."
