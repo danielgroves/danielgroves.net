@@ -20,6 +20,7 @@ Then simply go to [localhost:4000][localhost] in your browser.
 Other rake tasks are:
 * `version` - Jekyll version number.
 * `dev:watch` - Start the Jekyll server in watch mode with future and draft posts. Loads the `_config_dev.yml` file to override production values with development values.
+* `dev:build` - Builds the site with the default options. Loads the `_config_dev.yml` file to override production values with development values.
 * `deploy` - Do a production build.
 * `typekit:add_domain` - Adds a domain to a typekit kit whitelist based on your environment.
 * `typekit:remove_domain` - Removes a domain from a typekit kit whitelist based on your environment.
