@@ -10,7 +10,7 @@ source: src
 destination: build
 
 permalink: /:categories/:year/:month/:title
-name: Daniel Groves
+name: Daniel Groves Photography
 description: 'Photographer, Adventurer, and Developer who is addicted to the mountains.'
 email: 'hello@danielgroves.net'
 url: 'https://danielgroves.net'
