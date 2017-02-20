@@ -10,13 +10,13 @@ source: src
 destination: build
 
 permalink: /:categories/:year/:month/:title
-name: Daniel Groves
+name: Daniel Groves Photography
 description: 'Photographer, Adventurer, and Developer who is addicted to the mountains.'
 email: 'hello@danielgroves.net'
 url: 'https://danielgroves.net'
 
 opengraph:
-  page: https://www.facebook.com/danielgrovesphotography
+  page: https://www.facebook.com/danielsgroves
   personal: https://www.facebook.com/profile.php?id=1530170880
   image: /assets/camera-roll/2015/04/20150411-DSC_5263-Edit.jpg
 

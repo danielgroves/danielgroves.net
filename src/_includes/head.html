@@ -8,7 +8,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.excerpt.blank? %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="author" content="{{ site.name }}" />
 
     {% stylesheet main %}
 
@@ -23,9 +22,12 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:description" content="{% if page.excerpt != nil %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:locale" content="en_UK" />
-    <meta property="og:image" content="{{ site.static_path }}{% if page.banner != nil %}{{ page.banner }}{% else %}{{ site.opengraph.image }}{% endif %}" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:image" content="{{ site.imgix.metadata_images }}{% if page.banner != nil %}{{ page.banner }}{% else %}{{ site.opengraph.image }}{% endif %}.jpg?w=700%26h=467" />
+    <meta property="og:image:width" content="700" />
+    <meta property="og:image:height" content="467" />
     <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="article:author" content="{{ site.opengraph.personal }}" />
     <meta property="article:publisher" content="{{ site.opengraph.page }}" />
 
