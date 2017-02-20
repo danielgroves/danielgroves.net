@@ -24,7 +24,7 @@
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:description" content="{% if page.excerpt != nil %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:locale" content="en_UK" />
-    <meta property="og:image" content="{{ site.static_path }}{% if page.banner != nil %}{{ page.banner }}{% else %}{{ site.opengraph.image }}{% endif %}" />
+    <meta property="og:image" content="{{ site.imgix.metadata_images }}{% if page.banner != nil %}{{ page.banner }}{% else %}{{ site.opengraph.image }}{% endif %}.jpg?w=700" />
     <meta property="og:type" content="article" />
     <meta property="article:author" content="{{ site.opengraph.personal }}" />
     <meta property="article:publisher" content="{{ site.opengraph.page }}" />
