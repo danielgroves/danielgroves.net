@@ -6,6 +6,7 @@ thumb: 2016-06-web-DSCF6893
 banner: 2016-06-web-DSCF6893
 tags: expedition bike eurovelo
 series: eurovelo
+date: 2017-02-20 17:35
 ---
 
 Despite starting the day with a cold shower I could already feel the sweat running down my back as I stepped out the hotel door. We both carefully loaded our bikes for the first real days riding, making sure each pannier was properly seated on our racks, and that everything was strapped down tightly. As we rolled down the road we were both understandably nervous, not about the journey — that was just a bike ride after all — but about battling with a major cities traffic on badly rutted roads while riding on the wrong-side of the road.
