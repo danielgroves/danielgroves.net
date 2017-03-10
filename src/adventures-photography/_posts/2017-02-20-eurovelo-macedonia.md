@@ -9,7 +9,7 @@ series: eurovelo
 date: 2017-02-21 17:35
 ---
 
-The longer I was stood there, watching the border guard clicking away on his computer and making phones calls — none of which I understood — the more my nerves increased. There was no reason for my passport to be denied, it had only been issued a couple of months prior, and this was it’s first trip. 
+The longer I was stood there, watching the border guard clicking away on his computer and making phones calls — none of which I understood — the more my nerves increased. There was no reason for my passport to be denied, it had only been issued a couple of months prior. 
 
 I waited. 
 
@@ -23,7 +23,7 @@ The guard finally flicked through the pages of my passport rapidly until he foun
 
 We didn’t have far to go until the nearest town, Bitola. The roads were immaculate leading away from the border crossing; Max getting more than a little over-excited about how they managed the road, and the quality of the tarmac. It slowly transitioned form rural to urban as a railway formed to the right of the road, set back behind a row of buildings; much like Greece many of the buildings were half complete. Some looked like houses and were being used to store hay, while others were being used to store cars, tools, and building materials. A few went as far as having a roof, and even fewer went as far as being complete with doors and windows. As we approached the town the ratio of incomplete to complete leaned further towards the latter and the traffic levels continued to build up. 
 
-Eventually we found ourselves in the centre of town using a mixture of my GPS and guesswork for navigation, finding a cash machine so we could get some local currency. Soon we were both holding 3000 Denar — approximately equivalent to £15. 
+Eventually we found ourselves in the centre of town using a mixture of my GPS and guesswork for navigation, finding a cash machine so we could get some local currency. Soon we were both holding 3000 Denar each — approximately equivalent to £15. 
 
 Throughout the trip we were using [Galileo](https://itunes.apple.com/gb/app/galileo-offline-maps-pro/id891362701?mt=8&at=1001lte3 "Galileo Offline Vector Mapping for iOS and Android"), an offline vector mapping app for iPhone, to find what we needed in cities. At this point we made use of this again to locate the restaurant district, and a place that looked reasonable from the outside that had somewhere we could sit next to the bikes. We were both preparing to pick something completely at random from the menu when the waiter came out, handed us two english menus, and asked what we wanted to drink in perfect english. 
 
@@ -42,7 +42,7 @@ We started setting up our tents glad of the well hidden location when Max sudden
 
 We’d spent the most of the morning climbing this road, and we were looking forward to riding the fire roads back down to the valley floor — our small reward for a lot of pain. We were ready to reap the rewards now, as we both rolled up to a road-block, with the worst of the climbing now behind us. The first guard waved us through into the national park, but just as we started rolling a second one stopped us. 
 
-The two guards both spoke perfect english, which did at least make communication easy. Max explained our plans and they asked us to turn around and take the longer route along the valley floors. Max started probing them at this point; why couldn’t we go through? What was the risk? Are the bears? It’s a long way, and we’re confident we can make it. The guard that had stopped us looked uncertain and hesitated briefly before explaining that yes, there are bears, but those weren’t the issue. He pointed at my GPS and asked if it was for navigating? Could I show him our route?  I zoomed it out just enough to show the next village and he started to explain that the route we were planning was badly made, that it was just tracks and we wouldn’t be able to go through. Eventually we got out of them that it was a forest fire-road — exactly what we’d been expecting. Max managed to persuade them that we’d be through within a couple of hours, and both being mountain bikers we could make it. They reluctantly let us go, and we made a point of pushing hard until we were out of sight, not giving them the option to stop us again. A few minutes later we were at the top of the climb, ready to turn off down our fire road descent. 
+The two guards both spoke perfect english, which did at least make communication easy. Max explained our plans and they asked us to turn around and take the longer route along the valley floors. Max started probing them at this point; why couldn’t we go through? What was the risk? Are there bears? It’s not a long way, and we’re confident we can make it. The guard that had stopped us looked uncertain and hesitated briefly before explaining that yes, there are bears, but those weren’t the issue. He pointed at my GPS and asked if it was for navigating? Could I show him our route?  I zoomed it out just enough to show the next village and he started to explain that the route we were planning was badly made, that it was just tracks and we wouldn’t be able to go through. Eventually we got out of them that it was a forest fire-road — exactly what we’d been expecting. Max managed to persuade them that we’d be through within a couple of hours, and both being mountain bikers we could make it. They reluctantly let us go, and we made a point of pushing hard until we were out of sight, not giving them the option to stop us again. A few minutes later we were at the top of the climb, ready to turn off down our fire road descent. 
 
 **DSCF6976.RAF** **DSCF6979.RAF**
 **Image from descent?**
@@ -65,7 +65,7 @@ Leaning our bikes up outside a café bar we’d found for lunch in the small tow
 
 **DSCF7012.JPG**
 
-We had another mountain range to cross before we’d reach Ohrid, and the climbing would most likely be long and steep. Just as we reached the start of the climbing we pulled over for a quick break. Another tourer came flying down the hill towards us, pulling over by our side. He explained he’d been on the road for three years, and would not be going back to the UK ; he intended to travel — by bike — indefinitely. 
+We had another mountain range to cross before we’d reach Ohrid, and the climbing would most likely be long and steep. Just as we reached the start of the climbing we pulled over for a quick break. Another tourer came flying down the hill towards us, pulling over by our side. He explained he’d been on the road for three years, and would not be going back to the UK; he intended to travel — by bike — indefinitely. 
 
 A short while later we headed on. The climbing — although steep — was much easier than anticipated with the only difficulties being caused by a team resurfacing the road. The hot and wet tar caused our tyres to go sticky and made the remainder of the climb much harder. 
 
