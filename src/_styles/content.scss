@@ -28,7 +28,7 @@ article {
   }
 
   h1, h2, h3, h4, h5, h6, hr,
-  p, ol, ul, figure.narrow {
+  p, ol, ul, figure.narrow, .row.narrow {
     @include span-columns(10);
     @include shift(1);
 
@@ -207,6 +207,7 @@ article {
     .row {
       @include row;
       @include rem-fallback('padding-top', .75);
+      clear: both;
 
       img {
         width: 23.875%;
@@ -224,9 +225,17 @@ article {
         margin-right: 1%;
       }
 
+      &.narrow img {
+        width: 100%;
+      }
+
       img:last-of-type {
         margin-right: 0;
       }
+    }
+
+    .row + img {
+      @include rem-fallback('padding-top', .75);
     }
 
     figcaption {
