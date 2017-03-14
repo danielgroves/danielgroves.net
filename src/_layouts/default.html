@@ -51,7 +51,7 @@ layout: stark
 
           <ol>
             {% for post in series_posts reversed %}
-              <li><a href="{{ post.permalink }}" title="">{{ post.title }}</a>: <em>{{ post.excerpt }}</em></li>
+              <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>: <em>{{ post.excerpt }}</em></li>
             {% endfor %}
           </ol>
         </section>
