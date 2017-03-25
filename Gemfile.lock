@@ -27,6 +27,8 @@ GEM
     git-version-bump (0.15.1)
     hike (1.2.3)
     hitimes (1.2.2)
+    imgix (1.1.0)
+      addressable
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -135,6 +137,7 @@ DEPENDENCIES
   bourbon
   coffee-script
   execjs
+  imgix (~> 1.1.0)
   jekyll
   jekyll-archives
   jekyll-assets

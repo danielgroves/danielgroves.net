@@ -12,7 +12,7 @@ class ImageTag < Liquid::Tag
 
     attributes_list.each do |attribute|
       if attribute.include? 'src:'
-        @src = attribute.sub(/^src: /, '')
+        @src = attribute.sub(/^src: /, '') + '.jpg'
       elsif attribute.include? 'wm:'
         @watermark = (attribute.sub(/^wm: /, '') == 'true')
       elsif attribute.include? 'alt:'
@@ -21,18 +21,37 @@ class ImageTag < Liquid::Tag
     end
 
     @config = Jekyll.configuration({})['imgix']
-
-    if @watermark
-      @url = "#{@config['main_images']}#{@src}"
-    else
-      @url = "#{@config['metadata_images']}#{@src}"
-    end
   end
 
   def render(context)
-    img = "<img data-src=\"#{@url}.jpg\" alt=\"#{@alt}\" class=\"imgix-fluid\"/>"
-    img+= "<noscript><img src=\"#{@url}.jpg\" alt=\"#{@alt}\" /></noscript>"
+    img  = "<picture>"
+    img += "  <source srcset=\"#{build_image_url(@src, 1500)}\" media=\"(min-width: 1300px)\">"
+    img += "  <source srcset=\"#{build_image_url(@src, 1200)}\" media=\"(min-width: 1100px)\">"
+    img += "  <source srcset=\"#{build_image_url(@src, 1000)}\" media=\"(min-width: 900px)\">"
+    img += "  <source srcset=\"#{build_image_url(@src, 800)}\" media=\"(min-width: 700px)\">"
+    img += "  <source srcset=\"#{build_image_url(@src, 600)}\" media=\"(min-width: 500px)\">"
+    img += "  <source srcset=\"#{build_image_url(@src, 400)}\" media=\"(min-width: 300px)\">"
+    img += "  <source srcset=\"#{build_image_url(@src, 200)}\" media=\"(min-width: 0px)\">"
+    img += "  <img src=\"#{build_image_url(@src, 400)}\">"
+    img += "</picture>"
   end
+
+  def build_image_url(image, width, watermark=true)
+    client = Imgix::Client.new(host: 'danielsgroves-net-test.imgix.net', secure_url_token: ENV['IMGIX_TOKEN'])
+    path = client.path(image)
+    path.width = width
+    path.fit = 'crop'
+
+    if (watermark)
+      path.mark = 'http://cloud.danielgroves.net/DcMgiPEbVU/Left-4x.png'
+      path.markalign = 'bottom,left'
+      path.markpad = 25
+      path.markw = 200
+    end
+
+    path.to_url
+  end
+
 end
 
 Liquid::Template.register_tag('img', ImageTag)

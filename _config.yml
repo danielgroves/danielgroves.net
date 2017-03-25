@@ -65,6 +65,7 @@ gems:
   - rouge
   - jekyll-redirect-from
   - octopress-paginate
+  - imgix
 
 assets:
   sources:
