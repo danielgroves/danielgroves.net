@@ -37,13 +37,13 @@ class ImageTag < Liquid::Tag
   end
 
   def build_image_url(image, width, watermark=true)
-    client = Imgix::Client.new(host: 'danielsgroves-net-test.imgix.net', secure_url_token: ENV['IMGIX_TOKEN'])
+    client = Imgix::Client.new(host: @config['urls'], secure_url_token: ENV['IMGIX_TOKEN'])
     path = client.path(image)
     path.width = width
     path.fit = 'crop'
 
     if (watermark)
-      path.mark = 'http://cloud.danielgroves.net/DcMgiPEbVU/Left-4x.png'
+      path.mark = @config['mark_url']
       path.markalign = 'bottom,left'
       path.markpad = 25
       path.markw = 200
