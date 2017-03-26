@@ -41,6 +41,8 @@ class ImageTag < Liquid::Tag
     path = client.path(image)
     path.width = width
     path.fit = 'crop'
+    path.auto = 'format'
+    path.lossless = 'true'
 
     if (watermark)
       path.mark = @config['mark_url']
