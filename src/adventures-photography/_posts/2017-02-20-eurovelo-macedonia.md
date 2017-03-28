@@ -1,7 +1,7 @@
 ---
 published: true
-title: "Eurovelo: Macedonia"
-excerpt: "From the dust and fumes of Thessaloniki to the remote plains of northern Greece."
+title: "Eurovelo: Into the Storm"
+excerpt: "Cycling from Bitola, Macedonia to Skopje, Macedonia though the mountains. "
 thumb: 2016-06-web-DSCF7010
 banner: 2016-06-web-DSCF7010
 tags: expedition bike eurovelo
