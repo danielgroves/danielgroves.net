@@ -6,7 +6,7 @@ thumb: 2016-06-web-DSCF7010
 banner: 2016-06-web-DSCF7010
 tags: expedition bike eurovelo
 series: eurovelo
-date: 2017-02-21 17:35
+date: 2017-03-28 19:30
 ---
 
 The longer I was stood there, watching the border guard clicking away on his computer and making phones calls — none of which I understood — the more my nerves increased. There was no reason for my passport to be denied, it had only been issued a couple of months prior. 
