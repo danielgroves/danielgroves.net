@@ -25,8 +25,9 @@ styles_path: https://d1238u3jnb0njy.cloudfront.net
 scripts_path: https://d1238u3jnb0njy.cloudfront.net
 
 imgix:
-  main_images: https://danielgroves-net.imgix.net/
-  metadata_images: https://danielgroves-net-2.imgix.net/
+  urls:
+    - 'danielsgroves-net-test.imgix.net'
+  mark_url: 'http://cloud.danielgroves.net/DcMgiPEbVU/Left-4x.png'
 
 jekyll-archives:
   layouts:
@@ -65,6 +66,7 @@ gems:
   - rouge
   - jekyll-redirect-from
   - octopress-paginate
+  - imgix
 
 assets:
   sources:

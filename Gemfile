@@ -17,6 +17,9 @@ gem 'rouge'
 gem 'jekyll-redirect-from'
 gem 'octopress-paginate'
 
+# Images
+gem 'imgix', '~> 1.1.0'
+
 # Routing Layer
 gem 'rack-rewrite', '~> 1.5.0'
 gem 'rack-contrib', '~> 1.4'
