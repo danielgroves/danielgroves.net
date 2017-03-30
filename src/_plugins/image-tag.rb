@@ -19,17 +19,17 @@ class ImageTag < Liquid::Tag
         @alt = attribute.sub(/^alt: /, '')
       end
     end
+  end
 
-    @config = Jekyll.configuration({})['imgix']
+  def render(context)
+    @config = context.registers[:site].config['imgix']
 
     if @watermark
       @url = "#{@config['main_images']}#{@src}"
     else
       @url = "#{@config['metadata_images']}#{@src}"
     end
-  end
 
-  def render(context)
     img = "<img data-src=\"#{@url}.jpg\" alt=\"#{@alt}\" class=\"imgix-fluid\"/>"
     img+= "<noscript><img src=\"#{@url}.jpg\" alt=\"#{@alt}\" /></noscript>"
   end
