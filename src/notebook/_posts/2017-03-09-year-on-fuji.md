@@ -3,7 +3,7 @@ published: true
 title: 12-Months with Fuji; 12-Months without Nikon
 excerpt: "The good and the bad of a Fuji X-T1 after 12-months using the system"
 
-date: 2017-04-01 16:33
+date: 2017-04-03 19:28
 tags: technology camera gear
 
 thumb: 2016-02-web-DSC_2653
