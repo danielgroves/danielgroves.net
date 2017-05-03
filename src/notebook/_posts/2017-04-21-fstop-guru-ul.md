@@ -22,7 +22,10 @@ After investigating the offerings from multiple companies including Lowe Pro, Ev
 
 The Guru UL is a well-featured bag. Its light — really light — for a camera bag at around 1kg. The Guru UL comes in at about 25l which sounds relatively small, and you’d be right, it is. This isn’t a bad thing though, as with the F-Stop interchangeable ICU system you can easily change the ratio of camera-gear to other-equipment in a few seconds. This means I can cinch it down small enough to ride hard on the mountain bike, yet it will happily expand large enough to take a surprisingly large pile of gear. 
 
-![](DSC_2689.NEF)
+{% figure %}
+  {% img src: 2017-04-web-DSCF3670, alt: My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet.  %}
+  {% figcaption %}**Top Left:** Menus at the resturant in Bitola, Macedonia; **Top Right:** Bikes at the resturant in Bitola, Macedonia; **Bottom:** My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet{% endfigcaption %}
+{% endfigure %}
 
 The bag fully loaded still doesn’t look huge, _yet it will happily swallowed two full-size tripods_, my JetBoil Mini Mo, mug, spare gas canister, two head torches, a hand-held torch, map, compass, snack, two liters of water, and numerous other things, as well as my medium-shallow ICU. It is genuinely surprising how much the bag will hold despite its small size thanks to some clever use of materials from F-Stop such as military-grade mesh stretch-panels on the front-most pocket. 
 
@@ -57,11 +60,17 @@ The bag has two side pockets (mesh, with rip-stop nylon bottoms) to tuck your tr
 
 Through all of this one of my favourite features is how you access the camera equipment. The Guru — like the rest of F-Stops bags — is rear opening. This means when you put the bag down on wet ground the back-panel does’t get wet, and as a result it doesn’t make your back wet when you put it back on. It also means you don’t have to faff by removing any rain cover, and it presents all of your gear neatly when you need to access it. 
 
-![](DSC_2678.NEF)
+{% figure %}
+  {% img src: 2017-04-web-DSC_2834, alt: My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet.  %}
+  {% figcaption %}**Top Left:** Menus at the resturant in Bitola, Macedonia; **Top Right:** Bikes at the resturant in Bitola, Macedonia; **Bottom:** My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet{% endfigcaption %}
+{% endfigure %}
 
 Cargo loops inside the access door means you can keep essential small items immediately available too, such as a lens-pen for removing grease and rest from your camera lens, a remote shutter release, or even a pen. 
 
-![](DSC_2677.NEF)
+{% figure %}
+  {% img src: 2017-04-web-DSC_2813, alt: My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet.  %}
+  {% figcaption %}**Top Left:** Menus at the resturant in Bitola, Macedonia; **Top Right:** Bikes at the resturant in Bitola, Macedonia; **Bottom:** My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet{% endfigcaption %}
+{% endfigure %}
 
 ## Build Quality
 
@@ -69,7 +78,10 @@ The build quality from this bag is unlike anything I’ve seen before from a cam
 
 The base of the bag is made from a heavy duty material that feel like it could go through a nuclear war and come out the other side in one piece. The ZIPs are by YKK so you know they can be relied on, and the bag is covered under warranty for three years. Given the conditions the F-Stop clientele are likely to use their bags in this speaks confidence to me. 
 
-![](DSC_2686.NEF)
+{% figure %}
+  {% img src: 2017-01-web-DSCF1796, alt: My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet.  %}
+  {% figcaption %}**Top Left:** Menus at the resturant in Bitola, Macedonia; **Top Right:** Bikes at the resturant in Bitola, Macedonia; **Bottom:** My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet{% endfigcaption %}
+{% endfigure %}
 
 Each part of the bag has been carefully thought out — the padding is thick enough to provide a good level of comfort while it’s thin enough to keep the weight down. The webbing straps are solidly sewn, the clips are all of high quality, and the moulded foam backing is thick and dense. 
 
@@ -81,7 +93,10 @@ A lot of camera bags go down the “use plenty of padding” school of comfort. 
 
 The devil is in the details, and they’ve got this nailed on the Guru UL. The shoulder straps are thin, but well constructed, so they conform to your body. Because they conform to your body they spread their loads better, and thus they’re more comfortable. 
 
-![](DSC_2704.NEF)
+{% figure %}
+  {% img src: 2017-01-web-DSCF1800, alt: My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet.  %}
+  {% figcaption %}**Top Left:** Menus at the resturant in Bitola, Macedonia; **Top Right:** Bikes at the resturant in Bitola, Macedonia; **Bottom:** My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet{% endfigcaption %}
+{% endfigure %}
 
 It’s the same story for the waist-band. It’s made of of the same dense neoprene-foam hybrid material that perfectly comfortable, and doesn’t get hot. It’s just as thing as the shoulder straps so it keeps the weight down and allows them to mould to your body so they’re once again perfectly comfortable. I’ve never actually used a bag that maintains so much comfort for the amount of weight it’s carrying. 
 
@@ -113,6 +128,9 @@ So there you have it — solid and highly configurable camera bag — but at a p
 
 When I next upgrade my larger 35l mountain bag I’ll coming straight to F-Stop and picking up the right bag for the job — safe in the knowledge I’ll be getting a solid product that’s well made and will suit my photography workflow perfectly. I can’t recommend these enough. 
 
-![](DSC_2684.NEF)
+{% figure %}
+  {% img src: 2017-04-web-DSC_2820, alt: My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet.  %}
+  {% figcaption %}**Top Left:** Menus at the resturant in Bitola, Macedonia; **Top Right:** Bikes at the resturant in Bitola, Macedonia; **Bottom:** My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet{% endfigcaption %}
+{% endfigure %}
 
 [^1]:	ICU is an abbreviation which stands for Internal Camera Unit. 
