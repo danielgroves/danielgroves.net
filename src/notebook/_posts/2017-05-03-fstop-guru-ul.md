@@ -16,7 +16,7 @@ Lsat year I wrote about my [first impressions after switching from Nikon to Fuji
 
 When I started looking for a new bag I had something of a rather specific criteria in mind: I wanted to be able to fit my full camera setup inside, have room to expand in the future, be able to squeeze my down jacket, waterproofs, food and my JetBoil inside. On top of this I wanted it to be small enough to use on the mountain bike, be able to carry multiple tripods, be comfortable to wear all day, and to have a sensible ratio of camera equipment to personal possessions: something just about every manufacture gets wrong! 
 
-After investigating the offerings from multiple companies including Lowe Pro, Evoc, Dakine, Tamarac, and Peak Design, I eventually stumbled across the line of F-Stop bags. They looked good, but they were more expensive. After a few weeks of thinking about it, and multiple chats with the F-Stop team via their online chat system I decided to make my move: I ordered a small-shallow ICU[^1], a medium-shallow ICU, and a the F-Stop Guru UL. As far as I can tell only Paramo’s London branch stocks _any_ F-Stop gear in the UK, and being reluctant to travel that far to view and try a bag, I ordered the lot online direct from F-Stop. 
+After investigating the offerings from multiple companies including Lowe Pro, Evoc, Dakine, Tamarac, and Peak Design, I eventually stumbled across the line of [F-Stop bags](http://fstopgear.com "F-Stop System Camera Bags"). They looked good, but they were more expensive. After a few weeks of thinking about it, and multiple chats with the F-Stop team via their online chat system I decided to make my move: I ordered a [small-shallow ICU](http://shop.fstopgear.com/eu/product/icu/small-shallow-icu.html "Small-shallow F-Stop ICU")[^1], a [medium-shallow ICU](http://shop.fstopgear.com/eu/product/medium-shallow-icu.html "Medium-shallow F-Stop ICU"), and a the [F-Stop Guru UL](http://shop.fstopgear.com/eu/product/guru-ul-2016.html "F-Stop Guru UL Camera Bag"). As far as I can tell only Paramo’s London ad Keswick branches are the only shops that stocks _any_ F-Stop gear in the UK, and being reluctant to travel that far to view and try a bag, I ordered the lot online direct from F-Stop. 
 
 ## Features
 
@@ -27,13 +27,13 @@ The Guru UL is a well-featured bag. Its light — really light — for a camera 
   {% figcaption %}F-Stop Guru UL loaded and ready to go in my local woodlands.{% endfigcaption %}
 {% endfigure %}
 
-The bag fully loaded still doesn’t look huge, _yet it will happily swallowed two full-size tripods_, my JetBoil Mini Mo, mug, spare gas canister, two head torches, a hand-held torch, map, compass, snack, two liters of water, and numerous other things, as well as my medium-shallow ICU. It is genuinely surprising how much the bag will hold despite its small size thanks to some clever use of materials from F-Stop such as military-grade mesh stretch-panels on the front-most pocket. 
+The bag fully loaded still doesn’t look huge, yet I can carry two full-size tripods (externally), my JetBoil Mini Mo, mug, spare gas canister, two head torches, a hand-held torch, map, compass, snack, two liters of water, down jacket, and numerous other things, as well as my medium-shallow ICU. It is genuinely surprising how much the bag will hold despite its small size thanks to some clever use of materials from F-Stop such as military-grade mesh stretch-panels on the front-most pocket. 
 
-The bag features two shoulder-strap based pockets for some emergency energy snacks, or as somewhere to stage an extra lens cloth and two plastic cargo straps. I don’t use these for carrying gear, so I’ve tucked one back up on itself to make space for my Peak Design Capture Pro clip, which tucks perfectly below. 
+The bag features two shoulder-strap based pockets for some emergency energy snacks, or as somewhere to stage an extra lens cloth and two plastic cargo straps. I don’t use these for carrying gear, so I’ve tucked one back up on itself to make space for my [Peak Design Capture Pro clip](https://www.peakdesign.com/product/clips/capturepro/ "Peak Design Capture Pro"), which tucks perfectly below. 
 
 {% figure %}
-  {% img src: 2017-01-web-DSCF1799, alt: F-Stop have got the padding dialed on the back and straps for the Guru UL. %}
-  {% figcaption %}F-Stop have got the padding dialed on the back and straps for the Guru UL.{% endfigcaption %}
+  {% img src: 2017-01-web-DSCF1799, alt: F-Stop have got the padding dialed on the back and straps for the Guru UL; also note the Peak Design Capture Pro mounted on the left strap. %}
+  {% figcaption %}F-Stop have got the padding dialed on the back and straps for the Guru UL; also note the Peak Design Capture Pro mounted on the left strap.{% endfigcaption %}
 {% endfigure %}
 
 To further expand the equipment you can reach on the move the bag has two waist-belt pockets, one made of the same nylon as the majority of the bag, and the other from their mesh to make it expandable for slightly bulkier items. 
@@ -73,7 +73,7 @@ Cargo loops inside the access door means you can keep essential small items imme
 
 The build quality from this bag is unlike anything I’ve seen before from a camera bag manufacture. Everything about it feels solid, from the thickness of the nylon, to the density of the mesh and the solidity of the metal frame that holds the back of the bag rigid. 
 
-The base of the bag is made from a heavy duty material that feel like it could go through a nuclear war and come out the other side in one piece. The ZIPs are by YKK so you know they can be relied on, and the bag is covered under warranty for three years. Given the conditions the F-Stop clientele are likely to use their bags in this speaks confidence to me. 
+The base of the bag is made from a heavy duty material that feels like it could go through a nuclear war and come out the other side in one piece. The ZIPs are by YKK so you know they can be relied on, and the bag is covered under warranty for three years. Given the conditions the F-Stop clientele are likely to use their bags in this speaks confidence to me. 
 
 {% figure %}
   {% img src: 2017-01-web-DSCF1796, alt: Attention to detail on the on the front panel of the rucksack. %}
@@ -111,11 +111,11 @@ For me the two I’ve chosen are the biggest that fit the Guru UL. The larger of
 
 ## Cost
 
-This is my single biggest issue with the pack. In the UK there’s no official distributer. Paramo stock a few of the F-Stop bags in their London store, but that’s a long and expensive trip to buy a bag. You can, however, buy direct from F-Stop Gear who will ship your goods from the European warehouse. 
+This is my single biggest issue with the pack. In the UK there’s no official distributer. Paramo stock a few of the F-Stop bags in some of their stores, but that’s a long and expensive trip to buy a bag for me. You can, however, buy direct from F-Stop Gear who will ship your goods from the European warehouse. 
 
 The configuration I have is around €280, which works out was £240 at the time of writing. Mine cost a little less though as I purchased it before the pound completely crashed. To further add to that UK residents will get stung by an additional €17 shipping (about £15). 
 
-I don’t object for paying good money for a high-quality product like this, although I know many will bulk at that price. I do wish I had ordered a rain cover and a pair of Gatekeeper straps when I ordered the bag now as the cost for these seems excessive off the back of the premium shipping rates for two small items. 
+I don’t object for paying good money for a high-quality product like this, although I know many will bulk at that price. I do wish I had ordered a rain cover and a pair of Gatekeeper straps when I ordered the bag now as the cost for these seems excessive when you consider the premium shipping rates for two small items. 
 
 For the cost of the pack I really do feel like including the rain covers and gatekeeper straps would have been a nice touch — or even offering them at a slightly discounted rate given the amount of cash being spent. With the mesh panels on the Guru I can’t see me trying it out properly on the mountain bike until I’ve got a rain cover to keep the mud out in the British climate. 
 
