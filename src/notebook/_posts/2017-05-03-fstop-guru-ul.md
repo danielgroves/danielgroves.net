@@ -3,7 +3,7 @@ published: true
 title: "Review: F-Stop Gear Guru UL Camera Backpack"
 excerpt: "The end of a search for a camera bag that fits an adventurous lifestyle."
 
-date: 2017-05-03 19:30
+date: 2017-05-03 21:00
 tags: technology camera gear
 
 thumb: 2017-04-web-DSCF3670
