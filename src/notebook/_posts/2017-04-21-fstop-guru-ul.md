@@ -39,10 +39,7 @@ The bag features two shoulder-strap based pockets for some emergency energy snac
 To further expand the equipment you can reach on the move the bag has two waist-belt pockets, one made of the same nylon as the majority of the bag, and the other from their mesh to make it expandable for slightly bulkier items. 
 
 {% figure %}
-  <div class="row pair">
-    {% img src: 2017-01-web-DSCF1800, alt: Menus at the resturant in Bitola, Macedonia. %}
-    {% img src: 2017-01-web-DSCF1801, alt: Bikes at the resturant in Bitola, Macedonia.  %}
-  </div>
+  {% img src: 2017-01-web-DSCF1801, alt: Bikes at the resturant in Bitola, Macedonia.  %}
   {% figcaption %}**Top Left:** Menus at the resturant in Bitola, Macedonia; **Top Right:** Bikes at the resturant in Bitola, Macedonia; **Bottom:** My Salsa leaning up outside the resturant in Bitola, Macedonia along the bustling highstreet{% endfigcaption %}
 {% endfigure %}
 
