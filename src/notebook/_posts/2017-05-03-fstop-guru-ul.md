@@ -1,13 +1,13 @@
 ---
 published: true
 title: "Review: F-Stop Gear Guru UL Camera Backpack"
-excerpt: "The good and the bad of a Fuji X-T1 after 12-months using the system"
+excerpt: "The end of a search for a camera bag that fits an adventurous lifestyle."
 
-date: 2017-04-03 19:28
+date: 2017-05-03 19:30
 tags: technology camera gear
 
-thumb: 2016-02-web-DSC_2653
-banner: 2016-02-web-DSC_2653
+thumb: 2017-04-web-DSCF3670
+banner: 2017-04-web-DSCF3670
 ---
 
 Camera bags are one of those things that are surprisingly personal. Some people don’t feel the need for one at all, while some of us are rather picky and want something which fits our _exact_ criteria; I fit the latter of these two groups. 
