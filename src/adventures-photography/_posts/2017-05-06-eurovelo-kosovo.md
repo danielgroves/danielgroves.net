@@ -57,14 +57,14 @@ We pushed on aiming for lunch in Gjakovë — a small town just short of the bor
 After a slightly-drawn out lunch we both proceeded to pull on all of our waterproof layers before heading out into the rain. Doing this would — we both knew — be unpleasant for the next few miles. For the first few seconds you think it’s not so bad, and then the tops of your shorts soak through within a minute or so and start sticking to your undershorts; as these soak up more water they start to rub a little, and if you’re unlucky develop into soars. Meanwhile the pad in the bottom of your shorts is acting like a sponge and seemingly soaking up a small lake which proceedes to get increasingly unpleasant the longer you ride. Now the rain is pouring down your face and running off your chin. Not all of this water avoids going down your collar either, and proceeded straight down the front of your jacket soaking into the layer beneath. We were both fully aware of how unpleasant the afternoon would be if the rain didn’t ease off anytime soon. 
 
 {% figure %}
-  {% img src: 2016-06-web-DSCF7239, alt: The gorge our decent from the mountain pass ended with before reaching the plains of Kosovo.  %}
+  {% img src: 2016-06-web-DSCF7239, alt: The gorge our descent from the mountain pass ended with before reaching the plains of Kosovo.  %}
 
   <div class="row pair">
     {% img src: 2016-06-web-DSCF7246, alt: Tank speed-limit signs were a common sight throughout Kosovo.  %}
     {% img src: 2016-06-web-DSCF7247, alt: Amoured Personel Carriers (APCs) mingling with the normal road traffic.  %}
   </div>
 
-  {% figcaption %}**Top:** The gorge our decent from the mountain pass ended with before reaching the plains of Kosovo; **Bottom Left:** Tank speed-limit signs were a common sight throughout Kosovo; **Bottom Right:** Amoured Personel Carriers (APCs) mingling with the normal road traffic.{% endfigcaption %}
+  {% figcaption %}**Top:** The gorge our descent from the mountain pass ended with before reaching the plains of Kosovo; **Bottom Left:** Tank speed-limit signs were a common sight throughout Kosovo; **Bottom Right:** Amoured Personel Carriers (APCs) mingling with the normal road traffic.{% endfigcaption %}
 {% endfigure %}
 
 As the afternoon draw on we spotted a petrol station to one side, we made for it seeing there was a sheltered area to one side. As we approached a couple of teenagers quickly wiped down the chairs to clear them of water and invited us to put our bikes to one side. We gratefully accepted while we enjoyed five minutes in the dry before moving back out into the rain. We weren’t far from the fork in the road that would take us up from the plateau into the mountains and over the border into Albania, and to our destination for the day — Bajram Curri. 
