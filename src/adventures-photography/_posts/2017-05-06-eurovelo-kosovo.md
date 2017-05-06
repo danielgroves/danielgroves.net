@@ -6,7 +6,7 @@ thumb: 2016-06-web-DSCF7162
 banner: 2016-06-web-DSCF7162
 tags: expedition bike eurovelo
 series: eurovelo
-date: 2017-03-28 19:30
+date: 2017-05-06 12:43
 ---
 
 Directly in front of us an imposing black structure towered above us, covered in decades of dirt and decay, a clear heirloom of the Soviet era. We’d just crossed the border into Kosovo and were already at 375 meters, having started at 240m that morning in Skopje, yet the days climbing had barely started. 
@@ -38,8 +38,10 @@ We stopped here for a while, letting our legs recover from a seemingly never end
 Eventually we saw buildings — Prevalla — at a height of over 1600m. We’d reached the top of the pass after a days endless climbing with over 1360m of climbing. It would be too cold to camp up here with the equipment Max had, and as it was late we knew we’d have to make for a fast descent to find a hotel or somewhere to camp. 
 
 {% figure %}
-  {% img src: 2016-06-web-DSCF7206, alt: Bikes at the top of the moutain pass in Prevalla, Kosovo.  %}
-  {% img src: 2016-06-web-DSCF7214, alt: Our descent down the other side (if you look carefully you can see the road we'd be taking).  %}
+  <div class="row pair">
+    {% img src: 2016-06-web-DSCF7206, alt: Bikes at the top of the moutain pass in Prevalla, Kosovo.  %}
+    {% img src: 2016-06-web-DSCF7214, alt: Our descent down the other side (if you look carefully you can see the road we'd be taking).  %}
+  </div>
 
   {% figcaption %}**Left:** Bikes at the top of the moutain pass in Prevalla, Kosovo; **Right:** Our descent down the other side (if you look carefully you can see the road we'd be taking).{% endfigcaption %}
 {% endfigure %}
