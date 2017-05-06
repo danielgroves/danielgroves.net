@@ -12,7 +12,7 @@ date: 2017-05-06 12:43
 Directly in front of us an imposing black structure towered above us, covered in decades of dirt and decay, a clear heirloom of the Soviet era. We’d just crossed the border into Kosovo and were already at 375 meters, having started at 240m that morning in Skopje, yet the days climbing had barely started. 
 
 {% figure %}
-  {% img src: 2016-06-web-DSCF7156.jpg, alt: Searching for food in rural Kosovo. %}
+  {% img src: 2016-06-web-DSCF7156, alt: Searching for food in rural Kosovo. %}
   {% figcaption %}Searching for food in rural Kosovo.{% endfigcaption %}
 {% endfigure %}
 
