@@ -3,9 +3,22 @@ require 'rack/robotz'
 require 'rack/rewrite'
 require 'rack/deflater'
 require 'rack/contrib/try_static'
+require 'rack/anystatus'
 
 use AcmeChallenge, ENV['ACME_CHALLENGE'] if ENV['ACME_CHALLENGE']
 use Rack::Robotz, "User-Agent" => "*", "Disallow" => "/" unless ENV['RACK_ENV'] == 'production'
+
+map '/favicon.ico' do
+  run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
+end
+
+map '/apple-touch-icon-precomposed.png' do
+    run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
+end
+
+map '/apple-touch-icon.png' do 
+    run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
+end
 
 use Rack::Rewrite do
   if ENV['RACK_ENV'] == 'production'
