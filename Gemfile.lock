@@ -88,6 +88,8 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
     rack (1.6.1)
+    rack-anystatus (0.1.0)
+      rack (~> 1.6)
     rack-contrib (1.4.0)
       git-version-bump (~> 0.15)
       rack (~> 1.4)
@@ -144,6 +146,7 @@ DEPENDENCIES
   neat
   octopress-paginate
   puma (~> 3.6)
+  rack-anystatus (~> 0.1)
   rack-contrib (~> 1.4)
   rack-rewrite (~> 1.5.0)
   rack-robotz (~> 0.0)
