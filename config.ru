@@ -13,11 +13,19 @@ map '/favicon.ico' do
 end
 
 map '/apple-touch-icon-precomposed.png' do
-    run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
+  run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
 end
 
 map '/apple-touch-icon.png' do 
-    run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
+  run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
+end
+
+map '/apple-touch-icon-152x152.png' do
+  run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
+end
+
+map '/apple-touch-icon-152x152-precomposed.png' do
+  run Rack::Anystatus::Endpoint.new 404, 'build/404.html'
 end
 
 use Rack::Rewrite do
