@@ -21,8 +21,13 @@
   .row {
     @include row;
 
-    dl, p {
+    dl, p, ul {
       @include shift(3);
+    }
+
+    li {
+      @include rem-fallback(padding, 0, 0, .5, 0);
+      @include rem-fallback(margin-left, 1.2);
     }
   }
 
