@@ -11,7 +11,7 @@ date: 2017-08-09 12:43
 
 The fresh air hit me as I left the hotel in Bajram Curri. The haze of smoke had followed us everywhere as we walked around the hotel, never able to escape the smog rising from the bar where most people chain-smoked over espressos restlessly. 
 
-We wrestled our two heavy bikes down the steps, already loaded with all our gear and started rolling downhill out of town, hoping to find a small shop as we went where we could pickup some supplies for the day. We should have been heading the other way — north, uphill — but after acquiring some locals knowledge the previous evening we quickly realised our planned border crossing wasn’t going to happen, so we had to make a diversion in excess of 100km south — further into Albania — before cutting west and then north again to reach Montenegro. 
+We wrestled our two heavy bikes down the steps, already loaded with all our gear and started rolling downhill out of town, hoping to find a small shop as we went where we could pickup some supplies for the day. We should have been heading the other way — north, uphill — but after acquiring some local knowledge the previous evening we quickly realised our planned border crossing wasn’t going to happen, so we had to make a diversion in excess of 100km south — further into Albania — before cutting west and then north again to reach Montenegro. 
 
 {% figure %}
     {% img src: 2016-06-web-DSCF7260, alt: Approaching Bajram Curri the previous day %}
@@ -27,7 +27,7 @@ Still, ignorance is bliss, and so we were both happy to have escaped the hotel s
     {% figcaption %}The Dam for the Fierza Reservoir which would cause us both more pain than we'd anticipated over the next five hours.{% endfigcaption %}
 {% endfigure %}
 
-Before long we found ourselves in front of the dam holding back the Fierza Reservoir. The dam was built in late 1970s by the Albanian government for a hydro-electric project. The wall is 167m tall, and the dam is 70km long; we’d have to ride to over double this height to keep to the road, which would drop and climb heavily for the full 70km length before swinging to the right straight through the mountains that surround the reservoir. 
+Before long we found ourselves in front of the dam holding back the Fierza Reservoir. The dam was built in late 1970s by the Albanian government for a hydro-electric project. The dam wall is 167m tall, and the dam is 70km long; we’d have to ride to over double this height to keep to the road, which would drop and climb heavily for the full 70km length before swinging to the right straight through the mountains that surround the reservoir. 
 
 {% figure %}
     {% img src: 2016-06-web-DSCF7325, alt: Max stopping for a brief rest during the first of the days many climbs. %}
@@ -48,7 +48,7 @@ The road was relentless. It was always climbing or descending without a break on
     {% figcaption %}Can you spot Max in the landscape?{% endfigcaption %}
 {% endfigure %}
 
-The day was torturous as the novelty of the views wore off and we both grew tired of the constant and unexpected climbing. We’d both run out of food to, down to our last few nuts, and were now desperate to find somewhere to either re-supply or buy a meal to keep us going. Eventually we found a hotel where we stopped for lunch around mid-afternoon and quickly bought some pasta dishes of the menu. Mine quickly turned out to be just a plate of pasta with some olive oil on, while Max’s was pasta with some kind of tomato sauce on it. We both quickly demolished this, before getting distracted on our way out by a large cage. 
+The day was torturous as the novelty of the views wore off and we both grew tired of the constant and unexpected climbing. We’d both run out of food too, down to our last few nuts, and were now desperate to find somewhere to either re-supply or buy a meal to keep us going. Eventually we found a hotel where we stopped for lunch around mid-afternoon and quickly bought some pasta dishes of the menu. Mine quickly turned out to be just a plate of pasta with some olive oil on, while Max’s was pasta with some kind of tomato sauce on it. We both quickly demolished this, before getting distracted on our way out by a large cage. 
 
 {% figure %}
     <div class="row pair">
@@ -75,8 +75,8 @@ We hit the road again with renewed energy. Eating always makes a huge difference
 We quickly came to another post-industrial town which had a very similar feeling to Bajram Curri, so we made the call not to stop. We were aiming for the town of Puké which wasn’t too much further anyway, and acted as at the regional capital for the part of Albania we’d been cycling through all day. As we passed out the far end of the town we soon began climbing into the mountains again, except this time the climbing was over within an hour as the road levelled and we started spotting luxuriant meadows among the forrest to the right. We made a mental note of where we were as a potential camping spot before continuing. A few minutes later we arrived in Puké. 
 
 {% figure %}
-    {% img src: 2016-06-web-DSCF7381, alt: Looking back on the road through the mountains which eventually leads to the Feirza Reservior. At this point we've been climbing for most of the day, and cannot see where we started. %}
-    {% figcaption %}Looking back on the road through the mountains which eventually leads to the Feirza Reservior. At this point we've been climbing for most of the day, and cannot see where we started.{% endfigcaption %}
+    {% img src: 2016-06-web-DSCF7381, alt: Looking back on the road through the mountains which eventually leads to the Feirza Reservior. At this point we've been climbing for most of the day, and can no longer see where we started. %}
+    {% figcaption %}Looking back on the road through the mountains which eventually leads to the Feirza Reservior. At this point we've been climbing for most of the day, and can no longer see where we started.{% endfigcaption %}
 {% endfigure %}
 
 Puké wasn’t what either of us had expected. As we rolled into town we were surrounded by large expedition vehicles covered in sponsor logos and large motorcycle companies. As it turned out we’d stumbled across the 2016 Albania National Rally, and there were teams from all over the world here to compete. As I looked around I spotted Max just ahead gesturing money and slowly saying "lira” to a group of children. They ran off and we rolled along behind them on our touring bikes until they stopped outside the bank. We both took out some more cash before heading into the shop next door to pickup some snacks and breakfast supplies for the next day. 
@@ -125,18 +125,18 @@ Eventually we hit the plateau top again and spent a while cruising along a flat 
 Eventually we rounded a corner and saw the ground drop away again. Unlike the previous time though the ground didn’t rear up steeply on the other side — quite the country. This time it dropped as far as the eye could see, and we both got rather excited and the prospect of the decent down to the plains of Albania below. 
 
 {% figure %}
-    {% img src: 2017-08-09-google-maps-albania, alt: Our Google Street View portrait! %}
+    {% img src: 2017-08-09-google-maps-albania, wm: false, alt: Our Google Street View portrait! %}
     {% figcaption %}Our Google Street View portrait!{% endfigcaption %}
 {% endfigure %}
 
-We flew on this one, hardly letting up on the fast and twisting tarmac as we wove our way down the side of the mountains plateau until we eventually left the desolate colours we’d been riding through for the last few hours and hit the vivid greens of the valley floor, and with that the road quality deteriorated again, the traffic came back, and we had to work for progress once again. 
+We flew on this one, hardly letting up on the fast and twisting tarmac as we wove our way down the side of the mountain's plateau until we eventually left the desolate colours we’d been riding through for the last few hours and hit the vivid greens of the valley floor, and with that the road quality deteriorated again, the traffic came back, and we had to work for progress once again. 
 
 {% figure %}
     {% img src: 2016-06-web-DSCF7455, alt: Our final descent in Albania. This road would lead us onto a plain we'd stay on until we crossed into Macedonia. %}
     {% figcaption %}Our final descent in Albania. This road would lead us onto a plain we'd stay on until we crossed into Macedonia.{% endfigcaption %}
 {% endfigure %}
 
-I say we had to work for progress, but we never really had it that hard in the remainder of Albania. We spent the morning crossing the the rough and broken roads along the valley floor, regularly subsided or missing sections until we found the city of Shkodër. Here we found a restaurant and sat down to celebrate making through Albania. We were now just a couple of miles short of the border with Montenegro and it was only lunchtime. 
+I say we had to work for progress, but we never really had it that hard in the remainder of Albania. We spent the morning crossing the rough and broken roads along the valley floor, regularly subsided or missing sections until we found the city of Shkodër. Here we found a restaurant and sat down to celebrate making through Albania. We were now just a couple of miles short of the border with Montenegro and it was only lunchtime. 
 
 {% figure %}
     {% img src: 2016-06-web-DSCF7463, alt: Crossing a reservoir on the plains in Albania. %}
@@ -145,4 +145,4 @@ I say we had to work for progress, but we never really had it that hard in the r
 
 The driving in Shkodër would be unacceptable in the UK, and Max and I both maintain they were some of the most terrifying roads we’ve ever ridden. People were impatient, and vehicles rarely stopped moving. We approached one roundabout as we were leaving town and had to simply aim and hope for luck as we shot across it. Stopping wasn’t an option, we just had to copy everyone else and hope that nobody hit us. By some stroke of luck we made it. 
 
-We we approach the border we saw another tourer going the other way. He was a few years younger than us, and travelling solo. He was doing a vary similar route to us in reverse — skipping Kosovo and going straight into Macedonia — so we passed on our advice not to drink from any public water fountains in Albania and then pushed on over the border crossing back into Montenegro.
+As we approach the border we saw another tourer going the other way. He was a few years younger than us, and travelling solo. He was doing a vary similar route to us in reverse — skipping Kosovo and going straight into Macedonia — so we passed on our advice not to drink from any public water fountains in Albania due to bad water and then pushed on over the border crossing back into Montenegro.
