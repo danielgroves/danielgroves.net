@@ -1,7 +1,7 @@
 ---
 published: true
-title: "Eurovelo: Albania"
-excerpt: "Cycling through Kosovo"
+title: "Eurovelo: Bad Roads and Big Diversions"
+excerpt: "Resuming the story of Eurovelo after crossing the border from Kosovo into Albania."
 thumb: 2016-06-web-DSCF7322-Edit
 banner: 2016-06-web-DSCF7322-Edit
 tags: expedition bike eurovelo
