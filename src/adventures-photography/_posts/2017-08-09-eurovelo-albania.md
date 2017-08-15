@@ -6,7 +6,7 @@ thumb: 2016-06-web-DSCF7322-Edit
 banner: 2016-06-web-DSCF7322-Edit
 tags: expedition bike eurovelo
 series: eurovelo
-date: 2017-08-09 12:43
+date: 2017-08-15 18:30
 ---
 
 The fresh air hit me as I left the hotel in Bajram Curri. The haze of smoke had followed us everywhere as we walked around the hotel, never able to escape the smog rising from the bar where most people chain-smoked over espressos restlessly. 
