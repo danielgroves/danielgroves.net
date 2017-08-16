@@ -65,8 +65,6 @@ Once adjusted to fit my (extremely skinny) wrists properly the bracelet has been
 
 I’ll make this clear straight away: I do not own the old Leash strap, so this will be by no means a comparison compared to the old one. I do own the Slide Lite, however that’s an entirely different strap in the lineup. 
 
-![](2017-08-web-DSCF4855.jpg)
-
 {% figure %}
   {% img src: 2017-08-web-DSCF4855, alt: Opening the new Peak Design Leash %}
   {% figcaption %}Opening the new Peak Design Leash{% endfigcaption %}
