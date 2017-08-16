@@ -3,7 +3,7 @@ published: true
 title: "First Look: New Peak Design Cuff, Leash and Anchor Links"
 excerpt: "A quick rundown on the latest straps from Peak Design"
 
-date: 2017-08-16 09:00
+date: 2017-08-16 12:00
 tags: camera gear
 
 thumb: 2017-08-web-DSCF4850
