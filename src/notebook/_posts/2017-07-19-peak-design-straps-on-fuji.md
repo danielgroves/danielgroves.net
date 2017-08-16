@@ -9,6 +9,8 @@ tags: camera gear
 thumb: 2017-11-web-IMG_4346
 ---
 
+_Update:_ Since I originally wrote this post Peak Design have addressed the shortcoming over the Anchor links discussed here and released newer models which are much thinner and will fit through the eyelets of Fuji cameras without modification. For more information see [_First Look: New Peak Design Cuff, Leash and Anchor Links_][peak_design_straps].
+
 [Peak Design][] have been manufactoring a line of [quick release straps][straps] for a while now. They've re-thought the entire concept of how a strap should work and have truly come up with a strap that is, in my option, compromise free. 
 
 The straps use [anchors][] which stay attached to your camera body and allow any of the straps in the range to be quickly added or removed, however the anchors can be a bit awkward to mount directly to the eyelets on a [Fuji][] body rather than to the eyelet rings. For many mounting them on the normal rings (where you'd mount any traditional strap) is probably fine, however I find these rattle, particularly when mounted on my Capture Pro clip. 
@@ -71,3 +73,4 @@ Now for the really easy bit: grab the end of the anchor and tug it all the way t
 [anchors]: https://www.peakdesign.com/anchor-links
 [straps]: https://www.peakdesign.com/product/straps/
 [Fuji]: https://www.fujifilm.eu/uk/products/digital-cameras/interchangeable-lens-cameras
+[peak_design_straps]: https://danielgroves.net/notebook/2017/08/peak-design-straps
