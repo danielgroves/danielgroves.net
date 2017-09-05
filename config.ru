@@ -57,7 +57,7 @@ use Rack::TryStatic,
       'X-Xss-Protection' => '1; mode=block',
       'X-Content-Type-Options' => 'nosniff',
       'X-Frame-Options' => 'DENY',
-      'Content-Security-Policy' => "default-src 'self'; font-src data: https://fonts.typekit.net https://use.typekit.net; img-src 'self' https://danielgroves-net.imgix.net https://danielgroves-net-2.imgix.net https://d1238u3jnb0njy.cloudfront.net https://p.typekit.net https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://d1238u3jnb0njy.cloudfront.net https://use.typekit.net; script-src 'self' 'unsafe-inline' https://d1238u3jnb0njy.cloudfront.net https://use.typekit.net https://www.google-analytics.com; child-src https://a.tiles.mapbox.com; frame-src https://a.tiles.mapbox.com;"
+      'Content-Security-Policy' => "default-src 'self'; font-src data: https://fonts.typekit.net https://use.typekit.net; img-src 'self' https://danielgroves-net.imgix.net https://danielgroves-net-2.imgix.net https://d1238u3jnb0njy.cloudfront.net https://p.typekit.net https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://d1238u3jnb0njy.cloudfront.net https://use.typekit.net; script-src 'self' 'unsafe-inline' https://d1238u3jnb0njy.cloudfront.net https://use.typekit.net https://www.google-analytics.com; child-src https://a.tiles.mapbox.com; frame-src https://a.tiles.mapbox.com;",
       'Referrer-Policy' => 'unsafe-url'
     }],
     [['html'], { 'Content-Type' => 'text/html; charset=utf-8'}],
