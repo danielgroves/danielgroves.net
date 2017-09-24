@@ -5,7 +5,6 @@ excerpt: "Spending a night in a bivvy bag on the summit of Helvellyn"
 thumb: 2017-09-web-DSCF5918
 banner: 2017-09-web-DSCF5918
 tags: bikepacking microadventure cumbria
-series: eurovelo
 date: 2017-09-24 18:10
 ---
 
