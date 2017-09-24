@@ -61,6 +61,7 @@ After 2km I finally stopped for a few minutes, in the shelter of Catstye Cam whi
 This was a short _microadventure_, but it's a great way to spend a night nonetheless. This really is not something to try unprepared, the weather changes quickly in the mountains as demonstrated on this particular night. If you want to repeat an adventure like this you should make sure you have a map and compass, and _know how to use them_. It's pretty common in places like this to go to bed with a clear sky and wake up in a cloud. To repeat this particular route you'll need OS Map OL6. 
 
 I took the following gear on this trip:
+
 * Outdoor Research Helium Bivvy Bag
 * Exped Synmat UL
 * Rab Ascent 700 Sleeping Bag
@@ -72,7 +73,7 @@ I took the following gear on this trip:
 * Montane Featherlight Down Jacket
 * Mountain Equipment Shivling GoreTex Pro Jacket
 * Berghaus AQ2 Waterproof Trousers
-* A stripped-down selection of camera equipment ([full gear list]) in an F-Stop ICU
+* A stripped-down selection of camera equipment ([full gear list](https://danielgroves.net/notebook/2016/02/gear)) in an F-Stop ICU
 * Osprey Ether Rucksack
 * Ortlieb Map Bag, OS OL6, Silva Compass
 * Garmin Etrex 30 GPS
