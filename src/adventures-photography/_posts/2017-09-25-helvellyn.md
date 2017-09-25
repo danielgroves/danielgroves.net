@@ -5,7 +5,7 @@ excerpt: "Spending a night in a bivvy bag on the summit of Helvellyn"
 thumb: 2017-09-web-DSCF5918
 banner: 2017-09-web-DSCF5918
 tags: bikepacking microadventure cumbria
-date: 2017-09-24 18:10
+date: 2017-09-24 15:25
 ---
 
 After spending the previous week in the Lake District National Park I decided to end the trip with something a little different. Armed with a basic overnight kit I left Glenridding at just gone 16:00 — when most people were heading back down — for the summit of Helvellyn, a 950m mountain which features a large and rocky summit with a small wind break on the summit: and it was this wind break I had my eye on to provide shelter for the night. 
