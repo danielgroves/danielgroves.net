@@ -28,7 +28,7 @@ Reaching the summit I dropped my bag on the bench in the wind break (simply mark
     {% figcaption %}Evening light settling over Swirrels Edge (my intended descent) and Catstye Cam.{% endfigcaption %}
 {% endfigure %}
 
-As the sunset I spread my bivvy bag out on a bench and settled down to make some dinner and coffee before getting my head down the the night. 
+As the sun set I spread my bivvy bag out on a bench and settled down to make some dinner and coffee before getting my head down the the night. 
 
 Anyone who’s spent any time in mountainous regions will be aware of how quickly the weather can turn. The sun set at 20:10 and by 22:00 the wind was starting to pickup. It wasn’t too big a deal where I was behind the wind break – well sheltered from the southwesterly wind. 
 
