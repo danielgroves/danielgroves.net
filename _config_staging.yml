@@ -1,0 +1,9 @@
+url: 'http://localhost:4000'
+
+static_path: '/assets'
+styles_path: '/styles'
+scripts_path: '/scripts'
+
+assets:
+  debug: false
+  baseurl:

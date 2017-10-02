@@ -23,7 +23,11 @@ end
 
 desc "Build the site with the production configuration."
 task :deploy do
+  if (ENV['RACK_ENV'] == "staging")
+    jekyll "build --config _config.yml,_config_staging.yml"
+  else
     jekyll "build"
+  end
 end
 
 namespace :assets do

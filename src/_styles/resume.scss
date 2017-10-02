@@ -1,0 +1,42 @@
+#resume {
+
+	#education,
+	#employment,
+	#skills,
+	#courses_awards,
+	#interests_activities {
+		@include row;
+		@include shift(1);
+    @include span-columns(10);
+  }
+
+  p, dl, .period, h4 {
+    font-family: $font-serif;
+    color: $color-normal-text;
+    @include rem-fallback(font-size, 1.4);
+    @include rem-fallback(line-height, 1.8);
+    @include rem-fallback(padding, .4, 0);
+  }
+  
+  .row {
+    @include row;
+
+    dl, p, ul {
+      @include shift(3);
+    }
+
+    li {
+      @include rem-fallback(padding, 0, 0, .5, 0);
+      @include rem-fallback(margin-left, 1.2);
+    }
+  }
+
+  dl dt {
+    font-style: italic;
+    @include rem-fallback(padding, 1, 0, .4, 0);
+  }
+  
+  .period {
+    @include span-columns(3);
+  }
+}
