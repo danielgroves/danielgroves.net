@@ -3,7 +3,7 @@ published: true
 title: "Your Questions on the F-Stop Guru UL"
 excerpt: "Questions and answers about the F-Stop Guru UL"
 
-date: 2018-04-04 20:45
+date: 2018-04-04 21:15
 tags: technology camera gear
 
 thumb: 2017-04-web-DSC_2834
