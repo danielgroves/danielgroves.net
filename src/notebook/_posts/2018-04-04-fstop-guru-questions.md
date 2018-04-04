@@ -69,6 +69,11 @@ The Medium-Shallow ICU is deeper than the Small-Shallow. The Small will take the
 
 Alongside everything I would normally take in the Small ICU, I could probably drop a 50-140 and something like a 16-55 into the Medium ICU, with some careful packing. 
 
+{% figure narrow %}
+  {% img src: 2018-04-web-IMG_5491, alt: My kit in the small-shallow ICU inside my Guru after a recent shoot. %}
+  {% figcaption %}My kit in the small-shallow ICU inside my Guru after a recent shoot.{% endfigcaption %}
+{% endfigure %}
+
 ## 7. Where did you get your's from?
 
 In short: F-Stop directly
