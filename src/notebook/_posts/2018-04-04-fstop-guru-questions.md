@@ -6,8 +6,8 @@ excerpt: "Questions and answers about the F-Stop Guru UL"
 date: 2018-04-04 20:45
 tags: technology camera gear
 
-thumb: 2017-04-web-DSCF3670
-banner: 2017-04-web-DSCF3670
+thumb: 2017-04-web-DSC_2834
+banner: 2017-04-web-DSC_2834
 ---
 
 It was in May last year that I published [my review of the F-Stop Guru UL adventure camera pack](review). I'd been using it to shoot for about 6 months, covering how I use it in partnership with some of my [Peak](pd1) [Design](pd2) [gear](gear). 
