@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.4.1'
 
 gem 'jekyll'
 gem 'kramdown'
@@ -7,15 +7,9 @@ gem 'rake'
 gem 'bourbon'
 gem 'neat'
 gem 'jekyll-assets'
-gem 'execjs'
-gem 'yui-compressor'
 gem 'sass'
-gem 'coffee-script'
-gem 'jekyll-archives'
-gem 'jekyll-sitemap'
 gem 'rouge'
 gem 'jekyll-redirect-from'
-gem 'octopress-paginate'
 
 # Routing Layer
 gem 'rack-rewrite', '~> 1.5.0'

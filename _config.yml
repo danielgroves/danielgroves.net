@@ -5,6 +5,7 @@ future: false
 timezone: Europe/London
 lsi: false
 markdown: kramdown
+incremental: true
 
 source: src
 destination: build
@@ -56,15 +57,11 @@ kramdown:
   parse_span_html: false
   parse_block_html: false
 
-gems:
+plugins:
   - bourbon
   - neat
-  - jekyll-assets
-  - jekyll-archives
-  - jekyll-sitemap
   - rouge
   - jekyll-redirect-from
-  - octopress-paginate
 
 assets:
   sources:

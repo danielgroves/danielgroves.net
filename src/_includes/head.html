@@ -9,12 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.excerpt.blank? %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
 
-    {% stylesheet main %}
-
-    {% if page.categories.first == 'development' %}
-      {% stylesheet code %}
-    {% endif %}
-
     <link rel="alternate" type="application/rss+xml" title="Site Feed" href="/feed/">
     <link rel="alternate" type="application/rss+xml" title="Notebook Feed" href="/feed/notebook/">
     <link rel="alternate" type="application/rss+xml" title="Adventures and Photography Feed" href="/feed/adventures-photography">

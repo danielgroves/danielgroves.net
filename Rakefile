@@ -1,5 +1,10 @@
 require 'typekit_domain_manager'
 
+trap "SIGINT" do
+  puts "Exiting"
+  exit 130
+end
+
 task default: %w[dev:watch]
 
 desc "Print the version of Jekyll being used."

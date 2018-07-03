@@ -8,7 +8,7 @@ class FigCaptionBlock < Liquid::Block
 	def render(context)
     contents = super.strip
 		site = context.registers[:site]
-		converter = site.getConverterImpl ::Jekyll::Converters::Markdown
+		converter = site.find_converter_instance ::Jekyll::Converters::Markdown
 		output = converter.convert contents
 
 		caption = output.sub(/^<p>/, '')

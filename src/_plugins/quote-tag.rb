@@ -119,9 +119,9 @@ module Jekyll
           txext = site.config['textile_ext']
 
           if mdext.include? ext
-            site.getConverterImpl(Jekyll::Converters::Markdown).convert(content)
+            site.find_converter_instance(Jekyll::Converters::Markdown).convert(content)
           elsif txext.include? ext
-            site.getConverterImpl(Jekyll::Converters::Textile).convert(content)
+            site.find_converter_instance(Jekyll::Converters::Textile).convert(content)
           else
             "<p>" + content.strip.gsub(/\n\n/, "<p>\n\n</p>") + "</p>"
           end
