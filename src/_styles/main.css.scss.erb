@@ -1,4 +1,4 @@
-$static_url: "<%= site.config['static_path'] %>";
+$static_url: "<%# site.config['static_path'] %>";
 
 $font-serif: "chaparral-pro", "georgia", serif;
 $font-sans: "source-sans-pro", "Helvetica", sans-serif;
@@ -17,16 +17,8 @@ $navigation-full-width: 815px;
 $navigation-single-row: 1000px;
 $navigation-with-picture: 1050px;
 
-@import "mixins";
 @import "reset";
 @import "bourbon";
 @import "neat";
-@import "global";
+@import "layout";
 @import "header";
-@import "content";
-@import "footer";
-@import "landing";
-@import "post-listing";
-@import "paginate";
-@import "series";
-@import "resume";

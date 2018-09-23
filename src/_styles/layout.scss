@@ -1,0 +1,23 @@
+#page-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+}
+
+#page-header {
+    width: 25%;
+    margin: 0 auto;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+aside {
+
+}
+
+footer {
+
+}

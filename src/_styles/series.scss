@@ -1,7 +1,0 @@
-#series-introduction {
-  background: $color-light-grey;
-  clear: both;
-  overflow: hidden;
-  @include rem-fallback(padding, 1, 0);
-  @include rem-fallback(margin, 0, 0, 1, 0);
-}

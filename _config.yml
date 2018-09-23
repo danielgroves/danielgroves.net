@@ -62,6 +62,7 @@ plugins:
   - neat
   - rouge
   - jekyll-redirect-from
+  - jekyll-assets
 
 assets:
   sources:
