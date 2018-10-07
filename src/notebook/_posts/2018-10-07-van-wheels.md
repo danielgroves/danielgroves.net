@@ -3,7 +3,7 @@ published: true
 title: "Planvan: Wheel Swapout"
 excerpt: "The first change has arrived, and it's a simple one. The van gets new wheels. "
 
-date: 2018-10-07 16:50
+date: 2018-10-07 17:15
 tags: planvan van
 
 thumb: 20181007-DSCF1337
