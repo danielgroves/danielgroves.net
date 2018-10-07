@@ -6,8 +6,8 @@ excerpt: "The first change has arrived, and it's a simple one. The van gets new 
 date: 2018-10-07 16:50
 tags: planvan van
 
-thumb: 20180811-DSCF9088-Edit
-banner: 20180811-DSCF9088-Edit
+thumb: 20181007-DSCF1337
+banner: 20181007-DSCF1337
 ---
 
 The first big change since getting the van has finally happened -- new wheels. When I got the van it was specced with black 20" alloys. For me, these were pretty impractical as minimal tyre sidewall meant they got damaged easily on the rough country roads I find myself on most of the time. The big plus side to them was the sheer amount of rubber on the road which did mean the van cornered exceptionally well for a vehicle of its size and weight. 
