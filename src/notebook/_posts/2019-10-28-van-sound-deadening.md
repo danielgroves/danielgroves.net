@@ -3,7 +3,7 @@ published: true
 title: "Planvan: Sound Deadening"
 excerpt: "Vans are noisy vehicles form the factory which enhaunce road noise. This post looks at applying sound deadening to stop this from happening."
 
-date: 2018-10-28 20:25
+date: 2018-10-28 20:35
 tags: planvan van
 
 thumb: 20181007-DSCF1324
