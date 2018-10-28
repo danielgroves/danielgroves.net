@@ -18,24 +18,25 @@ Silent Coat sticks directly the the bodywork on the inside of the vehicle and tu
 
 {% figure %}
   <div class="row pair">
-    {% img src: 20181007-DSCF1324, alt: Old wheels on the van, somewhere on Exmoor. %}
-    {% img src: 20181007-DSCF1323, alt: New wheels on the van, at home. %}
+    {% img src: 20181007-DSCF1324, alt: Front half panel covered in Silent Coat. %}
+    {% img src: 20181007-DSCF1323, alt: Rear quater panel covered in Silent Coat. %}
   </div>
-  {% figcaption %}**Left:** Old wheels on the van, somewhere on Exmoor. **Right:** New wheels on the van, at home. {% endfigcaption %}
+  {% figcaption %}**Left:** Front half panel covered in Silent Coat. 
+  **Right:** Rear quater panel covered in Silent Coat. {% endfigcaption %}
 {% endfigure %}
 
 Sound deadening works by adding mass to panels which helps stop them reverberating every time something moves or vibrates, as well as using an active agent to help convert movement into heat and stop any movement that does happen faster. Cars, unlike vans, come with this applied from the factory which is part of what helps make your car quite to drive. With vans if you want this, you need to apply it yourself. 
 
 {% figure %}
-  {% img src: 20181007-DSCF1334, alt: Old wheels on the van, somewhere on Exmoor. %}
-  {% figcaption %}**Left:** Old wheels on the van, somewhere on Exmoor. **Right:** New wheels on the van, at home. {% endfigcaption %}
+  {% img src: 20181007-DSCF1334, alt: Read door covered in Silent Coat. %}
+  {% figcaption %}Read door covered in Silent Coat. {% endfigcaption %}
 {% endfigure %}
 
 Applying to sound deadening was very easy. It cuts easily with a stanly knife to reduce the sheets into the size you need, and it's then a case of removing the trim covering the sides of the vehicles and degreasing the panel to remove any dirt. Application of the deadening is a simple case of peeling the back off it, sticking it on, and going over it with a roller to ensure a good contact. Most people advise to aim for around 50% coverage on each panel, but in my case I had more than I actually needed in two boxes, so I probably got closer to 75% coverage. 
 
 {% figure %}
-  {% img src: 20181027-IMG_6390, alt: Old wheels on the van, somewhere on Exmoor. %}
-  {% figcaption %}**Left:** Old wheels on the van, somewhere on Exmoor. **Right:** New wheels on the van, at home. {% endfigcaption %}
+  {% img src: 20181027-IMG_6390, alt The van jacked up during the process of applying Silent Coat to the inside of the rear wheel arch. %}
+  {% figcaption %}The van jacked up during the process of applying Silent Coat to the inside of the rear wheel arch.{% endfigcaption %}
 {% endfigure %}
 
 Applying the deadening in the wheel arches was a bit more involved -- it requires jacking the vehicle up, removing the wheel and the wheel arch trim before a big cleanup effort (it's pretty mining behind there) before applying the sound deadening in smaller pieces about 1/4 of the size of a full sheet. The first wheel arch took me around three hours to complete, most of that time spent wrestle the wheel off. The second one took me around 90-minutes to complete. 
