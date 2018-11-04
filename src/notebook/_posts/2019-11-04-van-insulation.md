@@ -3,7 +3,7 @@ published: true
 title: "Planvan: Insulation and Vapour Barrier"
 excerpt: "Combating the cold in the UK winter with insulation and a vapour barrier."
 
-date: 2018-11-04 17:00
+date: 2018-11-04 17:30
 tags: planvan van
 
 thumb: 20181007-DSCF1330
