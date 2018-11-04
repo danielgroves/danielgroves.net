@@ -6,8 +6,8 @@ excerpt: "Combating the cold in the UK winter with insualtion and a vapour barri
 date: 2018-11-04 17:00
 tags: planvan van
 
-thumb: 20181007-DSCF1324
-banner: 20181007-DSCF1324
+thumb: 20181007-DSCF1330
+banner: 20181007-DSCF1330
 ---
 
 A few months back I bought [Geoffery, my 2010 VW T5](https://danielgroves.net/notebook/2018/08/planvan "Introducing Geoffery") with the intention of converting it into a camper over a period of time. In the UK we're now going into the autumn and winter months. It gets cold here, but a correctly insulated van should remain a sensible temperature overnight year round. It's important to remember that before you can insulate you will have to [add any noise management to the van first](https://danielgroves.net/notebook/2018/10/van-sound-deadening "Sound Deadening Geoffery"). 
