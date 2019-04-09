@@ -61,8 +61,8 @@ We both quickly showered and ran all of our cycling clothes through the wash whi
   {% img src: 20160616-DSCF7694, alt: Max with his rear wheel. %}
 
   <div class="row pair">
-    {% img src: 20160616-DSCF7694, alt: Max with his rear wheel. %}
-    {% img src: 20160616-DSCF7694, alt: Max searching for the puncture. %}
+    {% img src: 20160616-DSCF7646, alt: Max with his rear wheel. %}
+    {% img src: 20160616-DSCF7670, alt: Max searching for the puncture. %}
   </div>
 
   {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
@@ -299,9 +299,8 @@ Crossing the border into Slovenia was surreal looking around and the abandoned b
 {% figure %}
   {% img src: 20160622-DSCF8150, alt: Max with his rear wheel. %}
 
-  <div class="row three">
+  <div class="row pair">
     {% img src: 20160622-DSCF8155, alt: Max with his rear wheel. %}
-    {% img src: 20160622-DSCF8173, alt: Max searching for the puncture. %}
     {% img src: 20160622-DSCF8177, alt: Max searching for the puncture. %}
   </div>
 
