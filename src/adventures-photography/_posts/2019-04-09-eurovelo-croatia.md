@@ -99,9 +99,19 @@ As we approached the border crossing with Bosnia we both had our passports handy
 
 Passing through the far side of Bosnia both Max and I were starting to grow tired of the relentless undulations in the road where we’d climb over 100m just to descend it again almost immediately. It was because we were growing so tired of this that when we turned a corner and saw the flatlands open up below us we immediately started studying the map to see if there was a road we could take through them that would help us avoid the main roads traffic and any further undulations.
 
-**Any flatlands photos at all?**
+{% figure %}
+  {% img src: 20160617-DSCF7730, alt: Max with his rear wheel. %}
+
+  {% figcaption %}Decending into the flatlands.{% endfigcaption %}
+{% endfigure %}
 
 We descended quickly into the flatlands passing occasional houses, some occupied, and some likely empty. We noticed there was a drainage ditch running behind them with boats moored near many of the houses and the fertile lands behind were clearly divided into fields. This was land that would flood easily and often, yet it would be because of this that it remained fertile enough to keep the families here. We quickly reached a small river which led us to a weir and a lock-gate controlled marina with a small collection of boats.
+
+{% figure %}
+  {% img src: 20160617-DSCF7734, alt: Max with his rear wheel. %}
+
+  {% figcaption %}A typical house in the flatlands area, raised on stilts to avoid flooding with boat-only access.{% endfigcaption %}
+{% endfigure %}
 
 We stopped here for a short while before resuming following the road along the far side that took us to a bigger river and a bigger road the followed the side before a slip road would lead us back up onto the main road where we started seeking a shop to buy dinner and some potential places where we could camp for the night.
 
