@@ -2,8 +2,8 @@
 published: true
 title: "Eurovelo: Croatia and Bosnia"
 excerpt: "Cycling the length of Croatia as part of a 4000km expedition."
-thumb: 2016-06-web-DSCF7496
-banner: 2016-06-web-DSCF7496
+thumb: 20160621-DSCF8074
+banner: 20160621-DSCF8074
 tags: expedition bike eurovelo
 series: eurovelo
 date: 2019-04-09 17:00
