@@ -17,7 +17,7 @@ We were now over 900km down. Both of us agreed that the hardest miles should be 
     {% img src: 20160615-DSCF7564, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Views from the front of the campsite in Molunat, Croatia.{% endfigcaption %}
 {% endfigure %}
 
 Out of [our small gathering of travellers](https://danielgroves.net/adventures-photography/2017/11/eurovelo-montenegro "Eurovelo Montenegro") Max and I were still the first two up. We ended up acting as the kettle for everybody, making a swift round of drinks before starting to pack down while they cooled. Watching the others I started to realise how well practiced we’d both become at setting up and breaking down our campsite after 10 days on the road.
@@ -31,7 +31,7 @@ We headed out, immediately turning uphill for the three of us to haul our bikes 
 {% figure %}
   {% img src: 20160616-DSCF7579, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Overlooking the from a watchtower we found by the side of the road climbing back out of Molunat.{% endfigcaption %}
 {% endfigure %}
 
 On our way to the campsite the previous day Max had briefly scouted out a dismantled railway that appeared to go all the way to Dubrovnik, so when the opportunity arrived we turned off taking it for a few kilometres before deciding it was too rough and we weren’t going to make progress fast enough.
@@ -44,7 +44,7 @@ On our way to the campsite the previous day Max had briefly scouted out a disman
     {% img src: 20160616-DSCF7593, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Another old watchtower. This time on the dismantled railway we attempted to follow, before bailing back down to the main road. Also pictured here is the _Daring Dutchie_ we were cycling with for the day.{% endfigcaption %}
 {% endfigure %}
 
 We dropped back onto the main roads, which turned out not to be quite as busy as we’d expected, pushing on to Dubrovnik. The three of us had lunch before Dutchie went to find the hostel she planned to stay in for a few days, while Max and I went through our usual procedure of finding a last-minute bargain on [Booking.com](https://www.booking.com/city/hr/dubrovnik.en.html?aid=1320828&no_rooms=1&group_adults=1 "Book a room in Dubrovnik now") for the night.
@@ -52,7 +52,7 @@ We dropped back onto the main roads, which turned out not to be quite as busy as
 {% figure %}
   {% img src: 20160616-DSCF7617, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}One of the many old roads that are now closed to traffic we'd favour over the D8 running paralell. {% endfigcaption %}
 {% endfigure %}
 
 We both quickly showered and ran all of our cycling clothes through the wash while we had access to facilities (this was the first proper wash for any of our gear since we started), taking advantage of the Mediterranean heat to dry everything overnight. We walked back into the centre of Dubrovnik to enjoy the city for the evening and locate some food; we both knew the next morning was going to be another early start as we had to get back to covering big distances everyday.
@@ -65,7 +65,7 @@ We both quickly showered and ran all of our cycling clothes through the wash whi
     {% img src: 20160616-DSCF7670, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}The city of Dubrovnik, as heavily featured in HBO series _Game of Thrones_. {% endfigcaption %}
 {% endfigure %}
 
 ---
@@ -82,7 +82,7 @@ We spent the day glued to the coast, dipping in and out of bay after bay, lookin
     {% img src: 20160617-DSCF7719, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Top: View from the Franjo Tudjam Bridge; Lower left: Waiting for Max at the top of one of the many climbs the D8 would throw at us over the coming week; Lower right: The moment the GPS clocked over the 100km mark.{% endfigcaption %}
 {% endfigure %}
 
 Just as we came up on lunchtime we hit our first major distance milestone of the trip — 1000km covered — somewhere just short of the Bosnian border. To celebrate we pulled over for a relaxed lunch in a seafood restaurant on the side of the road, fully aware we may pay the price for such a luxury in the evening by having to ride into the night.
@@ -94,7 +94,7 @@ As we approached the border crossing with Bosnia we both had our passports handy
 {% figure %}
   {% img src: 20160617-DSCF7724, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Climbing on the D8 coastal road.{% endfigcaption %}
 {% endfigure %}
 
 Passing through the far side of Bosnia both Max and I were starting to grow tired of the relentless undulations in the road where we’d climb over 100m just to descend it again almost immediately. It was because we were growing so tired of this that when we turned a corner and saw the flatlands open up below us we immediately started studying the map to see if there was a road we could take through them that would help us avoid the main roads traffic and any further undulations.
@@ -108,11 +108,11 @@ We stopped here for a short while before resuming following the road along the f
 {% figure %}
   {% img src: 20160617-DSCF7744, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}The view over Baćina Lakes, jsut a few minutes walk from where we were staying at Camping Bacinska Jezra. {% endfigcaption %}
 {% endfigure %}
 
 
-It wasn’t long before we’d located an Aldi which made for a fast resupply before we continued to follow the main road until we saw a sign for a campsite. We followed the signs until we eventually found a very enthusiastic owner, who quickly showed us where to camp and where the facilities were, chatting away in slow English to us. He told us how it was their second year, and how pleased he was with how well the campsite was doing despite us being the only people there. Still though, we had clean water, showers and somewhere quiet and off the road to get our heads down for the night.
+It wasn’t long before we’d located an Aldi which made for a fast resupply before we continued to follow the main road until we saw a sign for a campsite. We followed the signs until we eventually found a very enthusiastic owner, who quickly showed us where to camp and where the facilities were, chatting away in slow English to us. He told us how it was their second year, and how pleased he was with how well [the campsite](https://www.google.com/maps/@42.6789923,18.0488697,13.98z) was doing despite us being the only people there. Still though, we had clean water, showers and somewhere quiet and off the road to get our heads down for the night.
 
 ---
 
@@ -121,7 +121,7 @@ The road was blissfully quiet as we headed off again the next morning, although 
 {% figure %}
   {% img src: 20160618-DSCF7755, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Gradac, Split-Dalmatia County{% endfigcaption %}
 {% endfigure %}
 
 When you’re on a trip like this, riding everyday, your body starts to get tired. One of the things cyclists get here is a deep ache forming at the bottom of their thighs which grows quickly in intensity. As it grows it gets increasingly uncomfortable, you have two options: you can stop and it quickly fades, or you can ride through it and it'll continue to build and then eventually fade away once the legs have loosened up. As usual, I rode through it.
@@ -148,7 +148,7 @@ We made progress, stopping at Makarska for lunch and then headed onwards towards
     {% img src: 20160618-DSCF7838, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}The rather grand city of Split, a personal favourite fromn the trip.{% endfigcaption %}
 {% endfigure %}
 
 ---
@@ -163,7 +163,7 @@ Leaving Split turned out to be a difficult a more complex affair than either of 
     {% img src: 20160619-DSCF7846, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Max fixing his second issue of the trip, a broken gear cable.{% endfigcaption %}
 {% endfigure %}
 
 We left the coast for the first time in Croatia in an effort to cut a large dog-leg, this came with the cost of some big hills, however the coastline would have been undulating anyway; it's the nature of cliff-top coastline. Much of the day had been overcast but now the sky was clearing just in time for the days climbing to begin, and as the sky cleared the temperature shot up.
@@ -176,7 +176,7 @@ We left the coast for the first time in Croatia in an effort to cut a large dog-
     {% img src: 20160619-DSCF7875, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Taking the back roads through Croatia. During this section we almost ran out of food and water.{% endfigcaption %}
 {% endfigure %}
 
 The general theme in Croatia was long undulating roads without much of interest to the riding itself, however we spent the entire time surrounded by stunning scenery. This was no exception as we dropped into Grebaštica for lunch around 15:00 on a long white beach. The staff running the hut fed us both and refilled all our bottles with a mix of water and ice to help keep the water cooler as we headed on.
@@ -189,7 +189,7 @@ The general theme in Croatia was long undulating roads without much of interest 
     {% img src: 20160619-DSCF7893, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Grebaštica.{% endfigcaption %}
 {% endfigure %}
 
 A little later in the day we stopped in Šibenek, and after a break resumed following "the line" which tried to lead us straight up several flights of steps. We both cursed as we hauled our bikes up them fully loaded before jumping back on at the top and following the road out of town.
@@ -199,7 +199,7 @@ Around 18:00 we arrived at the campsite for the day. We each paid €15 and proc
 {% figure %}
   {% img src: 20160619-DSCF7929-Edit, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Lightening over the campsite where we were staying, _Kamp Kalebić_.{% endfigcaption %}
 {% endfigure %}
 
 Once we'd eaten we headed back to the tents to get ourselves sorted for the evening, and as we were getting everything straight the skies opened and the rain pounded down around us. Every couple of seconds the sky would flash which would be quickly followed by the ground shaking from the thunder. After an hour or so the rain stopped so I grabbed the camera and ran down to the waterside and started photographing the lightening. Less than five minutes later the rain returned so we ran back to the tents for the night.
@@ -216,23 +216,20 @@ The next day we were up early. The days target was Novalja, 130km away. The town
 
   {% img src: 20160620-DSCF7955, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Making out way across country to cut out a large dogleg and make up some time as we aimed towards the bridge onto the Island of Peg.{% endfigcaption %}
 {% endfigure %}
 
 The days riding went smoothly over ground similar to that which we'd been riding through for the last few days until we reached the island. Here we stopped in a small town to restock on food before heading on using a small dirt road that ran parallel to the main road. We followed this for some distance before we found a pile of dirt with a blockade on telling us the road was closed. Not wanted to double back we simply pushed our bikes around it before continuing and found the road was collapsing. We kept going regardless until we eventually found a second blockade just short of a tarmac road again. Following this we quickly rejoined the main road for the next stint.
 
 {% figure %}
-  <div class="row pair">
-    {% img src: 20160620-DSCF7964, alt: Max with his rear wheel. %}
-    {% img src: 20160620-DSCF7975, alt: Max searching for the puncture. %}
-  </div>
+  {% img src: 20160620-DSCF7975, alt: Max searching for the puncture. %}
 
   <div class="row pair">
     {% img src: 20160620-DSCF8004, alt: Max with his rear wheel. %}
     {% img src: 20160620-DSCF8009, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Top: The bridge onto Peg; Bottom (Both): The road that started as tarmac, and slowly derteriorated until we hit multiple roadblocks.{% endfigcaption %}
 {% endfigure %}
 
 Arriving at Novalja we were disappointed to find that the campsite we'd had our eye on was a massive complex. We were riding along it's fence line for over 1.5km before we found the entrance. Here they asked for **€22.50 each (double check notebook for this)**. The staff spoke perfect English, so Max tried to barter with them a lower rate as we were on this trip for a good cause... they didn't relent so we paid anyway and pitched up before grabbing a shower and walking into town for dinner.
@@ -240,7 +237,7 @@ Arriving at Novalja we were disappointed to find that the campsite we'd had our 
 {% figure %}
   {% img src: 20160620-DSCF8027, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Novalja beach.{% endfigcaption %}
 {% endfigure %}
 
 Arriving in town be both quickly realised why the campsite here was so expensive — this town was built for the student–tourists; we were surrounded by the “gap-year” crowd. I took some photos of the sunset from the beach, and while I was doing this someone came over and asked about the photos. They asked for us to come up to the bar, built on a platform over the sea, after we’d eaten. We went and found some over-priced food before heading to the bar where the manager promptly handed us a beer each and started chatting about the photos. After our free pints we headed on back to the campsite for the evening.
@@ -254,7 +251,7 @@ Outside the supermarket I spent some time chatting to a pair of Austrian mountai
 {% figure %}
   {% img src: 20160621-DSCF8137, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}The ferry we just missed, heading from Peg back to the mainland.{% endfigcaption %}
 {% endfigure %}
 
 After an hour or so the ferry arrived, and so after the 10 minute crossing we were first off the ferry and both immediately got stuck into the long and steep climb up to the main road above us. It was already 12:00 as we ascended the steep climb making it torturously hard work without even a hint of wind.
@@ -269,7 +266,7 @@ The riding throughout the day was relentless as the undulations never seemed to 
     {% img src: 20160621-DSCF8074, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}Stunnoing scenery from the north Croatia coatal road, the E65.{% endfigcaption %}
 {% endfigure %}
 
 Initially the days riding was fairly flat until we reached a large industrial bay we had to ride around on the slowly ascending road with several large works plants loading ships below. The head wind was torture as it whistled through the bay but we kept pushing on as hard as we could, knowing that we had to make good progress today to get our rest day.
@@ -287,10 +284,8 @@ Somehow we managed to make it to Rijeka for an early lunch, before we went and s
     {% img src: 20160621-DSCF8121, alt: Max searching for the puncture. %}
   </div>
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}An evening on the campsite in Senji bodging broken tent poles and spokes to see us through the trip.{% endfigcaption %}
 {% endfigure %}
-
-**Senji Campsite**** 
 
 At Lidl we spoke to a guy who was doing a circuit Audax around Croatia — he'd just cycled 500km in two days, having only slept briefly in a bus shelter. He stopped for long enough to scoff some food while chatting to us before jumping straight back on his bike, and headed off in the direction we were headed. We didn't see him again.
 
@@ -306,7 +301,7 @@ Crossing the border into Slovenia was surreal looking around and the abandoned b
 
   {% img src: 20160622-DSCF8175, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Photoseries of Max during his repair, featuring a kitten of unknown origin that sought nothing but attention and someone to play with.{% endfigcaption %}
+  {% figcaption %}An abandoned passport control checkpoint from the days before Schengen area.{% endfigcaption %}
 {% endfigure %}
 
 Stopping at "Porkeys" for dinner just 250m short of the Italian border we had a relaxed dinner here before picking a campsite out on the map in Trieste and then heading off for it. We were trying to avoid going into the city, and so found ourselves climbing more painfully steep hills as the sun set behind us. Through luck alone we ended up on a campsite with views overlooking the entire city, and sharing a small pitch with another cyclist. The guy explained that he was a British expat who was cycling to China while stopping and teaching English in places en-route.
