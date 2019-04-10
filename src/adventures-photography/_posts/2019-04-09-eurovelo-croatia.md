@@ -9,7 +9,7 @@ series: eurovelo
 date: 2019-04-09 17:00
 ---
 
-We were now over 900km down. Both of us agreed that the hardest miles should be behind us now. Not necessarily in terms of the cycling itself, but the miles where you body gets used to the abuse — the strain of riding everyday. Language was going to get easier from here on as we were now in an area heavily touristed by the western countries. Looking further ahead, we both knew that when we left Croatia and entered Slovenia we would be inside the [Schengen area](https://ec.europa.eu/home-affairs/what-we-do/policies/borders-and-visas/schengen_en "Schengen Area on the European Commission Website"), meaning there wouldn’t be any more passport checks.
+We were now over 900km down. Both of us agreed that the hardest miles should be behind us now. Not necessarily in terms of the cycling itself, but the miles where your body gets used to the abuse — the strain of riding everyday. Language was going to get easier from here on as we were now in an area heavily touristed by the western countries. Looking further ahead, we both knew that when we left Croatia and entered Slovenia we would be inside the [Schengen area](https://ec.europa.eu/home-affairs/what-we-do/policies/borders-and-visas/schengen_en "Schengen Area on the European Commission Website"), meaning there wouldn’t be any more passport checks.
 
 {% figure %}
   <div class="row pair">
@@ -34,7 +34,7 @@ We headed out, immediately turning uphill for the three of us to haul our bikes 
   {% figcaption %}Overlooking the from a watchtower we found by the side of the road climbing back out of Molunat.{% endfigcaption %}
 {% endfigure %}
 
-On our way to the campsite the previous day Max had briefly scouted out a dismantled railway that appeared to go all the way to Dubrovnik, so when the opportunity arrived we turned off taking it for a few kilometres before deciding it was too rough and we weren’t going to make progress fast enough.
+On our way to the campsite the previous day Max had briefly scouted out a dismantled railway that appeared to go all the way to Dubrovnik, so when the opportunity arrived, we turned off taking it for a few kilometres before deciding it was too rough and we weren’t going to make progress fast enough.
 
 {% figure %}
   {% img src: 20160616-DSCF7594, alt: Max with his rear wheel. %}
@@ -70,9 +70,9 @@ We both quickly showered and ran all of our cycling clothes through the wash whi
 
 ---
 
-Leaving Dubrovnik saw Max and I crossing 500-meter [Franjo Tudjman Bridge](https://en.wikipedia.org/wiki/Franjo_Tu%C4%91man_Bridge_(Dubrovnik) "Franjo Tudjman Bridge on Wikipedia") after just 30 minutes of riding. It was here we spotted the first set of bike tourers that we didn’t get a chance to talk to. The D8 was simply too busy, and they had their heads down going into Dubrovnik.
+Leaving Dubrovnik saw Max and I crossing 500-meter [Franjo Tudjman Bridge](https://en.wikipedia.org/wiki/Franjo_Tu%C4%91man_Bridge_(Dubrovnik) "Franjo Tudjman Bridge on Wikipedia") after just 30 minutes of riding. It was here we spotted the first set of bike tourers that we didn’t get a chance to talk to. We were cycling along the Adriatic Highway, also known as the D8; it was simply too busy, and they had their heads down going into Dubrovnik.
 
-We spent the day glued to the coast, dipping in and out of bay after bay, looking at the yachts of those that Max would describe only as “the flithy rich” — it was hard to disagree with him. Despite the constant variation in gradient we made good progress, and soon spotted another group of tourers stopped on the other side of the road, which seemed like a good chance to stop for a few minutes. We quickly found the other group were cycling from Spain to Dubrovnik, this would be the final day of their tour.
+We spent the day glued to the coast, dipping in and out of bay after bay, looking at the yachts of those that Max would describe only as “the flithy rich” — it was hard to disagree with him. Despite the constant variation in gradient we made good progress, and soon spotted another group of tourers stopped on the other side of the road, which seemed like a good chance to stop for a few minutes. We quickly found the other group were cycling from Spain to Dubrovnik. This would be the final day of their tour.
 
 {% figure %}
   {% img src: 20160617-DSCF7696, alt: Max with his rear wheel. %}
@@ -97,7 +97,7 @@ As we approached the border crossing with Bosnia we both had our passports handy
   {% figcaption %}Climbing on the D8 coastal road.{% endfigcaption %}
 {% endfigure %}
 
-Passing through the far side of Bosnia both Max and I were starting to grow tired of the relentless undulations in the road where we’d climb over 100m just to descend it again almost immediately. It was because we were growing so tired of this that when we turned a corner and saw the flatlands open up below us we immediately started studying the map to see if there was a road we could take through them that would help us avoid the main roads traffic and any further undulations.
+Passing through the far side of Bosnia both Max and I were starting to grow tired of the relentless undulations in the road where we’d climb over 100m only to descend it again almost immediately. It was because we were growing so tired of this that when we turned a corner and saw the flatlands open up below us we immediately started studying the map to see if there was a road we could take through them that would help us avoid the main roads traffic and any further undulations.
 
 {% figure %}
   {% img src: 20160617-DSCF7730, alt: Max with his rear wheel. %}
@@ -113,7 +113,7 @@ We descended quickly into the flatlands passing occasional houses, some occupied
   {% figcaption %}A typical house in the flatlands area, raised on stilts to avoid flooding with boat-only access.{% endfigcaption %}
 {% endfigure %}
 
-We stopped here for a short while before resuming following the road along the far side that took us to a bigger river and a bigger road the followed the side before a slip road would lead us back up onto the main road where we started seeking a shop to buy dinner and some potential places where we could camp for the night.
+We stopped here for a short while before resuming following the road along the far side that took us to a bigger river and a bigger road. This led us to a slip road would lead us over a bridge, and back up onto the main road where we started seeking a shop to buy dinner and some potential places where we could camp for the night.
 
 {% figure %}
   {% img src: 20160617-DSCF7744, alt: Max with his rear wheel. %}
@@ -163,7 +163,7 @@ We made progress, stopping at Makarska for lunch and then headed onwards towards
 
 ---
 
-Leaving Split turned out to be a difficult a more complex affair than either of us anticipated. We were trying to avoid ending up on the motorway, but it felt like every road we looked at would try and lead us into it. Eventually we found our way through onto an industrial estate which gave access to the road we needed, but we didn't make it far before Max called that he'd broken a gear cable. Pulling over we set about repairing it with one of the spares we were carrying before heading on again.
+Leaving Split turned out to be a more complex affair than either of us anticipated. We were trying to avoid ending up on the motorway, but it felt like every road we looked at would try and lead us into it. Eventually we found our way through onto an industrial estate which gave access to the road we needed, but we didn't make it far before Max called that he'd broken a gear cable. Pulling over we set about repairing it with one of the spares we were carrying before heading on again.
 
 {% figure %}
   {% img src: 20160619-DSCF7860, alt: Max with his rear wheel. %}
@@ -204,19 +204,19 @@ The general theme in Croatia was long undulating roads without much of interest 
 
 A little later in the day we stopped in Šibenek, and after a break resumed following "the line" which tried to lead us straight up several flights of steps. We both cursed as we hauled our bikes up them fully loaded before jumping back on at the top and following the road out of town.
 
-Around 18:00 we arrived at the campsite for the day. We each paid €15 and proceeded to struggle to put our tents up on the gravelly ground, before having a cold shower (the "solar" water heating didn't seem to work too well) before heading up to the bar we'd been invited to for some ‘shells’. The campsite owner had a massive vat of muscles cooking over an open fire in the yard and handed us each a plate and bread before telling us to help ourselves. While we were eating the campsite owner told us about the area, pointing out exactly where his muscles were collected from in the sea. These are about as fresh as they get.
+Around 18:00 we arrived at the campsite for the day. We each paid €15 and proceeded to struggle to put our tents up on the gravelly ground, before having a cold shower (the "solar" water heating didn't seem to work too well) before heading up to the bar we'd been invited to for some ‘shells’. The campsite owner had a massive vat of mussels cooking over an open fire in the yard and handed us each a plate and bread before telling us to help ourselves. While we were eating the campsite owner told us about the area, pointing out exactly where his mussels were collected from in the sea. These are about as fresh as they get.
 
 {% figure %}
   {% img src: 20160619-DSCF7929-Edit, alt: Max with his rear wheel. %}
 
-  {% figcaption %}Lightening over the campsite where we were staying, _Kamp Kalebić_.{% endfigcaption %}
+  {% figcaption %}Lightning over the campsite where we were staying, _Kamp Kalebić_.{% endfigcaption %}
 {% endfigure %}
 
-Once we'd eaten we headed back to the tents to get ourselves sorted for the evening, and as we were getting everything straight the skies opened and the rain pounded down around us. Every couple of seconds the sky would flash which would be quickly followed by the ground shaking from the thunder. After an hour or so the rain stopped so I grabbed the camera and ran down to the waterside and started photographing the lightening. Less than five minutes later the rain returned so we ran back to the tents for the night.
+Once we'd eaten we headed back to the tents to get ourselves sorted for the evening, and as we were getting everything straight the skies opened and the rain pounded down around us. Every couple of seconds the sky would flash which would be quickly followed by the ground shaking from the thunder. After an hour or so the rain stopped so I grabbed the camera and ran down to the waterside and started photographing the lightning. Less than five minutes later the rain returned so we ran back to the tents for the night.
 
 ---
 
-The next day we were up early. The days target was Novalja, 130km away. The town is located on a small island called Peg, linked to mainland Croatia by a bridge at one end and a ferry at the other.
+The next day we were up early. The day's target was Novalja, 130km away. The town is located on a small island called Peg, linked to mainland Croatia by a bridge at one end and a ferry at the other.
 
 {% figure %}
   <div class="row pair">
@@ -229,7 +229,7 @@ The next day we were up early. The days target was Novalja, 130km away. The town
   {% figcaption %}Making out way across country to cut out a large dogleg and make up some time as we aimed towards the bridge onto the Island of Peg.{% endfigcaption %}
 {% endfigure %}
 
-The days riding went smoothly over ground similar to that which we'd been riding through for the last few days until we reached the island. Here we stopped in a small town to restock on food before heading on using a small dirt road that ran parallel to the main road. We followed this for some distance before we found a pile of dirt with a blockade on telling us the road was closed. Not wanted to double back we simply pushed our bikes around it before continuing and found the road was collapsing. We kept going regardless until we eventually found a second blockade just short of a tarmac road again. Following this we quickly rejoined the main road for the next stint.
+The days riding went smoothly over ground similar to that which we'd been riding through for the last few days until we reached the island. Here we stopped in a small town to restock on food before heading on using a small dirt road that ran parallel to the main road. We followed this for some distance before we found a pile of dirt with a blockade on telling us the road was closed. Not wanting to double back we simply pushed our bikes around it before continuing and found the road was collapsing. We kept going regardless until we eventually found a second blockade just short of a tarmac road again. Following this we quickly rejoined the main road for the next stint.
 
 {% figure %}
   {% img src: 20160620-DSCF7975, alt: Max searching for the puncture. %}
@@ -314,6 +314,6 @@ Crossing the border into Slovenia was surreal looking around and the abandoned b
   {% figcaption %}An abandoned passport control checkpoint from the days before Schengen area.{% endfigcaption %}
 {% endfigure %}
 
-Stopping at "Porkeys" for dinner just 250m short of the Italian border we had a relaxed dinner here before picking a campsite out on the map in Trieste and then heading off for it. We were trying to avoid going into the city, and so found ourselves climbing more painfully steep hills as the sun set behind us. Through luck alone we ended up on a campsite with views overlooking the entire city, and sharing a small pitch with another cyclist. The guy explained that he was a British expat who was cycling to China while stopping and teaching English in places en-route.
+Stopping at "Porkeys" for dinner just 250m short of the Italian border we had a relaxed dinner here before picking a campsite out on the map in Trieste and then heading off for it. We were trying to avoid going into the city, and so found ourselves climbing more painfully steep hills as the sun set behind us. Through luck alone we ended up on a campsite with views overlooking the entire city, and sharing a small pitch with another cyclist. The guy explained that he was a British expat who was cycling to China while stopping and teaching English en-route.
 
 For once we didn't set an alarm for the next day, knowing that we didn't have far to go at all and wanting to get all the sleep needed. Croatia was far from Max's dubious statement during our planning of being "flat", and combined with murderous heat and now the wind made it had been very hard work. We were now, however, back in Western Europe and ready for a few more relaxing days before we got back to clocking up the miles.
