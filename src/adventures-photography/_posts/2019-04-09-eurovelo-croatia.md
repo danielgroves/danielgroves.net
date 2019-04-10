@@ -242,7 +242,7 @@ The days riding went smoothly over ground similar to that which we'd been riding
   {% figcaption %}Top: The bridge onto Peg; Bottom (Both): The road that started as tarmac, and slowly derteriorated until we hit multiple roadblocks.{% endfigcaption %}
 {% endfigure %}
 
-Arriving at Novalja we were disappointed to find that the campsite we'd had our eye on was a massive complex. We were riding along it's fence line for over 1.5km before we found the entrance. Here they asked for **€22.50 each (double check notebook for this)**. The staff spoke perfect English, so Max tried to barter with them a lower rate as we were on this trip for a good cause... they didn't relent so we paid anyway and pitched up before grabbing a shower and walking into town for dinner.
+Arriving at Novalja we were disappointed to find that the campsite we'd had our eye on was a massive complex. We were riding along it's fence line for over 1.5km before we found the entrance. Here they asked for €24 each. The staff spoke perfect English, so Max tried to barter with them a lower rate as we were on this trip for a good cause... they didn't relent so we paid anyway and pitched up before grabbing a shower and walking into town for dinner.
 
 {% figure %}
   {% img src: 20160620-DSCF8027, alt: Novalja beach. %}
