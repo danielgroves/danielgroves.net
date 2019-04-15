@@ -6,7 +6,7 @@ thumb: 20160621-DSCF8074
 banner: 20160621-DSCF8074
 tags: expedition bike eurovelo
 series: eurovelo
-date: 2019-04-09 17:00
+date: 2019-04-15 20:40
 ---
 
 We were now over 900km down. Both of us agreed that the hardest miles should be behind us now. Not necessarily in terms of the cycling itself, but the miles where your body gets used to the abuse — the strain of riding everyday. Language was going to get easier from here on as we were now in an area heavily touristed by the western countries. Looking further ahead, we both knew that when we left Croatia and entered Slovenia we would be inside the [Schengen area](https://ec.europa.eu/home-affairs/what-we-do/policies/borders-and-visas/schengen_en "Schengen Area on the European Commission Website"), meaning there wouldn’t be any more passport checks.
