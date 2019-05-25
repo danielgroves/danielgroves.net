@@ -2,8 +2,8 @@
 published: true
 title: "Eurovelo: Italy"
 excerpt: "A breif glimpse into the Italian countryside and culture. "
-thumb: 20160621-DSCF8074
-banner: 20160621-DSCF8074
+thumb: 20160623-DSCF8211
+banner: 20160623-DSCF8211
 tags: expedition bike eurovelo
 series: eurovelo
 date: 2019-04-15 20:40
