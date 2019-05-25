@@ -9,7 +9,7 @@ series: eurovelo
 date: 2019-04-15 20:40
 ---
 
-We'd camped next to another cycle tourer from England when we arrived the night before. He'd seen us arrive and invited us to camp with him, so we spent some time in the morning packing down at a leisurely pace while he told us he was cycling to China, and teaching English along the way.
+We'd camped next to another cycle tourer from England when we arrived the night before. He'd seen us arrive and invited us to camp with him, so we spent some time in the morning packing down at a leisurely pace while he told us he was cycling to China and teaching English along the way.
 
 {% figure %}
   {% img src: 20160622-DSCF8172, alt: Officially entering Italy. %}
@@ -38,10 +38,10 @@ We left the campsite by rolling downhill towards the coast; a nice and easy star
   {% figcaption %}Views through the Italian backroads as we made our way towards Grado.{% endfigcaption %}
 {% endfigure %}
 
-Following the old farming roads we eventually had to join a much larger road into Grado where we found somewhere for lunch, some Gelato and then sought out our first Italian brew. Much to my own amusement Max went to order a Café Latte, asking for a _Grande Latte_ and coming back confused as to why he had a large glass of milk.
+Following the old farming roads, we eventually had to join a much larger road into Grado where we found somewhere for lunch, some Gelato and then sought out our first Italian brew. Much to my own amusement, Max went to order a Café Latte, asking for a _Grande Latte_ and coming back confused as to why he had a large glass of milk.
 
 {% figure %}
-  {% img src: 20160623-DSCF8207, alt: Views through the Italian backroads as we made our way towards Grado. %}
+  {% img src: 20160623-DSCF8210, alt: Views through the Italian backroads as we made our way towards Grado. %}
 
   <div class="row pair">
     {% img src: 20160623-DSCF8205, alt: Views through the Italian backroads as we made our way towards Grado. %}
@@ -61,7 +61,7 @@ After my coffee, and Max's milk, we headed north to Aquileia where we'd be stayi
 
 ----
 
-For the first time on the trip we had a planned rest day. We took the bikes without any luggage up to the next town, Cervignano, and tried to get a train to Venice for the rest day. Finding that there was a train strike on we found ourselves spending the morning sat in a café before heading back to Aquileia and having a very lazy day wondering around the village. The evening was spent keeping a close eye on the British news as it was now the night that the Brexit vote would take place.
+For the first time on the trip, we had a planned rest day. We took the bikes without any luggage up to the next town, Cervignano, and tried to get a train to Venice for the rest day. Finding that there was a train strike on we found ourselves spending the morning sitting in a café before heading back to Aquileia and having a very lazy day wandering around the village. The evening was spent keeping a close eye on the British news as it was now the night that the Brexit vote would take place.
 
 {% figure %}
   <div class="row pair">
@@ -95,7 +95,7 @@ As we got our heads down for the night I noticed a pair of puncture marks on one
   {% figcaption %}Ruins of the ancient inland port of Aqualia, once a thriving roman city, and now a large village. Also picured here is the inside of the striking Aqualia cathedral. In 2nd century AD Aqualia had a population over over 100,000 and was one of the worlds largest cities. {% endfigcaption %}
 {% endfigure %}
 
-The following morning had tears being shed by more than one person on the campsite when we found out, while packing down at 7am, that we'd lost the vote, and would be leaving the EU. Overnight the swelling in my foot seemed to have stopped, but it was still significantly bigger than the other foot. It was a squeeze, but I could just about fit it in my cycling shoe, and there was no pain, so we headed off with the hope that it would start to go down over the day.
+The following morning had tears being shed by more than one person on the campsite when we found out, while packing down at 7am, that we'd lost the vote and would be leaving the EU. Overnight the swelling in my foot seemed to have stopped, but it was still significantly bigger than the other foot. It was a squeeze, but I could just about fit it in my cycling shoe, and there was no pain, so we headed off with the hope that it would start to go down over the day.
 
 {% figure %}
   {% img src: 20160624-DSCF8288, alt: Comparison between my two feet after the right one started swelling. %}
@@ -123,9 +123,9 @@ It was 38 degrees centigrade as we resumed our ride, heading north on the Eurove
   {% figcaption %}The star fort of Palmanova.{% endfigcaption %}
 {% endfigure %}
 
-As we headed north much of our route would prove to be easy riding for a few days as we watched the mountains growing on the horizon. We were glad to be following the [Eurovelo 8] route as it kept us on well maintained paths that were well away from the main roads giving us a break from the heavy traffic we’d experienced throughout Croatia.
+As we headed north much of our route would prove to be easy riding for a few days as we watched the mountains growing on the horizon. We were glad to be following the [Eurovelo 8] route as it kept us on well-maintained paths that were well away from the main roads giving us a break from the heavy traffic we’d experienced throughout Croatia.
 
-On this first day we reached the [star fort of Palmanova] built by the republic of Venice in 1593. We spent a short time here investigating the small town which we had crept up on completely unexpectedly, first realising we weren’t in a normal Italian town as we crossed the outer moats and approached the huge fortified walls.
+On this first day, we reached the [star fort of Palmanova] built by the Republic of Venice in 1593. We spent a short time here investigating the small town which we had crept up on completely unexpectedly, first realising we weren’t in a normal Italian town as we crossed the outer moats and approached the huge fortified walls.
 
 {% figure %}
   {% img src: 20160625-DSCF8300, alt: Heading towards the Alps on the gravel back roads of Italy. %}
@@ -146,7 +146,7 @@ Leaving Palmanova we were soon passing through Udine for lunch, and coming out o
   {% figcaption %}Exploring as we start to get tired form the heat, and hit the edge of the available infrastructure.{% endfigcaption %}
 {% endfigure %}
 
-Riding along the old roads through the Italian Alps provided some fascinating views of the modern infrastructure. The motorway network was high above us in the valleys, and would leap across valley floors to the mountains on the other side, where they would become a tunnel and go straight through the mountain. Rounding the corner the same road would leap out of the mountain again, over the valley and disappear into the side of the hill opposite. This is infrastructure you’d never see in the UK.
+Riding along the old roads through the Italian Alps provided some fascinating views of the modern infrastructure. The motorway network was high above us in the valleys and would leap across valley floors to the mountains on the other side, where they would become a tunnel and go straight through the mountain. Rounding the corner the same road would leap out of the mountain again, over the valley and disappear into the side of the hill opposite. This is infrastructure you’d never see in the UK.
 
 {% figure %}
   {% img src: 20160625-DSCF8332, alt: River crossing in the Alps on an old railway bridge. %}
@@ -167,7 +167,7 @@ As the day grew later we started to slow down a little, looking for somewhere to
   {% figcaption %}A random waterfall, somewhere in the Italian Alps.{% endfigcaption %}
 {% endfigure %}
 
-During this final night in Italy, just short of the Austrian border, we ducked off the side of the dismantled railway — now cycle path — we were following, and found some flattish ground underneath it on which it pitch our tents. The site was tucked in next to what appeared to be an abandoned house with plenty of trees around which kept us well out of sight of any passers by. We walked back up without cooking equipment to make our dinner, and whilst eating on a bench we’d found it started raining. Within a few minutes we were sheltering in our tents as the crack-thud of the thunder and lightening overhead shook the ground around it.
+During this final night in Italy, just short of the Austrian border, we ducked off the side of the dismantled railway — now cycle path — we were following, and found some flattish ground underneath it on which it pitch our tents. The site was tucked in next to what appeared to be an abandoned house with plenty of trees around which kept us well out of sight of any passers-by. We walked back up without cooking equipment to make our dinner, and whilst eating on a bench we’d found it started raining. Within a few minutes we were sheltering in our tents as the crack-thud of the thunder and lightning overhead shook the ground around it.
 
 {% figure %}
   {% img src: 20160625-DSCF8362, alt: The abandoned house we camped under, followed by views from the last few miles in Italy. %}
@@ -177,7 +177,7 @@ During this final night in Italy, just short of the Austrian border, we ducked o
     {% img src: 20160626-DSCF8369, alt: The abandoned house we camped under, followed by views from the last few miles in Italy. %}
   </div>
 
-  {% img src: 20160626-DSCF8390-Pano, alt: Decending into the flatlands. %}
+  {% img src: 20160626-DSCF8390-Pano, alt: Descending into the flatlands. %}
 
   {% figcaption %}The abandoned house we camped under, followed by views from the last few miles in Italy.{% endfigcaption %}
 {% endfigure %}
@@ -186,4 +186,4 @@ During this final night in Italy, just short of the Austrian border, we ducked o
 
 The next morning was fairly typical once again, up early to make some breakfast before we packed up and pushed the bikes back up onto the cycle path. This path now began to steadily climb before it eventually ended just before Pontebba and we re-joined the roads briefly before the path resumed on the other side of the small town.
 
-We stuck to this cycle path now for the remainder of the valley, which took us rapidly towards the Austrian border, where the valleys widened and the mountains grew all around us. We stuck the the cycle path continuing our journey on smaller roads now we were on the Austrian side
+We stuck to this cycle path now for the remainder of the valley, which took us rapidly towards the Austrian border, where the valleys widened and the mountains grew all around us. We stuck the cycle path continuing our journey on smaller roads now we were on the Austrian side
