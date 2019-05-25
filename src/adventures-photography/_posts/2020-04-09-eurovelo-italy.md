@@ -53,7 +53,7 @@ Following the old farming roads we eventually had to join a much larger road int
 
 After my coffee, and Max's milk, we headed north to Aquileia where we'd be staying for the night. We pitched the tents early and took advantage of the time to air our sleeping bags, wash our clothes, and chat with some of the other British people on the campsite (the first time we'd have spent more than a few minutes with anyone British since we left the airport in Thessaloniki).
 
-{% figure %}
+{% figure narrow %}
   {% img src: 20160623-DSCF8222, alt: Decending into the flatlands. %}
 
   {% figcaption %}Decending into the flatlands.{% endfigcaption %}
@@ -133,7 +133,7 @@ As we headed north much of our route would prove to be easy riding for a few day
 
 On this first day we reached the [star fort of Palmanova] built by the republic of Venice in 1593. We spent a short time here investigating the small town which we had crept up on completely unexpectedly, first realising we weren’t in a normal Italian town as we crossed the outer moats and approached the huge fortified walls.
 
-{% figure narrow %}
+{% figure %}
   {% img src: 20160625-DSCF8300, alt: Decending into the flatlands. %}
 
   {% figcaption %}Decending into the flatlands.{% endfigcaption %}
@@ -141,7 +141,7 @@ On this first day we reached the [star fort of Palmanova] built by the republic 
 
 Leaving Palmanova we were soon passing through Udine for lunch, and coming out of Udine is where we first noticed just how quickly the mountains on the horizon were starting to grow. Before long we’d cycled off the top of the completed section of the Eurovelo 8 route into areas which were incomplete, and then further into the Alps.
 
-{% figure narrow %}
+{% figure %}
   {% img src: 20160625-DSCF8313, alt: Decending into the flatlands. %}
 
   <div class="row pair">
@@ -154,7 +154,7 @@ Leaving Palmanova we were soon passing through Udine for lunch, and coming out o
 
 Riding along the old roads through the Italian Alps provided some fascinating views of the modern infrastructure. The motorway network was high above us in the valleys, and would leap across valley floors to the mountains on the other side, where they would become a tunnel and go straight through the mountain. Rounding the corner the same road would leap out of the mountain again, over the valley and disappear into the side of the hill opposite. This is infrastructure you’d never see in the UK.
 
-{% figure narrow %}
+{% figure %}
   {% img src: 20160625-DSCF8332, alt: Decending into the flatlands. %}
 
   <div class="row pair">
@@ -175,7 +175,7 @@ As the day grew later we started to slow down a little, looking for somewhere to
 
 During this final night in Italy, just short of the Austrian border, we ducked off the side of the dismantled railway — now cycle path — we were following, and found some flattish ground underneath it on which it pitch our tents. The site was tucked in next to what appeared to be an abandoned house with plenty of trees around which kept us well out of sight of any passers by. We walked back up without cooking equipment to make our dinner, and whilst eating on a bench we’d found it started raining. Within a few minutes we were sheltering in our tents as the crack-thud of the thunder and lightening overhead shook the ground around it.
 
-{% figure narrow %}
+{% figure %}
   {% img src: 20160625-DSCF8362, alt: Decending into the flatlands. %}
 
   <div class="row pair">
