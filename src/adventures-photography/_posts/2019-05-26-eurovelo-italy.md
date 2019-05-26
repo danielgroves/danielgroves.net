@@ -6,7 +6,7 @@ thumb: 20160623-DSCF8211
 banner: 20160623-DSCF8211
 tags: expedition bike eurovelo
 series: eurovelo
-date: 2019-04-15 20:40
+date: 2019-05-26 14:38
 ---
 
 We'd camped next to another cycle tourer from England when we arrived the night before. He'd seen us arrive and invited us to camp with him, so we spent some time in the morning packing down at a leisurely pace while he told us he was cycling to China and teaching English along the way.
