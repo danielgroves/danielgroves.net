@@ -1,7 +1,7 @@
 ---
 published: true
 title: "Eurovelo: Italy"
-excerpt: "A breif glimpse into the Italian countryside and culture. "
+excerpt: "A brief glimpse into the Italian countryside and culture. "
 thumb: 20160623-DSCF8211
 banner: 20160623-DSCF8211
 tags: expedition bike eurovelo
@@ -77,7 +77,7 @@ For the first time on the trip, we had a planned rest day. We took the bikes wit
   {% figcaption %}An evening on our Aquileia campsite. This was the first chance we had to do any washing since Dubrovnik. {% endfigcaption %}
 {% endfigure %}
 
-As we got our heads down for the night I noticed a pair of puncture marks on one of my feet, which was significantly bigger than the other foot. I'd been walking around on the campsite during the day in flip-flops, yet I hadn't noticed whatever had bitten my foot. You could see the strain marks in the skin where the flip-flop straps were stopping some areas from swelling while the rest of the foot was swelling around them. I was concerned on seeing it that my foot would not fit inside my cycling shoes which were designed to be tight-fitting… time would tell.
+As we got our heads down for the night I noticed a pair of puncture marks on one of my feet, which was significantly bigger than the other foot. I'd been walking around on the campsite during the day in flip-flops, yet I hadn't noticed whatever had bitten my foot. You could see the strain marks in the skin where the flip-flop straps were stopping some areas from swelling while the rest of the foot was swelling around them. I was concerned on seeing it that my foot would not fit inside my cycling shoes which were designed to be tight-fitting. Time would tell.
 
 {% figure %}
   <div class="row pair">
