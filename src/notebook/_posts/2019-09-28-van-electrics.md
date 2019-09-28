@@ -3,7 +3,7 @@ published: true
 title: "Van Electrics Fitout Part 1"
 excerpt: "Getting a split caharge setup for a leisure battery installed under the drivers seat. "
 
-date: 2019-09-28 10:30
+date: 2019-09-28 11:00
 tags: planvan van electrics
 
 thumb: 20190324-DSCF5603
