@@ -25,5 +25,5 @@ gem 'rack-robotz', '~> 0.0'
 gem 'rack-anystatus', '~> 0.1'
 
 # Deployment
-gem 'puma', '~> 3.6'
+gem 'puma', '~> 3.12'
 gem 'typekit_domain_manager', '~> 0.1.0'
